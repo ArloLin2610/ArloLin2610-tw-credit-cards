@@ -87,6 +87,17 @@ export function cardImage(card: Card): { src: string; isPlaceholder: boolean; is
 /* ---------- rate helpers ---------- */
 
 export function bestReward(card: Card) {
+  // 1. explicitly featured reward
+  const featured = card.rewards.find((r) => r.featured);
+  if (featured) return featured;
+  // 2. the reward whose number appears in the headline (the maintainer's chosen hook)
+  const headlineNums = card.headline.match(/\d+(?:\.\d+)?/g) ?? [];
+  const inHeadline = card.rewards.find((r) => {
+    const n = r.rate.match(/\d+(?:\.\d+)?/g) ?? [];
+    return n.length > 0 && n.every((x) => headlineNums.includes(x));
+  });
+  if (inHeadline) return inHeadline;
+  // 3. otherwise the numerically best one
   const withValue = card.rewards.filter((r) => typeof r.rate_value === 'number');
   if (withValue.length === 0) return card.rewards[0];
   if (card.reward_type === 'miles') {

@@ -97,7 +97,8 @@
           "rate_value": { "type": "number", "description": "Numeric equivalent for sorting: percent for cashback/points, TWD-per-mile for miles" },
           "cap": { "type": "string", "description": "Cap text, e.g. 每月上限 NT$500 回饋 / 無上限" },
           "conditions": { "type": "string", "description": "Conditions such as registration, min spend, bundling" },
-          "valid_until": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Promo end date if time-limited" }
+          "valid_until": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Promo end date if time-limited" },
+          "featured": { "type": "boolean", "description": "Show this reward as the card's main number on list tiles (default: the reward whose number appears in headline, else the best rate)" }
         }
       }
     },

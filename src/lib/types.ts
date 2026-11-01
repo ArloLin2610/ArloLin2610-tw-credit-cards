@@ -30,6 +30,8 @@ export interface Reward {
   cap?: string;
   conditions?: string;
   valid_until?: string;
+  /** Show this reward as the card's main number (overrides the headline heuristic). */
+  featured?: boolean;
 }
 
 export interface Card {

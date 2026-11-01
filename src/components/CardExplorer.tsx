@@ -75,9 +75,11 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
       if (needle && !(c.name.toLowerCase().includes(needle) || c.bankName.includes(needle) || c.headline.toLowerCase().includes(needle))) return false;
       return true;
     });
+    const typeOrder: Record<RewardType, number> = { cashback: 0, points: 1, miles: 2, other: 3 };
     switch (sort) {
       case 'rate':
-        list = list.slice().sort((a, b) => b.bestRateValue - a.bestRateValue);
+        // rates are only comparable within a reward type, so group by type first
+        list = list.slice().sort((a, b) => typeOrder[a.rewardType] - typeOrder[b.rewardType] || b.bestRateValue - a.bestRateValue);
         break;
       case 'fee':
         list = list.slice().sort((a, b) => a.annualFee - b.annualFee || b.bestRateValue - a.bestRateValue);
@@ -86,8 +88,8 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
         list = list.slice().sort((a, b) => a.bankName.localeCompare(b.bankName, 'zh-Hant') || b.bestRateValue - a.bestRateValue);
         break;
       default:
-        // featured: active first, then best rate within reward type, then name
-        list = list.slice().sort((a, b) => Number(b.status === 'active') - Number(a.status === 'active') || b.bestRateValue - a.bestRateValue);
+        // featured: keep data order (bank order), active cards first
+        list = list.slice().sort((a, b) => Number(b.status === 'active') - Number(a.status === 'active'));
     }
     return list;
   }, [cards, type, tags, bankSel, freeOnly, showInactive, q, sort]);
