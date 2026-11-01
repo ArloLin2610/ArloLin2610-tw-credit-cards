@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+/*
+  Palette — the vernacular of the subject: card plastic, bank greens, gold foil.
+  paper     #F5F6F2  page background (cool off-white, not cream)
+  ink       #16211F  text
+  ink-soft  #5B6663  secondary text
+  line      #DCE1DD  hairlines
+  cash      #0E6B5C  現金回饋 (teal-green — the colour most TW banks use)
+  miles     #275FA8  哩程 (sky/jet blue)
+  points    #B07A12  點數 (gold foil)
+  gold      #C9962E  "best" badge
+*/
+@theme {
+  --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+
+  --color-paper: #f5f6f2;
+  --color-paper-2: #ecefe9;
+  --color-ink: #16211f;
+  --color-ink-soft: #5b6663;
+  --color-line: #dce1dd;
+  --color-cash: #0e6b5c;
+  --color-cash-soft: #dff0eb;
+  --color-miles: #275fa8;
+  --color-miles-soft: #e1eaf7;
+  --color-points: #b07a12;
+  --color-points-soft: #f7edd6;
+  --color-other: #6b5e8a;
+  --color-other-soft: #ebe6f5;
+  --color-gold: #c9962e;
+  --color-danger: #a8321e;
+  --color-danger-soft: #f8e3dd;
+
+  --radius-card: 14px;
+  --shadow-card: 0 1px 2px rgba(22, 33, 31, 0.06), 0 8px 24px -12px rgba(22, 33, 31, 0.25);
+  --shadow-lift: 0 2px 4px rgba(22, 33, 31, 0.08), 0 18px 40px -16px rgba(22, 33, 31, 0.35);
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 1, "palt" 1;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+body { min-height: 100dvh; }
+
+:focus-visible {
+  outline: 2px solid var(--color-miles);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Card face: real credit-card ratio 85.6 × 53.98 mm */
+.card-face {
+  aspect-ratio: 1.586 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--color-paper-2);
+  box-shadow: var(--shadow-card);
+  position: relative;
+}
+.card-face img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.card-face::after {
+  /* thin top-light edge, like laminated plastic */
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 0 0 1px rgba(22, 33, 31, 0.06);
+  pointer-events: none;
+}
+
+.reward-cash { color: var(--color-cash); background: var(--color-cash-soft); }
+.reward-miles { color: var(--color-miles); background: var(--color-miles-soft); }
+.reward-points { color: var(--color-points); background: var(--color-points-soft); }
+.reward-other { color: var(--color-other); background: var(--color-other-soft); }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--color-line);
+  background: #fff;
+  color: var(--color-ink);
+  border-radius: 999px;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.chip:hover { border-color: var(--color-ink-soft); }
+.chip[aria-pressed="true"], .chip.is-on {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+  color: #fff;
+}
+
+.prose-tw p { margin: 0 0 0.75em; }
+
+.tile {
+  background: #fff;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+.tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: transparent; }
+.tile.is-selected { border-color: var(--color-ink); box-shadow: 0 0 0 2px var(--color-ink) inset; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 10px;
+  padding: 0.7rem 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  border: 1px solid transparent;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.btn-primary { background: var(--color-ink); color: #fff; }
+.btn-primary:hover { background: #2a3733; }
+.btn-ghost { background: #fff; border-color: var(--color-line); color: var(--color-ink); }
+.btn-ghost:hover { border-color: var(--color-ink-soft); }
+.btn-cash { background: var(--color-cash); color: #fff; }
+.btn-cash:hover { background: #0b584b; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+table.spec { border-collapse: collapse; width: 100%; }
+table.spec th, table.spec td { padding: 0.65rem 0.75rem; border-bottom: 1px solid var(--color-line); vertical-align: top; text-align: left; }
+table.spec th { color: var(--color-ink-soft); font-weight: 500; white-space: nowrap; width: 9rem; }

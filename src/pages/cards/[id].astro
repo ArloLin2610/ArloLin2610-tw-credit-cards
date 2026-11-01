@@ -1,0 +1,149 @@
+---
+import Base from '../../layouts/Base.astro';
+import CardTile from '../../components/CardTile.astro';
+import { cards, bankById, cardImage, bestReward, formatFee, cardsOfBank, cardsOfType } from '../../lib/data';
+import { NETWORK_LABEL, REWARD_TYPE_LABEL, STATUS_LABEL, TAG_LABEL } from '../../lib/types';
+
+export function getStaticPaths() {
+  return cards.map((card) => ({ params: { id: card.id }, props: { card } }));
+}
+
+const { card } = Astro.props;
+const bank = bankById.get(card.bank)!;
+const img = cardImage(card);
+const best = bestReward(card);
+const rewardClass = `reward-${card.reward_type === 'cashback' ? 'cash' : card.reward_type}`;
+const inactive = card.status !== 'active';
+const related = [
+  ...cardsOfType(card.reward_type).filter((c) => c.id !== card.id && c.bank !== card.bank && c.status === 'active'),
+].slice(0, 3);
+const sameBank = cardsOfBank(card.bank).filter((c) => c.id !== card.id && c.status === 'active').slice(0, 3);
+const description = `${bank.short_name} ${card.name}：${card.headline}。年費 ${formatFee(card)}，${REWARD_TYPE_LABEL[card.reward_type]}。卡圖、回饋細節、申請連結，資料核對日 ${card.last_verified}。`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FinancialProduct',
+  name: card.name,
+  provider: { '@type': 'BankOrCreditUnion', name: bank.name, url: bank.website },
+  description: card.headline,
+  url: new URL(Astro.url.pathname, Astro.site).href,
+  image: img.isPlaceholder ? undefined : new URL(img.src, Astro.site).href,
+  annualPercentageRate: undefined,
+  feesAndCommissionsSpecification: formatFee(card),
+};
+---
+
+<Base title={`${bank.short_name} ${card.name}`} description={description} ogImage={img.isPlaceholder || img.isRemote ? undefined : img.src}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <nav class="mx-auto max-w-6xl px-4 pt-6 text-sm text-ink-soft" aria-label="路徑">
+    <a href="/" class="hover:text-ink">首頁</a> / <a href={`/category/${card.reward_type}`} class="hover:text-ink">{REWARD_TYPE_LABEL[card.reward_type]}</a> /
+    <a href={`/banks/${bank.id}`} class="hover:text-ink">{bank.short_name}</a>
+  </nav>
+
+  <article class="mx-auto max-w-6xl px-4 pb-16 pt-4">
+    {inactive && (
+      <div class="mb-6 rounded-xl border border-danger/30 bg-danger-soft px-4 py-3 text-sm text-danger">
+        <strong>{STATUS_LABEL[card.status]}</strong>
+        {card.status_note && <span>：{card.status_note}</span>}
+        {card.status_changed_at && <span class="ml-2 text-danger/80">（{card.status_changed_at}）</span>}
+      </div>
+    )}
+
+    <div class="grid gap-8 md:grid-cols-[minmax(0,420px)_1fr] md:gap-12">
+      <div>
+        <div class="card-face">
+          <img src={img.src} alt={`${bank.short_name} ${card.name} 卡面`} width="420" height="265" fetchpriority="high" />
+        </div>
+        {img.isPlaceholder && <p class="mt-2 text-xs text-ink-soft">尚未取得官方卡圖，暫以示意圖代替。</p>}
+        <div class="mt-5 flex flex-wrap gap-2">
+          {card.apply_url && (
+            <a href={card.apply_url} target="_blank" rel="noopener nofollow" class="btn btn-cash">前往 {bank.short_name} 官網申請</a>
+          )}
+          <a href={`/compare?ids=${card.id}`} class="btn btn-ghost">加入比較</a>
+        </div>
+        <p class="mt-3 text-xs text-ink-soft">
+          資料來源：<a href={card.source_url} target="_blank" rel="noopener nofollow" class="underline">{bank.short_name}官網</a>・核對日 {card.last_verified}
+          {card.promo_until && <>・活動至 {card.promo_until}</>}
+        </p>
+      </div>
+
+      <div>
+        <div class="text-sm text-ink-soft"><a href={`/banks/${bank.id}`} class="hover:underline">{bank.name}</a></div>
+        <h1 class="mt-1 text-3xl font-black leading-tight tracking-tight md:text-4xl">{card.name}</h1>
+        {card.name_en && <div class="mt-1 text-ink-soft">{card.name_en}</div>}
+        <p class="mt-4 text-lg">{card.headline}</p>
+
+        <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+          <div class="rounded-xl border border-line bg-white p-4">
+            <div class="text-xs text-ink-soft">主要回饋</div>
+            <div class="mt-1 text-2xl font-black tracking-tight">{best?.rate}</div>
+            <div class="text-xs text-ink-soft">{best?.label}</div>
+          </div>
+          <div class="rounded-xl border border-line bg-white p-4">
+            <div class="text-xs text-ink-soft">年費</div>
+            <div class="mt-1 text-2xl font-black tracking-tight">{card.annual_fee.amount === 0 ? '免' : `NT$${card.annual_fee.amount.toLocaleString()}`}</div>
+            <div class="text-xs text-ink-soft">{card.annual_fee.max_amount && card.annual_fee.max_amount !== card.annual_fee.amount ? `最高 NT$${card.annual_fee.max_amount.toLocaleString()}` : card.annual_fee.effectively_free && card.annual_fee.amount > 0 ? '達條件可免' : ''}</div>
+          </div>
+          <div class="rounded-xl border border-line bg-white p-4">
+            <div class="text-xs text-ink-soft">回饋類型</div>
+            <div class:list={['mt-2 inline-block rounded-md px-2 py-1 text-sm font-semibold', rewardClass]}>{REWARD_TYPE_LABEL[card.reward_type]}</div>
+          </div>
+        </div>
+
+        <h2 class="mt-10 text-xl font-bold">回饋內容</h2>
+        <table class="spec mt-3">
+          <tbody>
+            {card.rewards.map((r) => (
+              <tr>
+                <th scope="row">{r.label}</th>
+                <td>
+                  <div class="flex flex-wrap items-baseline gap-x-3">
+                    <span class="text-xl font-black tracking-tight">{r.rate}</span>
+                    {r.cap && <span class="text-sm text-ink-soft">{r.cap}</span>}
+                  </div>
+                  {r.conditions && <div class="mt-1 text-sm text-ink-soft">{r.conditions}</div>}
+                  {r.valid_until && <div class="mt-1 text-xs text-ink-soft">活動至 {r.valid_until}</div>}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        <h2 class="mt-10 text-xl font-bold">亮點</h2>
+        <ul class="mt-3 list-disc space-y-2 pl-5">
+          {card.highlights.map((h) => <li>{h}</li>)}
+        </ul>
+
+        <h2 class="mt-10 text-xl font-bold">基本資料</h2>
+        <table class="spec mt-3">
+          <tbody>
+            <tr><th scope="row">發卡銀行</th><td>{bank.name}</td></tr>
+            <tr><th scope="row">卡組織</th><td>{card.networks.map((n) => NETWORK_LABEL[n]).join('、')}</td></tr>
+            {card.levels && card.levels.length > 0 && <tr><th scope="row">卡別</th><td>{card.levels.join('、')}</td></tr>}
+            <tr><th scope="row">年費</th><td>{formatFee(card)}{card.annual_fee.waiver && <div class="mt-1 text-sm text-ink-soft">{card.annual_fee.waiver}</div>}</td></tr>
+            {card.requirements && <tr><th scope="row">申請資格</th><td>{card.requirements}</td></tr>}
+            <tr><th scope="row">適合</th><td class="flex flex-wrap gap-1">{card.tags.map((t) => <a href={`/tags/${t}`} class="rounded bg-paper-2 px-2 py-0.5 text-sm hover:bg-line">{TAG_LABEL[t]}</a>)}</td></tr>
+            <tr><th scope="row">申請狀態</th><td>{STATUS_LABEL[card.status]}{card.status_note && `（${card.status_note}）`}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    {(related.length > 0 || sameBank.length > 0) && (
+      <section class="mt-16 grid gap-10 lg:grid-cols-2">
+        {related.length > 0 && (
+          <div>
+            <h2 class="text-xl font-bold">同類型的其他選擇</h2>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{related.map((c) => <CardTile card={c} />)}</div>
+          </div>
+        )}
+        {sameBank.length > 0 && (
+          <div>
+            <h2 class="text-xl font-bold">{bank.short_name}的其他卡片</h2>
+            <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{sameBank.map((c) => <CardTile card={c} showBank={false} />)}</div>
+          </div>
+        )}
+      </section>
+    )}
+  </article>
+</Base>

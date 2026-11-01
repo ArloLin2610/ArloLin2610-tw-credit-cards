@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import CardExplorer from '../../components/CardExplorer.tsx';
+import { banks, summaries } from '../../lib/data';
+import { TAG_LABEL, type Tag } from '../../lib/types';
+
+export function getStaticPaths() {
+  return (Object.keys(TAG_LABEL) as Tag[]).map((tag) => ({ params: { tag } }));
+}
+
+const tag = Astro.params.tag as Tag;
+const list = summaries.filter((c) => c.tags.includes(tag));
+const bankOpts = banks.map((b) => ({ id: b.id, short_name: b.short_name }));
+const title = `${TAG_LABEL[tag]}信用卡推薦比較`;
+---
+
+<Base title={title} description={`適合${TAG_LABEL[tag]}的台灣信用卡共 ${list.filter((c) => c.status === 'active').length} 張，依回饋率、年費比較，含卡圖與官網申請連結。`}>
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">{title}</h1>
+    <p class="mt-3 max-w-prose text-ink-soft">所有在官網權益中明確針對「{TAG_LABEL[tag]}」給回饋或優惠的卡片。可再依回饋類型或銀行縮小範圍。</p>
+  </section>
+  <section class="mx-auto max-w-6xl px-4 pb-24">
+    <CardExplorer client:load cards={list} banks={bankOpts} fixedTag={tag} />
+  </section>
+</Base>

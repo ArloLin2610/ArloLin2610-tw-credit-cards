@@ -1,0 +1,1652 @@
+[
+  {
+    "id": "mega-lido-signature",
+    "bank": "mega",
+    "name": "利多御璽卡",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起符合任一條件免年費：申請電子帳單期間、每卡當年度刷卡 2 次、年度累積消費達 NT$3,000。附卡免收。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "online-shopping",
+      "mobile-payment",
+      "travel",
+      "new-cardholder"
+    ],
+    "headline": "國外消費最高 3.1%、國內網購 1% 現金回饋無上限",
+    "rewards": [
+      {
+        "label": "國外一般消費（基本回饋）",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限"
+      },
+      {
+        "label": "國外一般消費（電子帳單加碼）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "使用電子帳單並取消紙本帳單，且當期帳單新增國內一般消費 ≥ NT$1",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費再加碼",
+        "rate": "0.1%",
+        "rate_value": 0.1,
+        "cap": "每期帳單上限 NT$500",
+        "conditions": "需登錄；使用電子帳單並以帳戶自動扣繳成功",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內網路購物",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "不含電話、傳真、授權自動扣款及第三方支付（街口、LINE Pay、全支付、icash Pay、悠遊付等）"
+      },
+      {
+        "label": "國內非網購一般消費",
+        "rate": "0.6%",
+        "rate_value": 0.6,
+        "cap": "無上限"
+      },
+      {
+        "label": "台灣Pay 掃碼購物",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "每戶每月上限 NT$100",
+        "conditions": "需登錄；綁定台灣Pay 以 QR Code 掃碼或出示付款碼交易",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：核卡後 30 日內新增一般消費滿 NT$3,888 並申辦電子帳單、設定自動扣繳，享 NT$500 刷卡金（不需登錄）",
+      "綁定指定 10 大行動支付（Apple Pay、LINE Pay、街口、台灣Pay、悠遊付等）當月一般消費累計達 NT$5,000，享全家 NT$300 即享券（需逐月登錄，每月限 2,500 名）",
+      "國外一般消費累積滿 NT$1 萬／3 萬／5 萬，享好禮 16 選 1 即享券 NT$300／1,500／3,000（115/10/23–12/31，需登錄）",
+      "機場接送單趟優惠價 NT$675 起（購買全額國際線機票或國外團費 8 成以上，格上租車提供）",
+      "首年免年費，次年起申請電子帳單即免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BA0A362D2-9734-41B0-B558-E4251B4A1FF9%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/cash-rebate-biz",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/06_cash-rebate-biz.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "現金回饋權益適用期間為 115 年 7–12 月帳單結帳日；2027 年初需重新確認基本回饋率。官方頁面「國外最高 3.1%」= 2% + 1% + 0.1%。"
+  },
+  {
+    "id": "mega-one",
+    "bank": "mega",
+    "name": "Mega One卡",
+    "name_en": "Mega One Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "持卡期間免年費，不限刷卡次數與金額",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "insurance",
+      "installment",
+      "online-shopping",
+      "department-store",
+      "mobile-payment",
+      "travel"
+    ],
+    "headline": "國外最高 4%、國內最高 2% 現金回饋，終身免年費",
+    "rewards": [
+      {
+        "label": "國外消費（基本回饋）",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國外消費（電子帳單加碼）",
+        "rate": "1.38%",
+        "rate_value": 1.38,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單（不含行動帳單）並取消紙本帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（電子帳單＋帳戶自動扣繳加碼）",
+        "rate": "0.12%",
+        "rate_value": 0.12,
+        "cap": "每戶每月上限 NT$500",
+        "conditions": "需登錄並使用電子帳單及帳戶自動扣繳",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內消費（基本回饋）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國內消費（電子帳單加碼）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單（不含行動帳單）並取消紙本帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "優惠自由選指定通路加碼（旅遊／百貨／網購／指定支付擇一）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每月每戶上限 NT$200",
+        "conditions": "需逐月登錄；使用電子帳單＋帳戶自動扣繳，且當月新增一般消費達 3 筆",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費自動分期滿萬送百",
+        "rate": "每滿 NT$10,000 送 NT$100 刷卡金",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需登錄並開啟保費自動分期功能",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "保費單筆滿 NT$6,000 享 12 期分期 0 利率 0 手續費（限國內台幣保單、信用卡額度內）",
+      "保費自動分期滿萬送百、可累贈無上限（需登錄）",
+      "保險新戶保費單筆滿 NT$10,000 贈統一超商 NT$200 電子即享券（需登錄）",
+      "優惠自由選：旅遊假期、百貨逛街、網購消費、指定支付每月擇一登錄，加碼 1%",
+      "持卡期間免年費，不限刷卡次數與金額"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BC1501BE8-C4AF-4714-A434-869AC42A1BF0%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mega-one-business",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/48_megaone.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "加碼回饋適用 115/7/1–12/31 消費；優惠自由選適用 115/10/1–12/31。頁面未標示卡片等級。"
+  },
+  {
+    "id": "mega-one-ipass",
+    "bank": "mega",
+    "name": "Mega One一卡通聯名卡",
+    "name_en": "Mega One iPASS Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "持卡期間免年費，不限刷卡次數與金額",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit",
+      "overseas",
+      "insurance",
+      "installment",
+      "online-shopping",
+      "department-store",
+      "mobile-payment",
+      "travel"
+    ],
+    "headline": "國外最高 4%、國內最高 2% 現金回饋，附一卡通票證功能",
+    "rewards": [
+      {
+        "label": "國外消費（基本回饋）",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國外消費（電子帳單加碼）",
+        "rate": "1.38%",
+        "rate_value": 1.38,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單（不含行動帳單）並取消紙本帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（電子帳單＋帳戶自動扣繳加碼）",
+        "rate": "0.12%",
+        "rate_value": 0.12,
+        "cap": "每戶每月上限 NT$500",
+        "conditions": "需登錄並使用電子帳單及帳戶自動扣繳",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內消費（基本回饋）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國內消費（電子帳單加碼）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單（不含行動帳單）並取消紙本帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "優惠自由選指定通路加碼（旅遊／百貨／網購／指定支付擇一）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每月每戶上限 NT$200",
+        "conditions": "需逐月登錄；使用電子帳單＋帳戶自動扣繳，且當月新增一般消費達 3 筆",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費自動分期滿萬送百",
+        "rate": "每滿 NT$10,000 送 NT$100 刷卡金",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需登錄並開啟保費自動分期功能",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "一卡通電子票證功能：自動加值 0 手續費、交通購票及轉乘優惠、高鐵自由座直接嗶付通關",
+      "保費單筆滿 NT$6,000 享 12 期分期 0 利率 0 手續費",
+      "保費自動分期滿萬送百、可累贈無上限（需登錄）",
+      "優惠自由選：旅遊、百貨、網購、指定支付每月擇一登錄，加碼 1%",
+      "持卡期間免年費，記名卡享掛失餘額保障"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B19D48952-AE2F-45F6-B77A-954525EFA06C%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mega-one",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/03_mega-one.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋內容與 Mega One卡 相同，僅多一卡通票證功能。加碼回饋適用 115/7/1–12/31。"
+  },
+  {
+    "id": "mega-bt21",
+    "bank": "mega",
+    "name": "宇宙明星BT21信用卡",
+    "name_en": "BT21 Credit Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；第二年起符合任一條件免年費：申請電子帳單期間、前年度不限金額刷卡 2 次、前年度累積消費滿 NT$3,000。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "mobile-payment",
+      "online-shopping",
+      "department-store",
+      "travel",
+      "new-cardholder",
+      "co-branded"
+    ],
+    "headline": "國內最高 5.5%、國外最高 5% 現金回饋",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "最高 1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "基本回饋 0.3% ＋ 電子帳單加碼 0.7%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "最高 2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "基本 0.3% ＋ 電子帳單加碼 0.7% ＋ 國外加碼 1%（國外加碼不含歐洲經濟區及英國）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定行動支付加碼（Apple Pay、Google Pay、Samsung Pay、台灣Pay、LINE Pay、街口支付）",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "每期上限 NT$200",
+        "conditions": "綁定電子帳單並取消紙本、當期帳單以帳戶自動扣繳成功之次期起適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "優惠自由選指定通路加碼（旅遊／百貨／網購／指定支付擇一）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每月每戶上限 NT$200",
+        "conditions": "需逐月登錄；電子帳單＋帳戶自動扣繳，當月新增一般消費達 3 筆",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台灣Pay 掃碼購物",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "每戶每月上限 NT$100",
+        "conditions": "需登錄；QR Code 掃碼或出示付款碼交易",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：核卡後 30 日內新增一般消費滿 NT$3,888、綁定電子帳單並設定自動扣繳且登錄，享 BT21 摺疊拉桿購物車（限量 2,400 個）",
+      "兩款卡面可選：經典黃、方格綠（LINE FRIENDS 授權，授權期限至 116/3/31）",
+      "指定行動支付加碼 2%：國內最高 3%、國外最高 4%",
+      "首年免年費，第二年起申請電子帳單即免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BC194CAAF-78C1-4F6E-A65F-7B8D45417691%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/bt21creditcard",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/43_bt21green.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋活動期間 115/7/1–12/31；優惠自由選 115/10/1–12/31。image_url 為方格綠卡面（卡片總覽 API 所用）；apply_url 為經典黃申辦連結，方格綠為 s=%7BFB5D31B8-70D7-48A6-A1C1-8527AF9602AF%7D。"
+  },
+  {
+    "id": "mega-infinite",
+    "bank": "mega",
+    "name": "兆豐無限卡",
+    "name_en": "Mega Visa Infinite Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "無限卡"
+    ],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費，附卡均免年費；年度正附卡合併累積新增一般消費達 NT$36 萬享次年免年費，紅利點數每 1,000 點可折抵年費 NT$125",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "premium",
+      "overseas",
+      "travel",
+      "airport-lounge",
+      "insurance",
+      "dining"
+    ],
+    "headline": "國外消費最高 2.5% 現金回饋，機場接送與全球貴賓室禮遇",
+    "rewards": [
+      {
+        "label": "國外消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國外消費（電子帳單加碼）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單；不適用英國及歐洲經濟區（EEA）國家",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內保險公司保費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "限扣繳國內保險公司保費，不再回饋紅利點數",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內消費紅利積點（不含保費）",
+        "rate": "每 NT$25 累積 1 點",
+        "conditions": "紅利可兌換長榮／華航哩程、高鐵升等、市區停車、紅利商城；無限卡紅利無使用期限"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：核卡後 45 天內新增一般消費累積達 NT$10 萬，享好禮即享券 NT$5,000",
+      "國際機場接送優惠價單趟 NT$475 起；全球機場貴賓室禮遇",
+      "高鐵升等：紅利 4,500 點兌換商務車廂升等 1 次（每次 2 張／每月 4 張）",
+      "市區停車：紅利 300 點抵 1 小時，每日 1 次，每次上限 3 小時",
+      "台北美福大飯店指定餐廳 85 折；Agoda 預訂 3 晚送 1 晚（每筆最高折 USD150）",
+      "Visa 無限卡禮遇：頂級餐廳兩人同行一人免費、高爾夫擊球及精選飯店優惠價"
+    ],
+    "requirements": "正卡申請人須成年，年收入 NT$200 萬以上或本行近六個月平均存款 NT$300 萬以上",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=238",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/infinite",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/22_infinitev2.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "國內一般消費為紅利積點（25 元 1 點）而非現金回饋；reward_type 依官方主打之國外現金回饋歸類為 cashback。權益適用 115/1/1–12/31。"
+  },
+  {
+    "id": "mega-world",
+    "bank": "mega",
+    "name": "兆豐世界卡",
+    "name_en": "Mega World Mastercard",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "世界卡"
+    ],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費，附卡均免年費；年度正附卡合併累積新增一般消費達 NT$36 萬享次年免年費，紅利點數每 1,000 點可折抵年費 NT$125",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "premium",
+      "overseas",
+      "travel",
+      "airport-lounge",
+      "insurance",
+      "dining"
+    ],
+    "headline": "國外消費最高 2.5% 現金回饋，機場接送與全球貴賓室禮遇",
+    "rewards": [
+      {
+        "label": "國外消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國外消費（電子帳單加碼）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內保險公司保費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "限扣繳國內保險公司保費，不再回饋紅利點數",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內消費紅利積點（不含保費）",
+        "rate": "每 NT$25 累積 1 點",
+        "conditions": "紅利可兌換長榮／華航哩程、高鐵升等、市區停車、紅利商城；世界卡紅利無使用期限"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：核卡後 45 天內新增一般消費累積達 NT$10 萬，享好禮即享券 NT$5,000",
+      "國際機場接送優惠價單趟 NT$528 起；全球機場貴賓室禮遇",
+      "高鐵升等：紅利 4,500 點兌換商務車廂升等 1 次（每次 2 張／每月 4 張）",
+      "市區停車：紅利 300 點抵 1 小時，每日 1 次，每次上限 3 小時",
+      "全額支付公共運輸票價並完成登記，享獨家海外旅遊保險保障",
+      "免費升等 GHA DISCOVERY 白金會員；保險新戶保費單筆滿 NT$10,000 贈 NT$200 即享券"
+    ],
+    "requirements": "正卡申請人須成年，年收入 NT$200 萬以上或本行近六個月平均存款 NT$300 萬以上",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=149",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/world",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/08_world-card.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官方頁「發行卡片」欄標示為 MasterCard 商務世界卡。國內一般消費為紅利積點（25 元 1 點）。權益適用 115/1/1–12/31。"
+  },
+  {
+    "id": "mega-esec",
+    "bank": "mega",
+    "name": "e秒刷卡",
+    "name_en": "e-Sec Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首三年免年費；第四年起符合任一條件免年費：申請電子帳單期間、前年度不限金額刷卡 2 次、前年度累積消費滿 NT$3,000。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "online-shopping",
+      "streaming",
+      "mobile-payment",
+      "installment",
+      "new-cardholder"
+    ],
+    "headline": "網購不限通路最高 3%，新戶指定支付網購最高 4%",
+    "rewards": [
+      {
+        "label": "國內外網路購物（含串流影音、AI 服務、乘車 APP）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每期最高回饋 NT$200",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "網購加碼（電子帳單＋帳戶自動扣繳）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單（不含行動帳單）且前期帳單由本行帳戶自動扣繳成功",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網路一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶指定支付加碼（Apple Pay、Google Pay、Samsung Pay、台灣Pay 掃碼）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每期最高回饋 NT$100",
+        "conditions": "115 年新戶核卡後 12 個月；需申辦電子帳單並設定帳戶自動扣繳",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "單筆新增一般消費滿 NT$3,000 自動分 3 期、0 利率 0 手續費（可開啟／關閉）",
+      "新戶好禮 1+1：核卡後 30 日內消費滿 NT$6,888 並綁定電子帳單與自動扣繳，享 NT$500 刷卡金，加贈臺灣吧授權折傘（限量 1,000 只）",
+      "首三年免年費，第四年起申請電子帳單即免年費",
+      "Mastercard 禮遇：機場接送 NT$728 起、龍騰出行貴賓室會籍費優惠",
+      "卡面由臺灣各種吧授權，授權期限至 116/4/7"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B82FE171B-0943-463C-B6E8-56788F315DDB%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/young2",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/40_young-combo.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "權益適用至 115 年 12 月帳單結帳日。卡片等級「鈦金卡」取自官方頁 Mastercard 禮遇連結標題（e秒刷鈦金卡）。"
+  },
+  {
+    "id": "mega-esec-easycard-ipass",
+    "bank": "mega",
+    "name": "e秒刷悠遊/一卡通聯名卡",
+    "name_en": "e-Sec EasyCard / iPASS Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首三年免年費；第四年起符合任一條件免年費：申請電子帳單期間、前年度不限金額刷卡 2 次、前年度累積消費滿 NT$3,000。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit",
+      "online-shopping",
+      "streaming",
+      "mobile-payment",
+      "installment",
+      "new-cardholder"
+    ],
+    "headline": "網購不限通路最高 3%，悠遊卡／一卡通票證自由選",
+    "rewards": [
+      {
+        "label": "國內外網路購物（含串流影音、AI 服務、乘車 APP）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每期最高回饋 NT$200",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "網購加碼（電子帳單＋帳戶自動扣繳）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "申辦電子帳單（不含行動帳單）且前期帳單由本行帳戶自動扣繳成功",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網路一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶指定支付加碼（Apple Pay、Google Pay、Samsung Pay、台灣Pay 掃碼）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每期最高回饋 NT$100",
+        "conditions": "115 年新戶核卡後 12 個月；需申辦電子帳單並設定帳戶自動扣繳",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "悠遊卡、一卡通電子票證自由選，自動加值免手續費",
+      "單筆新增一般消費滿 NT$3,000 自動分 3 期、0 利率 0 手續費",
+      "新戶好禮 1+1：核卡後 30 日內消費滿 NT$6,888 並綁定電子帳單與自動扣繳，享 NT$500 刷卡金加贈臺灣吧折傘（限量）",
+      "首三年免年費，第四年起申請電子帳單即免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/index.html?s=241",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/young",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/01_eyoung.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋內容與 e秒刷卡 相同。另有臨櫃申辦之「e秒萬事通金融信用卡」（結合金融卡，持卡期間免年費），未單獨收錄。"
+  },
+  {
+    "id": "mega-ehappy",
+    "bank": "mega",
+    "name": "e秒Happy卡",
+    "name_en": "e-Sec Happy Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首三年免年費；第四年起符合任一條件免年費：申請電子帳單期間、前年度不限金額刷卡 2 次、前年度累積消費滿 NT$3,000。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "online-shopping",
+      "travel",
+      "streaming",
+      "overseas",
+      "installment",
+      "new-cardholder"
+    ],
+    "headline": "旅遊網購最高 5% 現金回饋",
+    "rewards": [
+      {
+        "label": "國內外網路購物（含串流影音、AI 服務、乘車 APP）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每期最高回饋 NT$200",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定旅遊平台網購加碼（Agoda、Hotels.com、Expedia、Booking.com、雄獅、東南、易遊網、可樂、Klook、KKday、Trip.com）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每期最高回饋 NT$200",
+        "conditions": "申辦電子帳單（不含行動帳單）並辦理帳戶自動扣繳成功",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網購國內一般消費",
+        "rate": "0.4%",
+        "rate_value": 0.4,
+        "cap": "無上限",
+        "conditions": "另提撥 0.1% 捐贈野灣野生動物保育協會",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網購國外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "單筆新增一般消費滿 NT$3,000 自動分 3 期、0 利率 0 手續費",
+      "新戶好禮 1+1：核卡後 30 日內消費滿 NT$6,888 並綁定電子帳單與自動扣繳，享 NT$500 刷卡金加贈臺灣吧折傘（限量）",
+      "非網購國內消費提撥 0.1% 捐贈野灣野生動物保育協會",
+      "首三年免年費，第四年起申請電子帳單即免年費",
+      "卡面由臺灣各種吧授權，授權期限至 116/4/7"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BFBDEAD56-ECBE-44E6-B6FD-2E6FAA407E9B%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/happy2",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/20_happy.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "權益適用至 115 年 12 月帳單結帳日。"
+  },
+  {
+    "id": "mega-ehappy-easycard",
+    "bank": "mega",
+    "name": "e秒Happy悠遊聯名卡",
+    "name_en": "e-Sec Happy EasyCard Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首三年免年費；第四年起符合任一條件免年費：申請電子帳單期間、前年度不限金額刷卡 2 次、前年度累積消費滿 NT$3,000。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit",
+      "online-shopping",
+      "travel",
+      "streaming",
+      "overseas",
+      "installment",
+      "new-cardholder"
+    ],
+    "headline": "旅遊網購最高 5% 現金回饋，附悠遊卡票證功能",
+    "rewards": [
+      {
+        "label": "國內外網路購物（含串流影音、AI 服務、乘車 APP）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每期最高回饋 NT$200",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定旅遊平台網購加碼（Agoda、Hotels.com、Expedia、Booking.com、雄獅、東南、易遊網、可樂、Klook、KKday、Trip.com）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每期最高回饋 NT$200",
+        "conditions": "申辦電子帳單（不含行動帳單）並辦理帳戶自動扣繳成功",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網購國內一般消費",
+        "rate": "0.4%",
+        "rate_value": 0.4,
+        "cap": "無上限",
+        "conditions": "另提撥 0.1% 捐贈野灣野生動物保育協會",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網購國外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "悠遊卡電子票證功能，自動加值免手續費",
+      "單筆新增一般消費滿 NT$3,000 自動分 3 期、0 利率 0 手續費",
+      "新戶好禮 1+1：核卡後 30 日內消費滿 NT$6,888 並綁定電子帳單與自動扣繳，享 NT$500 刷卡金加贈臺灣吧折傘（限量）",
+      "首三年免年費，第四年起申請電子帳單即免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/index.html?s=240",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/happy",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/20_happy.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋內容與 e秒Happy卡 相同。官方總覽使用同一張卡面圖（20_happy.png）。另有臨櫃申辦之「e秒Happy金融信用卡」（持卡期間免年費），未單獨收錄。"
+  },
+  {
+    "id": "mega-dual-currency-titanium",
+    "bank": "mega",
+    "name": "雙幣鈦金商旅卡",
+    "name_en": "Dual Currency Titanium Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起符合任一條件免年費：申請電子帳單期間、正附卡年度累積消費達等值新臺幣 15 萬元。附卡免收。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "travel",
+      "new-cardholder"
+    ],
+    "headline": "國外消費最高 2.5%、國內 1% 現金回饋無上限，日圓／美金雙幣計價",
+    "rewards": [
+      {
+        "label": "國外一般消費",
+        "rate": "最高 2.5%",
+        "rate_value": 2.5,
+        "cap": "無上限",
+        "conditions": "含基本 1.5% ＋ 電子帳單加碼 1%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "最高 1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "含基本 0.5% ＋ 電子帳單加碼 0.5%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "日圓卡國外消費以日圓計收、美金卡以美金計收，須以約定之本行外幣存款帳戶自動扣繳外幣帳款",
+      "新戶首刷禮：核卡後 30 日內一般消費滿 NT$3,888 並申辦電子帳單、設定自動扣繳，享 NT$500 刷卡金",
+      "指定萬事達卡新戶好禮 1+1：消費滿 NT$6,888 並完成任務加贈臺灣吧授權折傘（限量 1,000 只）",
+      "首年免年費，申請電子帳單期間免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BE93612B2-7989-4211-84C8-267C5A877B13%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/dual-currency",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/14_dual-currency.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋適用 115/7–12 月帳單結帳日。分日幣雙幣卡與美金雙幣卡兩種幣別版本。"
+  },
+  {
+    "id": "mega-gogoro",
+    "bank": "mega",
+    "name": "Gogoro聯名卡",
+    "name_en": "Gogoro Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；次年起符合任一條件免年費：前一年度代扣 Gogoro Network 電池資費 2 次、前一年度刷卡 2 次、前一年度消費累積滿 NT$3,000、申請電子帳單期間",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "ev-charging",
+      "installment",
+      "overseas",
+      "mobile-payment",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "Gogoro 電池資費最高 16%、國內最高 2%、國外最高 3% 回饋",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "不含 Gogoro 門市／網路商店、電池資費及 GoShare",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "Apple Pay 一般消費加碼",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每期上限 NT$50",
+        "conditions": "完成綁定電子帳單、前期帳單自動扣繳、當期帳單一般消費滿 NT$5,000 三項任務",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "Gogoro 實體門市／網路商店",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "每期上限 NT$1,000",
+        "conditions": "當期帳單立即折抵；分期交易不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "Gogoro Network 電池服務資費",
+        "rate": "最高 16%",
+        "rate_value": 16,
+        "cap": "基本 1% 無上限；加碼 4%／5%／6% 各每期上限 NT$50",
+        "conditions": "需綁定電子帳單；加碼依當期一般消費滿 NT$500／5,000 及前期自動扣繳門檻累計",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "GoShare 騎乘費用",
+        "rate": "15%",
+        "rate_value": 15,
+        "cap": "每帳單週期上限 NT$100",
+        "conditions": "電子帳單且當期帳單一般消費滿 NT$500；需以本卡綁定 GoShare APP 支付",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "購買 Gogoro 全車系享 12／24／30 期分期 0 利率；購車單筆分期滿 NT$30,000 登錄加碼 NT$500 刷卡金",
+      "新卡首刷禮：核卡後 60 日內於 Gogoro 實體門市累積消費達 NT$30,000，享 NT$1,000 刷卡金",
+      "附加 icash 2.0 票證：自動加值 0 手續費；icash Pay 7-ELEVEN 門市單筆滿 NT$150 享 10% OPENPOINT 回饋",
+      "搭載 iQ System 智慧鑰匙卡功能，可感應解鎖 Gogoro（需至服務中心配對）",
+      "首年免年費，次年起代扣電池資費 2 次即免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=20",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/gogoro",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/07_gogoro.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費金額 NT$2,400 取自官方《115年綜合版權益手冊》年費表（產品頁未列金額）。活動期間 115/7/1–12/31。"
+  },
+  {
+    "id": "mega-unilions",
+    "bank": "mega",
+    "name": "統一7-ELEVEN獅聯名卡",
+    "name_en": "Uni-Lions Co-branded Card",
+    "networks": [
+      "jcb"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；第二年起符合任一條件免年費：申請電子帳單期間、前年度不限金額刷卡 2 次、前年度累積消費滿 NT$3,000",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "overseas",
+      "travel",
+      "mobile-payment",
+      "new-cardholder"
+    ],
+    "headline": "統一獅主場購票 5 折起，國外 1.5% 現金回饋",
+    "rewards": [
+      {
+        "label": "國外一般消費",
+        "rate": "1.5% 現金回饋",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "每 NT$25 回饋 1 點紅利",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "統一集團指定通路（星巴克、康是美、博客來、統一時代百貨、夢時代等）／統一獅勝利日國內消費",
+        "rate": "每 NT$25 加碼 2 點紅利（合計 3 倍）",
+        "conditions": "兩者不重複回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "icash Pay 7-ELEVEN 實體門市（單筆滿 NT$150）",
+        "rate": "10% OPENPOINT",
+        "rate_value": 10,
+        "cap": "每用戶每月上限 100 點",
+        "conditions": "以 icash Pay 綁定本卡",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "統一7-ELEVEN獅主場例行賽內野全票：ibon 線上購票平日 5 折（限量）、假日 7 折；現場購票 7 折",
+      "統一獅球場與線上萊恩酷周邊商品 9 折起",
+      "新戶首刷禮：核卡後 30 日內一般消費滿 NT$3,888 並申辦電子帳單、設定自動扣繳，贈猛獅登機箱",
+      "新戶 icash 聯名卡核卡後 30 日內 icash Pay 交易加碼 10% OPENPOINT（上限 100 點，需登錄）",
+      "JCB 禮遇：購買國際線機票單筆滿 NT$30,000 享機場接送 1 次免費；台灣虎航日韓機票最高 9 折"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BEAC503B5-A13D-4753-AB54-9FCF30CD25D2%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/unilions",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/46_unilions.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費金額 NT$2,400 取自官方《115年綜合版權益手冊》年費表。國內主要回饋為紅利點數，故 reward_type 設為 points。附 icash 功能者為黑色卡面。"
+  },
+  {
+    "id": "mega-nextbank",
+    "bank": "mega",
+    "name": "將來銀行聯名卡",
+    "name_en": "NEXT Bank Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "持卡期間免年費，不限刷卡次數與金額",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "streaming",
+      "dining",
+      "installment",
+      "transit",
+      "new-cardholder",
+      "insurance"
+    ],
+    "headline": "一般消費 1% 無上限，新戶指定外送／影音／遊戲平台最高 11%",
+    "rewards": [
+      {
+        "label": "新增一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "無消費門檻、無通路限制",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶指定外送／影音／遊戲／共享租車平台加碼（Foodpanda、Uber Eats、Netflix、Disney+、Spotify、App Store、Google Play、iRent、GoShare 等）",
+        "rate": "10%",
+        "rate_value": 10,
+        "cap": "每戶每期帳單上限 NT$200",
+        "conditions": "新戶核卡後 6 個月內以帳戶自動扣繳成功，次期起適用；限直接刷卡交易",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "每筆滿 NT$3,000 之一般消費可選分 3／6／9／11 期 0 利率 0 手續費（分期則不回饋）",
+      "新戶首刷禮：核卡後 30 天內一般消費滿 NT$3,888 並申辦電子帳單、設定自動扣繳，享 NT$500 刷卡金",
+      "附悠遊卡電子票證功能，自動加值免手續費",
+      "保險新戶保費單筆滿 NT$10,000 贈統一超商 NT$200 即享券（需登錄）",
+      "免費升等 GHA DISCOVERY 純金會員；機場接送 NT$728 起",
+      "持卡期間免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B0FE4D55D-E04A-4D64-B180-64788809A60A%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/next-bank",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/05_nextbank.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官方頁「發行卡片」欄標示為 MasterCard 商務卡（卡種名稱），但為消費者聯名卡。"
+  },
+  {
+    "id": "mega-easycard",
+    "bank": "mega",
+    "name": "兆豐悠遊聯名卡",
+    "name_en": "Mega EasyCard Co-branded Card",
+    "networks": [
+      "visa",
+      "jcb"
+    ],
+    "levels": [
+      "晶緻卡",
+      "白金卡",
+      "金卡",
+      "普卡"
+    ],
+    "annual_fee": {
+      "amount": 600,
+      "max_amount": 2400,
+      "waiver": "首年免年費；次年起符合任一條件免年費：前一年度刷卡 2 次、前一年度消費累積滿 NT$3,000、申請電子帳單期間",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit"
+    ],
+    "headline": "一般消費依月消費級距最高 1% 現金回饋，附悠遊卡功能",
+    "rewards": [
+      {
+        "label": "當月一般消費 NT$1–30,000 部分",
+        "rate": "0.25%",
+        "rate_value": 0.25,
+        "cap": "每戶每帳單週期最高 NT$1,000 刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "當月一般消費 NT$30,001–80,000 部分",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "每戶每帳單週期最高 NT$1,000 刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "當月一般消費 NT$80,001 以上部分",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每戶每帳單週期最高 NT$1,000 刷卡金",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "悠遊卡電子票證功能：自動加值 0 手續費、交通購票及轉乘優惠、高鐵自由座嗶付通關",
+      "記名卡享掛失餘額保障",
+      "哆啦A夢卡面已於 113/1/1 停止發行，續卡／補發換發嘎嘎龍卡面",
+      "首年免年費，次年起刷卡 2 次即免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/index.html?s=67",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/easycard",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/15_easy-card.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費依官方《115年綜合版權益手冊》：鈦金／晶緻／白金卡 NT$2,400、金卡 NT$1,200、普卡 NT$600；等級與網路組合（VISA／JCB）取自卡片總覽 API 及手冊，產品頁未逐一列出。回饋為級距累進制。"
+  },
+  {
+    "id": "mega-hiyes",
+    "bank": "mega",
+    "name": "海悅國際聯名卡",
+    "name_en": "Hi-Yes Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起符合任一條件免年費：申請電子帳單期間、每卡當年度刷卡 2 次、年度累積消費達 NT$3,000。附卡免收。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "installment",
+      "overseas",
+      "transit",
+      "insurance",
+      "mobile-payment"
+    ],
+    "headline": "海悅購屋訂金 2.5% 回饋或 24 期 0 利率，國外 1.5% 無上限",
+    "rewards": [
+      {
+        "label": "海悅國際建案首筆購屋訂金",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "每戶上限 NT$2,500",
+        "conditions": "首次申辦核卡時擇一選定 2.5% 回饋或 24 期 0 利率",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "0.4%",
+        "rate_value": 0.4,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台灣Pay 掃碼購物",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "conditions": "需登錄",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "一般消費單筆滿 NT$1 萬可申請分 3／6／9／12 期 0 利率（分期不回饋）",
+      "購屋訂金可選 24 期分期 0 利率（限信用卡原額度內）",
+      "附加悠遊卡功能",
+      "保險新戶保費單筆滿 NT$10,000 贈統一超商 NT$200 即享券（需登錄）"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BF2F68A07-7809-4586-B108-CBE4FCC44B13%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/hiyescard",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/21_hi-yes.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "mega-ctci-ecove",
+    "bank": "mega",
+    "name": "中鼎集團CTCI/ECOVE認同卡",
+    "name_en": "CTCI / ECOVE Affinity Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "持卡期間正附卡均免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "overseas",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "國外 1.6%、國內 1% 現金回饋無上限，終身免年費",
+    "rewards": [
+      {
+        "label": "國外一般消費",
+        "rate": "1.6%",
+        "rate_value": 1.6,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需綁定電子帳單並取消紙本；未綁定者 0.5%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "每筆新增一般消費由兆豐銀行提撥 0.2% 捐贈財團法人中鼎教育基金會（不影響持卡人回饋）",
+      "新戶首刷禮：完成任務享 NT$500 刷卡金",
+      "附加悠遊卡功能",
+      "持卡期間正附卡均免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/index.html?s=81",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/ctciecove-card",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/13_ctci-ecove.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋適用 115/7–12 月帳單結帳日。"
+  },
+  {
+    "id": "mega-weitiangong",
+    "bank": "mega",
+    "name": "威天宮關聖帝君認同卡",
+    "name_en": "Wei Tian Gong Guan Gong Affinity Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "持卡期間正附卡均免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "fuel",
+      "dining",
+      "online-shopping",
+      "supermarket",
+      "transit",
+      "mobile-payment",
+      "new-cardholder"
+    ],
+    "headline": "威天宮及加油／餐廳／網購／超市量販紅利 2 倍，祈福燈 9 折",
+    "rewards": [
+      {
+        "label": "威天宮捐款、點燈、結緣品及指定通路（加油站、餐廳、網路購物、超市、量販）",
+        "rate": "每 NT$25 享 2 點紅利",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "其他一般消費",
+        "rate": "每 NT$25 享 1 點紅利",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台灣Pay 掃碼購物",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "conditions": "需登錄",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "威天宮祈福燈／結緣品 10% 折扣無上限",
+      "新戶首刷禮：核卡後 30 日內一般消費滿 NT$3,000 享威天宮財神燈 1 盞",
+      "於威天宮刷卡捐款單筆滿 NT$1 萬贈金龍招財金銀錢母套組",
+      "每筆一般消費由兆豐銀行額外提撥 0.25% 予中華關聖帝君文化交流協會",
+      "附加悠遊卡功能；持卡期間免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7BE37793D8-D458-4A58-AF8C-C6570D46C85F%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/guan-gong-card",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/18_guan-gong.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "mega-mayfull",
+    "bank": "mega",
+    "name": "美福聯名無限卡/御璽卡",
+    "name_en": "Mayfull Co-branded Infinite / Signature Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡",
+      "無限卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 5000,
+      "waiver": "御璽卡：首年免年費，次年起申請電子帳單、每卡年度刷卡 2 次或年度消費達 NT$3,000 免年費。無限卡：首年免年費，年度正附卡合併一般消費達 NT$36 萬享次年免年費，紅利每 1,000 點可折抵年費 NT$125。附卡均免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "dining",
+      "overseas",
+      "premium",
+      "new-cardholder",
+      "supermarket"
+    ],
+    "headline": "美福食集最高 2%、國外 1.5% 現金回饋，美福大飯店餐廳 85 折",
+    "rewards": [
+      {
+        "label": "美福食集單筆 NT$1,000–3,000",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每月上限 NT$1,000 美福刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "美福食集單筆 NT$3,001 以上",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "每月上限 NT$1,000 美福刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "conditions": "不含歐洲經濟區及英國",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內消費紅利積點",
+        "rate": "每 NT$25 累積 1 點；台北美福大飯店／Fresh&Aged 牛排館 3 倍",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：無限卡核卡後 30 日內美福關係企業消費滿 NT$3,000 享 NT$1,000 美福刷卡金；御璽卡滿 NT$2,000 享 NT$500",
+      "每週三美福食集單筆滿 NT$3,688 贈 NT$300 美福刷卡金，合計最高約 10% 優惠",
+      "台北美福大飯店頂級餐廳 85 折；住宿買一晚送一晚，無限卡再享房型升等",
+      "無限卡年費 NT$5,000、御璽卡 NT$3,000，首年均免"
+    ],
+    "requirements": "無限卡：正卡申請人須成年，年收入 NT$120 萬以上；御璽卡：正卡申請人須成年",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B3CC3B31C-6C2E-4739-94FC-6C7053F0FE30%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mayfull",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/23_mayfull.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "美福食集回饋為限美福食集折抵之刷卡金。premium 標籤僅適用無限卡等級。"
+  },
+  {
+    "id": "mega-opay-easycard",
+    "bank": "mega",
+    "name": "歐付寶悠遊聯名卡",
+    "name_en": "O'Pay EasyCard Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "白金卡",
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 2400,
+      "max_amount": 3000,
+      "waiver": "白金卡首三年免年費，第四年起前一年度 2 筆消費或當年消費達 NT$3,000 免年費；御璽卡首年免年費，次年起正附卡年度消費達 NT$15 萬免年費；兩者申請電子帳單期間均免年費。附卡免收。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "mobile-payment",
+      "online-shopping",
+      "overseas",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "歐付寶綁卡／網購消費新戶最高 13% 歐付寶紅利回饋",
+    "rewards": [
+      {
+        "label": "歐付寶 APP 綁卡消費或網購（新戶且申辦電子帳單）",
+        "rate": "10%",
+        "rate_value": 10,
+        "cap": "每月上限 100 點",
+        "conditions": "新戶核卡後 12 個月加碼",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "歐付寶 APP 綁卡消費或網購（電子帳單＋最近一期本卡一般消費滿 NT$2,000）",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "每月上限 250 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "歐付寶 APP 綁卡消費或網購（兆豐帳戶自動扣款成功＋該期一般消費滿 NT$2,000）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每月上限 200 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "非網購之海外消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "其他一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "迎新首刷：核卡後第一筆消費享 100% 歐付寶紅利回饋（上限 333 點）",
+      "歐付寶紅利 1 點＝1 元，需將聯名卡綁定歐付寶 APP 後累計與折抵，效期 180 天",
+      "悠遊卡電子票證功能，自動加值免手續費",
+      "Visa 禮遇：高鐵票券與旅遊行程 9 折起、永續飯店優惠價"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/index.html?s=14",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/opay",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/29_opay.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋為歐付寶紅利點數（1 點＝1 元）而非兆豐刷卡金。"
+  },
+  {
+    "id": "mega-avon-signature-easycard",
+    "bank": "mega",
+    "name": "雅芳御璽悠遊聯名卡",
+    "name_en": "Avon Signature EasyCard Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；次年起申請電子帳單期間、前年度刷卡 2 次或前年度累積消費滿 NT$3,000 免年費。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "雅芳通路最高 1%、店外 0.5% 現金回饋無上限",
+    "rewards": [
+      {
+        "label": "雅芳通路新增一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每月回饋上限 NT$400，超過部分以 0.5% 計算"
+      },
+      {
+        "label": "店外新增一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：核卡後 30 日內完成指定任務享 NT$500 刷卡金",
+      "悠遊卡票證功能：四大超商、超市、全聯、百貨美食街及加油站可嗶卡扣款",
+      "Visa 御璽卡禮遇：機場接送、Best Offer 住宿優惠"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B557E6362-D7DC-43FD-B179-94F38818B20B%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/avon",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/10_avon.png?h=520&iar=0&w=520",
+    "last_verified": "2026-11-01",
+    "notes": "舊版雅芳聯名卡（白金／金／普卡）已停發，官方總覽另列為停發卡。"
+  },
+  {
+    "id": "mega-secom",
+    "bank": "mega",
+    "name": "中興保全聯名卡",
+    "name_en": "SECOM Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；次年起申請電子帳單期間、當年度累積刷卡 2 次或年度累積消費達 NT$3,000 免年費。附卡免收。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "new-cardholder"
+    ],
+    "headline": "保全服務費最高 5% 折扣，一般消費 0.2% 現金回饋再累積紅利",
+    "rewards": [
+      {
+        "label": "國內外一般消費現金回饋",
+        "rate": "0.2%",
+        "rate_value": 0.2,
+        "cap": "無上限",
+        "conditions": "另累計紅利點數每 NT$25 1 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "中興保全服務費（授權扣繳）",
+        "rate": "第一年 1%、第二年 2%、第三年起 5% 折扣",
+        "rate_value": 5,
+        "conditions": "中興保全科技客戶以本卡授權扣繳保全費用",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "一般消費 0.2% 現金回饋 ＋ 每 NT$25 累積 1 點紅利雙重回饋",
+      "中興保全客戶授權扣繳保全費：第一年 1%、第二年 2%、第三年起 5% 折扣",
+      "新戶完成任務享首刷好禮",
+      "首年免年費，申請電子帳單期間免年費"
+    ],
+    "requirements": "正卡申請人須成年；附卡申請人須年滿 15 歲",
+    "status": "active",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B8219F41E-6C71-4337-98E1-9E062422B4FD%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/secom",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/31_secom.png?h=520&iar=0&w=520",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "mega-classic-titanium",
+    "bank": "mega",
+    "name": "經典鈦金卡",
+    "name_en": "Classic Titanium Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費；次年起僅申辦電子帳單、前一年度 6 筆不限金額消費或年度累積消費滿 NT$6 萬免年費。原生活工場／聖德科斯聯名卡換發之經典鈦金卡持卡期間免年費。附卡免收。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "department-store",
+      "supermarket",
+      "dining",
+      "online-shopping",
+      "installment",
+      "transit"
+    ],
+    "headline": "百貨／免稅店／量販超市／餐廳／網購 1% 現金回饋無上限（已停發）",
+    "rewards": [
+      {
+        "label": "百貨公司、免稅店、量販超市、餐廳、網路購物",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "其他一般消費",
+        "rate": "0.3%",
+        "rate_value": 0.3,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "單筆新增一般消費達 NT$3,000 自動分 6 期 0 利率",
+      "一卡通票證功能：自動加值 0 手續費、高鐵自由座嗶付通關",
+      "原生活工場聯名卡及聖德科斯聯名卡到期換發為本卡"
+    ],
+    "status": "discontinued",
+    "status_note": "官方卡片總覽標示「經典鈦金卡(停發)／已停止發行」；僅作為原生活工場、聖德科斯聯名卡之換發卡種，現有持卡人權益仍適用。",
+    "apply_url": "https://ebank.megabank.com.tw/MegaMCreditCardWeb/default.jsp?s=%7B64A5A84A-2A4D-4282-B212-B6A975800201%7D",
+    "source_url": "https://www.megabank.com.tw/personal/credit-card/card/overview/classic-card",
+    "image_url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/card/credit-card-detail/520x520/33_titanium.png?h=520&iar=0&w=520",
+    "last_verified": "2026-11-01",
+    "notes": "官方總覽 API 對此卡仍附「立即申辦」按鈕，但頁面明確標示已停止發行；維護者可再確認是否仍可申請。"
+  }
+]

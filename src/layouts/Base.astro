@@ -1,0 +1,102 @@
+---
+import '../styles/global.css';
+import { siteStats } from '../lib/data';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  noindex?: boolean;
+}
+
+const SITE_NAME = '卡比';
+const { title, description = '台灣各大銀行信用卡福利一次比較：現金回饋、哩程、點數，附卡圖、年費與官方申請連結，資料定期對照官網更新。', ogImage, noindex = false } = Astro.props;
+const fullTitle = title === SITE_NAME ? `${SITE_NAME}｜台灣信用卡福利比較` : `${title}｜${SITE_NAME}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const nav = [
+  { href: '/category/cashback', label: '現金回饋' },
+  { href: '/category/miles', label: '哩程' },
+  { href: '/category/points', label: '點數回饋' },
+  { href: '/banks', label: '依銀行' },
+  { href: '/changelog', label: '最近更新' },
+];
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="flex min-h-dvh flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2">跳到主要內容</a>
+    <header class="border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/75 sticky top-0 z-40">
+      <div class="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
+        <a href="/" class="flex items-center gap-2 text-lg font-black tracking-tight" aria-label="卡比 首頁">
+          <span class="inline-block h-6 w-9 rounded-[5px] bg-ink" aria-hidden="true" style="background: linear-gradient(135deg,#16211f 0%,#0e6b5c 100%)"></span>
+          卡比
+        </a>
+        <nav class="ml-auto hidden items-center gap-1 md:flex" aria-label="主選單">
+          {nav.map((n) => (
+            <a
+              href={n.href}
+              class:list={['rounded-md px-3 py-1.5 text-sm font-medium hover:bg-paper-2', { 'bg-paper-2': path.startsWith(n.href) }]}
+              aria-current={path.startsWith(n.href) ? 'page' : undefined}
+            >
+              {n.label}
+            </a>
+          ))}
+          <a href="/compare" class="btn btn-ghost ml-2 !py-1.5 text-sm">比較清單</a>
+        </nav>
+        <details class="relative ml-auto md:hidden">
+          <summary class="btn btn-ghost !px-3 !py-1.5 text-sm list-none cursor-pointer">選單</summary>
+          <div class="absolute right-0 mt-2 w-48 rounded-xl border border-line bg-white p-2 shadow-lift">
+            {nav.map((n) => (
+              <a href={n.href} class="block rounded-md px-3 py-2 text-sm hover:bg-paper-2">{n.label}</a>
+            ))}
+            <a href="/compare" class="block rounded-md px-3 py-2 text-sm hover:bg-paper-2">比較清單</a>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-line">
+      <div class="mx-auto grid max-w-6xl gap-6 px-4 py-10 text-sm text-ink-soft md:grid-cols-[1fr_auto]">
+        <div class="max-w-prose space-y-2">
+          <p>
+            卡比整理 {siteStats.banks} 家發卡銀行、{siteStats.cards} 張信用卡的公開權益，所有數字皆來自各銀行官方網站，最近一次對照官網：{siteStats.lastVerified}。
+          </p>
+          <p>
+            本站為非營利資訊整理，不是銀行也不代辦申請；回饋內容、活動期間與申請資格以各銀行官網公告為準，申請前請務必再確認一次。
+          </p>
+        </div>
+        <nav class="flex flex-wrap gap-x-5 gap-y-2 md:flex-col" aria-label="頁尾">
+          <a href="/about" class="hover:text-ink">關於與資料來源</a>
+          <a href="/changelog" class="hover:text-ink">最近更新</a>
+          <a href="/banks" class="hover:text-ink">所有銀行</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

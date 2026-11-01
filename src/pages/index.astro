@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import CardExplorer from '../components/CardExplorer.tsx';
+import { banks, summaries, siteStats, changelog, bankById } from '../lib/data';
+import { REWARD_TYPE_LABEL } from '../lib/types';
+
+const bankOpts = banks.map((b) => ({ id: b.id, short_name: b.short_name }));
+const counts = {
+  cashback: summaries.filter((c) => c.rewardType === 'cashback' && c.status === 'active').length,
+  miles: summaries.filter((c) => c.rewardType === 'miles' && c.status === 'active').length,
+  points: summaries.filter((c) => c.rewardType === 'points' && c.status === 'active').length,
+};
+const recent = changelog.slice(0, 4);
+---
+
+<Base title="卡比">
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10 md:pt-14">
+    <div class="grid items-end gap-6 md:grid-cols-[1fr_auto]">
+      <div class="max-w-2xl">
+        <h1 class="text-3xl font-black leading-tight tracking-tight md:text-5xl">
+          想辦信用卡，<br class="sm:hidden" />不用一家一家銀行查。
+        </h1>
+        <p class="mt-4 max-w-prose text-base text-ink-soft md:text-lg">
+          {siteStats.banks} 家銀行、{siteStats.active} 張可申請的信用卡，依現金回饋、哩程、點數分類，數字全部對照官網。選好場景，挑出最多三張並排比較。
+        </p>
+      </div>
+      <dl class="grid grid-cols-3 gap-4 text-sm md:gap-6">
+        {(['cashback', 'miles', 'points'] as const).map((t) => (
+          <a href={`/category/${t}`} class="group">
+            <dt class="text-ink-soft group-hover:text-ink">{REWARD_TYPE_LABEL[t]}</dt>
+            <dd class="text-2xl font-black tracking-tight">{counts[t]} <span class="text-sm font-medium text-ink-soft">張</span></dd>
+          </a>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 pb-24">
+    <CardExplorer client:load cards={summaries} banks={bankOpts} showHero />
+  </section>
+
+  {recent.length > 0 && (
+    <section class="mx-auto max-w-6xl px-4 pb-8">
+      <div class="flex items-baseline justify-between">
+        <h2 class="text-xl font-bold">最近更新</h2>
+        <a href="/changelog" class="text-sm text-ink-soft underline">全部</a>
+      </div>
+      <ul class="mt-3 divide-y divide-line rounded-xl border border-line bg-white">
+        {recent.map((e) => (
+          <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-3 text-sm">
+            <time class="text-ink-soft tabular-nums" datetime={e.date}>{e.date}</time>
+            <span class="text-ink-soft">{bankById.get(e.bank)?.short_name}</span>
+            {e.card_id ? <a href={`/cards/${e.card_id}`} class="font-medium underline">{e.card_name ?? e.card_id}</a> : null}
+            <span>{e.summary}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>

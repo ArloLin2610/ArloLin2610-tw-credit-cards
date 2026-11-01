@@ -1,0 +1,529 @@
+[
+  {
+    "id": "scsb-minions-cashback",
+    "bank": "scsb",
+    "name": "小小兵回饋卡",
+    "name_en": "Minions Cashback Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "線上申辦免年費三年；年刷 12 次或 NT$3 萬免年費；以上海商銀帳戶自動扣繳信用卡款免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "co-branded", "new-cardholder"],
+    "headline": "國內 1.234%、國外 2.234%，環球影城最高 10% 回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1.234%", "rate_value": 1.234, "cap": "小小兵卡每戶每期帳單回饋上限合計 NT$1,000", "conditions": "次期帳單折抵一般消費" },
+      { "label": "國外一般消費", "rate": "2.234%", "rate_value": 2.234, "cap": "小小兵卡每戶每期帳單回饋上限合計 NT$1,000", "conditions": "交易請款商店登記國別碼非台灣地區之一般消費" },
+      { "label": "全球環球影城樂園", "rate": "最高 10%", "rate_value": 10, "cap": "每期帳單上限 NT$500", "conditions": "商店名稱含 UNIVERSAL STUDIO 之一般消費；回饋率內含原卡片回饋", "valid_until": "2026-12-31" },
+      { "label": "六大國內指定影城", "rate": "最高 12%", "rate_value": 12, "cap": "每期帳單上限 NT$200", "conditions": "威秀／秀泰／新光／國賓(限 LINE Pay)／in89／喜樂時代影城；須設定本行帳戶自動扣繳信用卡款；活動期間 2026/7/1–2026/12/31", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "線上申辦免年費三年，並免收製卡費（核卡後 3 個月內消費滿 NT$3,000）",
+      "全球環球影城樂園消費最高 10% 回饋（每期上限 NT$500）",
+      "六大國內指定影城最高 12% 回饋（每期上限 NT$200，須帳戶自動扣繳）",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "消費滿額免費市區停車 1 小時，每卡每日 1 次、每月最高 3 次",
+      "Mastercard 機場接送單趟優惠價 NT$668 起"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/init?cardSerial=64&salesUnit=5555&salesCode=SCSBWEB&openExternalBrowser=1",
+    "source_url": "https://www.scsb.com.tw/content/card/card_1110222.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/card_20220222.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費依各項費用說明頁：商務鈦金卡(含小小兵卡) NT$1,200。回饋卡與分期卡之回饋合併計算，每期上限 NT$1,000。各項優惠適用至 2026/12/31。"
+  },
+  {
+    "id": "scsb-minions-installment",
+    "bank": "scsb",
+    "name": "小小兵分期卡",
+    "name_en": "Minions Installment Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "線上申辦免年費三年；年刷 12 次或 NT$3 萬免年費；以上海商銀帳戶自動扣繳信用卡款免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "installment", "overseas", "co-branded", "new-cardholder"],
+    "headline": "單筆滿 3 仟自動分 3 期 0 利率，國外消費 1.5% 回饋",
+    "rewards": [
+      { "label": "國外一般消費", "rate": "1.5%", "rate_value": 1.5, "cap": "小小兵卡每戶每期帳單回饋上限合計 NT$1,000", "conditions": "以每期實際請款金額計算；國內消費不回饋（自動分期）" }
+    ],
+    "highlights": [
+      "一般消費單筆滿 NT$3,000 自動分 3 期 0 利率；辦理本行帳戶自動扣繳可提高至分 6 期",
+      "保費、家電、3C 自動分期 0 利率，依卡片設定免登錄",
+      "線上申辦免年費三年，並免收製卡費（核卡後 3 個月內消費滿 NT$3,000）",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "消費滿額免費市區停車 1 小時，每卡每日 1 次、每月最高 3 次"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/init?cardSerial=65&salesUnit=5555&salesCode=SCSBWEB&openExternalBrowser=1",
+    "source_url": "https://www.scsb.com.tw/content/card/card_1110222-2.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/20220222-2.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "國內消費走自動分期、不計現金回饋（注意事項明列「小小兵分期卡之國內消費」為排除項目）。單筆最低可申請分期金額 NT$1,000。"
+  },
+  {
+    "id": "scsb-simple-visa",
+    "bank": "scsb",
+    "name": "VISA簡單卡",
+    "name_en": "Visa Simple Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；年刷 12 次或 NT$3 萬即免年費；以上海銀行帳戶自動扣繳享免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel"],
+    "headline": "國內 1%、國外 2%、日韓實體 3% 現金回饋，無上限",
+    "rewards": [
+      { "label": "國內消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "次期帳單折抵一般消費，無門檻、無需兌換、無到期日" },
+      { "label": "國外消費（含人民幣）", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "交易請款商店登記國別碼非台灣且刷卡幣別非台幣；日韓非面對面交易亦為 2%" },
+      { "label": "日、韓消費（面對面交易）", "rate": "3%", "rate_value": 3, "cap": "無上限", "conditions": "限於日本或韓國實體特約商店以日幣或韓元進行面對面交易" }
+    ],
+    "highlights": [
+      "次期現金回饋無門檻、無需兌換、無到期日",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "Visa 機場接送尊榮優惠 NT$675 起（格上租車）",
+      "U.First 全球機場貴賓室優惠",
+      "簡單卡快速發卡每次每卡 NT$300"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/init?cardSerial=27&salesUnit=5555&salesCode=SCSBWEB&openExternalBrowser=1",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_h1.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_h1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費依各項費用說明頁：商務御璽卡(含簡單卡) NT$1,200。歐盟地區實體商店交易之不回饋規定對簡單卡不適用（注意事項明列例外）。"
+  },
+  {
+    "id": "scsb-simple-mastercard",
+    "bank": "scsb",
+    "name": "萬事達簡單卡",
+    "name_en": "Mastercard Simple Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；年刷 12 次或 NT$3 萬即免年費；以上海銀行帳戶自動扣繳享免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel"],
+    "headline": "國內 1%、國外 2%、日韓實體 3% 現金回饋，無上限",
+    "rewards": [
+      { "label": "國內消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "次期帳單折抵一般消費，無門檻、無需兌換、無到期日" },
+      { "label": "國外消費（含人民幣）", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "交易請款商店登記國別碼非台灣且刷卡幣別非台幣；日韓非面對面交易亦為 2%" },
+      { "label": "日、韓消費（面對面交易）", "rate": "3%", "rate_value": 3, "cap": "無上限", "conditions": "限於日本或韓國實體特約商店以日幣或韓元進行面對面交易" }
+    ],
+    "highlights": [
+      "次期現金回饋無門檻、無需兌換、無到期日",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "Mastercard 機場單趟接／送優惠價 NT$668 起",
+      "免 2 年 U.First 全球貴賓室會籍費，貴賓室使用費 NT$850 優惠",
+      "AVIS 國內租車 5 折起、機場接送 88 折"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/init?cardSerial=2&salesUnit=5555&salesCode=SCSBWEB&openExternalBrowser=1",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_h2.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_h2.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費依各項費用說明頁：商務鈦金卡(含簡單卡) NT$1,200。"
+  },
+  {
+    "id": "scsb-teresa",
+    "bank": "scsb",
+    "name": "Teresa Card 悠遊極緻卡",
+    "name_en": "Teresa Card",
+    "networks": ["jcb"],
+    "levels": ["極緻卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；之後每年消費達 4 次或 NT$2 萬即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "online-shopping", "dining", "overseas", "transit"],
+    "headline": "指定網購／國內餐廳 3.8% 現金回饋，一般消費 0.8%",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.8%", "rate_value": 0.8, "cap": "無上限", "conditions": "分期付款消費自 2024/1/1 起無現金回饋" },
+      { "label": "國內指定通路（指定網購＋指定餐廳）", "rate": "3.8%", "rate_value": 3.8, "cap": "每戶每月帳單回饋上限 NT$380", "conditions": "指定網購：Coupang 酷澎、PChome、momo、mo+、東森購物、雅虎奇摩、樂購蝦皮（MCC 5311/5964）；指定餐廳：國內實體餐廳 MCC 5811–5814；限直接刷卡，不含綁定電子支付／第三方支付", "valid_until": "2026-12-31" },
+      { "label": "指定外幣（中國、香港、日本）", "rate": "2%", "rate_value": 2, "cap": "每戶每月帳單回饋上限 NT$1,000", "conditions": "商店登記國別為中國、香港或日本且交易幣別為人民幣、港幣或日幣之一般消費" }
+    ],
+    "highlights": [
+      "指定網購及國內餐廳 3.8% 現金回饋（每月上限 NT$380）",
+      "中國、香港、日本指定外幣消費 2% 回饋（每月上限 NT$1,000）",
+      "JCB 悠遊自動加值 10% 回饋、五星饗宴二人同行六折等 JCB 極緻卡禮遇",
+      "市區停車天天優惠 1 小時、機場停車一年 18 天不限次數",
+      "3 千萬旅遊保障＋旅遊不便險"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/init?cardSerial=24&salesUnit=5555&salesCode=SCSBWEB&openExternalBrowser=1",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_g1.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_g1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "卡片總覽頁名稱為「TERESA」，注意事項稱「TeresaCard悠遊極緻卡」。指定通路清單依 2026 年公告（2025 年清單延續，Coupang 為 2026 新增）。年費依費用說明頁：極緻卡 NT$1,200。"
+  },
+  {
+    "id": "scsb-world-business",
+    "bank": "scsb",
+    "name": "世界商務卡",
+    "name_en": "World Business Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "第一年免年費；全戶年度消費達 NT$30 萬即免次年年費；未達者每消費 NT$7.5 萬可扣抵正附卡年費四分之一；財富管理資產 NT$300 萬以上客戶年費半價",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "insurance"],
+    "headline": "機場接送年度最多 4 次、貴賓室 6 次、高鐵升等每月 2 張",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數終身有效；rate_value 依特約商店紅利折抵 100 點抵 6 元換算約 0.3%" },
+      { "label": "刷保費", "rate": "1.2%", "rate_value": 1.2, "conditions": "當期即享 1.2% 現金回饋" }
+    ],
+    "highlights": [
+      "消費到達門檻，全年最多 4 次單程機場接／送服務",
+      "全球機場貴賓室候機禮遇（U.First 卡）",
+      "每月消費到達門檻，高鐵商務車廂免費升等 2 張",
+      "市區停車日日優惠 3 小時，每月最高 5 次",
+      "機場停車全年 30 天、道路救援全年 3 次",
+      "5,000 萬高額旅遊保障及 1,000 萬海外全程意外險"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；世界卡年收入 200 萬以上，或與本行往來資產 300 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/init?cardSerial=25&salesUnit=5555&salesCode=SCSBWEB&openExternalBrowser=1",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_e.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_e.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費 NT$10,000 依各項費用說明頁。機場接送／貴賓室／高鐵升等之消費門檻詳 card04_e / card04_f / news_081126sh3 頁，本檔未逐一抄錄。"
+  },
+  {
+    "id": "scsb-easycard-one",
+    "bank": "scsb",
+    "name": "悠遊ONE卡",
+    "name_en": "EasyCard One Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "白金卡"],
+    "annual_fee": {
+      "amount": 600,
+      "max_amount": 1200,
+      "waiver": "第一年免年費；之後每年消費達 4 次，或普卡年消費達 NT$1 萬、白金卡達 NT$2 萬，即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "transit", "fuel", "co-branded"],
+    "headline": "結合悠遊卡與金融卡，消費 0.3% 回饋無上限、加油 1%",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "當期回饋無上限" },
+      { "label": "加油站消費", "rate": "1%", "rate_value": 1, "cap": "每戶每期回饋上限 NT$1,000", "conditions": "加油回饋金，加油站交易不再列入一般消費回饋計算" }
+    ],
+    "highlights": [
+      "結合悠遊卡、信用卡、金融卡功能的多功能信用卡",
+      "白金卡機場停車一年 18 天、普卡一年 8 天，皆不限次數",
+      "白金卡 3,000 萬、普卡 1,000 萬高額旅遊保障＋不便險",
+      "享悠遊卡公司提供之小額支付優惠與 Visa 刷卡優惠"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_g3.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_g3.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁「立即申辦」連至表單下載頁 card012_Download01.html；apply_url 採用卡片總覽頁之線上申辦入口。年費依費用說明頁：普卡 NT$600、白金卡 NT$1,200。需有本行帳戶（含金融卡功能）。"
+  },
+  {
+    "id": "scsb-easycard",
+    "bank": "scsb",
+    "name": "悠遊卡（白金卡／普卡）",
+    "name_en": "EasyCard Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "白金卡"],
+    "annual_fee": {
+      "amount": 600,
+      "max_amount": 1200,
+      "waiver": "第一年免年費；之後每年消費達 4 次，或普卡年消費達 NT$1 萬、白金卡達 NT$2 萬，即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "transit", "fuel", "co-branded"],
+    "headline": "悠遊聯名卡，消費 0.3% 回饋無上限、加油 1% 回饋金",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "當期回饋無上限" },
+      { "label": "加油站消費", "rate": "1%", "rate_value": 1, "cap": "每戶每期回饋上限 NT$1,000", "conditions": "加油回饋金，加油站交易不再列入一般消費回饋計算" }
+    ],
+    "highlights": [
+      "感應好便利，具悠遊卡小額支付功能",
+      "白金卡機場停車一年 18 天、普卡一年 8 天，皆不限次數",
+      "白金卡 3,000 萬、普卡 1,000 萬高額旅遊保障＋不便險",
+      "享悠遊卡公司提供之小額支付優惠與 Visa 刷卡優惠"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_g2.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_g2.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁「立即申辦」連至表單下載頁；apply_url 採用卡片總覽頁之線上申辦入口。年費依費用說明頁：普卡 NT$600、白金卡 NT$1,200。"
+  },
+  {
+    "id": "scsb-cashback-business-signature",
+    "bank": "scsb",
+    "name": "現金回饋商務御璽卡（利倍卡）",
+    "name_en": "Cashback Business Signature Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；年刷 12 次或 NT$3 萬即免年費；或每年正附卡合計消費每達 NT$5 仟可抵扣年費 NT$200",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel"],
+    "headline": "國內 0.6%、國外 1.5% 現金回饋，無上限無門檻",
+    "rewards": [
+      { "label": "國內消費", "rate": "0.6%", "rate_value": 0.6, "cap": "無上限", "conditions": "次期帳單回饋，無需兌換、無到期日" },
+      { "label": "國外消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限", "conditions": "次期帳單回饋，無需兌換、無到期日" }
+    ],
+    "highlights": [
+      "次期帳單回饋無上限無下限，無需兌換、無到期日",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "Visa 商務御璽卡禮遇：機場接送 NT$675 起、U.First 貴賓室 NT$399/人次",
+      "海外行李托運最低 NT$699 起、自駕租車平日價 NT$1,488 起"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_a4.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_a4.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "卡片總覽頁名稱為「利倍商務御璽卡」，產品頁標題為「現金回饋商務御璽卡」。產品頁申辦連至表單下載；apply_url 採總覽頁線上申辦入口。"
+  },
+  {
+    "id": "scsb-jcb-precious",
+    "bank": "scsb",
+    "name": "JCB晶緻卡",
+    "name_en": "JCB Precious Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；之後每年消費達 4 次或 NT$2 萬即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "travel", "dining"],
+    "headline": "每 NT$20 累積 1 點紅利終身有效，JCB 晶緻卡旅遊禮遇",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數終身有效；rate_value 依特約商店紅利折抵 100 點抵 6 元換算約 0.3%" }
+    ],
+    "highlights": [
+      "JCB 滿額免費機場接送",
+      "和風午膳平日二人同行第二人半價、星巴克指定飲品半價",
+      "Klook／KKday 旅遊商品滿額折 NT$200、台灣虎航指定航線最高 9 折",
+      "機場停車一年 18 天不限次數",
+      "3 千萬旅遊保障＋旅遊不便險"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_a7.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_a7.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁申辦連至表單下載；apply_url 採總覽頁線上申辦入口。JCB 禮遇多需事先預約且每月名額有限。"
+  },
+  {
+    "id": "scsb-titanium-platinum",
+    "bank": "scsb",
+    "name": "MasterCard鈦金卡／VISA白金卡",
+    "name_en": "Mastercard Titanium / Visa Platinum Card",
+    "networks": ["mastercard", "visa"],
+    "levels": ["鈦金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；之後每年消費次數達 4 次或消費達 NT$2 萬，即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "travel"],
+    "headline": "每 NT$20 累積 1 點，紅利積點終身有效",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利積點終身有效；rate_value 依特約商店紅利折抵 100 點抵 6 元換算約 0.3%" }
+    ],
+    "highlights": [
+      "紅利積點終身有效",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "鈦金卡：機場單趟接送優惠價 NT$728 起、免 2 年 U.First 貴賓室會籍費",
+      "白金卡：Visa 白金卡精選禮遇（機場接送、自駕租車平日價 NT$1,688 起）",
+      "簡訊帳單或電子帳單，消費訊息隨手帶"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_a2.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_a2.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "一個產品頁涵蓋兩張卡（Mastercard 鈦金卡、Visa 白金卡），image_url 為總覽圖（顯示鈦金卡面）。產品頁申辦連至表單下載；apply_url 採總覽頁線上申辦入口。"
+  },
+  {
+    "id": "scsb-personal-business-titanium",
+    "bank": "scsb",
+    "name": "個人商務鈦金卡",
+    "name_en": "Personal Business Titanium Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；之後每年全戶累積消費每達 NT$1 萬可扣抵年費 NT$100，至全戶年費完全抵扣為止",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["overseas", "travel", "transit"],
+    "headline": "人民幣、港幣消費紅利 5 倍，其他外幣 2 倍",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利積點終身有效；rate_value 依特約商店紅利折抵 100 點抵 6 元換算約 0.3%" },
+      { "label": "人民幣、港幣消費", "rate": "紅利 5 倍", "rate_value": 1.5, "conditions": "以每 NT$20 1 點之 5 倍計" },
+      { "label": "其他外幣消費", "rate": "紅利 2 倍", "rate_value": 0.6, "conditions": "以每 NT$20 1 點之 2 倍計" }
+    ],
+    "highlights": [
+      "鈦金商務卡機場單趟接送優惠價 NT$668 起、大陸機場單趟接送 NT$1,000",
+      "高鐵商務車廂升等優惠價 NT$450；紅利 9,500 點抵 1 張升等（每卡每月限 2 張）",
+      "市區停車日日優惠 2 小時，扣 600 點免費停 1 小時",
+      "機場停車全年 18 天、3 千萬旅遊保障＋旅遊不便險",
+      "免 2 年 U.First 全球貴賓室會籍費"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_d2.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_d2.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費減免為每萬元折抵 NT$100（需全戶年消費 NT$12 萬才完全抵免），故 effectively_free 設為 false。總覽頁另有「公司商務鈦金卡」為企業卡，未收錄。"
+  },
+  {
+    "id": "scsb-ndmc-alumni",
+    "bank": "scsb",
+    "name": "國防醫學院校友會聯名卡",
+    "name_en": "NDMC Alumni Association Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；年刷 12 次或 NT$3 萬享次年免年費；以該卡捐款國防校友會或繳交會費即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "overseas"],
+    "headline": "國內 0.6%、國外 1.5% 現金回饋，消費同時回饋母校",
+    "rewards": [
+      { "label": "國內消費", "rate": "0.6%", "rate_value": 0.6, "cap": "無上限", "conditions": "次期帳單回饋，無需兌換、無到期日" },
+      { "label": "國外消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限", "conditions": "次期帳單回饋，無需兌換、無到期日" }
+    ],
+    "highlights": [
+      "消費金額之 0.1% 回饋母校發展基金會、0.2% 回饋校友文教基金會",
+      "次期帳單回饋無上限無下限，無需兌換、無到期日",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障",
+      "Visa 商務御璽卡禮遇：機場接送 NT$675 起、U.First 貴賓室 NT$399/人次"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上（卡面載有校友證號）",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_b8.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_b8.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官網未明文限定校友身分，但卡面有校友證號欄位，實際申請資格請再確認。產品頁申辦連至表單下載；apply_url 採總覽頁線上申辦入口。"
+  },
+  {
+    "id": "scsb-gloje-titanium",
+    "bank": "scsb",
+    "name": "寶吉祥鈦金卡",
+    "name_en": "Gloje Titanium Card",
+    "networks": ["visa"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；年刷 4 次或 NT$2 萬即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "travel"],
+    "headline": "寶吉祥日本食品消費滿 2 仟贈刷卡金額 5% 等值商品",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數終身有效；rate_value 依特約商店紅利折抵 100 點抵 6 元換算約 0.3%" },
+      { "label": "寶吉祥日本食品消費", "rate": "5% 等值商品", "rate_value": 5, "conditions": "單筆消費滿 NT$2,000，贈刷卡金額 5% 等值商品" }
+    ],
+    "highlights": [
+      "寶吉祥日本食品消費滿 NT$2,000，贈刷卡金額 5% 等值商品",
+      "祥樂旅行社限定行程每人優惠 NT$3,000",
+      "機場停車全年 18 天、3,000 萬高額旅遊保障"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_b7.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_b7.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "名稱為「鈦金卡」但官網卡面圖為 Visa Platinum，networks 依卡面記錄為 visa，請再確認。產品頁申辦連至表單下載；apply_url 採總覽頁線上申辦入口。"
+  },
+  {
+    "id": "scsb-phoenix-tours",
+    "bank": "scsb",
+    "name": "鳳凰旅遊金卡／普卡",
+    "name_en": "Phoenix Tours Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "金卡"],
+    "annual_fee": {
+      "amount": 600,
+      "max_amount": 800,
+      "waiver": "第一年免年費；年刷 4 次或 NT$1 萬即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "travel"],
+    "headline": "購買鳳凰旅行社旅遊產品／機票享 5% 累積回饋",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數終身有效；rate_value 依特約商店紅利折抵 100 點抵 6 元換算約 0.3%" },
+      { "label": "鳳凰旅行社旅遊產品／機票", "rate": "5% 累積回饋", "rate_value": 5, "conditions": "二年內累積回饋達團體機票票面價，即可免機票費參團" }
+    ],
+    "highlights": [
+      "購買鳳凰旅行社旅遊產品／機票享 5% 累積回饋",
+      "二年內累積回饋達團體機票票面價，即可免機票費參團",
+      "市區停車日日優惠 2 小時，扣 600 點免費停 1 小時",
+      "高鐵商務車廂升等優惠價 NT$450；紅利 9,500 點抵 1 張升等",
+      "機場停車一年 8 天不限次數、高額旅遊保障"
+    ],
+    "requirements": "正卡年滿 18 歲未超過 75 歲；一般卡年收入 22 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.scsb.com.tw/creditcard/client/#/cc/card-main",
+    "source_url": "https://www.scsb.com.tw/content/card/card03_b6.html",
+    "image_url": "https://www.scsb.com.tw/content/card/files/cardcover/image_card03_b6.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁本身無「立即申辦」按鈕；apply_url 採卡片總覽頁該卡之線上申辦入口 card-main。年費依費用說明頁：普卡 NT$600、金卡 NT$800。"
+  }
+]

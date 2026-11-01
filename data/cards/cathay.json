@@ -1,0 +1,337 @@
+[
+  {
+    "id": "cathay-cube",
+    "bank": "cathay",
+    "name": "CUBE信用卡",
+    "name_en": "CUBE Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["御璽卡", "鈦金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費；次年起符合下列任一條件免年費：申辦電子帳單、正卡年消費 12 次(含)以上、正附卡年消費達 NT$18 萬(含)以上。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "online-shopping", "overseas", "travel", "dining", "mobile-payment", "streaming", "new-cardholder", "fuel", "supermarket", "insurance"],
+    "headline": "指定通路最高 3.3% 小樹點回饋，一般消費 0.3%",
+    "rewards": [
+      { "label": "指定通路（玩數位／樂饗購／趣旅行）Level 1", "rate": "2%", "rate_value": 2, "cap": "指定通路消費以交易日信用額度加 NT$50 萬為加碼上限（2026/1/1 起）", "conditions": "需於 CUBE App 切換權益方案；核卡即享 Level 1", "valid_until": "2026-12-31" },
+      { "label": "指定通路 Level 2（繳費升級）", "rate": "3%", "rate_value": 3, "cap": "指定通路消費以交易日信用額度加 NT$50 萬為加碼上限", "conditions": "以 CUBE App 繳卡費或設定本行帳戶自動扣繳，次月升級", "valid_until": "2026-12-31" },
+      { "label": "指定通路 Level 3（財管貴賓）", "rate": "3.3%", "rate_value": 3.3, "cap": "指定通路消費以交易日信用額度加 NT$50 萬為加碼上限", "conditions": "成為本行財富管理貴賓，次月升級", "valid_until": "2026-12-31" },
+      { "label": "集精選（台塑加油站、7-ELEVEN、全家、萊爾富）", "rate": "2%", "rate_value": 2, "conditions": "需切換至「集精選」方案", "valid_until": "2026-12-31" },
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限", "conditions": "分期付款（含提前結清）僅享 0.3%" },
+      { "label": "固定回饋方案：一般消費", "rate": "1.2%", "rate_value": 1.2, "conditions": "2026/8/3～2026/12/31 可切換一次固定回饋方案；保費不適用", "valid_until": "2026-12-31" },
+      { "label": "固定回饋方案：海外實體消費", "rate": "2.5%", "rate_value": 2.5, "conditions": "切換固定回饋方案後適用", "valid_until": "2026-12-31" },
+      { "label": "秋日遊：日本指定店家", "rate": "最高 8%", "rate_value": 8, "conditions": "日本指定店家最高 8%、日本指定實體消費最高 5%，2026/10/1～2026/11/30", "valid_until": "2026-11-30" }
+    ],
+    "highlights": [
+      "小樹點 1 點＝NT$1，可於 CUBE App 即時折抵、兌換哩程或折抵停車費",
+      "權益方案可於 CUBE App 隨時切換：玩數位／樂饗購／趣旅行／集精選／固定回饋",
+      "新戶首刷禮最高 NT$500 等值回饋（2026/10/1～2026/12/31 申辦）",
+      "旅遊平安險最高 NT$3,500 萬、旅遊不便險，全卡等適用",
+      "可加掛悠遊卡或 icash 電子票證功能（COMBO 功能 2027/1/1 起停止申請）"
+    ],
+    "requirements": "成年人可申請正卡；年薪 NT$20 萬以上；每人限持有一張 CUBE 卡",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/onlineservice/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=24",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/cube",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/digicard/cube/M_Titanium.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "Level 升級為按月判定；指定通路類別內容依官網方案頁為準。頁面提及 CUBE 無限卡（年費規則同），但無限卡申辦資格未列出。秋日遊為限時加碼。"
+  },
+  {
+    "id": "cathay-asia-miles",
+    "bank": "cathay",
+    "name": "亞洲萬里通聯名卡",
+    "name_en": "Asia Miles Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["里享卡", "白金卡", "鈦金商務卡", "世界卡"],
+    "annual_fee": {
+      "amount": 288,
+      "max_amount": 8000,
+      "waiver": "僅里享卡首年免年費；次年起依各卡年費標準計收（里享卡 NT$288、白金卡 NT$588、鈦金商務卡 NT$1,800、世界卡 NT$8,000）。附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "airport-lounge", "co-branded", "premium", "new-cardholder"],
+    "headline": "一般消費最優 NT$22＝1 里，哩程加速器通路最優 NT$10＝1 里",
+    "rewards": [
+      { "label": "一般消費（依卡等）", "rate": "NT$22～NT$30＝1 里", "rate_value": 22, "conditions": "依各卡等 NT$22～NT$30 累積 1 里數" },
+      { "label": "哩程加速器指定通路", "rate": "最優 NT$10＝1 里", "rate_value": 10, "cap": "設有回饋上限，詳見官網注意事項", "conditions": "限哩程加速器合作商店" },
+      { "label": "生日月哩程加速器通路（里數 2 倍）", "rate": "最優 NT$5＝1 里", "rate_value": 5, "conditions": "限正卡持卡人生日當月於哩程加速器通路消費", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "國泰航空官網指定航線機票最低 92 折，並享優先報到、優先登機",
+      "世界卡每年免費機場接送 2 次、全球機場貴賓室 6 次（需達消費門檻）",
+      "機場外圍停車最多 30 天免費，道路救援每年 2 次（需達消費門檻）",
+      "新戶首刷禮與續卡獻里：繳交全額年費並達消費門檻贈里數（2025/12/10～2026/12/31）",
+      "里數兌換旅遊獎勵 9 折，Cathay Shop 商品 9 折"
+    ],
+    "requirements": "成年人可申請正卡；現職滿一年，年收入世界卡 NT$200 萬、鈦金商務卡 NT$60 萬、白金卡／里享卡 NT$20 萬",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/onlineservice/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=4",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/asia-miles",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/overview/credit-card/%E5%9C%8B%E5%85%A7%E5%A4%96%E6%97%85%E9%81%8A/01_AM%E5%8D%A1/AMcard_Journey_240x150.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官網僅明示世界卡為萬事達卡（World），其餘卡等網路未標示，依鈦金商務／世界等名稱推定為 Mastercard，請確認。一般消費 NT$22～30/里的各卡等對應值與哩程加速器上限未於主頁列出。生日禮主文寫 5 元＝1 里、meta 寫 10 元，頁面不一致。首刷禮里數金額未列。image_url 為里享卡卡面（含中文路徑已 URL 編碼）。"
+  },
+  {
+    "id": "cathay-eva",
+    "bank": "cathay",
+    "name": "長榮航空聯名卡",
+    "name_en": "EVA Air Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡", "極致御璽卡", "無限卡", "極致無限卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 20000,
+      "waiver": "御璽卡首年免年費；附卡免年費。各卡等年費：御璽卡 NT$300、極致御璽卡 NT$800、無限卡 NT$2,400、極致無限卡 NT$20,000（含金屬卡面）。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "airport-lounge", "co-branded", "premium", "new-cardholder"],
+    "headline": "指定消費最優 NT$10＝1 哩，新戶最高贈 50,000 哩",
+    "rewards": [
+      { "label": "指定消費（最優）", "rate": "最優 NT$10＝1 哩", "rate_value": 10, "conditions": "官網標示「消費最優10元1哩」，適用通路與各卡等基本累積率詳見官網詳細說明" },
+      { "label": "Hotels.com 訂房", "rate": "最優 NT$8＝1 哩", "rate_value": 8, "conditions": "需經卡片專屬頁面訂房", "valid_until": "2026-12-31" },
+      { "label": "Expedia 訂房", "rate": "最優 NT$5＝1 哩", "rate_value": 5, "conditions": "需經卡片專屬頁面訂房；頁面另一處標示 NT$8＝1 哩，以官網為準", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "新戶迎新最高 50,000 哩（首刷禮 35,000 哩＋新戶消費達標 15,000 哩），續卡最高 30,000 哩",
+      "長榮官網／App 購票指定艙等最優 9 折，機上免稅品 9 折",
+      "生日當月搭乘長榮航班最高加贈 100% 哩程",
+      "極致無限卡機場貴賓室免費、機場接送每年最多 6 次；無限卡接送每年 2 次",
+      "免費機場停車、道路救援拖吊，旅遊平安險（大眾運輸期間）"
+    ],
+    "requirements": "成年人可申請正卡；現職滿一年，年收入極致無限卡 NT$200 萬、無限卡 NT$60 萬、極致御璽卡 NT$40 萬、御璽卡 NT$20 萬",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/onlineservice/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=2",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/eva",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/eva/%E5%B0%8F%E5%BE%A1%E7%92%BD_420x345.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官網主頁未列各卡等一般消費基本累積率（例如 NT$20＝1 哩），僅有「消費最優10元1哩」標語；2025 年極致無限卡優惠手冊 PDF 載明一般消費 NT$20＝1 哩，請向官網詳細說明頁核對 2026 各卡等基本率。網路依御璽／無限卡等名稱推定為 Visa，頁面未標示。"
+  },
+  {
+    "id": "cathay-shopee",
+    "bank": "cathay",
+    "name": "蝦皮購物聯名卡",
+    "name_en": "Shopee Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費；次年起年消費滿 NT$3 萬或 6 筆消費，或申辦電子帳單且任刷一筆消費即免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "online-shopping", "overseas", "co-branded", "new-cardholder", "travel", "transit"],
+    "headline": "蝦皮全站天天最高 4% 蝦幣，指定期間加碼最高 10%",
+    "rewards": [
+      { "label": "蝦皮購物全站消費", "rate": "最高 4% 蝦幣", "rate_value": 4, "conditions": "天天回饋；1 蝦幣折抵 NT$1" },
+      { "label": "蝦皮購物促刷檔期加碼", "rate": "加碼最高 6% 蝦幣", "rate_value": 6, "conditions": "指定期間加碼，與全站回饋合計最高 10%", "valid_until": "2026-12-30" },
+      { "label": "指定外送、交通、旅遊通路", "rate": "最高 7%", "rate_value": 7, "conditions": "不限消費金額", "valid_until": "2026-12-30" },
+      { "label": "蝦皮直營店加碼", "rate": "1% 蝦幣", "rate_value": 1, "conditions": "需登錄，不限消費金額", "valid_until": "2026-12-31" },
+      { "label": "站外一般消費", "rate": "0.5% 蝦幣", "rate_value": 0.5 }
+    ],
+    "highlights": [
+      "海外消費免手續費",
+      "新戶核卡 30 日內一般消費滿 NT$1,000 贈 200 蝦幣（2026/7/1～2026/12/31 申辦）",
+      "當月消費滿 5 筆或 NT$5,000，次月贈店到店免運券 1 張",
+      "兩款卡面可選：經典蝦小編卡、簡約蝦皮黑卡",
+      "Mastercard 機場接送優惠價 NT$668 起，eSIM／SIM 卡折扣"
+    ],
+    "requirements": "成年人可申請正卡（不發附卡）；需先註冊蝦皮會員，蝦皮帳號手機須與本行留存一致；現職滿一年，年收入 NT$20 萬以上；每人限一張",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/onlineservice/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=23",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/shopee",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/digicard/shopee/OrangeN.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "蝦幣為蝦皮購物點數，主頁未列各回饋項目的每月上限，請核對詳細說明。網路依鈦金卡名稱及頁面 Mastercard 禮遇推定為 Mastercard。"
+  },
+  {
+    "id": "cathay-world",
+    "bank": "cathay",
+    "name": "世界卡",
+    "name_en": "World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "首次申辦且近三個月平均往來資產達 NT$300 萬(含)以上且在當月專案名單內者首年免年費；正附卡併計年消費達 NT$80 萬(含)以上次年免年費（2026/7/1 起 NT$60 萬）；達 NT$40 萬次年年費 5 折（2026/7/1 起 NT$30 萬）。附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "overseas", "airport-lounge", "dining", "insurance", "new-cardholder"],
+    "headline": "海外消費最高 3.5% 小樹點，機場貴賓室免費最多 8 次",
+    "rewards": [
+      { "label": "海外消費（主權益 0.9%＋加碼 2.6%）", "rate": "最高 3.5%", "rate_value": 3.5, "cap": "加碼回饋每戶上限 7,800 點", "conditions": "海外消費（含線上／線下）累計達 NT$30 萬後適用加碼", "valid_until": "2026-12-31" },
+      { "label": "海外消費主權益", "rate": "0.9%", "rate_value": 0.9 },
+      { "label": "保費刷卡", "rate": "最高 1.8%", "rate_value": 1.8 }
+    ],
+    "highlights": [
+      "新卡刷卡禮：繳交全額年費並於核卡 60 天內一般消費達 NT$15 萬贈 5,000 小樹點",
+      "全球機場貴賓室每戶每年免費最多 8 次，機場接送免費最多 4 次（需達消費門檻）",
+      "高鐵車廂升等：依財管會員等級最高 6 張（公告至 2026/12/31）",
+      "頂級美饌指定餐廳 2 人同行 5 折起，FunNow 海外餐廳最高 5 折",
+      "外幣換匯減碼、基金手續費 38 折"
+    ],
+    "requirements": "成年人可申請正卡；現職滿一年且年收入達 NT$200 萬",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/OnlineService/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=3",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/world",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/world.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "頁面列出「小樹點國內外消費回饋」但未給國內一般消費比率，請核對。免年費門檻 2026/7/1 起下修（80 萬→60 萬、40 萬→30 萬）。網路依世界卡名稱推定為 Mastercard World。"
+  },
+  {
+    "id": "cathay-cash-rebate-signature",
+    "bank": "cathay",
+    "name": "現金回饋御璽卡",
+    "name_en": "Cash Rebate Signature Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費；次年起正附卡累計年消費達 NT$6 萬(含)或 12 次(含)以上免年費。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel"],
+    "headline": "國外消費 2%、國內消費 0.5% 現金回饋，無上限",
+    "rewards": [
+      { "label": "國外消費", "rate": "2%", "rate_value": 2, "cap": "無回饋上限", "conditions": "無通路限制" },
+      { "label": "國內消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無回饋上限", "conditions": "無通路限制" }
+    ],
+    "highlights": [
+      "不限通路，最高 2% 現金回饋且無上限",
+      "消費達門檻享台北至桃園機場單次接或送 NT$675 起",
+      "達刷卡金額條件享每年 2 次機場外圍免費停車（5 天／次）",
+      "一般消費滿額享道路救援 2 次",
+      "Visa 精選禮遇"
+    ],
+    "requirements": "成年人可申請正卡；現職滿一年且年收入達 NT$60 萬",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/onlineservice/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=8",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/cash-rebate-signature/",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/cash-rebate-signature/cash-rebate-signature.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "cathay-dual-currency",
+    "bank": "cathay",
+    "name": "雙幣卡",
+    "name_en": "Dual Currency Card",
+    "networks": ["mastercard"],
+    "levels": ["白金卡", "鈦金商務卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "max_amount": 1800,
+      "waiver": "首年免年費；次年起白金卡每卡消費滿 2 次免年費，鈦金商務卡正附卡併計消費滿 NT$18 萬免年費。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "overseas", "travel"],
+    "headline": "海外消費最高 1.5% 回饋，美元帳單直接外幣帳戶扣款",
+    "rewards": [
+      { "label": "海外消費", "rate": "最高 1.5%", "rate_value": 1.5, "conditions": "海外消費以美元入帳，自本行外幣存款帳戶扣繳" },
+      { "label": "國內消費、海外單筆 US$20 以下", "rate": "0.3% 小樹點", "rate_value": 0.3 }
+    ],
+    "highlights": [
+      "海外消費以美元計價入帳，自外幣帳戶自動扣繳，可設定自動換匯",
+      "正卡當月一般消費達 NT$3,000，次月享指定幣別換匯減碼一次",
+      "信用卡自動扣繳基金定期定額：新戶手續費 38 折、舊戶 65 折",
+      "台北新店希爾頓指定餐廳 85 折、台中日光千禧饗樂全日餐廳 9 折",
+      "CUBE App 快速開卡、分期與額度調整、自動扣繳"
+    ],
+    "requirements": "成年人且已開立本行外幣帳戶可申請正卡；現職滿一年，年收入鈦金商務卡 NT$60 萬、白金卡 NT$20 萬",
+    "status": "active",
+    "apply_url": "https://www.cathaybk.com.tw/cathaybk/onlineservice/CreditCard/CreditCardApply/cardgrade-s2.aspx?CardMain=16",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/dual-currency",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/digicard/dual/platinum.png",
+    "last_verified": "2026-11-01",
+    "notes": "頁面未標示卡片組織，依鈦金商務卡名稱推定為 Mastercard，白金卡組織請確認。海外 1.5% 的條件與上限在詳細說明頁，主頁未列。"
+  },
+  {
+    "id": "cathay-costco",
+    "bank": "cathay",
+    "name": "Costco聯名卡",
+    "name_en": "Costco Co-branded Card",
+    "networks": ["visa"],
+    "levels": [],
+    "annual_fee": { "amount": 0, "effectively_free": false },
+    "reward_type": "cashback",
+    "tags": ["co-branded", "supermarket"],
+    "headline": "已停發：聯名合約 2023/8/7 屆期，已換發 CUBE 卡",
+    "rewards": [
+      { "label": "已停發", "rate": "不適用", "conditions": "卡片已停發，原回饋不再適用" }
+    ],
+    "highlights": [
+      "本行與好市多之聯名卡合約於 2023 年 8 月 7 日屆期，未獲續約",
+      "自 2022 年 12 月起已換發相同國際組織與卡等之 CUBE 卡（含附卡）"
+    ],
+    "status": "discontinued",
+    "status_note": "官網卡片總覽標示「停發」：聯名合約 2023/8/7 屆期，持卡人已換發 CUBE 卡。",
+    "status_changed_at": "2023-08-07",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/costco",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/400x400cos.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡：官網頁面未載年費、回饋與卡片組織，annual_fee.amount 0 僅為佔位，networks 為推定，請勿作為比較依據。"
+  },
+  {
+    "id": "cathay-formosa",
+    "bank": "cathay",
+    "name": "台塑聯名卡",
+    "name_en": "Formosa Plastics Co-branded Card",
+    "networks": ["mastercard", "jcb"],
+    "levels": ["白金卡", "晶緻卡", "鈦金商務卡"],
+    "annual_fee": { "amount": 0, "effectively_free": false },
+    "reward_type": "points",
+    "tags": ["co-branded", "fuel"],
+    "headline": "已停發：聯名合約 2026/7/31 屆期，換發 CUBE 卡「台塑家」方案",
+    "rewards": [
+      { "label": "已停發", "rate": "不適用", "conditions": "2026/8/1 起卡片無法使用；權益移轉至 CUBE 卡「台塑家」方案" }
+    ],
+    "highlights": [
+      "聯名合約於 2026/7/31 到期，2026/8/1 起卡片停止使用",
+      "2026/6/1 起換發相同國際組織與卡等之 CUBE 信用卡，權益移轉至「台塑家」方案"
+    ],
+    "status": "discontinued",
+    "status_note": "官網卡片總覽標示「已停發」：聯名合約 2026/7/31 屆期，已於 2026/6/1 起換發 CUBE 卡。",
+    "status_changed_at": "2026-08-01",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/formosa",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/formosa/formosa.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡：官網頁面未載年費與原回饋率，annual_fee.amount 0 僅為佔位。"
+  },
+  {
+    "id": "cathay-koko-combo-icash",
+    "bank": "cathay",
+    "name": "KOKO COMBO icash聯名卡",
+    "name_en": "KOKO COMBO icash Card",
+    "networks": ["visa", "mastercard"],
+    "levels": [],
+    "annual_fee": { "amount": 0, "effectively_free": false },
+    "reward_type": "points",
+    "tags": ["co-branded", "transit"],
+    "headline": "已停發：2023/10/3 更名併入 CUBE 卡",
+    "rewards": [
+      { "label": "已停發", "rate": "不適用", "conditions": "2023/10/3 起更名為 CUBE 卡並變更權益" }
+    ],
+    "highlights": [
+      "2023 年 10 月 3 日起更名為 CUBE 卡並變更權益（公告日 2023/7/3）",
+      "官網卡片總覽標示「已停發」"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「已停發」：2023/10/3 更名併入 CUBE 卡。",
+    "status_changed_at": "2023-10-03",
+    "source_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards/koko-combo-icash/",
+    "image_url": "https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Personal/product/credit-card/240x150pxKOKOCOMBOVISA.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡：官網頁面未載年費與原回饋率，annual_fee.amount 0 僅為佔位。"
+  }
+]

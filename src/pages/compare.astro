@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import CompareTable, { type CompareCard } from '../components/CompareTable.tsx';
+import { cards, bankById, cardImage, formatFee } from '../lib/data';
+
+const payload: CompareCard[] = cards.map((c) => ({
+  ...c,
+  notes: undefined,
+  bankName: bankById.get(c.bank)?.short_name ?? c.bank,
+  imageSrc: cardImage(c).src,
+  feeText: formatFee(c),
+}));
+---
+
+<Base title="並排比較" description="把最多三張台灣信用卡並排比較年費、回饋率、亮點與申請資格。" noindex>
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">並排比較</h1>
+    <p class="mt-3 max-w-prose text-ink-soft">最多三張。網址會帶著你選的卡片，可以直接分享給朋友。</p>
+  </section>
+  <section class="mx-auto max-w-6xl px-4 pb-24">
+    <CompareTable client:load cards={payload} />
+  </section>
+</Base>

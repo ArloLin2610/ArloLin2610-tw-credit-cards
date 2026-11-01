@@ -1,0 +1,948 @@
+[
+  {
+    "id": "union-laidian",
+    "bank": "union",
+    "name": "聯邦賴點卡",
+    "name_en": "Union Bank LINE Points Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "首年免年費；申辦電子化帳單（電子／行動／LINE 帳單）成功且有效期間免年費，或年消費達 6 萬元以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "overseas", "dining", "new-cardholder", "insurance", "transit"],
+    "headline": "國內 LINE Pay 最高 11%，國外消費 3% LINE POINTS 無上限",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1% LINE POINTS",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需申辦電子化帳單並綁定 LINE Pay（台灣帳號）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費（含歐洲實體商店期間限定）",
+        "rate": "3% LINE POINTS",
+        "rate_value": 3,
+        "cap": "無上限",
+        "conditions": "帳單以外幣請款之一般消費；需電子化帳單並綁定 LINE Pay",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內 LINE Pay 消費加碼",
+        "rate": "加碼 1%",
+        "rate_value": 1,
+        "cap": "每月歸戶上限 200 點",
+        "conditions": "LINE Pay 綁定本卡，單筆滿 100 元",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶 LINE Pay 國內一般消費加碼",
+        "rate": "加碼 4%",
+        "rate_value": 4,
+        "cap": "每月歸戶上限 300 點",
+        "conditions": "新戶核卡次月起 6 個月；核卡前 6 個月未持有聯邦信用卡",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "偶數日 LINE Pay 指定通路（王品、麥當勞、星巴克、屈臣氏、寶雅、IKEA、迪卡儂等）加碼",
+        "rate": "加碼 5%",
+        "rate_value": 5,
+        "cap": "每 LINE Pay 帳號每月上限 150 點，每月總回饋上限 100 萬點（額滿提前結束）",
+        "conditions": "每月偶數日以 LINE Pay 綁定本卡單筆滿 100 元",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶保費",
+        "rate": "最高 2%",
+        "rate_value": 2,
+        "cap": "加碼 1% 每戶上限 1,000 元，限量 2,500 戶",
+        "conditions": "一次付清且完成登錄",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "萊爾富超商實體門市天天不限金額現折 5%（實體卡或 Apple Pay／Google Pay／Samsung Pay、HiPay、iPASS MONEY）",
+      "LINE POINTS 1 點＝1 元，於商店請款後約 5 個營業日入點，效期自最後入點日起 180 天",
+      "每人限申請一張；2026 吉伊卡哇劇場版期間限定卡面",
+      "具一卡通票證功能"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=99&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail201",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VSB99.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "所有回饋需綁定 LINE Pay 並申辦電子化帳單，否則無回饋。偶數日 5% 活動 10 月份已於 115/10/14 額滿。活動頁：https://activity.ubot.com.tw/2026LaiDianCard/index.htm"
+  },
+  {
+    "id": "union-jiho",
+    "bank": "union",
+    "name": "聯邦吉鶴卡",
+    "name_en": "Union Bank JiHo (Japan) Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費，或年消費達 1 萬元或 10 次以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "mobile-payment", "dining", "new-cardholder", "transit"],
+    "headline": "日幣消費 2.5% 無上限，日本旅遊祭最高 11%",
+    "rewards": [
+      {
+        "label": "日幣一般消費",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "無上限",
+        "conditions": "帳單以日幣請款之一般消費；日本交通卡儲值不適用"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限"
+      },
+      {
+        "label": "國外一般消費（非日幣）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限"
+      },
+      {
+        "label": "日本實體商店 Apple Pay／Google Pay 感應加碼",
+        "rate": "最高加碼 2.5%",
+        "rate_value": 2.5,
+        "cap": "登錄加碼 1.5% 月上限 600 元；前月帳單達 3 萬元加碼 1% 月上限 200 元",
+        "conditions": "單筆換算台幣 100 元以上，登錄加碼需登錄一次",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本 11 大熱門商店（7-ELEVEN、LAWSON、東京迪士尼、USJ、永旺、BIC CAMERA、唐吉訶德等）",
+        "rate": "加碼 3%",
+        "rate_value": 3,
+        "cap": "活動期間歸戶上限 600 元",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶日本實體消費加碼",
+        "rate": "加碼 3%",
+        "rate_value": 3,
+        "cap": "活動期間歸戶上限 600 元",
+        "conditions": "核卡前 6 個月未持有聯邦信用卡",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內指定日系名店（DAISO、UNIQLO、GU、松本清、日藥本舖等）",
+        "rate": "最高 5.5%",
+        "rate_value": 5.5,
+        "cap": "加碼 4% 月上限 500 元",
+        "conditions": "加碼 4%＋國內 1%＋新戶自扣加碼 0.5%（核卡 3 個月內上限 300 元）；限實體卡及感應交易",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本 Suica／ICOCA／PASMO 日幣儲值",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "每月限量 10,000 名",
+        "conditions": "當月需登錄（每月 15 日起開放）",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "5 週年限定（2026/10/1～2027/3/31）：單筆國內消費 5,000 元登錄抽純金 9999 造型金鶴卡 1g；新戶首刷最高 18%（滿 1,288 元贈 300 元、滿 5,000 元贈 650 元刷卡金）",
+      "當月國內消費累積滿 20,000 元並登錄，加碼 2%（每月上限 600 元，限量 20,000 名）",
+      "週一至週五於涮乃葉、勝博殿、一風堂、彌生軒等人氣日系餐廳出示實體卡最高現折 10%",
+      "具悠遊卡或一卡通票證功能"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=59&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail202",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/JST59.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "最高 11% = 日幣 2.5% + 行動支付加碼 2.5% + 熱門商店 3% + 新戶 3%。活動頁：https://activity.ubot.com.tw/2026JiHoCard/index.htm"
+  },
+  {
+    "id": "union-m-card",
+    "bank": "union",
+    "name": "聯邦M卡",
+    "name_en": "Union Bank M Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦商卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費，或年消費達 6 萬元或 6 次以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "travel", "overseas", "transit", "insurance", "installment"],
+    "headline": "指定交通／旅遊 5 大場景最高 11%，國外實體消費 3% 無上限",
+    "rewards": [
+      {
+        "label": "指定 5 大場景（航空、Klook／KKday、Booking／Agoda 等訂房、台鐵／客運／Uber 等交通、指定旅行社）",
+        "rate": "6%",
+        "rate_value": 6,
+        "cap": "月上限 300 元，達上限後以 1% 計",
+        "conditions": "需申辦電子化帳單；未申辦享國內 0.5%／國外 1.5%。當月跨 3 場景累積滿 5,000 元再贈 250 元刷卡金（每月限量 1,000 份，最高領 2 份）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外實體商店一般消費",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "無上限",
+        "conditions": "需申辦電子化帳單；非實體（網路）1.5%；未申辦電子化帳單 1.5%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需申辦電子化帳單；未申辦 0.5%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內保險（與分期 0 利率二選一）",
+        "rate": "1.2%",
+        "rate_value": 1.2,
+        "cap": "活動期間上限 1 萬元",
+        "conditions": "需申辦電子化帳單；或登錄後保險類交易分 3／6／12 期 0 利率",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "悠遊卡／一卡通自動加值",
+        "rate": "每筆 5 元刷卡金",
+        "cap": "月上限 100 元",
+        "conditions": "需申辦電子化帳單，限實體卡",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "透明城市卡卡面；具悠遊卡或一卡通票證功能",
+      "國內保險可登錄分 3／6／12 期 0 利率",
+      "所有回饋於次月 15 日以刷卡金回饋"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=39&IDE=C",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail203",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/MTB42.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "最高 11% = 場景 6% + 250 元刷卡金（以 5,000 元計 5%）。活動頁：https://activity.ubot.com.tw/2025Mcard/index.htm"
+  },
+  {
+    "id": "union-green",
+    "bank": "union",
+    "name": "聯邦綠卡",
+    "name_en": "Union Bank Green Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費，或年消費達 6 萬元或 6 次以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "ev-charging", "transit", "overseas", "dining", "new-cardholder"],
+    "headline": "綠色消費（蔬食、電動車充電、共享交通）6%，國外 2% 無上限",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需申辦電子化帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "需申辦電子化帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定綠色消費（蔬食餐廳、EVALUE／特斯拉／Gogoro 充換電、iRent／GoShare／WeMo、里仁等生機選品、綠色捐贈）",
+        "rate": "6%",
+        "rate_value": 6,
+        "cap": "月上限 300 元，達上限後以 1% 計",
+        "conditions": "含原始 1%；需申辦電子化帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "生活代扣繳（水電瓦斯、電信費、路邊停車費）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "月上限 100 元",
+        "conditions": "需申辦電子化帳單及自動代扣繳",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "環保材質實體卡或虛擬卡（無實體卡、無票證）擇一申請",
+      "一卡通功能搭大眾運輸每趟一卡通綠點 50 倍送（每卡每月上限 100 點），新戶首趟 500 倍送",
+      "每人限申請一張"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=64&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail204",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VS64.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "未申辦電子化帳單則無任何回饋。"
+  },
+  {
+    "id": "union-m-world",
+    "bank": "union",
+    "name": "聯邦M世界卡",
+    "name_en": "Union Bank M World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 3600,
+      "waiver": "採年費收取制，無年費減免機制（正卡 3,600 元、附卡 1,800 元）",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "travel", "overseas", "streaming", "transit", "insurance", "new-cardholder", "installment"],
+    "headline": "指定 6 大場景最高 11%，國外消費 3% 無上限",
+    "rewards": [
+      {
+        "label": "指定 6 大場景（高鐵／Uber 等交通、ChatGPT／Netflix 等 AI 與串流、Klook／KKday 購票、航空、訂房、旅行社）",
+        "rate": "6%",
+        "rate_value": 6,
+        "cap": "月上限 300 元，達上限後以 1% 計",
+        "conditions": "當月跨 2 場景累積滿 10,000 元再贈 750 元刷卡金（每月 1 份，最高 3 份）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費（含實體、網路與歐洲地區）",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內保險（與分期 0 利率二選一）",
+        "rate": "1.2%",
+        "rate_value": 1.2,
+        "cap": "活動期間上限 2 萬元",
+        "conditions": "或登錄後保險類交易分 3／6／12 期 0 利率",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶核卡 3 個月內一次付清單筆保費達 15,000 元且申辦電子化帳單，贈 500 元刷卡金",
+      "國內保險分期 3／6／12 期 0 利率（需登錄）",
+      "回饋於次月 15 日以刷卡金回饋"
+    ],
+    "requirements": "正卡年滿 18 歲，年收入達 NT$100 萬元以上",
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=42&IDE=H",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail110",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/MW42.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "新戶保險最高 4.5% = 1.2% + 500 元刷卡金（以 15,000 元計約 3.3%）。活動頁：https://activity.ubot.com.tw/MWorldcard/index.htm"
+  },
+  {
+    "id": "union-infinite",
+    "bank": "union",
+    "name": "聯邦無限卡",
+    "name_en": "Union Bank Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費；正附卡年度消費達 30 萬次年免年費，達 15 萬次年年費 5 折（正卡 5,000 元）",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "department-store", "dining", "travel"],
+    "headline": "國內 0.8%、海外實體 2% 現金回饋無上限",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.8%",
+        "rate_value": 0.8,
+        "cap": "無上限"
+      },
+      {
+        "label": "海外實體商店消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "海外網路交易 0.8%"
+      },
+      {
+        "label": "百貨／餐廳類消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "conditions": "當月累積一般消費達 25,000 元以上（含原始回饋）"
+      }
+    ],
+    "highlights": [
+      "刷卡金於次月帳單折抵，無上限",
+      "年費預收制，正卡 10,000 元、附卡 5,000 元"
+    ],
+    "requirements": "正卡年滿 24 歲，固定年收入達 NT$200 萬元以上",
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=00&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail101",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VI00.png",
+    "last_verified": "2026-11-01",
+    "notes": "頂級禮遇（機場接送等）在「附加服務」頁籤未展開，請於活動頁確認：https://activity.ubot.com.tw/aws_act/2025/ubinfinite/index.htm"
+  },
+  {
+    "id": "union-world",
+    "bank": "union",
+    "name": "聯邦世界卡",
+    "name_en": "Union Bank World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費；正附卡年度消費達 30 萬次年免年費，達 15 萬次年年費 5 折（正卡 5,000 元）",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "overseas", "travel", "online-shopping"],
+    "headline": "紅利每 20 元 1 點，海外／旅遊／網路紅利 2 倍，機場接送最多 4 次",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "每 20 元 1 點紅利",
+        "rate_value": 1,
+        "conditions": "紅利效期 2 年"
+      },
+      {
+        "label": "海外／旅遊／網路相關消費",
+        "rate": "紅利 2 倍（每 20 元 2 點）",
+        "rate_value": 2
+      }
+    ],
+    "highlights": [
+      "機場接送服務最多 4 次",
+      "年費預收制，正卡 10,000 元、附卡 5,000 元"
+    ],
+    "requirements": "正卡年滿 24 歲，固定年收入達 NT$200 萬元以上",
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=00&IDE=H",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail102",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/MW00.png",
+    "last_verified": "2026-11-01",
+    "notes": "機場接送條件在附加服務頁籤，詳：https://activity.ubot.com.tw/aws_act/2025/ubworld/index.htm"
+  },
+  {
+    "id": "union-wealth-infinite",
+    "bank": "union",
+    "name": "理財型無限卡",
+    "name_en": "Union Bank Wealth Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 12000,
+      "waiver": "年費預收制，正卡 12,000 元、附卡免年費；繳年費後每月回饋 1,080 元回饋金（當期正卡新增一般消費需達 1,080 元），一年共 12,960 元",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "fuel", "online-shopping"],
+    "headline": "繳年費 12,000 元每月回饋 1,080 元，國外 2% 現金回饋無上限",
+    "rewards": [
+      {
+        "label": "年費回饋金",
+        "rate": "每月 1,080 元（最高約 8%）",
+        "conditions": "每期帳單正卡新增一般消費達 1,080 元，不足則以實際金額回饋"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "不含國外網路交易"
+      },
+      {
+        "label": "其餘一般消費",
+        "rate": "每 20 元 1 點紅利",
+        "rate_value": 1
+      },
+      {
+        "label": "加油／國內外網路消費",
+        "rate": "紅利 2 倍",
+        "rate_value": 2
+      }
+    ],
+    "highlights": [
+      "年費回饋金抵用順序：國內一般消費 > 加油、網路 > 國外消費",
+      "附卡不收年費"
+    ],
+    "requirements": "正卡年滿 24 歲，固定年收入達 NT$200 萬元以上",
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=95&IDE=D",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail104",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VI95.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-wealth-platinum",
+    "bank": "union",
+    "name": "理財型白金卡",
+    "name_en": "Union Bank Wealth Platinum Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 5000,
+      "waiver": "年費預收制，正卡 5,000 元、附卡免年費；繳年費後每月回饋 450 元回饋金（當期正卡新增消費需達 450 元），一年共 5,400 元",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": [],
+    "headline": "繳年費 5,000 元每月回饋 450 元，國內外一般消費 0.7% 現金回饋",
+    "rewards": [
+      {
+        "label": "年費回饋金",
+        "rate": "每月 450 元（最高約 8%）",
+        "conditions": "每期帳單正卡新增一般消費達 450 元"
+      },
+      {
+        "label": "國內外一般消費",
+        "rate": "0.7%",
+        "rate_value": 0.7,
+        "conditions": "以每月新增消費扣除 450 元回饋金之餘額計算；需繳足當期最低應繳金額"
+      }
+    ],
+    "highlights": [
+      "VISA 白金卡或 Mastercard 白金卡擇一申請",
+      "申購聯邦銷售基金不予現金回饋"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=00&IDE=C",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail205",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VP00.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-happy-amulet",
+    "bank": "union",
+    "name": "幸福御守卡",
+    "name_en": "Union Bank Happiness Amulet Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["御璽卡", "鈦金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費，或年消費達 6 萬元以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "insurance", "installment"],
+    "headline": "國內 0.5%、國外 1.5% 現金回饋無上限，保費 1.2% 或分期 0 利率",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限（家樂福及大統集團消費每年度合計上限 5,000 元）"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "保險類交易（與分期二選一）",
+        "rate": "1.2%",
+        "rate_value": 1.2,
+        "cap": "活動期間上限 1 萬元",
+        "conditions": "當月一般消費（排除保險）達 3,600 元；或登錄後保險類交易自動分 3／6／12 期 0 利率",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "VISA 御璽／Mastercard 鈦金／JCB 晶緻三種卡別可選",
+      "保費分期 0 利率登錄後不可變更"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=38&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail206",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VS39.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-national-travel",
+    "bank": "union",
+    "name": "國民旅遊卡（一般民眾）",
+    "name_en": "Union Bank National Travel Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；年消費達 1 萬元或 10 次以上免年費；5,000 元或 5 次以上收 500 元",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "travel", "dining", "transit"],
+    "headline": "所有消費 0.5% 旅遊基金，餐廳／飯店／交通等旅遊消費 1%",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "0.5% 旅遊基金",
+        "rate_value": 0.5,
+        "conditions": "旅遊基金限折抵旅遊類消費，當年度累積需於次年 4/30 前使用"
+      },
+      {
+        "label": "餐廳、飯店、租車、旅行社、國道客運、台鐵、高鐵、航空公司",
+        "rate": "1% 旅遊基金",
+        "rate_value": 1,
+        "conditions": "不含百貨公司及大賣場內餐廳、飯店消費，不含網路訂購"
+      }
+    ],
+    "highlights": [
+      "旅遊基金於下一期帳單折抵旅遊類消費"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=55&IDE=B",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail207",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/MT55.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-breeze",
+    "bank": "union",
+    "name": "微風聯名卡",
+    "name_en": "Union Bank Breeze Co-branded Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["白金卡", "御璽卡", "鈦金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "max_amount": 2000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費。白金卡年消費 1 萬元或 10 次免年費；御璽／鈦金／晶緻卡年消費 36,000 元免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "installment", "transit"],
+    "headline": "微風館內平日免費停車最高 4 小時，指定櫃位 9 折起",
+    "rewards": [
+      {
+        "label": "一般消費（館內外）",
+        "rate": "每 30 元 1 點紅利",
+        "rate_value": 1,
+        "conditions": "週四微風卡友日館內紅利 2 倍（白金卡除外）"
+      },
+      {
+        "label": "微風館內消費（Breeze Rewards 微風積點）",
+        "rate": "每 50 元 1 點微風會員點數",
+        "conditions": "需加入微風積點禮遇會員並出示 APP 條碼"
+      }
+    ],
+    "highlights": [
+      "館內指定櫃位 9 折起，週四再享 9 折起（至 2026/12/31）",
+      "館內平日免費停車最高 4 小時",
+      "微風廣場／南京／松高／信義／南山單櫃單筆滿 6,000 元享 6 期分期 0 利率",
+      "御璽／鈦金／晶緻卡每週四於 Trine&Zen 免費美式咖啡乙杯",
+      "具悠遊卡或一卡通票證功能"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=24&IDE=C",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail301",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VS91.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-breeze-black-diamond",
+    "bank": "union",
+    "name": "微風黑鑽無限卡",
+    "name_en": "Union Bank Breeze Black Diamond Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "採年費收取制，無年費減免機制（正卡 20,000 元、附卡 20,000 元）",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "co-branded", "department-store", "installment"],
+    "headline": "微風館內消費最高 3.83% 回饋無上限，館內每日免費停車最高 6 小時",
+    "rewards": [
+      {
+        "label": "微風館內消費",
+        "rate": "最高 3.83%",
+        "rate_value": 3.83,
+        "cap": "無上限",
+        "conditions": "微風積點 3%（限實體卡）＋聯邦紅利 30 元 3 點（約 0.5%）＋綁定聯邦帳戶自扣加碼 30 元 2 點（約 0.33%）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "館外消費",
+        "rate": "每 30 元 1 點紅利（約 0.16%）",
+        "rate_value": 0.16
+      }
+    ],
+    "highlights": [
+      "奢華金屬卡面限量發行",
+      "館內指定櫃位 9 折起，週四再享 95 折",
+      "每週四指定館別餐飲累計滿 2,000 元贈 200 元電子酬賓券（限量 150 份）",
+      "天天於 Trine&Zen 免費美式咖啡乙杯；單櫃單筆滿 6,000 元享 6 期 0 利率"
+    ],
+    "requirements": "正卡年滿 24 歲，年收入達 NT$200 萬元以上",
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=91&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail109",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VI91.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-npc-gas",
+    "bank": "union",
+    "name": "全國加油聯名卡",
+    "name_en": "Union Bank NPC Gas Station Co-branded Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["御璽卡", "鈦金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費，或年消費達 1 萬元或 10 次以上免年費；5,000 元或 5 次以上收 500 元",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "fuel", "travel", "installment", "transit"],
+    "headline": "全國加油站加油降價或 APP 加油幣集點二選一",
+    "rewards": [
+      {
+        "label": "全國加油站加油",
+        "rate": "每公升降價或每公升 1 加油幣（1 幣折 1 元）二選一",
+        "conditions": "降價幅度依全國加油站公告；加油幣於次年 3/31 到期"
+      },
+      {
+        "label": "全國加油站以外消費",
+        "rate": "每 30 元 1 點紅利",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "加油滿額享洗車優惠價",
+      "汽車保養享 3 期 0 利率",
+      "站外年消費達 6 萬元享機場外圍停車（每次最多 6 天）及 50 公里道路救援，每年各 3 次",
+      "刷卡付 80% 以上團費或全額交通費享最高 2,000 萬旅遊平安險",
+      "每人限申請一張；具悠遊卡或一卡通票證功能"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=65&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail401",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/JS65.png",
+    "last_verified": "2026-11-01",
+    "notes": "每公升降價金額未在頁面載明，依全國加油站現場公告。"
+  },
+  {
+    "id": "union-maicoin",
+    "bank": "union",
+    "name": "聯邦MaiCoin聯名卡",
+    "name_en": "Union Bank MaiCoin Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "首年免年費；申辦電子化帳單且有效期間免年費，或年消費達 6 萬元以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "overseas", "new-cardholder", "transit"],
+    "headline": "國內外消費 0.5% U 幣無上限，依前月消費等級加碼最高 4.5%",
+    "rewards": [
+      {
+        "label": "國內外一般消費",
+        "rate": "0.5% U幣",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2027-04-30"
+      },
+      {
+        "label": "等級加碼 Lv1（前月消費 1～10,000 元）",
+        "rate": "加碼 1%（合計 1.5%）",
+        "rate_value": 1.5,
+        "cap": "每月歸戶上限 300 U幣",
+        "valid_until": "2027-04-30"
+      },
+      {
+        "label": "等級加碼 Lv2（前月消費 10,001～30,000 元）",
+        "rate": "加碼 2%（合計 2.5%）",
+        "rate_value": 2.5,
+        "cap": "每月歸戶上限 600 U幣",
+        "valid_until": "2027-04-30"
+      },
+      {
+        "label": "等級加碼 Lv3（前月消費 30,001 元以上）",
+        "rate": "加碼 4%（合計 4.5%）",
+        "rate_value": 4.5,
+        "cap": "每月歸戶上限 1,200 U幣",
+        "valid_until": "2027-04-30"
+      }
+    ],
+    "highlights": [
+      "新戶核卡 30 日內不限金額消費，贈等值 300 元 Max Token 加密貨幣兌換序號",
+      "透過指定連結註冊 MaiCoin 會員享等值 200 元 Max Token",
+      "U 幣效期 2 年，限兌換 MaiCoin 指定加密貨幣序號，可一鍵設定自動兌換",
+      "具一卡通票證功能"
+    ],
+    "status": "active",
+    "apply_url": "https://card.ubot.com.tw/card_apply/?GID=40&IDE=A",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail409",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VS40.png",
+    "promo_until": "2027-04-30",
+    "last_verified": "2026-11-01",
+    "notes": "U 幣非現金，僅能兌換加密貨幣。"
+  },
+  {
+    "id": "union-linebank",
+    "bank": "union",
+    "name": "聯邦LINE Bank聯名卡",
+    "name_en": "Union Bank LINE Bank Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；使用電子化帳單成功且有效期間免年費，或年消費達 6 萬元以上免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "online-shopping", "streaming", "overseas", "insurance", "new-cardholder", "transit"],
+    "headline": "國內 1%、國外 2.5% 無上限，指定網購／影音／遊戲加碼 3%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2027-07-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "無上限",
+        "valid_until": "2027-07-31"
+      },
+      {
+        "label": "保險消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2027-07-31"
+      },
+      {
+        "label": "指定網購／影音／遊戲／購票（momo、PChome、蝦皮、酷澎、Netflix、Disney+、Spotify、Steam、PlayStation、Nintendo、拓元、KKTIX 等）",
+        "rate": "加碼 3%（合計 4%）",
+        "rate_value": 4,
+        "cap": "歸戶每月上限 300 元",
+        "valid_until": "2027-07-31"
+      },
+      {
+        "label": "首次申辦自動扣款禮",
+        "rate": "每次扣繳金額 5%",
+        "rate_value": 5,
+        "cap": "每次上限 200 元，歸戶限 3 次",
+        "conditions": "核卡 180 天內自動扣繳信用卡款成功",
+        "valid_until": "2027-07-31"
+      }
+    ],
+    "highlights": [
+      "需先開立 LINE Bank 帳戶，透過 LINE Bank 行動銀行申辦",
+      "多款 LINE FRIENDS 卡面（熊大莎莉、兔兔、lenini 等）",
+      "每人限申請一張；具悠遊卡功能"
+    ],
+    "status": "active",
+    "apply_url": "https://activity.ubot.com.tw/LINEBank_Co-brandedCard/index.html",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail601",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VST88-1.png",
+    "promo_until": "2027-07-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-travel",
+    "bank": "union",
+    "name": "聯邦旅遊卡",
+    "name_en": "Union Bank Travel Card",
+    "networks": ["mastercard"],
+    "levels": ["普卡", "白金卡"],
+    "annual_fee": {
+      "amount": 1000,
+      "waiver": "首年免年費；年消費達 1 萬元或 10 次以上免年費；5,000 元或 5 次以上收 500 元",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["travel", "dining", "transit"],
+    "headline": "一般消費 0.3%～0.5% 旅遊基金，旅遊消費加倍回饋",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "白金卡 0.5%／普卡 0.3% 旅遊基金",
+        "rate_value": 0.5
+      },
+      {
+        "label": "餐廳、飯店、租車、旅行社、客運、台鐵、高鐵、航空公司",
+        "rate": "白金卡 1%／普卡 0.6% 旅遊基金",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "已不再受理申辦"
+    ],
+    "status": "discontinued",
+    "status_note": "官網卡片總覽標示「不再受理申辦」",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail210",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/MP55.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "union-lohas-signature",
+    "bank": "union",
+    "name": "樂活御璽卡",
+    "name_en": "Union Bank LOHAS Signature Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "依頁面年費政策（首年免年費，電子化帳單或年消費達檻免年費）",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["supermarket"],
+    "headline": "指定量販最高 0.7%，國內外一般消費 0.5% 無上限",
+    "rewards": [
+      {
+        "label": "指定量販（萬家福／樂家康、愛買、大樂、大買家、楓康、愛國超市）",
+        "rate": "0.7%",
+        "rate_value": 0.7,
+        "cap": "每年度上限 5,000 元"
+      },
+      {
+        "label": "國內外一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      }
+    ],
+    "highlights": [
+      "已不再受理申辦"
+    ],
+    "status": "discontinued",
+    "status_note": "官網卡片總覽標示「不再受理申辦」",
+    "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail208",
+    "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VS86.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡；年費金額未逐字核對頁面年費表，請再確認。"
+  }
+]

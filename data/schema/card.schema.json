@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tw-credit-cards/schema/card.schema.json",
+  "title": "Taiwan credit card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "bank",
+    "name",
+    "networks",
+    "annual_fee",
+    "reward_type",
+    "tags",
+    "headline",
+    "rewards",
+    "highlights",
+    "status",
+    "source_url",
+    "last_verified"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug: <bank-id>-<card-slug>, e.g. cathay-cube"
+    },
+    "bank": {
+      "type": "string",
+      "description": "Bank id, must match an id in banks.json"
+    },
+    "name": { "type": "string", "description": "Official card name in Traditional Chinese, e.g. CUBE卡" },
+    "name_en": { "type": "string" },
+    "networks": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "enum": ["visa", "mastercard", "jcb", "amex", "unionpay"] }
+    },
+    "levels": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Card tiers offered under this product, e.g. [\"御璽卡\", \"鈦金卡\", \"世界卡\"]"
+    },
+    "annual_fee": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount"],
+      "properties": {
+        "amount": { "type": "integer", "minimum": 0, "description": "Standard annual fee in TWD for the lowest tier (0 if none)" },
+        "max_amount": { "type": "integer", "minimum": 0, "description": "Annual fee of the highest tier if multiple" },
+        "waiver": { "type": "string", "description": "Waiver conditions in plain text, e.g. 首年免年費，次年消費滿 X 次免年費" },
+        "effectively_free": { "type": "boolean", "description": "true when the typical cardholder pays nothing (free, or waiver is trivially met)" }
+      }
+    },
+    "reward_type": {
+      "enum": ["cashback", "miles", "points", "other"],
+      "description": "Primary reward category used for site classification"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "no-annual-fee",
+          "online-shopping",
+          "overseas",
+          "travel",
+          "airport-lounge",
+          "mobile-payment",
+          "dining",
+          "department-store",
+          "supermarket",
+          "fuel",
+          "transit",
+          "streaming",
+          "insurance",
+          "student",
+          "new-cardholder",
+          "co-branded",
+          "premium",
+          "ev-charging",
+          "installment"
+        ]
+      },
+      "description": "Usage/benefit tags for filtering"
+    },
+    "headline": { "type": "string", "maxLength": 60, "description": "One-line hook for list cards, e.g. 指定通路最高 3.3% 回饋" },
+    "rewards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "rate"],
+        "properties": {
+          "label": { "type": "string", "description": "Where/what the rate applies to, e.g. 一般消費 / 指定網購 / 海外消費" },
+          "rate": { "type": "string", "description": "Human-readable rate, e.g. 1% / 3.3% / 每 NT$20 累積 1 哩" },
+          "rate_value": { "type": "number", "description": "Numeric equivalent for sorting: percent for cashback/points, TWD-per-mile for miles" },
+          "cap": { "type": "string", "description": "Cap text, e.g. 每月上限 NT$500 回饋 / 無上限" },
+          "conditions": { "type": "string", "description": "Conditions such as registration, min spend, bundling" },
+          "valid_until": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Promo end date if time-limited" }
+        }
+      }
+    },
+    "highlights": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": { "type": "string", "maxLength": 120 }
+    },
+    "requirements": { "type": "string", "description": "Eligibility summary e.g. 年滿 18 歲，正卡年收入 NT$xx 萬以上" },
+    "status": {
+      "enum": ["active", "suspended", "discontinued"],
+      "description": "active = accepting applications; suspended = temporarily not accepting; discontinued = product retired"
+    },
+    "status_note": { "type": "string" },
+    "status_changed_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "apply_url": { "type": "string", "format": "uri" },
+    "source_url": { "type": "string", "format": "uri", "description": "Official product page used as the source of truth" },
+    "image_url": { "type": "string", "format": "uri", "description": "Official card face image URL (used by scripts/fetch-card-images.mjs)" },
+    "image": { "type": "string", "description": "Local path under public/, filled by the image fetch script" },
+    "promo_until": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "last_verified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "notes": { "type": "string", "description": "Internal notes for maintainers, not shown on site" }
+  }
+}

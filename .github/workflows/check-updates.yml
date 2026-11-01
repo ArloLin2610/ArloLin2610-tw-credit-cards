@@ -1,0 +1,84 @@
+name: 核對各銀行官網（每兩週）
+
+on:
+  schedule:
+    # 每月 1 日與 15 日 02:00 UTC（台北 10:00）
+    - cron: '0 2 1,15 * *'
+  workflow_dispatch:
+    inputs:
+      bank:
+        description: '只檢查某一家銀行（bank id，留空 = 全部）'
+        required: false
+        default: ''
+      snapshot_only:
+        description: '只重建快照基準，不產生提案'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: check-updates
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 安裝 Chromium（JS 網站備援）
+        run: npx playwright install --with-deps chromium
+
+      - name: 核對官網
+        id: check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.bank }}" ]; then ARGS="$ARGS --bank ${{ inputs.bank }}"; fi
+          if [ "${{ inputs.snapshot_only }}" = "true" ]; then ARGS="$ARGS --snapshot-only"; fi
+          node scripts/check-updates.mjs $ARGS
+
+      - name: 下載新卡卡圖
+        if: steps.check.outputs.has_changes == 'true'
+        run: node scripts/fetch-card-images.mjs
+
+      - name: 驗證資料
+        run: node scripts/validate-data.mjs
+
+      - name: 建立審核 PR
+        if: steps.check.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/update-${{ steps.check.outputs.date }}
+          delete-branch: true
+          commit-message: 'data: 官網核對 ${{ steps.check.outputs.date }}'
+          title: '官網核對 ${{ steps.check.outputs.date }}：請審核資料變更'
+          body-path: ${{ steps.check.outputs.report_path }}
+          labels: needs-review, auto-update
+          add-paths: |
+            data/**
+            public/cards/**
+
+      - name: 只更新快照（無資料變更）
+        if: steps.check.outputs.has_changes != 'true'
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/snapshots data/cards data/changelog.json
+          if git diff --cached --quiet; then echo "nothing to commit"; else
+            git commit -m "chore: 更新官網快照 ${{ steps.check.outputs.date }}（無變更）"
+            git push
+          fi

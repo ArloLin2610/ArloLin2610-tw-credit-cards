@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { banks, cardsOfBank } from '../../lib/data';
+---
+
+<Base title="依銀行瀏覽" description="台灣 20 家發卡銀行的信用卡總覽，點進各銀行查看所有可申請卡片與回饋。">
+  <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">依銀行瀏覽</h1>
+    <p class="mt-3 max-w-prose text-ink-soft">已經有往來銀行，或想集中在同一家辦卡？從這裡進入各銀行的卡片清單。</p>
+  </section>
+  <section class="mx-auto max-w-6xl px-4 pb-20">
+    <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {banks.map((b) => {
+        const list = cardsOfBank(b.id);
+        const active = list.filter((c) => c.status === 'active').length;
+        return (
+          <li>
+            <a href={`/banks/${b.id}`} class="tile flex items-center gap-4 p-4">
+              <span class="inline-block h-10 w-10 shrink-0 rounded-lg" style={`background:${b.color}`} aria-hidden="true"></span>
+              <span class="min-w-0 flex-1">
+                <span class="block font-bold">{b.short_name}</span>
+                <span class="block truncate text-xs text-ink-soft">{b.name}</span>
+              </span>
+              <span class="text-sm text-ink-soft tabular-nums">{active} 張</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+</Base>

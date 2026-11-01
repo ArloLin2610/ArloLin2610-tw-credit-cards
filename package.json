@@ -1,0 +1,38 @@
+{
+  "name": "tw-credit-cards",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "台灣信用卡福利比較 — 靜態網站 + 自動更新管線",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run data:validate && astro build",
+    "preview": "astro preview",
+    "data:validate": "node scripts/validate-data.mjs",
+    "data:images": "node scripts/fetch-card-images.mjs",
+    "data:check": "node scripts/check-updates.mjs",
+    "data:snapshot": "node scripts/check-updates.mjs --snapshot-only",
+    "data:check:bank": "node scripts/check-updates.mjs --bank"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.1.2",
+    "@astrojs/sitemap": "^3.7.4",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "cheerio": "^1.0.0",
+    "playwright": "^1.64.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

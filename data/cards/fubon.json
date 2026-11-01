@@ -1,0 +1,911 @@
+[
+  {
+    "id": "fubon-j-card",
+    "bank": "fubon",
+    "name": "富邦J卡",
+    "name_en": "Taipei Fubon J Card",
+    "networks": ["jcb"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費，次年消費正附卡合併達 6 萬元或 12 次；2026/12/31 前僅申請電子帳單、綁定銀行 LINE 官方帳號好友或本行存戶自扣，符合任一條件即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "mobile-payment", "transit", "insurance", "new-cardholder"],
+    "headline": "日韓泰實體消費最高 6%，日本交通卡儲值最高 10%",
+    "rewards": [
+      {
+        "label": "日本／韓國／泰國一般消費",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "無上限",
+        "conditions": "需設定本行帳戶自動扣繳卡費或申請電子帳單（取消實體帳單）任一；未符合則 0.5%。J Cash 卡回饋現金、J Points 卡回饋 LINE POINTS（需綁定 LINE Pay）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日韓泰當地實體消費加碼（合計最高 6%）",
+        "rate": "加碼 3%",
+        "rate_value": 3,
+        "cap": "每季每戶加碼上限 NT$1,000，每季限量 60,000 名",
+        "conditions": "單筆滿 NT$1,000，需於 Fubon+ 每季登錄一次",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內及其他海外一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需設定本行帳戶自動扣繳卡費或申請電子帳單任一；未符合則 0.5%。不含指定網路平台、歐洲經濟區實體商店、便利商店、全聯、台灣 Costco 等",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本 Suica／PASMO／ICOCA 交通卡 Apple Pay 儲值",
+        "rate": "最高 10%",
+        "rate_value": 10,
+        "cap": "加碼 7% 每戶上限 NT$200，每季限量 30,000 名",
+        "conditions": "以 Apple Pay 綁定 J 卡儲值單筆滿 NT$2,000，需每季登錄（基本 3%＋加碼 7%）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "0.5% 或最高 12 期分期 0 利率（二選一）",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "不限金額可分 3／6 期 0 利率，單筆滿 NT$5 萬可分 9／12 期",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶 2026/10/1～12/31 申辦，核卡 30 天內刷 3 筆各滿 NT$1,000＋設定自扣或電子帳單＋登錄，贈 TRAVEL FOX 25 吋行李箱",
+      "中港澳新馬越實體消費當月累積滿 NT$6,000 贈 NT$300 即享券（需每月登錄，限量 10,000 名）",
+      "刷 J 卡購買國際機票或團費單筆滿 NT$30,000，享 JCB 指定機場接送 1 次免費（2026 年）",
+      "悠遊卡自動加值 10% 刷卡金回饋（JCB 活動，需登錄、限量）；一卡通功能搭大眾運輸享 2% 回饋",
+      "KKday／Klook 輸入指定優惠碼享日韓商品折扣，最高現折 NT$1,200",
+      "申辦時可選 J Cash（現金回饋）或 J Points（LINE POINTS 回饋），核卡後不可變更"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/CACLineIndex.faces?fromUrl=TFBofficialweb&fromNo=001",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "網路別頁面未明文標示，依頁面「JCB國際組織優惠」專區及 JCB 悠遊卡／機場接送活動判定為 JCB 晶緻卡。所有回饋率皆為 2026/4/1～12/31 活動期間數字，2027 年需重新確認。年費表為富邦通用表（鈦金/御璽/晶緻卡 1,800 元）。"
+  },
+  {
+    "id": "fubon-momo",
+    "bank": "fubon",
+    "name": "富邦momo聯名卡",
+    "name_en": "Fubon momo Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費，次年消費正附卡合併達 6 萬或 12 次；2026/12/31 前 momo 通路不限金額任刷一筆、申請電子帳單、綁定銀行 LINE 官方帳號或本行帳戶自動扣繳，符合任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "online-shopping", "co-branded", "new-cardholder", "insurance", "installment", "overseas"],
+    "headline": "momo 通路消費 3% mo 幣，店外一般消費 1% 現金回饋無上限",
+    "rewards": [
+      {
+        "label": "momo 通路消費",
+        "rate": "3% mo幣",
+        "rate_value": 3,
+        "cap": "歸戶每期帳單上限 1,000 mo 幣；2026 年 10 月～2027 年 1 月結帳帳單調高至 2,000 mo 幣",
+        "conditions": "含 Apple Pay／Google Pay／Samsung Pay 於 momo 消費；分期交易不回饋；使用 LINE Pay、街口等第三方支付僅享店外 1%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "店外一般消費",
+        "rate": "1% 現金回饋",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "2026/4/1 起店外消費改為現金回饋，自動折抵次 6 期帳單；不含便利商店、全聯、台灣 Costco、家樂福等",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "海外消費",
+        "rate": "1% 現金回饋",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "不含歐洲經濟區實體商店交易",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "0.5% 或最高 12 期分期 0 利率",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "momo 館內精選品牌",
+        "rate": "最高 7%",
+        "rate_value": 7,
+        "conditions": "momo 卡權益最高 3% mo 幣＋品牌加碼最高 4% mo 點，依 momo 活動頁為準"
+      }
+    ],
+    "highlights": [
+      "新戶核卡 30 天內 momo 店內 1 筆＋店外 1 筆，贈 700 mo 幣＋mo 店+免運券（需登錄，2026/7/10～2027/1/10）",
+      "新戶核卡 90 天內 momo 店內加碼 2%（合計 5%）、店外加碼 2%（合計 3%），每戶上限 300 mo 幣",
+      "mo 幣 1 元＝NT$1，可於 momo 購物折抵",
+      "單筆消費滿 NT$1,000 可申請單筆分期",
+      "2026/7/14 起更換全新卡面"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/PLCCIndex.faces",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依頁面 Mastercard 海外回饋活動判定為 Mastercard。店內回饋為 mo 幣、店外為現金回饋（2026/4/1 起），reward_type 以店內 mo 幣為主歸類 points。"
+  },
+  {
+    "id": "fubon-costco",
+    "bank": "fubon",
+    "name": "富邦Costco聯名卡",
+    "name_en": "Fubon Costco Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡", "鈦商卡", "世界卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "max_amount": 5000,
+      "waiver": "第一年免年費；次年鈦商卡／鈦金卡正附卡合併消費達 NT$6 萬或 12 次、世界卡達 NT$36 萬免年費；鈦金／鈦商卡另可以具 Costco 有效會員資格、申請電子帳單、綁定 LINE 官方帳號或本行存款戶自動轉帳任一免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "supermarket", "co-branded", "fuel", "overseas", "travel", "insurance", "installment", "new-cardholder", "premium", "airport-lounge"],
+    "headline": "Costco 店內 2%、線上購物 3% 好多金回饋無上限",
+    "rewards": [
+      {
+        "label": "台灣 Costco 店內消費（含會員年費、MyCharge 充電）",
+        "rate": "2% 好多金",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "特約商店分期付款交易不回饋"
+      },
+      {
+        "label": "Costco 線上購物",
+        "rate": "3% 好多金",
+        "rate_value": 3,
+        "cap": "無上限"
+      },
+      {
+        "label": "Costco 自助加油站",
+        "rate": "最高 3% 好多金",
+        "rate_value": 3,
+        "cap": "加碼 1% 每期帳單上限 200 元好多金",
+        "conditions": "原權益 2%＋加碼 1%"
+      },
+      {
+        "label": "店外一般消費",
+        "rate": "1% 好多金",
+        "rate_value": 1,
+        "cap": "無上限"
+      },
+      {
+        "label": "精選海外旅遊（國外實體商店 5%／航空、旅行社、訂房平台、免稅店 3%）",
+        "rate": "最高 5% 好多金",
+        "rate_value": 5,
+        "cap": "每月每戶加碼上限 600 元好多金",
+        "conditions": "原權益 1%＋加碼最高 4%，需每月登錄正卡",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "Uber Eats 好市多專區",
+        "rate": "2% 好多金",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "交易名稱須為「優步－Costco」，使用第三方支付不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "0.5% 好多金或最高 12 期分期 0 利率",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      }
+    ],
+    "highlights": [
+      "新戶刷卡禮 500 元好多金",
+      "好多金 1 元折抵 1 元台灣 Costco 會費或店內消費，每年 3/31 前未使用之前年度好多金歸零",
+      "Costco 店內單筆滿 NT$1,000 分 12／18／24／30 期，前 3 期免息（2026/12/31 前）",
+      "高鐵／臺鐵購票最高 8% 回饋（需登錄，世界卡每月上限 550 元、鈦商／鈦金卡 450 元）",
+      "世界卡／鈦商卡於 Mastercard 海外消費回饋平台註冊，精選海外商戶最高 50% 回饋",
+      "世界卡：刷機票單筆滿 NT$20,000 享機場貴賓室 2 次；全卡別享機場外圍停車優惠"
+    ],
+    "requirements": "須為台灣 Costco 會員；正卡年滿 18 歲。鈦金卡年收入 20 萬以上、鈦商卡 70 萬以上（限黑鑽會員）、世界卡 200 萬以上",
+    "status": "active",
+    "apply_url": "https://apply.taipeifubon.com.tw/ActivityMgmt/new/service?redirect=cocoaply",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+    "last_verified": "2026-11-01",
+    "notes": "基本回饋率（店內 2%／線上 3%／店外 1%）取自產品專頁 https://www.fubon.com/banking/event/credit_card/costcoweb/index.html；卡片總覽頁僅寫「Costco 消費最高 3% 無上限，即日起～2027/12/31」。年費：鈦金 1,800／鈦商 3,000／世界 5,000。"
+  },
+  {
+    "id": "fubon-open-possible",
+    "bank": "fubon",
+    "name": "台灣大哥大Open Possible聯名卡",
+    "name_en": "Taiwan Mobile Open Possible Co-branded Card",
+    "networks": ["visa"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費，次年消費正附卡合併達 6 萬或 12 次；以本卡設定代扣繳台灣大哥大電信費即終身免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行帳戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "overseas", "fuel", "ev-charging", "mobile-payment", "streaming", "new-cardholder", "insurance"],
+    "headline": "台灣大電信費最高 3.5%，指定 AI 訂閱／海外／超商／加油最高 2%",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "最高 1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "以本行帳戶自動扣繳卡費享 1%，未設定則 0.5%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台灣大哥大電信費（5G 月租）",
+        "rate": "最高 3.5%",
+        "rate_value": 3.5,
+        "cap": "加碼 2.5% 每期帳單上限 NT$500",
+        "conditions": "1% 無上限＋加碼 2.5%，限本人門號；4G 為最高 2%；當期帳單需新增消費達 NT$5,000",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定通路（ChatGPT／Gemini／Copilot／Perplexity／Grok 訂閱、7-11、全家、加油、電動車充電、海外一般消費、淘寶天貓）",
+        "rate": "最高 2%",
+        "rate_value": 2,
+        "cap": "加碼 1% 每期帳單上限 NT$600（與店內消費共用）",
+        "conditions": "1% 無上限＋加碼 1%，當期帳單需新增消費達 NT$5,000；超商繳費代收不回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台灣大哥大店內消費（myfone 門市、電信費）",
+        "rate": "最高 2%",
+        "rate_value": 2,
+        "cap": "加碼 1% 每期帳單上限 NT$600（與指定通路共用）",
+        "conditions": "當期帳單需新增消費達 NT$5,000；門市分期不回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "0.5% 或 12 期分期 0 利率",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶禮最高 NT$1,500：核卡 30 天內 5 筆或累積 NT$5,000 送 NT$400 刷卡金；累積 NT$10,000 再送 NT$600 7-11 商品卡（需登錄）",
+      "新戶 myfone 網路門市、指定 AI 工具、Uber Eats、foodpanda 加碼 8%（上限 NT$500，需登錄）",
+      "MyCharge 電動車充電 2026/8/1～12/31 最高 10% 回饋",
+      "台灣大月租用戶 Google Play／App Store 電信代扣每滿 NT$250 折 NT$50，最多 10 期",
+      "icash 聯名合約 2026/6/30 終止，新卡不再具 icash 功能"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "https://apply.taipeifubon.com.tw/PLCC/TWM/Index",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依頁面 Visa 國際組織活動判定為 Visa。加碼回饋均需當期帳單新增消費達 NT$5,000。"
+  },
+  {
+    "id": "fubon-insurance",
+    "bank": "fubon",
+    "name": "富邦鑽保卡",
+    "name_en": "Fubon Insurance Card",
+    "networks": ["visa"],
+    "levels": ["白金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 1800,
+      "waiver": "首年免年費；白金卡次年消費正卡 2,400 元、御璽卡次年消費正附卡合併達 6 萬或 12 次免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "insurance", "installment", "new-cardholder"],
+    "headline": "保費最高 12 期 0 利率或 0.5% 回饋，一般消費 0.7% 無上限",
+    "rewards": [
+      {
+        "label": "一般消費（不含保費）",
+        "rate": "0.7%",
+        "rate_value": 0.7,
+        "cap": "無上限",
+        "conditions": "回饋金折抵次 6 期帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "0.5% 或最高 12 期分期 0 利率（二選一）",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "不限金額可分 3／6 期，單筆滿 NT$5 萬可分 9／12 期；未勾選視為 0.5% 回饋",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶 2026/7/1～12/31 申辦，核卡 30 天內刷 1 筆滿 NT$1,000＋設定自扣或電子帳單，贈 20 吋 AKOYA 前開式行李箱",
+      "保費分期 0 利率與 0.5% 回饋可於網銀／Fubon+ 隨時切換設定",
+      "富邦人壽保費依商品類別享折扣"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；御璽卡年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/curl/DJtpXWDm",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/insurance/insurance.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/insurance.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "卡別依頁面權益表「VISA御璽卡、VISA白金卡」判定。"
+  },
+  {
+    "id": "fubon-lifestyle",
+    "bank": "fubon",
+    "name": "富邦富利生活系列卡",
+    "name_en": "Fubon Lifestyle Card",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費，次年消費正附卡合併達 6 萬或 12 次；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "department-store", "supermarket", "dining", "fuel", "travel", "transit", "installment"],
+    "headline": "百貨、量販、超市、餐廳等 8 大通路紅利 5 倍（NT$20＝5 點）",
+    "rewards": [
+      {
+        "label": "8 大通路（百貨、量販、超市、餐廳、加油、書店、旅行社、航空公司）",
+        "rate": "紅利 5 倍（NT$20＝5 點）",
+        "rate_value": 5,
+        "cap": "無上限",
+        "conditions": "限實體商店刷卡（旅行社、航空除外），不含第三方支付；當期帳單符合紅利回饋金額達 NT$3,000 始累積",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1,
+        "conditions": "當期帳單符合紅利回饋金額達 NT$3,000 始累積"
+      }
+    ],
+    "highlights": [
+      "可選悠遊卡或一卡通功能",
+      "新戶單筆／帳單分期 12 期以上，筆筆前 3 期免息（2026/7/1～12/31）",
+      "icash 聯名合約 2026/6/30 終止，新卡不再具 icash 功能"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/curl/KSp0uUpQ",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/lifestyle/lifestyle.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/Lifestyle.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依卡片總覽圖檔名「富利_MT」及頁面 Mastercard 活動判定為 Mastercard 鈦金卡。rate_value 以倍數記錄（5 倍）而非百分比。"
+  },
+  {
+    "id": "fubon-guardians-braves",
+    "bank": "fubon",
+    "name": "悍將勇士聯名卡",
+    "name_en": "Fubon Guardians & Braves Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費，次年消費正附卡合併達 6 萬或 12 次；2026/12/31 前申請電子帳單、綁定 LINE 官方帳號或本行帳戶自扣任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "dining", "travel", "new-cardholder"],
+    "headline": "悍將／勇士主場門票 5 折起，外送與精選運動通路 5% 刷卡金",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1,
+        "conditions": "當期帳單符合紅利回饋金額達 NT$3,000 始累積（申請電子帳單或自扣者不受限）"
+      },
+      {
+        "label": "Uber Eats／foodpanda 綁定本卡消費",
+        "rate": "5% 刷卡金",
+        "rate_value": 5,
+        "cap": "每戶加碼上限 NT$1,000，每季限量 15,000 名",
+        "conditions": "需於 Fubon+ 登錄",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "精選通路（全台餐飲、KKday、Klook、迪卡儂、Nike、adidas 等運動品牌、路跑報名）",
+        "rate": "5% 刷卡金",
+        "rate_value": 5,
+        "cap": "每戶上限 NT$1,000（與外送共用）",
+        "conditions": "2026/10/10～12/31，需於 Fubon+ 登錄",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "富邦悍將新莊主場／富邦勇士主場例行賽門票平日 5 折、假日 9 折（每卡每場 4 張，限量）",
+      "悍將／勇士主場商店周邊商品 95 折",
+      "摩曼頓全館 95 折、tokuyo 運動健身品項 95 折、Klook eSIM 5 折等運動生活圈優惠",
+      "嘟嘟房／台灣聯通每日 1 次紅利點數折抵停車（1,200 點／小時，上限 3 小時）"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/Index.faces?urlCode=v1rvDj3C",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依圖檔名「_MT」及頁面 Mastercard 活動判定為 Mastercard 鈦金卡。"
+  },
+  {
+    "id": "fubon-imperial-world",
+    "bank": "fubon",
+    "name": "富邦IMPERIAL尊御世界卡",
+    "name_en": "Fubon IMPERIAL World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "2026/7/1 起正卡年費 1 萬元；穩富／智富／恆富理財會員首次申辦首年免年費；年度一般消費達 50 萬免次年年費、達 25 萬享 5 折；年費出帳日為智富／恆富理財會員免次年年費",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance", "installment"],
+    "headline": "日本消費 3%、海外 1.5%、國內 1% 現金回饋無上限",
+    "rewards": [
+      {
+        "label": "日本地區一般消費",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "無上限",
+        "conditions": "需設定本行帳戶自動扣繳卡費或申請電子帳單任一；未符合則 0.5%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外其他地區一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "conditions": "同上；不含歐洲經濟區實體商店交易",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "同上",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "0.5% 或最高 12 期分期 0 利率",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國內機場／市區接送：180 天內刷機票單筆滿 NT$20,000 享 2 次，智富／恆富理財會員門檻 NT$10,000 享 4 次（2026 年）",
+      "機場貴賓室最高 6 次（U.First 全球貴賓室，刷機票單筆滿 NT$20,000 可用 2 次）",
+      "嘟嘟房／台灣聯通免費市區停車：前期帳單一般消費達 NT$20,000，每期最多 10 次",
+      "國際機場外圍停車每次最高 30 天免費（刷機票單筆滿 NT$20,000）",
+      "Mastercard 世界卡機場接送優惠價 NT$528 起，每年 4 次"
+    ],
+    "requirements": "限本行邀請之貴賓申辦",
+    "status": "active",
+    "status_note": "僅限本行邀請之貴賓申辦，無公開線上申請",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/imperial/imperial.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/imperial.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "邀請制。年費自 2026/7/1 結帳帳單起由 2.5 萬調降為 1 萬元並調整減免辦法；頁面同時列出 2026/1/1～6/30 舊制（2.5 萬，年消費 36 萬免年費）。"
+  },
+  {
+    "id": "fubon-angel",
+    "bank": "fubon",
+    "name": "Angel天使公益認同卡",
+    "name_en": "Fubon Angel Charity Affinity Card",
+    "networks": ["mastercard"],
+    "levels": ["普卡", "金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1500,
+      "waiver": "首年免年費，次年消費正卡 2,400 元免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee"],
+    "headline": "每筆消費 0.32% 捐國軍暨家屬扶助基金會，NT$20 累積 1 點紅利",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1,
+        "conditions": "由本行另提撥消費金額 0.32% 予國軍暨家屬扶助基金會",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "每筆一般消費提撥 0.32% 回饋予國軍暨家屬扶助基金會",
+      "每消費 NT$20 累積富邦紅利點數 1 點，可於富邦點數兌換平台兌換商品"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生",
+    "status": "active",
+    "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C023",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/angel/angel.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/angelcard_2021cardface.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依頁面 Mastercard 活動連結判定，請再確認。"
+  },
+  {
+    "id": "fubon-ddm",
+    "bank": "fubon",
+    "name": "法鼓山自在卡",
+    "name_en": "Fubon Dharma Drum Mountain Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1500,
+      "waiver": "首年免年費，次年消費正卡 2,400 元免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "other",
+    "tags": ["no-annual-fee"],
+    "headline": "核卡回饋法鼓山 NT$300，每筆消費再捐 0.3%",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "消費金額 0.3% 捐法鼓山",
+        "rate_value": 0.3,
+        "conditions": "由本行提撥，非持卡人回饋",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "首次申辦正卡核卡後，本行提撥每卡 NT$300 回饋法鼓山",
+      "每筆刷卡消費由本行捐消費金額 0.3% 予法鼓山"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/Index.faces",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/ddm/ddm.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/ddmcard_2021cardface.png",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依頁面 VISA 活動連結判定，請再確認。頁面未載明持卡人本身紅利回饋。"
+  },
+  {
+    "id": "fubon-taipei-city",
+    "bank": "fubon",
+    "name": "台北市政府認同卡",
+    "name_en": "Taipei City Government Affinity Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["普卡", "金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1500,
+      "waiver": "首年免年費，次年消費正卡 2,400 元免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "transit"],
+    "headline": "每筆消費 0.32% 回饋台北市政府教育局，NT$20 累積 1 點紅利",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1,
+        "conditions": "當月帳單新增一般消費滿 NT$3,000 始累積；另由本行提撥 0.32% 予台北市政府教育局",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "每筆一般消費回饋千分之三點二給台北市政府教育局，關照弱勢學童",
+      "另有悠遊認同卡版本"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生",
+    "status": "active",
+    "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/Index.faces",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/taipeicity/taipeicity.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/taipeicitycard_2021cardface.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依頁面同時提供 VISA 與 Mastercard 優惠連結判定，請再確認。"
+  },
+  {
+    "id": "fubon-taimall",
+    "bank": "fubon",
+    "name": "台茂聯名卡",
+    "name_en": "Fubon Taimall Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["普卡", "金卡", "白金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1800,
+      "waiver": "首年免年費；普／金／白金卡次年消費正卡 2,400 元、鈦金卡次年消費正附卡合併達 6 萬或 12 次免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "dining", "new-cardholder"],
+    "headline": "台茂購物中心消費滿額最高免費停車 6 小時，館內購物 9 折起",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1,
+        "conditions": "當期帳單符合紅利回饋金額達 NT$3,000 始累積（申請電子帳單或自扣者不受限）"
+      }
+    ],
+    "highlights": [
+      "新戶 2026/7/1～12/31 申辦，完成任務最高享 1,000 元台茂電子商品券",
+      "台茂購物中心消費滿額最高免費停車 6 小時",
+      "館內購物 9 折起、美食餐飲 88 折起",
+      "鈦金卡享 50 公里免費道路救援（需登錄）"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；鈦金卡年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C017&fromUrl=https://www.fubon.com/banking/personal/credit_card/all_card/taimall/taimall.htm&fromNo=001",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/taimall/taimall.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E8%8C%82.png",
+    "last_verified": "2026-11-01",
+    "notes": "網路別頁面未明示；依「台茂聯名鈦金卡」卡別推定為 Mastercard，請再確認。"
+  },
+  {
+    "id": "fubon-dutyfree",
+    "bank": "fubon",
+    "name": "采盟聯名卡",
+    "name_en": "Fubon Tasa Meng Duty Free Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["白金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 1800,
+      "waiver": "首年免年費；白金卡次年消費正卡 2,400 元、鈦金卡次年消費正附卡合併達 6 萬或 12 次免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "travel", "overseas", "new-cardholder"],
+    "headline": "采盟免稅店免稅再 9 折，店內與海外消費紅利 2 倍",
+    "rewards": [
+      {
+        "label": "采盟免稅店、誠盟店櫃及海外消費",
+        "rate": "紅利 2 倍（NT$20＝2 點）",
+        "rate_value": 2,
+        "conditions": "含原本 1 倍；特約商店分期不回饋"
+      },
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "新戶核卡 30 天內一般消費 5 筆或累積 NT$8,000 享刷卡金 500 元，加碼任務最高 700 元（2026 年）",
+      "采盟免稅店免稅價再 9 折",
+      "生日禮采盟 85 折優惠券、誠盟通路餐食券",
+      "采盟免稅店刷卡最高可享 4,500 元回饋（含樂遊刷活動，需登錄）"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；鈦金卡年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C019&fromUrl=https://www.fubon.com/banking/personal/credit_card/all_card/dutyfree/dutyfree.htm&fromNo=001",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/dutyfree/dutyfree.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/dutyfree2021.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依頁面 Mastercard 活動連結及鈦金卡卡別判定，請再確認。"
+  },
+  {
+    "id": "fubon-howard-hotel",
+    "bank": "fubon",
+    "name": "福華聯名卡",
+    "name_en": "Fubon Howard Hotels Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["普卡", "金卡", "白金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1800,
+      "waiver": "首年免年費；普／金／白金卡次年消費正卡 2,400 元、鈦金卡次年消費正附卡合併達 6 萬或 12 次免年費；2026/12/31 前僅申請電子帳單、綁定 LINE 官方帳號或本行存戶自扣任一亦免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "travel", "dining", "new-cardholder"],
+    "headline": "福華大飯店住宿 4 折起、餐飲 85 折起，NT$20 累積 1 點福華紅利",
+    "rewards": [
+      {
+        "label": "一般消費（不分館內外）",
+        "rate": "NT$20＝1 點福華紅利",
+        "rate_value": 1,
+        "conditions": "可兌換福華住宿券或餐飲券，點數效期 2 年"
+      }
+    ],
+    "highlights": [
+      "新戶核卡 30 天內於福華大飯店館內單筆刷滿 NT$500，送館內現金商品券 NT$500（2026 年）",
+      "福華連鎖飯店住宿 4 折起、指定餐廳 85 折起",
+      "館內單筆消費 NT$500 享鈦金卡 3 小時／白金卡 2 小時免費停車",
+      "年度消費滿額送住宿驚喜憑證",
+      "台北福華大飯店 2026 年餐廳局部整修，部分優惠可能調整"
+    ],
+    "requirements": "正卡年滿 18 歲，有正當職業且非在學學生；鈦金卡年收入達 20 萬元以上",
+    "status": "active",
+    "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C022&fromUrl=https://www.fubon.com/banking/personal/credit_card/all_card/howardhotel/howardhotel.htm&fromNo=001",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/howardhotel/howardhotel.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/howardhotel.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "網路別頁面未明示；依「福華鈦金卡」卡別推定為 Mastercard，請再確認。"
+  },
+  {
+    "id": "fubon-digital-life",
+    "bank": "fubon",
+    "name": "富邦數位生活卡",
+    "name_en": "Fubon Digital Life Card",
+    "networks": ["mastercard"],
+    "levels": ["白金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 1800,
+      "waiver": "首年免年費；白金卡次年消費正卡 2,400 元、鈦金卡次年消費正附卡合併達 6 萬或 12 次免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["online-shopping", "overseas", "mobile-payment"],
+    "headline": "數位通路、海外消費最高 2% 現金回饋",
+    "rewards": [
+      {
+        "label": "數位通路、海外消費",
+        "rate": "最高 2%",
+        "rate_value": 2,
+        "conditions": "詳頁面條件"
+      }
+    ],
+    "highlights": [
+      "已於 2025/1/1 起停止受理申請",
+      "icash 聯名合約 2026/6/30 終止，換補發卡不再具 icash 功能"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「已於2025年1月1日起停止受理申請」",
+    "status_changed_at": "2025-01-01",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/digitallife/digitallife.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/Digitallife_G.gif",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡，僅記錄頁面標題回饋率；網路別依頁面 Mastercard 優惠推定。"
+  },
+  {
+    "id": "fubon-fortune",
+    "bank": "fubon",
+    "name": "富邦財神系列卡",
+    "name_en": "Fubon Fortune Card",
+    "networks": ["mastercard"],
+    "levels": ["普卡", "金卡", "白金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1800,
+      "waiver": "首年免年費，次年消費正卡 2,400 元（鈦金卡正附卡合併達 6 萬或 12 次）免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [],
+    "headline": "一般消費現金回饋 0.5%",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5
+      }
+    ],
+    "highlights": [
+      "已於 2025/2/1 起停止受理申請",
+      "財神 icash 聯名鈦金卡／白金卡自 2026/7/1 起轉換為富邦 J 卡（現金回饋），2026/10/1 正式停卡"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「已於2025年2月1日起停止受理申請」；icash 聯名版本 2026/10/1 起停卡並轉換為 J 卡",
+    "status_changed_at": "2025-02-01",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/fortune/fortune.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/fortune.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡。網路別依卡片總覽圖檔名「財神MP」推定為 Mastercard。"
+  },
+  {
+    "id": "fubon-world",
+    "bank": "fubon",
+    "name": "富邦世界卡",
+    "name_en": "Fubon World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 5000,
+      "waiver": "首年免年費，次年消費正附卡合併達 36 萬免年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge"],
+    "headline": "每消費 NT$20 享 1 點紅利，尊榮機場禮遇",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "已於 2026/1/1 起停止受理申請"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「於2026年1月1起停止受理申請」",
+    "status_changed_at": "2026-01-01",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/world/world.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/%E4%B8%96%E7%95%8C%E5%8D%A1_MW.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡；圖片取自卡片總覽頁（產品頁圖檔路徑無副檔名）。"
+  },
+  {
+    "id": "fubon-infinite",
+    "bank": "fubon",
+    "name": "富邦無限卡",
+    "name_en": "Fubon Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 5000,
+      "waiver": "首年免年費，次年消費正附卡共 36 萬免年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge"],
+    "headline": "每消費 NT$20 享 1 點紅利，尊榮機場禮遇",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$20＝1 點紅利",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "已於 2026/1/1 起停止受理申請"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「於2026年1月1起停止受理申請」",
+    "status_changed_at": "2026-01-01",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/infinite/infinite.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%84%A1%E9%99%90%E5%8D%A1_VW.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡；圖片取自卡片總覽頁。網路別依圖檔名「_VW」(Visa World) 推定為 Visa。"
+  },
+  {
+    "id": "fubon-amiles",
+    "bank": "fubon",
+    "name": "富邦a miles航空卡",
+    "name_en": "Fubon a miles Card",
+    "networks": ["mastercard"],
+    "levels": ["普卡", "金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 800,
+      "max_amount": 1500,
+      "waiver": "首年免年費，次年消費正卡 2,400 元免年費",
+      "effectively_free": true
+    },
+    "reward_type": "miles",
+    "tags": ["travel"],
+    "headline": "一般消費 NT$50 累積 1 哩富邦哩程，可兌換亞洲萬里通等",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$50／哩",
+        "rate_value": 50,
+        "conditions": "富邦哩程可兌換亞洲萬里通、長榮、中華航空及 AirAsia 哩程（5,000 哩＝亞洲萬里通 5,000 哩）",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "已停止受理申請"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「停止受理申請」",
+    "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/amiles/amiles.htm",
+    "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/amiles_MP.png",
+    "last_verified": "2026-11-01",
+    "notes": "停發卡；圖片取自卡片總覽頁。網路別依圖檔名「_MP」推定為 Mastercard。"
+  }
+]

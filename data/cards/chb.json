@@ -1,0 +1,656 @@
+[
+  {
+    "id": "chb-mybuy",
+    "bank": "chb",
+    "name": "My購卡（鈦金商旅卡）",
+    "name_en": "CHB My Buy Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金商旅卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；每卡平均年消費 6 萬元以上或年刷卡達 12 次以上者，或申辦電子帳單，免次年年費。附卡每卡 1,000 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "online-shopping", "streaming", "overseas", "insurance"],
+    "headline": "一般消費 1% 無上限，指定海外電商／影音／遊戲平台最高 6% 現金回饋",
+    "rewards": [
+      {
+        "label": "國內外一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "基本回饋；分期、全聯／全支付、代繳費用、歐盟地區實體交易等不回饋"
+      },
+      {
+        "label": "網購消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "加碼回饋合併每月上限 NT$300",
+        "conditions": "含 1% 基本回饋 + 1% 網購加碼；限本行系統判定為網購之一般消費，綁定第三方支付（LINE Pay、街口等）不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "六、日指定國內電商（momo、蝦皮、PChome、Yahoo購物）",
+        "rate": "4%",
+        "rate_value": 4,
+        "cap": "加碼回饋合併每月上限 NT$300",
+        "conditions": "含 1% 基本 + 1% 網購 + 2% 週六日加碼；mo店+、Yahoo拍賣不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定海外電商／旅遊平台（Amazon、Agoda、Klook、Trip.com 等）",
+        "rate": "6%",
+        "rate_value": 6,
+        "cap": "加碼回饋合併每月上限 NT$300",
+        "conditions": "含 1% 基本 + 1% 網購 + 4% 加碼；Agoda 限預繳模式",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定影音／遊戲平台（Netflix、Disney+、Spotify、Steam、PlayStation 等）",
+        "rate": "6%",
+        "rate_value": 6,
+        "cap": "加碼回饋合併每月上限 NT$300",
+        "conditions": "含 1% 基本 + 1% 網購 + 4% 加碼",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國內外一般消費 1% 現金回饋無上限",
+      "指定海外電商、旅遊、影音、遊戲平台最高 6% 現金回饋（加碼每月上限 NT$300）",
+      "週六、日於 momo／蝦皮／PChome／Yahoo購物最高 4% 回饋",
+      "2,000 萬元旅行平安保險、1,000 萬元海外全程保障、購物保障與旅行不便險",
+      "符合條件享免費汽車道路救援、國際機場停車服務",
+      "首年免年費，申辦電子帳單即免次年年費"
+    ],
+    "requirements": "正卡申請人年滿 18 歲；學生限大專院校以上在學學生且不得申請附卡",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=62aed72f16",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1625017591032/%E5%BD%B0%E9%8A%80My%E8%B3%BC%E5%8D%A1%E9%9D%A2_559980.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "加碼回饋活動期間 2026-07-01 至 2026-12-31；1% 基本回饋依官網『刷得有禮』辦法為常態。年費條件含電子帳單即免，故標 effectively_free。"
+  },
+  {
+    "id": "chb-mylove",
+    "bank": "chb",
+    "name": "My樂現金回饋卡（鈦金商旅卡）",
+    "name_en": "CHB My Love Cash Back Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金商旅卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；每卡平均年消費 6 萬元以上或年刷卡達 12 次以上者，或申辦電子帳單，免次年年費。附卡每卡 1,000 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "supermarket", "dining", "department-store", "mobile-payment", "insurance"],
+    "headline": "指定 6 大通路國內最高 3%、國外最高 3.5% 現金回饋",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "基本回饋"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "基本回饋"
+      },
+      {
+        "label": "指定 6 大通路國內消費（超市、量販、餐廳、指定 25 家百貨、約定扣繳 5 大電信）",
+        "rate": "最高 3%",
+        "rate_value": 3,
+        "cap": "指定通路加碼回饋每歸戶每月上限 NT$500",
+        "conditions": "0.5% 基本 + 數位帳戶月均餘額 2 萬元以上加碼 0.5% + 綁定台灣Pay／Google Pay 加碼 0.5% + 申辦電子帳單或本行帳戶自動扣繳加碼 1.5%；限指定行業代碼，LINE Pay／街口支付不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（含加碼）",
+        "rate": "最高 3.5%",
+        "rate_value": 3.5,
+        "cap": "無上限",
+        "conditions": "1% 基本 + 數位帳戶月均餘額 2 萬元加碼 0.5% + 台灣Pay／Google Pay 加碼 0.5% + 電子帳單或自動扣繳加碼 1.5%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國外消費最高 3.5% 現金回饋無上限",
+      "超市、量販、餐廳、指定 25 家百貨、5 大電信扣繳最高 3% 回饋（加碼每月上限 NT$500）",
+      "申辦電子帳單或本行帳戶自動扣繳即加碼 1.5%",
+      "萬事達卡 Easy Savings 樂賞利現金回饋優惠",
+      "2,000 萬元旅行平安保險、1,000 萬元海外全程保障、購物保障與旅行不便險",
+      "首年免年費，申辦電子帳單即免次年年費"
+    ],
+    "requirements": "正卡申請人年滿 18 歲；學生限大專院校以上在學學生且不得申請附卡",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=cdf27f7215",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1574323930764/My%E6%A8%82%E7%8F%BE%E9%87%91%E5%9B%9E%E9%A5%8B%E5%8D%A1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "加碼條件需堆疊（數存餘額、行動支付、電子帳單／自動扣繳）才達最高 3%／3.5%；回饋金折抵次期帳單，未折抵完畢自動歸零。活動期間 2026-07-01 至 2026-12-31。"
+  },
+  {
+    "id": "chb-visa-infinite",
+    "bank": "chb",
+    "name": "Visa 無限卡",
+    "name_en": "CHB Visa Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首次申辦第一年免年費；正附卡合計年度消費每滿 2 萬元可抵扣次年年費 1,000 元，年度消費達 20 萬元享次年正卡免年費。附卡每卡 5,000 元。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance"],
+    "headline": "國外實體消費 3% 現金回饋，機場接送、貴賓室、高鐵接送尊榮禮遇",
+    "rewards": [
+      {
+        "label": "國內一般消費（現金回饋方案）",
+        "rate": "0.8%",
+        "rate_value": 0.8,
+        "conditions": "需洽客服選擇現金回饋方案（紅利積點／現金回饋二擇一）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費（現金回饋方案）",
+        "rate": "1.8%",
+        "rate_value": 1.8,
+        "conditions": "需洽客服選擇現金回饋方案（紅利積點／現金回饋二擇一）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外實體通路一般消費加碼",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "每歸戶每月加碼回饋上限 NT$30,000",
+        "conditions": "含卡片原始回饋；排除歐盟地區國家實體交易",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "紅利積點方案",
+        "rate": "每滿 NT$10 累積 1 點",
+        "conditions": "紅利積點／現金回饋二擇一，未選擇者預設紅利積點"
+      }
+    ],
+    "highlights": [
+      "國外實體通路消費享 3% 現金回饋（每月加碼上限 NT$30,000）",
+      "免費機場接送、高鐵接送（依刷機票／團費條件兌換）",
+      "東方宇逸、環亞機場貴賓室服務",
+      "台灣聯通、廣朋市區停車優惠",
+      "3,500 萬元旅行平安保險、1,000 萬元海外全程保障、購物保障與旅行不便險",
+      "免費汽車道路救援與國際機場停車服務（符合條件者）"
+    ],
+    "requirements": "年所得 200 萬元以上或 AUM（資產管理規模）達 300 萬元；正卡申請人年滿 18 歲",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=f0f6e5d215",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1574321860608/%E7%84%A1%E9%99%90%E5%8D%A1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "0.8%／1.8% 現金回饋與 3% 國外實體加碼均載明至 115/12/31；機場接送／貴賓室／高鐵接送之兌換門檻詳各活動辦法頁，產品頁本身未列門檻數字。"
+  },
+  {
+    "id": "chb-mastercard-world",
+    "bank": "chb",
+    "name": "MasterCard 世界卡",
+    "name_en": "CHB Mastercard World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首次申辦第一年免年費；正附卡合計年度消費每滿 2 萬元可抵扣次年年費 1,000 元，年度消費達 20 萬元享次年正卡免年費。附卡每卡 5,000 元。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance"],
+    "headline": "國外實體消費 3% 現金回饋，機場接送、貴賓室、Sisley 生日禮",
+    "rewards": [
+      {
+        "label": "國內一般消費（現金回饋方案）",
+        "rate": "0.8%",
+        "rate_value": 0.8,
+        "conditions": "需洽客服選擇現金回饋方案（紅利積點／現金回饋二擇一）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費（現金回饋方案）",
+        "rate": "0.8%",
+        "rate_value": 0.8,
+        "conditions": "需洽客服選擇現金回饋方案（紅利積點／現金回饋二擇一）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外實體通路一般消費加碼",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "每歸戶每月加碼回饋上限 NT$30,000",
+        "conditions": "含卡片原始回饋；排除歐盟地區國家實體交易",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "紅利積點方案",
+        "rate": "每滿 NT$10 累積 1 點",
+        "conditions": "紅利積點／現金回饋二擇一，未選擇者預設紅利積點"
+      }
+    ],
+    "highlights": [
+      "國外實體通路消費享 3% 現金回饋（每月加碼上限 NT$30,000）",
+      "免費機場接送、高鐵接送（依刷機票／團費條件兌換）",
+      "東方宇逸、環亞機場貴賓室服務",
+      "萬事達卡世界卡 Sisley 貴賓生日禮（2026 年）",
+      "3,500 萬元旅行平安保險、1,000 萬元海外全程保障、購物保障與旅行不便險",
+      "免費汽車道路救援與國際機場停車服務（符合條件者）"
+    ],
+    "requirements": "年所得 200 萬元以上或 AUM（資產管理規模）達 300 萬元；正卡申請人年滿 18 歲",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=1b99b30a15",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1574323384292/MasterCard%E4%B8%96%E7%95%8C%E5%8D%A1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "世界卡國外基本現金回饋僅 0.8%（無限卡為 1.8%），官網載明至 115/12/31；3% 國外實體加碼為活動（115/7/1–12/31）。"
+  },
+  {
+    "id": "chb-fun-visa-signature",
+    "bank": "chb",
+    "name": "商旅御璽Fun心卡（常規版／FIFA世界盃26™主題限定版）",
+    "name_en": "CHB Visa Signature Fun Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；每卡平均年消費 6 萬元以上或年刷卡達 12 次以上者，免次年年費。附卡每卡 1,000 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "insurance"],
+    "headline": "國外消費 2.5% 刷卡金回饋，日韓滿額再加碼 2.5%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.6%",
+        "rate_value": 0.6,
+        "conditions": "基本回饋"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "conditions": "基本回饋"
+      },
+      {
+        "label": "國外一般消費（活動加碼）",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "加碼回饋上限 NT$500／月",
+        "conditions": "含卡片原始回饋 1.5%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本、韓國實體商店滿額加碼",
+        "rate": "+2.5%",
+        "rate_value": 2.5,
+        "cap": "每戶加碼上限 NT$1,000／月",
+        "conditions": "實體卡新增消費超過 NT$6,000 之金額額外加碼，須登錄",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國外一般消費享 2.5% 刷卡金回饋（加碼上限 NT$500／月）",
+      "日本、韓國實體消費滿 NT$6,000 超過部分再加碼 2.5%（須登錄）",
+      "2,000 萬元旅行平安保險、1,000 萬元海外全程保障、全球購物保障與旅遊不便險",
+      "免費汽車道路救援與國際機場停車服務（符合條件者）",
+      "可選 FIFA 世界盃 26™ 主題限定卡面",
+      "年刷 12 次即免次年年費"
+    ],
+    "requirements": "正卡申請人年滿 18 歲，需年收入 60 萬元以上",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=d00fac3d15",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1747724495363/V%E5%95%86%E6%97%85%E5%BE%A1%E7%92%BD%E5%8D%A1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "image_url 為常規版卡面；FIFA 主題版卡面（slider typeid 50）官網 API 回傳空資料，未取得。"
+  },
+  {
+    "id": "chb-platinum",
+    "bank": "chb",
+    "name": "鈦金卡／晶緻卡／白金卡",
+    "name_en": "CHB Titanium / JCB Gold / Platinum Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["VISA 世紀白金卡", "MasterCard 鈦金卡", "JCB 晶緻卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；每卡平均年消費 3 萬元以上或年刷卡達 6 次以上者，免次年年費。附卡每卡 600 元。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "insurance"],
+    "headline": "每滿 NT$25 累積 2 點紅利，年刷 6 次免年費",
+    "rewards": [
+      {
+        "label": "一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 2 點",
+        "conditions": "依『刷得有禮』酬賓活動辦法；紅利積點／現金回饋二擇一"
+      },
+      {
+        "label": "一般消費（現金回饋方案）",
+        "rate": "0.3%",
+        "rate_value": 0.3,
+        "conditions": "需洽客服選擇現金回饋方案"
+      }
+    ],
+    "highlights": [
+      "一般消費每滿 NT$25 累積 2 點紅利，或選擇 0.3% 現金回饋",
+      "2,000 萬元旅行平安保險、1,000 萬元海外全程保障",
+      "全球購物保障與旅遊不便險",
+      "免費汽車道路救援與國際機場停車服務（符合條件者）",
+      "年消費 3 萬元或刷卡 6 次即免次年年費"
+    ],
+    "requirements": "正卡申請人年滿 18 歲；學生限大專院校以上在學學生且不得申請附卡",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=3eba30a615",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1586833167700/%E4%B8%96%E7%B4%80%E7%99%BD%E9%87%91%E5%8D%A1%E5%8D%A1%E9%9D%A2.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "一個產品頁涵蓋三種同等級卡（VISA 世紀白金／MasterCard 鈦金／JCB 晶緻）；image_url 取 VISA 世紀白金卡。紅利 2 點／25 元依 2026 年刷得有禮辦法。"
+  },
+  {
+    "id": "chb-gold-classic",
+    "bank": "chb",
+    "name": "金卡／普卡",
+    "name_en": "CHB Gold / Classic Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["金卡", "普卡"],
+    "annual_fee": {
+      "amount": 600,
+      "waiver": "正卡 600 元、附卡每卡 300 元，目前免年費優惠中",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "insurance"],
+    "headline": "目前免年費，每滿 NT$25 累積 1 點紅利",
+    "rewards": [
+      {
+        "label": "一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 1 點",
+        "conditions": "依『刷得有禮』酬賓活動辦法；紅利積點／現金回饋二擇一"
+      },
+      {
+        "label": "金卡一般消費（現金回饋方案）",
+        "rate": "0.2%",
+        "rate_value": 0.2,
+        "conditions": "需洽客服選擇現金回饋方案"
+      },
+      {
+        "label": "普卡一般消費（現金回饋方案）",
+        "rate": "0.1%",
+        "rate_value": 0.1,
+        "conditions": "需洽客服選擇現金回饋方案"
+      }
+    ],
+    "highlights": [
+      "目前免年費優惠中",
+      "金卡享 1,250 萬元、普卡享 700 萬元旅遊平安險",
+      "全球購物保障與旅遊不便險",
+      "卡友優惠價使用汽車道路救援、桃園機場外環停車折扣"
+    ],
+    "requirements": "正卡申請人年滿 18 歲；學生限大專院校以上在學學生且不得申請附卡",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=cab85dae15",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1574330196063/%E6%99%AE%E5%8D%A11.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "image_url 取普卡 VISA 卡面；官網另有金卡 Visa／Mastercard／JCB 三種卡面。網路組織依卡面圖片判定。"
+  },
+  {
+    "id": "chb-combo",
+    "bank": "chb",
+    "name": "全能 Combo 信用卡",
+    "name_en": "CHB Combo Card",
+    "networks": ["mastercard"],
+    "levels": ["金卡"],
+    "annual_fee": {
+      "amount": 600,
+      "waiver": "正卡 600 元、附卡每卡 300 元，目前免年費優惠中",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "insurance"],
+    "headline": "信用卡＋金融卡二合一，目前免年費",
+    "rewards": [
+      {
+        "label": "一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 1 點",
+        "conditions": "金卡等級，依『刷得有禮』酬賓活動辦法；紅利積點／現金回饋二擇一"
+      },
+      {
+        "label": "一般消費（現金回饋方案）",
+        "rate": "0.2%",
+        "rate_value": 0.2,
+        "conditions": "金卡等級現金回饋，需洽客服選擇"
+      }
+    ],
+    "highlights": [
+      "信用卡與金融卡功能合一，需開立本行活期性存款",
+      "目前免年費優惠中",
+      "1,250 萬元旅遊平安險",
+      "全球購物保障與旅遊不便險"
+    ],
+    "requirements": "正卡申請人年滿 18 歲，需開立本行活期性存款帳戶",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=b0a54ad115",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1586834131348/COMBO%E9%87%91%E5%8D%A1.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "Combo 卡為金卡等級，回饋率依刷得有禮辦法金卡條件推定（產品頁未另列回饋率）。"
+  },
+  {
+    "id": "chb-easycard",
+    "bank": "chb",
+    "name": "悠遊聯名卡",
+    "name_en": "CHB EasyCard Co-branded Card",
+    "networks": ["visa", "jcb"],
+    "levels": ["VISA 悠遊御璽卡", "JCB 悠遊晶緻卡", "JCB 悠遊普卡"],
+    "annual_fee": {
+      "amount": 600,
+      "max_amount": 1200,
+      "waiver": "御璽卡／晶緻卡正卡 1,200 元：第一年免年費，每卡平均年消費 3 萬元以上或年刷卡達 6 次以上免次年年費；普卡正卡 600 元目前免年費優惠中",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "transit", "insurance"],
+    "headline": "悠遊卡自動加值，御璽／晶緻卡每滿 NT$25 累積 2 點",
+    "rewards": [
+      {
+        "label": "御璽卡／晶緻卡一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 2 點",
+        "conditions": "依『刷得有禮』酬賓活動辦法；紅利積點／現金回饋二擇一"
+      },
+      {
+        "label": "普卡一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 1 點",
+        "conditions": "依『刷得有禮』酬賓活動辦法"
+      },
+      {
+        "label": "御璽卡／晶緻卡一般消費（現金回饋方案）",
+        "rate": "0.3%",
+        "rate_value": 0.3,
+        "conditions": "需洽客服選擇現金回饋方案；聯名卡自動加值金不列入回饋"
+      }
+    ],
+    "highlights": [
+      "具悠遊卡功能，可自動加值搭乘大眾運輸",
+      "御璽／晶緻卡享 2,000 萬元旅遊平安險、1,000 萬元海外全程保險",
+      "普卡享 700 萬元旅遊平安險",
+      "全球購物保障與旅遊不便險",
+      "御璽／晶緻卡符合條件享免費道路救援與國際機場停車"
+    ],
+    "requirements": "正卡申請人年滿 18 歲；學生限大專院校以上在學學生且不得申請附卡",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=265deea915",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1574330721861/JCB%E6%82%A0%E9%81%8A%E6%99%AE%E5%8D%A1.png",
+    "last_verified": "2026-11-01",
+    "notes": "image_url 取最低等級 JCB 悠遊普卡。同頁另列原「JCB 哆啦A夢悠遊晶緻卡」已停止發行（見 chb-doraemon-easycard）。"
+  },
+  {
+    "id": "chb-doraemon-easycard",
+    "bank": "chb",
+    "name": "JCB 哆啦A夢悠遊晶緻卡（現更名 JCB 悠遊晶緻卡）",
+    "name_en": "CHB JCB Doraemon EasyCard",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；每卡平均年消費 3 萬元以上或年刷卡達 6 次以上者，免次年年費。附卡每卡 600 元。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["co-branded", "transit", "insurance"],
+    "headline": "已停止發行，續補換卡改以櫻花卡面 JCB 悠遊晶緻卡替代",
+    "rewards": [
+      {
+        "label": "一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 2 點",
+        "conditions": "依『刷得有禮』酬賓活動辦法"
+      },
+      {
+        "label": "一般消費（現金回饋方案）",
+        "rate": "0.3%",
+        "rate_value": 0.3,
+        "conditions": "需洽客服選擇現金回饋方案"
+      }
+    ],
+    "highlights": [
+      "自 112 年 11 月 1 日起停止發行，續卡／補卡／換卡改以櫻花卡面並更名為 JCB 悠遊晶緻卡",
+      "原持卡人無法再申辦附卡",
+      "具悠遊卡功能",
+      "2,000 萬元旅遊平安險、1,000 萬元海外全程保險"
+    ],
+    "status": "discontinued",
+    "status_note": "官網載明自 112 年 11 月 1 日起停止發行該卡片，原續、補、換卡改以櫻花卡面替代並更名為「JCB 悠遊晶緻卡」。",
+    "status_changed_at": "2023-11-01",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=265deea915",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1703821590514/JCB%E6%82%A0%E9%81%8A%E6%99%B6%E7%B7%BB%E8%81%AF%E5%90%8D%E5%8D%A1.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "官網圖片已換為櫻花卡面（非哆啦A夢卡面）。"
+  },
+  {
+    "id": "chb-ipass",
+    "bank": "chb",
+    "name": "一卡通聯名卡",
+    "name_en": "CHB iPASS Co-branded Card",
+    "networks": ["visa", "jcb"],
+    "levels": ["VISA 一卡通御璽卡", "JCB 一卡通晶緻卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；每卡平均年消費 3 萬元以上或年刷卡達 6 次以上者，免次年年費。附卡每卡 600 元。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "transit", "insurance"],
+    "headline": "一卡通自動加值，每滿 NT$25 累積 2 點紅利",
+    "rewards": [
+      {
+        "label": "一般消費（紅利積點）",
+        "rate": "每滿 NT$25 累積 2 點",
+        "conditions": "依『刷得有禮』酬賓活動辦法；紅利積點／現金回饋二擇一"
+      },
+      {
+        "label": "一般消費（現金回饋方案）",
+        "rate": "0.3%",
+        "rate_value": 0.3,
+        "conditions": "需洽客服選擇現金回饋方案；聯名卡自動加值金不列入回饋"
+      }
+    ],
+    "highlights": [
+      "具一卡通功能，可自動加值搭乘大眾運輸",
+      "2,000 萬元旅遊平安險、1,000 萬元海外全程保險",
+      "全球購物保障與旅遊不便險",
+      "符合條件享免費道路救援與國際機場停車",
+      "年消費 3 萬元或刷卡 6 次即免次年年費"
+    ],
+    "requirements": "正卡申請人年滿 18 歲；學生限大專院校以上在學學生且不得申請附卡",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=7f23a2cf15",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1574330898580/JCB%E4%B8%80%E5%8D%A1%E9%80%9A%E6%99%B6%E7%B7%BB%E5%8D%A1.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "image_url 取 JCB 一卡通晶緻卡；另有 VISA 一卡通御璽卡卡面。"
+  },
+  {
+    "id": "chb-mackay",
+    "bank": "chb",
+    "name": "馬偕認同卡",
+    "name_en": "CHB Mackay Memorial Hospital Affinity Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金商務卡等級", "世界商務卡等級"],
+    "annual_fee": {
+      "amount": 2000,
+      "max_amount": 5000,
+      "waiver": "鈦金商務卡等級：首次申辦第一年免年費，每卡年消費 6 萬元以上或年刷卡達 12 次以上，或申辦電子帳單，免次年年費。世界商務卡等級：首年免年費，年度消費每滿 1 萬元抵扣次年年費 500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "overseas", "transit", "installment", "insurance"],
+    "headline": "國外消費 3%、國內 1% 現金回饋無上限，指定藥妝藥局最高 5%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "基本回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "無上限",
+        "conditions": "基本回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "馬偕院內商店及院區周遭指定商店",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "每月回饋上限 NT$300",
+        "conditions": "含卡片基本回饋；指定商店以官網公告為準",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定藥妝、藥局",
+        "rate": "最高 5%",
+        "rate_value": 5,
+        "conditions": "依馬偕認同卡活動辦法，詳見卡片專頁",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國外一般消費 3% 現金回饋無上限",
+      "國內一般消費 1% 現金回饋無上限",
+      "馬偕紀念醫院院內刷卡（含醫療費）最高 12 期 0 利率分期",
+      "具悠遊卡功能；提供視障專屬觸動版 Touch Card 卡面",
+      "鈦金等級享 2,000 萬元旅平險；世界等級享 3,500 萬元旅平險及機場接送、貴賓室、高鐵接送",
+      "前月消費滿 5,000 元享免費道路救援"
+    ],
+    "requirements": "年滿 18 歲、有正當職業及固定年收入；世界商務卡等級需年所得 200 萬元以上或 AUM 達 300 萬元，或馬偕醫院在職醫師／主任職級以上員工",
+    "status": "active",
+    "apply_url": "https://ecounter.bankchb.com/chb_ecounter/PO03007A_1.jsp",
+    "source_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=84fdc35817",
+    "image_url": "https://www.bankchb.com/chb_2a_resource/leap_do/card_picture/1711600456459/%E9%88%A6%E9%87%91%E5%95%86%E5%8B%99%E5%8D%A1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "雖名為商務卡等級，官網列於個人卡之聯名卡/認同卡且一般民眾可申請。指定藥妝/藥局最高 5% 僅在官網卡片摘要出現，細則在 creditcard.bankchb.com 專頁（robots 禁止抓取，未驗證）。活動期間 115/1/1–115/12/31。"
+  }
+]

@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import { changelog, bankById } from '../lib/data';
+
+const TYPE_LABEL = { added: '新卡', updated: '權益更新', status: '申請狀態', removed: '下架' } as const;
+const grouped = new Map<string, typeof changelog>();
+for (const e of changelog) {
+  if (!grouped.has(e.date)) grouped.set(e.date, []);
+  grouped.get(e.date)!.push(e);
+}
+---
+
+<Base title="最近更新" description="卡比每兩週對照各銀行官網，新卡、停發與權益變動都記錄在這裡。">
+  <section class="mx-auto max-w-3xl px-4 pb-6 pt-10">
+    <h1 class="text-3xl font-black tracking-tight md:text-4xl">最近更新</h1>
+    <p class="mt-3 text-ink-soft">每兩週自動對照各銀行官網一次，發現新卡、停止申請或權益變動後，經人工核對再發布到這裡。</p>
+  </section>
+  <section class="mx-auto max-w-3xl px-4 pb-24">
+    {grouped.size === 0 ? (
+      <div class="rounded-xl border border-dashed border-line bg-white p-10 text-center text-ink-soft">還沒有更新紀錄。第一次自動核對完成後會出現在這裡。</div>
+    ) : (
+      [...grouped.entries()].map(([date, entries]) => (
+        <div class="mb-8">
+          <h2 class="text-sm font-semibold text-ink-soft tabular-nums">{date}</h2>
+          <ul class="mt-2 divide-y divide-line rounded-xl border border-line bg-white">
+            {entries.map((e) => (
+              <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-3 text-sm">
+                <span class="rounded bg-paper-2 px-1.5 py-0.5 text-xs">{TYPE_LABEL[e.type]}</span>
+                <span class="text-ink-soft">{bankById.get(e.bank)?.short_name ?? e.bank}</span>
+                {e.card_id ? <a href={`/cards/${e.card_id}`} class="font-medium underline">{e.card_name ?? e.card_id}</a> : e.card_name}
+                <span>{e.summary}</span>
+                {e.source_url && <a href={e.source_url} target="_blank" rel="noopener nofollow" class="text-xs text-ink-soft underline">來源</a>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    )}
+  </section>
+</Base>
