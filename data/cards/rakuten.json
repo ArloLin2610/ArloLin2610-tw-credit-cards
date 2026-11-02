@@ -1,0 +1,275 @@
+[
+  {
+    "id": "rakuten-panda-j",
+    "bank": "rakuten",
+    "name": "樂天Panda J卡",
+    "name_en": "Rakuten Panda J Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "正卡年費 NT$2,000，附卡免年費。申辦電子帳單享首年免年費；次年起，前一年度刷滿 12 次(含)以上且維持電子帳單設定，享當年度免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "mobile-payment", "fuel", "new-cardholder"],
+    "headline": "國內最高 3%、日韓泰實體消費最高 4% 刷卡金回饋",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內指定通路（LINE Pay、街口、華航／長榮／星宇、指定旅行社、指定加油站）",
+        "rate": "最高 3%（含 0.5% 一般回饋＋加碼 2.5%）",
+        "rate_value": 3,
+        "cap": "加碼部分每期帳單上限 NT$250",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "海外一般消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本、韓國、泰國當地實體消費",
+        "rate": "最高 4%（含 1.5% 海外回饋＋加碼 2.5%）",
+        "rate_value": 4,
+        "cap": "加碼部分每期帳單上限 NT$300",
+        "conditions": "限日本／韓國／泰國當地實體消費；國內、海外回饋分別獨立計算；歐洲地區實體商店交易不計",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶線上申辦，核卡後 45 天內一般消費滿 NT$3,999 享首刷禮 Panda 旅行組（2026/7/1–12/31）",
+      "推薦好友申辦 Panda J 卡，被推薦人核卡後 45 天內任刷一筆，推薦人享 NT$400 刷卡金，回饋無上限",
+      "樂天旅遊消費享最高 8% 折扣",
+      "日本 JCB 晶緻卡專屬優惠：家電／藥妝免稅店、東京鐵塔、多慶屋等折扣",
+      "支援感應支付、LINE Pay、街口支付"
+    ],
+    "requirements": "正卡年滿 18 歲，需檢附財力證明；附卡 15 歲以上",
+    "status": "active",
+    "apply_url": "https://www.card.rakuten.com.tw/application/input.xhtml?type=panda&show=no",
+    "source_url": "https://www.card.rakuten.com.tw/corp/ads/04.xhtml",
+    "image_url": "https://image.card.tw.r10s.com/images/common/p1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "加碼回饋活動期間 2026/7/1–12/31；頁面未單獨列出 Panda J 卡年薪門檻（其他樂天卡頁面為年薪 35 萬），請再確認。發卡機構為台灣樂天信用卡股份有限公司，非樂天國際商業銀行。"
+  },
+  {
+    "id": "rakuten-tiger",
+    "bank": "rakuten",
+    "name": "樂虎卡（樂天台灣虎航聯名卡）",
+    "name_en": "Rakuten Tigerair Taiwan Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 688,
+      "waiver": "正卡年費 NT$688，附卡免年費。申辦並成功設定電子帳單享首年免年費；次年起維持電子帳單設定且當年度一般消費達 12 次(含)以上，享次年免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "travel", "overseas", "mobile-payment", "new-cardholder"],
+    "headline": "國內最高 3%、日韓實體消費 2% 回饋無上限，虎航機票最高 85 折",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定通路（LINE Pay、街口支付、台灣虎航官網／APP／機上購物）",
+        "rate": "最高 3%（0.5% 刷卡金＋加碼 2.5% tigerpoints）",
+        "rate_value": 3,
+        "cap": "加碼 tigerpoints 每期帳單上限 500 點",
+        "conditions": "加碼部分以 tigerpoints 回饋，需完成台灣虎航會員綁定",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本、韓國實體消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "限日本／韓國當地實體消費；國內、海外回饋分別獨立計算",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "透過樂虎卡專屬購票網頁購買台灣虎航全航線來回機票享最高 85 折（限 tigerlight 票價）",
+      "當月壽星購票最優 8 折",
+      "尊享台灣虎航優先報到／登機／行李服務",
+      "新戶線上申辦，核卡後 45 天內一般消費滿 NT$3,000 享 300 tigerpoints 首刷禮（2026/7/1–12/31）",
+      "大魯閣平日天天樂虎卡日，首刷禮另有大魯閣動滋幣 $700"
+    ],
+    "requirements": "正卡年滿 18 歲，年薪達 35 萬以上或同等財力條件；附卡 15 歲以上",
+    "status": "active",
+    "apply_url": "https://www.card.rakuten.com.tw/application/input.xhtml?type=tiger_only&show=no",
+    "source_url": "https://www.card.rakuten.com.tw/corp/ads/16.xhtml",
+    "image_url": "https://image.card.tw.r10s.com/images/common/landing/ad16/images/tigercard2.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "2026/1/7 起為第二代樂虎卡方案；回饋活動期間 2026/1/7–12/31。"
+  },
+  {
+    "id": "rakuten-premium",
+    "bank": "rakuten",
+    "name": "樂天樂翔卡",
+    "name_en": "Rakuten Premium Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡", "無限卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 15000,
+      "waiver": "樂翔御璽卡正卡年費 NT$3,000、樂翔無限卡正卡年費 NT$15,000，附卡免年費；網頁未列免年費條件（首刷禮／續卡禮須繳交全額年費）。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "airport-lounge", "premium", "new-cardholder", "insurance"],
+    "headline": "海外消費最高 NT$6 累積 1 點樂翔積分，可兌換亞洲萬里通／長榮哩程",
+    "rewards": [
+      {
+        "label": "海外消費（無限卡）",
+        "rate": "每 NT$6 累積 1 點樂翔積分",
+        "rate_value": 6,
+        "cap": "歸戶每月上限 60,000 點",
+        "valid_until": "2027-06-30"
+      },
+      {
+        "label": "海外消費（御璽卡）",
+        "rate": "每 NT$12 累積 1 點樂翔積分",
+        "rate_value": 12,
+        "cap": "歸戶每月上限 5,000 點",
+        "valid_until": "2027-06-30"
+      },
+      {
+        "label": "國內消費（無限卡／御璽卡）",
+        "rate": "每 NT$18 累積 1 點樂翔積分",
+        "rate_value": 18,
+        "cap": "無限卡每月 60,000 點／御璽卡每月 5,000 點",
+        "valid_until": "2027-06-30"
+      }
+    ],
+    "highlights": [
+      "樂翔積分可兌換「亞洲萬里通」里數或長榮「無限萬哩遊」哩程，每次兌換最低 5,000 積分，每組 900 積分",
+      "首刷禮：無限卡核卡後 45 天內國內消費滿 NT$30,000 回饋 10,000 積分；御璽卡滿 NT$5,000 回饋 3,500 積分（須繳全額年費）",
+      "持卡滿一年續卡並達門檻享續卡禮（無限卡 10,000 積分／御璽卡 3,500 積分）",
+      "高額旅遊平安險最高 NT$5,000 萬",
+      "Visa 無限卡／御璽卡專屬優惠：Agoda 8 折、米其林餐廳 75 折起、機場接送優惠價",
+      "歐盟地區／網購消費皆享回饋"
+    ],
+    "requirements": "正卡 18 歲以上；無限卡年薪達 66 萬以上、御璽卡年薪達 35 萬以上或同等財力條件；附卡 15 歲以上",
+    "status": "active",
+    "apply_url": "https://www.card.rakuten.com.tw/application/input.xhtml?type=premium88_only",
+    "source_url": "https://www.card.rakuten.com.tw/corp/ads/11.xhtml",
+    "image_url": "https://image.card.tw.r10s.com/images/common/pr2.png",
+    "promo_until": "2027-06-30",
+    "last_verified": "2026-11-01",
+    "notes": "rate_value 以「每 N 元累積 1 點樂翔積分」填入；積分兌哩程比率（積分:哩）網頁未明示，僅載明每組 900 積分，請確認後再換算。FAQ 寫御璽卡海外 NT$13=1 積分，產品頁寫 NT$12，以產品頁為準。"
+  },
+  {
+    "id": "rakuten-monkeys",
+    "bank": "rakuten",
+    "name": "樂天桃猿卡",
+    "name_en": "Rakuten Monkeys Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡", "世界卡"],
+    "annual_fee": {
+      "amount": 0,
+      "max_amount": 3880,
+      "waiver": "樂天桃猿鈦金卡正、附卡免年費；樂天桃猿世界卡正卡年費 NT$3,880，附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "online-shopping", "premium"],
+    "headline": "台灣樂天市場／桃猿店面最高 5% 刷卡金，球票買一送一（世界卡）",
+    "rewards": [
+      {
+        "label": "國內精選通路：台灣樂天市場、桃猿指定實體店面（鈦金卡）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "每戶每期帳單上限 NT$500",
+        "valid_until": "2027-04-30"
+      },
+      {
+        "label": "海外精選通路：Rakuten Kobo、Rakuten Travel 樂天旅遊（鈦金卡）",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "每戶每期帳單上限 NT$500",
+        "valid_until": "2027-04-30"
+      },
+      {
+        "label": "國內精選通路：台灣樂天市場、桃猿指定實體店面（世界卡）",
+        "rate": "5%",
+        "rate_value": 5,
+        "cap": "每戶每期帳單上限 NT$888",
+        "valid_until": "2027-04-30"
+      },
+      {
+        "label": "海外精選通路：Rakuten Kobo、Rakuten Travel 樂天旅遊（世界卡）",
+        "rate": "5%",
+        "rate_value": 5,
+        "cap": "每戶每期帳單上限 NT$888",
+        "valid_until": "2027-04-30"
+      }
+    ],
+    "highlights": [
+      "鈦金卡：桃猿主場內野全票第二張半價；世界卡：內野全票買一送一（每卡每場限 4 張）",
+      "桃猿指定實體店面：鈦金卡 9 折、世界卡 8 折（2026/5/1–2027/4/30）",
+      "ibon 購票網 Rakuten 主場享優先購票權",
+      "新戶首刷禮：鈦金卡滿 NT$5,000 送內野球票兌換券 2 張；世界卡滿 NT$10,000 並繳全額年費送 4 張",
+      "世界卡獨家「女孩見面會」寵粉活動"
+    ],
+    "requirements": "正卡年滿 18 歲，年薪達 35 萬以上或同等財力條件；附卡 15 歲以上",
+    "status": "active",
+    "apply_url": "https://www.card.rakuten.com.tw/application/input.xhtml?type=mastercard_monkey&show=no",
+    "source_url": "https://www.card.rakuten.com.tw/corp/ads/09.xhtml",
+    "image_url": "https://image.card.tw.r10s.com/images/common/m1.png",
+    "promo_until": "2027-04-30",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁未載明精選通路以外的一般消費回饋率。產品頁的辦卡連結另有 type=jcb_monkey 參數，但卡面與說明皆為 Mastercard，請確認是否另有 JCB 卡面。"
+  },
+  {
+    "id": "rakuten-rose-gold",
+    "bank": "rakuten",
+    "name": "樂天玫瑰金卡",
+    "name_en": "Rakuten Rose Gold Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["御璽卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "正、附卡免年費（終身免年費）。",
+      "effectively_free": true
+    },
+    "reward_type": "other",
+    "tags": ["no-annual-fee", "travel", "airport-lounge", "mobile-payment"],
+    "headline": "終身免年費，日本人氣商店 5 折起、全球訂房 10% 優惠",
+    "rewards": [
+      {
+        "label": "台灣樂天市場消費",
+        "rate": "樂天點數回饋（比率依樂天點數回饋計畫，網頁未載明）",
+        "conditions": "依『樂天點數回饋計畫』活動辦法，當期帳單樂天市場消費累積點數並 1:1 轉換為樂天點數"
+      }
+    ],
+    "highlights": [
+      "機場貴賓室入場免費（依官網卡片介紹頁說明）",
+      "日本人氣商店 5 折起，旅日專屬優惠券",
+      "全球訂房 10% 優惠",
+      "Visa／Mastercard 卡面可選，支援感應支付、LINE Pay、街口支付",
+      "所有卡面同享樂天信用卡卡友優惠"
+    ],
+    "requirements": "正卡年滿 18 歲，需檢附財力證明；附卡 15 歲以上",
+    "status": "active",
+    "apply_url": "https://www.card.rakuten.com.tw/application/input.xhtml?type=jcb&show=no",
+    "source_url": "https://www.card.rakuten.com.tw/corp/product/",
+    "image_url": "https://image.card.tw.r10s.com/images/common/copy_card_09.png",
+    "last_verified": "2026-11-01",
+    "notes": "官網未列出玫瑰金卡一般消費回饋率，僅有樂天點數回饋計畫條款與旅日優惠；機場貴賓室免費的條件（次數、門檻）未於可讀文字中載明，請再確認。"
+  }
+]

@@ -1,6 +1,6 @@
 # 王道銀行 (obank) — research notes
 
-Verified 2026-11-01. Result: **王道銀行 does not issue credit cards.** `data/cards/obank.json` is an empty array.
+Verified 2026-11-01; re-checked 2026-11-02 by a second agent (homepage navigation re-fetched: the only card products are 簽帳金融卡／公益認同卡／校園認同卡／聯名卡／低碳卡／頂級卡, all debit; the string 信用卡 does not appear on the homepage). Result: **王道銀行 does not issue credit cards.** `data/cards/obank.json` is intentionally an empty array.
 
 ## Evidence (official site only)
 

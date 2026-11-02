@@ -1,0 +1,822 @@
+[
+  {
+    "id": "feib-yacard",
+    "bank": "feib",
+    "name": "遠東樂家＋卡",
+    "name_en": "Far Eastern Happy Family Plus Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "鈦金卡正卡年費 NT$2,000，附卡免年費；首年免年費，每年刷卡 NT$6 萬或 12 筆以上即享次年免年費（依官網信用卡費用一覽表）。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "supermarket", "dining", "department-store", "transit", "fuel", "new-cardholder", "installment", "insurance"],
+    "headline": "指定寵物通路最高 10%、海外最高 2.5%、一般消費 0.5% 無上限",
+    "rewards": [
+      {
+        "label": "一般消費（遠東集團指定商店以外）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "遠東集團指定商店（遠百、SOGO、巨城、遠企、愛買、city'super、friDay 購物、代扣遠傳電信帳單）",
+        "rate": "每滿 NT$100 累積 HAPPY GO 2 點（含商店原提供 1 點）",
+        "conditions": "依 HAPPY GO 點數規則；不含分期、禮券等"
+      },
+      {
+        "label": "海外消費",
+        "rate": "最高 2.5%（含一般 0.5%＋加碼 2%）",
+        "rate_value": 2.5,
+        "cap": "無上限",
+        "conditions": "不含歐洲指定國家實體商店交易；2026/7/1–12/31 另有海外指定地區滿額加碼，最高 3.5%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定寵物通路（寵物公園、東森寵物、動物醫院等）",
+        "rate": "最高 10%（含原 0.5%＋加碼 9.5%）",
+        "rate_value": 10,
+        "cap": "加碼部分每戶每月上限 NT$400",
+        "conditions": "限實體門市及官方購物網站／App 刷卡消費",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "生活禮遇（指定超市量販、交通、教育、身心放鬆通路）",
+        "rate": "最高 4%（含原 0.5%＋加碼 3.5%）",
+        "rate_value": 4,
+        "cap": "加碼部分每期帳單每戶上限 NT$200",
+        "conditions": "須本期卡費以遠銀存款帳戶自動扣款成功，且次期帳單樂家+卡一般消費滿 NT$3,000",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "大小安心刷（國內指定餐廳、指定樂活商店、母嬰百貨、飯店／購物中心／遊樂園）",
+        "rate": "最高 4%（含原 0.5%＋加碼 3.5%）",
+        "rate_value": 4,
+        "cap": "加碼部分每期帳單每戶上限 NT$200",
+        "conditions": "須本期卡費以遠銀存款帳戶自動扣款成功，且次期帳單樂家+卡一般消費滿 NT$3,000",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "放鬆＋回饋：當月新增消費滿 NT$26,000，次月可登錄兌換刷卡金 NT$400 或佐登妮絲課程（每月限量 200 組，2026/7/1–12/31）",
+      "遠東巨城指定兒童樓層專櫃 HAPPY GO 點數 4 倍",
+      "學雜費分期 0 利率最高 3 期、i 繳費平台繳學費",
+      "新戶首刷禮 4 選 1：核卡後次月底前任刷 3 筆並開啟悠遊卡自動加值（2026/7/1–12/31 申辦）",
+      "卡片具悠遊卡功能；新戶悠遊卡自動加值最高 10% 刷卡金（每戶每月上限 NT$100）",
+      "新戶大禮包：完成指定任務最高再享 NT$350 刷卡金"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/YACard/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/017MS.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費依官網「信用卡費用/利率一覽表」(detail?id=312) 鈦金卡標準，產品頁年費說明為圖片無法讀取，請再確認。回饋細節見 page2.html（消費回饋）。"
+  },
+  {
+    "id": "feib-happy-card",
+    "bank": "feib",
+    "name": "遠東快樂信用卡",
+    "name_en": "Far Eastern Happy Card",
+    "networks": ["mastercard", "jcb"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "鈦金卡正卡年費 NT$2,000，附卡免年費；首年免年費，每年刷卡 NT$6 萬或 12 筆以上即享次年免年費（依官網信用卡費用一覽表）。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "department-store", "supermarket", "online-shopping", "mobile-payment", "overseas", "transit", "new-cardholder", "insurance", "installment"],
+    "headline": "指定通路及 LINE Pay 最高 5% 回饋，當期滿額最高回饋刷卡金 NT$500",
+    "rewards": [
+      {
+        "label": "指定通路（SOGO／遠百／遠企／愛買／city'super／巨城、ZARA／UNIQLO／NET／H&M、屈臣氏／康是美／寶雅、momo／蝦皮／coupang、LINE Pay 支付）",
+        "rate": "最高 5%",
+        "rate_value": 5,
+        "cap": "每月每戶上限 NT$300",
+        "conditions": "須當月登錄當月刷卡，每月限登錄 10,000 名；不含 LINE Pay 生活繳費",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "當期帳單新增一般消費滿額",
+        "rate": "最高回饋刷卡金 NT$500",
+        "conditions": "依帳單消費門檻分級回饋，須登錄，每戶每月限 1 次，每月限量 3,000 份；自扣戶回饋須申辦遠銀帳戶自動扣繳",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "外幣消費滿額",
+        "rate": "最高 3%（單月每滿 NT$30,000 回饋 NT$600）",
+        "rate_value": 3,
+        "cap": "每月每戶上限 NT$9,000",
+        "conditions": "須當月登錄；日本／韓國／新加坡／泰國／美國單月滿 NT$60,000 另加贈 NT$600；歐洲地區實體商店不列入",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點，快樂購特約商店最高 2 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "悠遊卡自動加值",
+        "rate": "最高 5% 刷卡金",
+        "rate_value": 5,
+        "cap": "每戶每月上限 NT$50",
+        "conditions": "須當月登錄；JCB 卡別另可參加 JCB 自動加值最高 10% 活動",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "高鐵／台鐵",
+        "rate": "3% 刷卡金",
+        "rate_value": 3,
+        "cap": "每月每戶上限 NT$200",
+        "conditions": "每月刷滿 NT$3,000，須當月登錄",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "遠東集團生活圈 VIP 禮遇：遠百 9 折、遠企／巨城免費停車最高 6 小時、city'super 95 折、遠東香格里拉指定自助餐 1 人免費",
+      "旅遊保障最高 NT$2,000 萬旅遊傷害險，桃園／高雄機場周邊停車每次最高 7 天",
+      "保費 6 期 0 利率、學費及指定稅款最高 3 期 0 利率",
+      "新戶首刷禮 6 選 1（刷卡金 NT$500／HAPPY GO 300 點等），新戶大禮包最高再享 NT$350 刷卡金",
+      "eTag 首次申辦自動儲值／智慧停車代繳最高回饋價值 NT$200"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/HappyCardRed/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/013MS.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "滿額最高 NT$500 的門檻表為圖片，未能抄錄分級門檻；5% 通路活動細節在 activity?id=1980。年費依費用一覽表鈦金卡標準。"
+  },
+  {
+    "id": "feib-hwcard",
+    "bank": "feib",
+    "name": "遠東樂行卡",
+    "name_en": "Far Eastern Happy Wheels Card",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "正卡 NT$2,000，附卡免年費。首年免年費，每年累積消費 NT$6 萬或 12 筆即享次年免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "fuel", "transit", "ev-charging", "travel", "overseas", "insurance", "mobile-payment", "new-cardholder"],
+    "headline": "國內 1%、國外 2% 無上限，指定交通／旅遊最高 3%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "當期帳單一般消費需滿 NT$3,000，未達檻不回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "不含歐洲指定國家實體商店交易；日韓新泰美單月滿 NT$60,000 另加贈 NT$600（須登錄）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定交通／旅遊（國內加油、悠遊卡自動加值、計程車、電動車充電、共享交通、航空機票、KKday、Klook）",
+        "rate": "最高 3%（含國內 1%＋加碼 2%）",
+        "rate_value": 3,
+        "cap": "加碼每期每戶上限 NT$300",
+        "conditions": "當期帳單一般消費滿 NT$3,000 且當月 27 日前登錄；限台幣一次付清，不適用行動支付",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "汽車維修保養美容",
+        "rate": "最高 2%（每季滿 NT$1.2 萬回饋 NT$100、滿 NT$3 萬回饋 NT$300）",
+        "rate_value": 2,
+        "conditions": "當季刷卡當季登錄，每戶每季 1 次",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費",
+        "rate": "單筆滿額最高 3.5% 或 6 期 0 利率",
+        "rate_value": 3.5,
+        "cap": "加碼每季每戶上限 NT$12,500",
+        "conditions": "須登錄（限量），與分期擇一",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定稅款／公用事業代扣（燃料費、牌照稅、水電瓦斯）",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "每期每戶上限 NT$100",
+        "conditions": "當期帳單一般消費滿 NT$3,000",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點，快樂購特約商店最高 2 點",
+        "conditions": "當期帳單一般消費需滿 NT$3,000",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "月刷 NT$15,000 享嘟嘟房／永固 24TPS 及 eTag 智慧停車免費，每次最高 2 小時、每月 5 次",
+      "月刷 NT$8,000 享全鋒洗金寶免費水刀洗車 1 次",
+      "50 公里跨縣市道路救援，桃園／高雄機場周邊停車每次最高 7 天",
+      "eTag 首次申辦自動儲值／智慧停車代繳最高回饋 NT$200",
+      "新戶線上申辦核卡後 60 天內一般消費滿 NT$2 萬，回饋首刷禮刷卡金 NT$1,000；綁定 LINE Pay 最高 10%（上限 NT$200）",
+      "遠百購物停車優惠、愛買天天優惠、city'super 優惠"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/HWCard/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/018HWC.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "卡面為 Mastercard，但產品頁未標示卡片等級（年費 NT$2,000 與鈦金／御璽同級），levels 留空請確認。"
+  },
+  {
+    "id": "feib-happy-infinite",
+    "bank": "feib",
+    "name": "遠東快樂無限卡／快樂世界商務卡",
+    "name_en": "Far Eastern Happy Infinite / Happy World Business Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["無限卡", "世界商務卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "正卡 NT$10,000（首年免年費），附卡免年費。年刷滿 NT$300,000 享次年免年費；或遠銀星等貴賓維持 6 星等(含)以上且綁定本行帳戶自扣卡費享次年免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "dining", "department-store", "insurance", "new-cardholder"],
+    "headline": "外幣消費 2.5% 無上限最高 5%，台幣每月滿額最高 1.5% 刷卡金",
+    "rewards": [
+      {
+        "label": "外幣消費",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "cap": "無上限",
+        "conditions": "含歐洲地區",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "外幣消費加碼（日本／韓國／新加坡／泰國／美國）",
+        "rate": "單月滿 NT$60,000 加贈 NT$600",
+        "conditions": "每月每戶限 1 次，須於消費當月登錄",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "6 星等(含)以上貴賓使用 Visa 快樂無限卡外幣消費",
+        "rate": "加碼 1.5%（合計最高 5%）",
+        "rate_value": 5,
+        "cap": "每卡每月上限 NT$1,500",
+        "conditions": "須消費前於 Visa Select 網頁登錄",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台幣一般消費每月滿額",
+        "rate": "每滿 NT$20,000 回饋 NT$200（遠銀自扣戶 NT$300），最高 1.5%",
+        "rate_value": 1.5,
+        "cap": "一般戶每月上限 NT$1,000／自扣戶 NT$1,500",
+        "conditions": "自扣戶需綁定遠東商銀 HAPPY+ LINE 個人化服務並以遠銀帳戶自動扣繳成功（不含 Bankee）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "台幣消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點（點數無期限），快樂購特約商店最高 2 點"
+      }
+    ],
+    "highlights": [
+      "近 12 期帳單累積一般消費滿 NT$80 萬享指定區域免費機場接或送 2 次，滿 NT$120 萬享 4 次",
+      "國際機場貴賓室最優免費 4 次，機場周邊停車最高免費 30 天",
+      "旅遊平安險最高 NT$3,500 萬",
+      "星級飯店自助餐買一送一，遠東百貨／SOGO／巨城／香格里拉美食購物停車禮遇",
+      "新戶核卡後 60 天內一般消費滿 NT$12,000 享旅狐行李箱組或刷卡金 NT$1,000（2026/12/31 前申辦）",
+      "50 公里跨縣市道路救援、保險及繳稅分期 0 利率"
+    ],
+    "requirements": "年收入達 NT$150 萬以上或檢附等同財力；正卡申請人須成年至 70 歲",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/HappyPremium/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/HappyWorldBusiness.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "快樂世界商務卡為 Mastercard 世界卡、快樂無限卡為 Visa 無限卡，同一產品頁；image_url 為卡片總覽的 Mastercard 版本。"
+  },
+  {
+    "id": "feib-happy-top",
+    "bank": "feib",
+    "name": "遠東頂級快樂卡",
+    "name_en": "Far Eastern Happy Top Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 24000,
+      "waiver": "採預收制，正／附卡分別為每卡 NT$24,000；繳交全額年費享首刷 HAPPY GO 10,000 點及滿額最高刷卡金 NT$24,000（限新卡）。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "department-store", "dining", "insurance"],
+    "headline": "無限次國際機場接送與貴賓室，海外刷卡滿額最高 3% 刷卡金",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點（點數無期限）"
+      },
+      {
+        "label": "海外刷卡滿額",
+        "rate": "最高 3%（單月每滿 NT$3 萬回饋 NT$600，季累積滿 NT$50 萬加碼 NT$5,000，日韓新泰美滿 NT$6 萬加碼 NT$600）",
+        "rate_value": 3,
+        "cap": "每月每戶最高 NT$9,000（2% 部分）",
+        "conditions": "須消費當月登錄；不含歐洲指定國家實體商店",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "刷全額機票或 80% 以上團費且滿 NT$2 萬，享指定區域無限次免費機場接送",
+      "Priority Pass／U.FIRST 全球機場貴賓室，當次出國至多 2 次，不限金額",
+      "國際機場周邊停車最高免費 30 天，環宇商務通關禮遇價",
+      "百貨貴賓室、百貨購物折扣與停車禮遇、遠東香格里拉用餐住宿禮遇",
+      "續卡繳全額年費依前一年度消費享續卡禮最高刷卡金 NT$24,000",
+      "東方／東華高球擊球優惠價、50 公里道路救援"
+    ],
+    "requirements": "限量邀請：年收入達 NT$500 萬以上或檢附等同財力；頂級卡申請人須滿 25 至 65 歲",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/HappyGOtopVISA.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費及申辦條件見 fee.html；屬限量邀請卡，是否公開接受申請請確認。"
+  },
+  {
+    "id": "feib-happygo-top",
+    "bank": "feib",
+    "name": "遠東HAPPY GO頂級卡",
+    "name_en": "Far Eastern HAPPY GO Top Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 12000,
+      "max_amount": 15000,
+      "waiver": "一般方案正卡年費 NT$12,000（回饋價值 NT$20,000 遠東香格里拉優惠抵用券套組）；優惠方案正卡 NT$15,000 需同時加辦 1 張附卡（回饋價值 NT$25,000 套組）。附卡終身免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "dining", "travel", "airport-lounge", "department-store", "insurance", "new-cardholder"],
+    "headline": "繳年費回饋香格里拉抵用券套組價值 NT$20,000 起，HAPPY GO 點數無期限",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點（點數無期限）"
+      },
+      {
+        "label": "外幣消費（日本／韓國／新加坡／泰國／美國）",
+        "rate": "最高 1%（單月累積滿 NT$6 萬贈刷卡金 NT$600）",
+        "rate_value": 1,
+        "conditions": "消費當月登錄，每月每戶最高回饋 1 次",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "繳納全額年費回饋台北／台南遠東香格里拉餐飲、住宿、品香坊抵用券套組及免費停車券",
+      "旅遊平安險最高 NT$3,500 萬＋旅遊傷害醫療最高 NT$100 萬",
+      "Priority Pass／U.FIRST 全球貴賓室免費 4 次（近 3 期帳單任 1 期一般消費滿 NT$10,000）",
+      "桃園／高雄機場周邊停車各 30 天",
+      "遠東百貨購物 9 折起、免費停車最高 5 小時；遠企購物中心最高 6 小時",
+      "新戶核卡後次月底前累積刷卡滿 NT$20,000 回饋 HAPPY GO 10,000 點（需繳全額年費）"
+    ],
+    "requirements": "頂級卡申請人須滿 25 至 65 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/HGTOP/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/002VI.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "feib-newcentury-top",
+    "bank": "feib",
+    "name": "遠東New Century世界卡／無限卡",
+    "name_en": "Far Eastern New Century World / Infinite Card",
+    "networks": ["mastercard", "visa"],
+    "levels": ["世界卡", "無限卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "正卡年費 NT$10,000，附卡免年費；首年免年費，年刷 NT$300,000 享次年免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "dining", "insurance", "new-cardholder"],
+    "headline": "HAPPY GO 點數無期限，外幣消費最高 2.5% 刷卡金，機場接送最高 8 次",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點（點數無期限），快樂購特約商店最高 2 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "外幣消費",
+        "rate": "最高 2.5%（卡片加碼 1.5% 無上限＋指定地區加碼 1%）",
+        "rate_value": 2.5,
+        "cap": "1.5% 無上限",
+        "conditions": "卡片加碼 1.5% 須登錄，登錄當月起計算；指定地區加碼 1% 每月登錄",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "保費單筆滿額",
+        "rate": "最高 2.5% 刷卡金",
+        "rate_value": 2.5,
+        "cap": "每季每戶上限 NT$12,500",
+        "conditions": "須登錄（限量），限一次付清",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "一般消費每滿 NT$18 萬享指定區域國際機場接送 2 次，最高 8 次",
+      "Priority Pass／U.FIRST 全球機場貴賓室免費 4 次（近 3 期帳單任 1 期一般消費滿 NT$10,000）",
+      "世界卡享 Mastercard 海外旅遊保險（含海外新冠診斷檢疫津貼）",
+      "新戶首刷滿額送 HAPPY GO 1,200 點；無限卡新戶核卡後 90 天內滿 NT$60,000 再送機場接送 2 次",
+      "東方／東華高爾夫球場限量預約擊球優惠、市區停車優惠"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp?empbranch=VD2060",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/NCTOP/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/003MI.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "世界卡為 Mastercard、無限卡為 Visa（卡片總覽分列兩張，同一產品頁）；無限卡圖片為 003VI.jpg。"
+  },
+  {
+    "id": "feib-cestmoi",
+    "bank": "feib",
+    "name": "遠東C'est Moi我的卡",
+    "name_en": "Far Eastern C'est Moi Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["白金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "max_amount": 2000,
+      "waiver": "白金卡正卡 NT$1,200（首年免年費，每年刷卡一次以上即享次年免年費）；御璽卡正卡 NT$2,000（首年免年費，每年刷卡 NT$6 萬或 12 筆以上免年費）。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "department-store", "travel", "overseas", "new-cardholder"],
+    "headline": "指定百貨、旅遊、海外消費 HAPPY GO 點數最高 4 倍",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點，快樂購特約商店最高 2 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "遠東集團百貨、全台指定百貨、旅遊類型消費、海外消費",
+        "rate": "HAPPY GO 點數最高 4 倍",
+        "conditions": "須當期帳單新增一般消費達 NT$5,000；歐洲地區指定國家實體商店不提供點數",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "月刷滿額",
+        "rate": "當月新增一般消費滿 NT$10 萬再享 HAPPY GO 1,000 點",
+        "conditions": "須當月登錄，每戶每月限 1 次",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "全台遠東百貨百貨服飾、家用商品 9 折",
+      "御璽卡：遠百當日刷滿 NT$500 免費停車 4 小時、遠企最高 6 小時；白金卡：遠百 3 小時、遠企 2 小時",
+      "HAPPY GO Pay 指定通路綁定刷卡滿額再享點數回饋",
+      "另有外幣消費、市區停車、雙鐵回饋、eTag 消費優惠（discount.html）",
+      "新戶好禮：新朋友見面禮及新戶滿額禮（gift.html）"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/CestMOI/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/005VP.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "三種卡面：Visa 御璽（經典款，010VS）、Visa 白金（005VP）、Mastercard 白金（004MP）。年費依費用一覽表白金／御璽標準。新戶好禮細節未抄錄。"
+  },
+  {
+    "id": "feib-cestmoi-travel-jcb",
+    "bank": "feib",
+    "name": "遠東C'est Moi旅遊悠遊卡",
+    "name_en": "Far Eastern C'est Moi Travel EasyCard JCB",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "晶緻卡正卡年費 NT$2,000，附卡免年費；首年免年費，每年刷卡 NT$6 萬或 12 筆以上即享次年免年費（依官網信用卡費用一覽表）。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "transit", "insurance", "new-cardholder", "department-store"],
+    "headline": "海外消費 1.5% 現金回饋，指定國家最高 4.5%",
+    "rewards": [
+      {
+        "label": "海外消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "每期帳單上限 NT$20,000",
+        "conditions": "等同免收 1.5% 海外交易手續費；歐洲地區指定國家實體商店交易不含；海外消費不再回饋 HAPPY GO 點數",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "海外單月滿額加碼",
+        "rate": "每滿 NT$30,000 回饋 NT$600（約 2%）",
+        "rate_value": 2,
+        "cap": "每月每戶最高 NT$9,000",
+        "conditions": "須消費當月登錄；不適用歐洲指定國家實體商店",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本／韓國／新加坡／泰國／美國滿額",
+        "rate": "當月累積滿 NT$6 萬加碼 NT$600（合計最高 4.5%）",
+        "rate_value": 4.5,
+        "conditions": "每月每戶限 1 次，須當月登錄",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國內一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點，快樂購特約商店最高 2 點",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "卡片具悠遊卡功能，可參加 JCB 悠遊卡自動加值最高 10% 活動",
+      "桃園／高雄國際機場周邊停車各 2 次，每次最多 7 天",
+      "旅遊傷害險最高 NT$2,000 萬、班機／行李延誤險各最高 NT$1 萬",
+      "新戶首刷禮 3 選 1：悠遊折抵金 NT$500／eTag 折抵金 NT$500／HAPPY GO 1,200 點",
+      "遠東百貨禮遇、遠東香格里拉用餐禮遇、eTag 自動儲值免手續費及國道通行費 9 折"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/TRAVELJCard/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/006JS.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費依費用一覽表晶緻卡標準，產品頁未直接列年費。"
+  },
+  {
+    "id": "feib-newcentury",
+    "bank": "feib",
+    "name": "遠東New Century信用卡",
+    "name_en": "Far Eastern New Century Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 1200,
+      "waiver": "普卡 NT$300、金卡 NT$600、白金卡 NT$1,200，附卡免年費；首年免年費，每年刷卡一次以上即享次年免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "department-store", "online-shopping", "insurance", "new-cardholder"],
+    "headline": "設定遠銀帳戶自扣，指定百貨／藥妝／網購／服飾最高 5% 刷卡金",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點",
+        "conditions": "依官網卡友權益頁具快樂購標識信用卡規則"
+      },
+      {
+        "label": "指定通路（SOGO／遠百／巨城／遠企、屈臣氏／康是美／寶雅、coupang／momo／PChome／蝦皮、ZARA／UNIQLO／H&M／NET）",
+        "rate": "最高 5% 刷卡金",
+        "rate_value": 5,
+        "cap": "每月每戶上限 NT$500",
+        "conditions": "須設定遠銀帳戶自動扣繳信用卡費成功；須當月登錄，每月限登錄 3,000 名；不含世界卡／無限卡／MC2 卡",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "白金卡：Mega 50／遠東香格里拉遠東 Café 2 人用餐 1 人免費（近 2 期帳單任 1 期一般消費滿 NT$20,000）",
+      "遠東百貨當日刷滿 NT$500 享 3 小時停車，遠企購物中心最高 6 小時",
+      "白金卡享桃園／高雄機場周邊停車各 2 次、每次最多 7 天",
+      "旅遊平安險白金卡最高 NT$2,000 萬、金卡／普卡最高 NT$750 萬",
+      "新戶首刷禮 HAPPY GO 1,200 點或 eTag 折抵金 NT$500"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/NC/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/7VC.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "卡片總覽僅有 Visa 卡面圖；是否另發 Mastercard 請確認。年費依費用一覽表普卡／金卡／白金卡標準。"
+  },
+  {
+    "id": "feib-icloud",
+    "bank": "feib",
+    "name": "遠東雲端iCloud信用卡",
+    "name_en": "Far Eastern iCloud Virtual Card",
+    "networks": ["mastercard"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "白金卡正卡 NT$1,200，附卡免年費；首年免年費，每年刷卡一次以上即享次年免年費（依官網信用卡費用一覽表）。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "online-shopping", "mobile-payment"],
+    "headline": "無實體卡片的網購專屬虛擬卡，可自訂安全額度",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點",
+        "conditions": "依官網卡友權益頁具快樂購標識信用卡規則；產品頁未載明回饋率"
+      }
+    ],
+    "highlights": [
+      "全 e 化用卡：不提供實體卡片，核卡後以 email 通知，於網路銀行查詢卡號並開卡",
+      "可綁定行動支付、購物 App，適合網購、線上訂房訂機票",
+      "透過網路銀行自訂安全額度：最低 NT$1,000、最高為本行信用卡總額度，區間調整最長 3 個月",
+      "預設申請電子帳單"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/iCloudyCard/index.html",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官網卡片總覽的圖片 (001MP.png) 為購物車示意圖而非卡面，故未填 image_url。卡片等級與網路依圖檔代碼 MP（Mastercard Platinum）推定，年費依白金卡標準，請確認。產品頁未載明回饋率；卡友權益頁(detail?id=175)註明部分優惠不適用 iCloud 卡。"
+  },
+  {
+    "id": "feib-etag",
+    "bank": "feib",
+    "name": "遠東eTag聯名卡",
+    "name_en": "Far Eastern eTag Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "官網費用一覽表註明聯名卡年費依個別專案收取；eTag 聯名卡產品頁未載明年費，暫依白金卡標準 NT$1,200（首年免年費，每年刷卡一次以上免年費）填入。"
+    },
+    "reward_type": "points",
+    "tags": ["co-branded", "transit", "travel", "department-store", "new-cardholder"],
+    "headline": "eTag 自動儲值與停車代繳回饋 eTag POINTS，月刷滿額享智慧停車免費",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點，HAPPY GO 特店最高 2 倍",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "eTag 自動儲值／代扣繳 eTag 智慧停車費",
+        "rate": "每滿 NT$400 獲得 eTag POINTS 1 點",
+        "conditions": "須同時申辦 eTag 自動儲值及代扣繳智慧停車費且為 uTagGo 會員；1 點 eTag POINTS 等值 NT$1",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "單卡當月一般消費刷滿 NT$15,000，次月享 eTag 智慧停車（臨停）免費 5 次、每次最高 2 小時",
+      "刷卡滿額享嘟嘟房／永固 24TPS 免費市區停車每次最高 2 小時",
+      "桃園／高雄小港國際機場免費停車各 2 次、每次最多 7 天",
+      "遠東百貨正品最優 9 折、刷滿 NT$500 免費停車 3 小時；遠企購物中心最高 6 小時",
+      "新戶首刷禮 2 擇 1：eTag 儲值折抵金 NT$500 或 HAPPY GO 1,200 點"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/eTagCard/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/008VP.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費未經官網明示（聯名卡依個別專案），amount 為白金卡標準推定，請向銀行確認。"
+  },
+  {
+    "id": "feib-eden",
+    "bank": "feib",
+    "name": "伊甸愛心卡",
+    "name_en": "Eden Foundation Affinity Card",
+    "networks": ["mastercard"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "官網費用一覽表註明認同卡年費依個別專案收取；伊甸愛心卡產品頁未載明年費，暫依白金卡標準 NT$1,200（首年免年費，每年刷卡一次以上免年費）填入。"
+    },
+    "reward_type": "points",
+    "tags": ["co-branded", "new-cardholder"],
+    "headline": "遠銀 × 伊甸基金會公益認同卡，刷卡捐款支持慢飛天使",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點",
+        "conditions": "依官網卡友權益頁具快樂購標識信用卡規則；產品頁未載明回饋率"
+      }
+    ],
+    "highlights": [
+      "每月固定捐款 NT$300 達 12 個月以上或單次捐款 NT$3,600 獲贈 RODY 實用百變包（至 2026/12/31）",
+      "遠銀與伊甸基金會合作超過 28 年，累計捐款突破 NT$1 億 400 萬",
+      "新戶首刷禮：HAPPY GO 1,200 點或 eTag 折抵金 NT$500（2026/7/1–12/31）",
+      "附 eTag 商標卡面享 eTag 自動儲值優惠"
+    ],
+    "requirements": "正卡申請人須成年至 70 歲，需提供財力證明",
+    "status": "active",
+    "apply_url": "https://iapp.feib.com.tw/iapp/jsp/creditCardNew/index.jsp",
+    "source_url": "https://www.feib.com.tw/upload/creditcard/Eden/index.html",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/5MC.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費未經官網明示（認同卡依個別專案），amount 為白金卡標準推定，請確認。"
+  },
+  {
+    "id": "feib-food-card",
+    "bank": "feib",
+    "name": "飲食男女卡",
+    "name_en": "Far Eastern Eat Drink Man Woman Card",
+    "networks": ["visa"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "依官網費用一覽表白金卡標準：正卡 NT$1,200，附卡免年費；首年免年費，每年刷卡一次以上免年費。"
+    },
+    "reward_type": "points",
+    "tags": ["dining"],
+    "headline": "已終止新卡申請的餐飲主題卡",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點",
+        "conditions": "依官網卡友權益頁具快樂購標識信用卡規則"
+      }
+    ],
+    "highlights": [
+      "官網卡片總覽標示「終止新卡申請」，既有卡友權益詳卡友權益頁"
+    ],
+    "status": "discontinued",
+    "status_note": "官網聯名／認同卡總覽標示「飲食男女卡(終止新卡申請)」，產品頁僅餘卡面圖片。",
+    "source_url": "https://www.feib.com.tw/introduce/cardInfo?type=2",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/009VP.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁 detail?id=403 無文字內容；終止日期未載明。"
+  },
+  {
+    "id": "feib-happy-card-fpc",
+    "bank": "feib",
+    "name": "遠東快樂信用卡（原台塑聯名卡）",
+    "name_en": "Far Eastern Happy Card (former Formosa Plastics Co-branded)",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "依官網費用一覽表鈦金卡標準：正卡 NT$2,000，附卡免年費；首年免年費，每年刷卡 NT$6 萬或 12 筆以上免年費。"
+    },
+    "reward_type": "points",
+    "tags": ["co-branded"],
+    "headline": "已終止新卡申請的原台塑聯名卡",
+    "rewards": [
+      {
+        "label": "一般消費 HAPPY GO 點數",
+        "rate": "每滿 NT$100 累積 1 點",
+        "conditions": "依官網卡友權益頁具快樂購標識信用卡規則"
+      }
+    ],
+    "highlights": [
+      "官網卡片總覽標示「終止新卡申請」，既有卡友權益比照遠東快樂信用卡"
+    ],
+    "status": "discontinued",
+    "status_note": "官網聯名／認同卡總覽標示「遠東快樂信用卡(原台塑聯名卡)(終止新卡申請)」。",
+    "source_url": "https://www.feib.com.tw/introduce/cardInfo?type=2",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/15.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "「了解更多」連回遠東商銀信用卡總覽，無獨立產品頁；終止日期未載明。"
+  },
+  {
+    "id": "feib-esprit",
+    "bank": "feib",
+    "name": "Esprit聯名卡",
+    "name_en": "Esprit Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "依官網費用一覽表白金卡標準：正卡 NT$1,200，附卡免年費；首年免年費，每年刷卡一次以上免年費。"
+    },
+    "reward_type": "points",
+    "tags": ["co-branded"],
+    "headline": "已終止新卡申請的 Esprit 聯名卡",
+    "rewards": [
+      {
+        "label": "一般消費遠銀紅利點數",
+        "rate": "每 NT$30 累積 1 點（SOGO、遠百、愛買、遠企每 NT$25 累積 1 點）",
+        "conditions": "依官網卡友權益頁不具快樂購功能信用卡規則；點數效期 2 年"
+      }
+    ],
+    "highlights": [
+      "官網卡片總覽標示「終止新卡申請」，既有卡友可使用紅利禮讚兌換"
+    ],
+    "status": "discontinued",
+    "status_note": "官網聯名／認同卡總覽標示「Esprit聯名卡(終止新卡申請)」。",
+    "source_url": "https://www.feib.com.tw/introduce/cardInfo?type=2",
+    "image_url": "https://www.feib.com.tw/upload/WebSiteImages/creditcard/card/12.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "無獨立產品頁；終止日期未載明。"
+  }
+]

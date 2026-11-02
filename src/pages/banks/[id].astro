@@ -21,6 +21,9 @@ const active = list.filter((c) => c.status === 'active').length;
         <p class="text-sm text-ink-soft">{bank.name}{bank.name_en ? `・${bank.name_en}` : ''}</p>
       </div>
     </div>
+    {bank.notes && (
+      <div class="mt-4 rounded-xl border border-danger/30 bg-danger-soft px-4 py-3 text-sm text-danger">{bank.notes}</div>
+    )}
     <p class="mt-4 text-sm text-ink-soft">
       官方卡片總覽：<a href={bank.cards_index_url} target="_blank" rel="noopener nofollow" class="underline">{new URL(bank.cards_index_url).hostname}</a>
     </p>
