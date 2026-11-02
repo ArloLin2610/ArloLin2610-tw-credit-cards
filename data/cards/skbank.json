@@ -1,0 +1,442 @@
+[
+  {
+    "id": "skbank-universal-cashback",
+    "bank": "skbank",
+    "name": "寰宇現金回饋卡",
+    "name_en": "Universal Cashback Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["商務御璽卡", "鈦金商務卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；第二年起正附卡合併計算，前一年度累積消費達 NT$20,000 以上或任刷 3 筆不限金額，抵免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "online-shopping", "overseas", "streaming"],
+    "headline": "行動支付／網購／海外最高 3% 現金點數回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "最高 1%", "rate_value": 1, "cap": "基本回饋無上限；活動加碼每期上限 1,000 點（國內外合計）", "conditions": "國內基本 0.6% ＋ 活動加碼 0.4%；加碼限完成指定任務（申辦電子帳單＋新光帳戶自動扣繳）", "valid_until": "2026-12-27" },
+      { "label": "國外一般消費", "rate": "最高 3%", "rate_value": 3, "cap": "基本回饋無上限；活動加碼每期上限 1,000 點（國內外合計）", "conditions": "基本 1.5% ＋ 活動加碼 1.5%；加碼限完成指定任務；2024/3/1 起歐盟地區實體商店交易不回饋", "valid_until": "2026-12-27" },
+      { "label": "行動支付／網購／影音", "rate": "最高 3%", "rate_value": 3, "cap": "指定數位加碼每期上限 200 點", "conditions": "指定數位加碼 2% ＋ 國內基本 0.6% ＋ 活動加碼 0.4%；限完成指定任務", "valid_until": "2026-12-27" }
+    ],
+    "highlights": [
+      "國外一般消費最高 3%（基本 1.5% ＋ 任務加碼 1.5%）",
+      "行動支付／網購／影音最高 3%（指定數位加碼每期上限 200 點）",
+      "高額旅遊平安險、國際機場外環停車場停車、道路救援",
+      "Visa 商務御璽卡／Mastercard 鈦金商務卡國際組織禮遇"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲；固定年收入 20 萬元以上",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件（新光銀行與台新銀行將於 2027/1/1 合併）",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/103",
+    "image_url": "https://www.skbank.com.tw/resource/ba663fb6-f881-4b52-bb30-24bbc488009a.png",
+    "promo_until": "2026-12-27",
+    "last_verified": "2026-11-01",
+    "notes": "回饋為「現金點數」（1 點＝NT$1 折抵帳單），依 brief 歸為 points。加碼活動期間 2026/1/2–2026/12/27。"
+  },
+  {
+    "id": "skbank-mitsukoshi",
+    "bank": "skbank",
+    "name": "新光三越聯名卡",
+    "name_en": "Shin Kong Mitsukoshi Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "自核發卡片之日起算前三年免年費；第四年起正附卡合計前一年度累積消費達 NT$20,000 以上，抵免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "department-store", "co-branded", "installment"],
+    "headline": "新光三越館內單筆滿 3,000 紅利最高 3 倍，影城購票 6 折",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "館內每 1,000 點可折抵 NT$60；rate_value 依此換算約 0.3%" },
+      { "label": "新光三越館內單筆滿 NT$3,000（平日一～四）", "rate": "紅利 2 倍", "rate_value": 0.6, "cap": "每月加碼上限 10,000 點，正附卡合併計算", "conditions": "含原本 1 倍", "valid_until": "2026-12-31" },
+      { "label": "新光三越館內單筆滿 NT$3,000（假日五～日）", "rate": "紅利 3 倍", "rate_value": 0.9, "cap": "每月加碼上限 10,000 點，正附卡合併計算", "conditions": "含原本 1 倍", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "週一至週四新光影城現場刷卡購 2D 電影票享全票 6 折（每卡每日限 2 張）",
+      "全館單筆滿 3,000 元享 3 期 0 利率；紅利 1,000 點可現場折抵 60 元",
+      "當日刷卡累計滿 1,000 元加贈 1 小時免費停車，每日上限 4 小時",
+      "高額旅遊平安險、國際機場外環停車場停車、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲；固定年收入 20 萬元以上",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/104",
+    "image_url": "https://www.skbank.com.tw/resource/61e70af4-ed55-4f63-b763-66b8e8449df6.png",
+    "last_verified": "2026-11-01",
+    "notes": "影城 6 折活動期間 2026/3/1–12/31；館內紅利加碼 2026/1/1–12/31。"
+  },
+  {
+    "id": "skbank-infinite",
+    "bank": "skbank",
+    "name": "無限卡",
+    "name_en": "Visa Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "第二年起正、附卡分開計算，每年累積消費各達 NT$200,000 以上可減免次年年費（附卡年費 10,000 元）",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "insurance"],
+    "headline": "專車接送機 2～6 次、機場貴賓室 8 次、市區停車每月 40 小時",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數可透過客服、網銀或合作通路兌換或折抵；rate_value 依新光三越 1,000 點折 60 元換算約 0.3%" }
+    ],
+    "highlights": [
+      "國際機場專車接送年度 2～6 次",
+      "機場貴賓室服務 8 次",
+      "市區停車每次 2 小時，每月限 40 小時",
+      "Visa 無限卡國內精選飯店住宿禮遇、高爾夫尊榮禮遇、頂級饗宴平日兩人同行一人免費",
+      "高額旅遊平安險、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲；固定年收入 200 萬元以上；2026/1/1 起採邀請制",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 1 月 1 日起採邀請制申辦，2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/118",
+    "image_url": "https://www.skbank.com.tw/resource/4177d64b-6429-4ed5-bee9-81d462bc74d9.png",
+    "last_verified": "2026-11-01",
+    "notes": "接送機／貴賓室之消費門檻詳卡友權益頁，未逐一抄錄。"
+  },
+  {
+    "id": "skbank-world",
+    "bank": "skbank",
+    "name": "世界卡",
+    "name_en": "World Mastercard",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 6000,
+      "waiver": "第一年免年費（正卡及前二張附卡）；第二年起正、附卡分開計算，每年累積消費各達 NT$150,000 以上可減免次年年費",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance"],
+    "headline": "國外一般消費 0.6% 現金回饋無上限，機場貴賓室 4 次",
+    "rewards": [
+      { "label": "國外一般消費", "rate": "0.6%", "rate_value": 0.6, "cap": "無上限" },
+      { "label": "保費", "rate": "1.1%", "rate_value": 1.1, "conditions": "保費回饋（依官網列表頁）" },
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數可兌換或折抵；rate_value 依 1,000 點折 60 元換算約 0.3%" }
+    ],
+    "highlights": [
+      "機場貴賓室服務 4 次",
+      "國際機場接送、市區停車服務、國際機場外環停車場停車",
+      "高額旅遊平安險、道路救援",
+      "Mastercard 2026 世界卡尊榮禮遇"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/115",
+    "image_url": "https://www.skbank.com.tw/resource/ce24a7e6-9dd3-4e1f-a61e-c29c45800c21.png",
+    "last_verified": "2026-11-01",
+    "notes": "同時有國外 0.6% 現金回饋與 20 元 1 點紅利，產品頁未說明是否並行；保費 1.1% 僅見於列表頁。"
+  },
+  {
+    "id": "skbank-miramar-easycard",
+    "bank": "skbank",
+    "name": "美麗華悠遊聯名卡",
+    "name_en": "Miramar EasyCard Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金商務卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；第二年起正附卡合計年度累積消費達 NT$20,000 以上或任刷 3 筆不限金額，抵免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "department-store", "co-branded", "transit"],
+    "headline": "美麗華大直影城天天早場票價，館內紅利 3 倍、購物 9 折",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數可兌換或折抵；rate_value 依 1,000 點折 60 元換算約 0.3%" },
+      { "label": "美麗華館內消費", "rate": "紅利 3 倍", "rate_value": 0.9, "conditions": "依官網列表頁「3 倍紅利點數回饋」；細則見美麗華聯名卡館內優惠頁" }
+    ],
+    "highlights": [
+      "美麗華大直影城優惠：天天享早場優惠票價",
+      "館內購物 9 折（指定專櫃）",
+      "生日當天於美麗華可兌換摩天輪搭乘券、電影票",
+      "指定餐飲單筆 2 仟贈 1 佰",
+      "具悠遊卡功能；高額旅遊平安險、道路救援"
+    ],
+    "requirements": "正卡須年滿 20 歲且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/101",
+    "image_url": "https://www.skbank.com.tw/resource/f81c95da-ce21-40a9-a056-913030371df0.png",
+    "last_verified": "2026-11-01",
+    "notes": "卡面為 Mastercard executive business；產品頁優惠懶人包另列 JCB 卡專屬優惠，可能亦有 JCB 版本，請再確認。"
+  },
+  {
+    "id": "skbank-eda-ipass",
+    "bank": "skbank",
+    "name": "義大世界一卡通聯名卡",
+    "name_en": "E-DA World iPASS Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；第二年起正附卡合計年度累積消費達 NT$20,000 以上或任刷 3 筆不限金額，抵免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "dining", "transit"],
+    "headline": "義大樂園門票 85 折、影城購票 75 折、指定餐飲 85 折",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數可兌換或折抵；rate_value 依 1,000 點折 60 元換算約 0.3%" }
+    ],
+    "highlights": [
+      "義大遊樂世界門票 85 折",
+      "義大世界影城購票 75 折",
+      "義大世界購物廣場指定餐飲 85 折",
+      "生日當天於義大世界購物廣場可兌換摩天輪搭乘券、電影票",
+      "具一卡通功能；高額旅遊平安險、道路救援"
+    ],
+    "requirements": "正卡須年滿 20 歲且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/102",
+    "image_url": "https://www.skbank.com.tw/resource/ec3ccb9e-7e8a-4208-8665-9675a6a1ff3e.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "skbank-ou-dot",
+    "bank": "skbank",
+    "name": "OU點點卡",
+    "name_en": "OU Dot Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費；次年起正附卡合併年度累計消費達 NT$20,000 享次年免年費；使用電子帳單期間免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "online-shopping", "dining"],
+    "headline": "一般消費 0.3% 現金回饋無上限，Uber Eats 外送 2 次 5 折",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限" }
+    ],
+    "highlights": [
+      "Uber Eats 新用戶輸入優惠碼享美食外送 2 次 5 折（單筆滿 80 元最高折 200 元，限量 20 萬組）",
+      "使用電子帳單期間免年費",
+      "Mastercard 2026 鈦金卡尊榮禮遇",
+      "高額旅遊平安險、國際機場外環停車場停車、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/105",
+    "image_url": "https://www.skbank.com.tw/resource/0d8cf68d-e892-43a3-b1c0-6c09ee72c330.png",
+    "last_verified": "2026-11-01",
+    "notes": "Uber Eats 活動期間 2025/12/1–2026/12/31，為新光銀行信用卡通用活動。"
+  },
+  {
+    "id": "skbank-wealth-infinite",
+    "bank": "skbank",
+    "name": "鼎鑽財富無限卡",
+    "name_en": "Wealth Management Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "鼎鑽貴賓首年免年費；第二年起前一年度消費達 60 萬元，或消費達 40 萬元且 AUM 1,000 萬以上，可減免次年年費",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance"],
+    "headline": "海外 2.2%、國內 0.6% 現金回饋無上限，機場接送 8 次",
+    "rewards": [
+      { "label": "海外消費", "rate": "2.2%", "rate_value": 2.2, "cap": "無上限" },
+      { "label": "國內消費", "rate": "0.6%", "rate_value": 0.6, "cap": "無上限" },
+      { "label": "保險消費", "rate": "1.1%", "rate_value": 1.1, "cap": "無上限" }
+    ],
+    "highlights": [
+      "機場接送 8 次、機場貴賓室 8 次、道路救援無限次",
+      "市區停車每次 2 小時，每月限 40 小時",
+      "繳稅 6 期 0 利率 0 手續費（限綜所、房屋及地價稅）",
+      "國內精選旅驛住宿優惠、星級餐飲美饌禮遇",
+      "國內導醫導診服務、台灣看護推薦與安排服務"
+    ],
+    "requirements": "僅限新光銀行財富管理鼎鑽貴賓受邀申辦",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2025 年 8 月 1 日起已停止申辦及進件",
+    "status_changed_at": "2025-08-01",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/119",
+    "image_url": "https://www.skbank.com.tw/resource/ed98b16f-a34a-4272-9da3-a38e693c98e5.png",
+    "last_verified": "2026-11-01",
+    "notes": "邀請制財管客戶卡，仍列於官網信用卡一覽故收錄。"
+  },
+  {
+    "id": "skbank-easycard",
+    "bank": "skbank",
+    "name": "悠遊聯名卡",
+    "name_en": "EasyCard Co-branded Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "第一年免年費（附卡免年費）；次年起正附卡合併年度累計消費達 NT$20,000 或任刷 3 筆不限金額，抵免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "transit", "co-branded"],
+    "headline": "一般消費 0.3% 現金回饋無上限，悠遊自動加值 10% 回饋",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限", "conditions": "免登錄，回饋金直接折抵帳單" }
+    ],
+    "highlights": [
+      "悠遊晶緻卡自動加值 10% 回饋優惠（JCB 活動，2026/1/1–12/31）",
+      "JCB 2026 晶緻卡專屬服務",
+      "具悠遊卡功能",
+      "高額旅遊平安險、國際機場外環停車場停車、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/108",
+    "image_url": "https://www.skbank.com.tw/resource/63b41951-321b-43d2-9045-df05a15aabde.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "skbank-installment-7",
+    "bank": "skbank",
+    "name": "分期七卡",
+    "name_en": "Installment 7 Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "白金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 500,
+      "max_amount": 2000,
+      "waiver": "第一年免年費；次年起正附卡合併年度累計消費達 3,000（普卡）／12,000（白金卡）／20,000（晶緻卡）元享次年免年費",
+      "effectively_free": true
+    },
+    "reward_type": "other",
+    "tags": ["no-annual-fee", "installment"],
+    "headline": "一般消費自動分 7 期 0 利率，可設定 7～24 期",
+    "rewards": [
+      { "label": "一般消費自動分期", "rate": "7 期 0% 利率", "conditions": "新增分期消費當期帳單收取 NT$50；分 12～24 期年利率 9%～14.98%；單筆不得高於 NT$200,000" }
+    ],
+    "highlights": [
+      "一般消費自動零利率分 7 期，可來電設定 12～24 期或一次繳清",
+      "分 7 期不收分期利息；新增分期消費當期帳單收取 NT$50",
+      "高額旅遊平安險、國際機場外環停車場停車、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2025 年 8 月 1 日起已停止申辦及進件",
+    "status_changed_at": "2025-08-01",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/106",
+    "image_url": "https://www.skbank.com.tw/resource/3c738521-adfa-4f77-b6b6-00738284dfdd.png",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁年費段落列普卡 500／白金卡 2,000／晶緻卡 2,000；卡面圖為 Visa Platinum。無紅利或現金回饋說明。"
+  },
+  {
+    "id": "skbank-eternity",
+    "bank": "skbank",
+    "name": "極緻卡",
+    "name_en": "JCB Eternity Card",
+    "networks": ["jcb"],
+    "levels": ["極緻卡"],
+    "annual_fee": {
+      "amount": 6000,
+      "waiver": "第一年免年費（正卡及前二張附卡）；第二年起正、附卡分開計算，每年累積消費各達 NT$150,000 以上可減免次年年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "overseas", "travel", "insurance"],
+    "headline": "日本地區消費 1.5% 現金點數回饋，道路救援 4 次",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "每戶每年度回饋週期上限 500,000 點", "conditions": "現金點數，帳單結帳日次一工作日生效" },
+      { "label": "日本地區消費", "rate": "1.5%", "rate_value": 1.5, "cap": "每戶每年度回饋週期上限 500,000 點", "conditions": "含原一般消費 0.3%" },
+      { "label": "新壽保費", "rate": "1.1%", "rate_value": 1.1, "conditions": "依官網列表頁「新壽保費回饋 1.1%」" }
+    ],
+    "highlights": [
+      "日本地區消費 1.5% 現金點數回饋",
+      "道路救援 4 次、市區停車服務",
+      "JCB 2026 極緻卡專屬禮遇",
+      "高額旅遊平安險、國際機場外環停車場停車"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2025 年 8 月 1 日起已停止申辦及進件",
+    "status_changed_at": "2025-08-01",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/117",
+    "image_url": "https://www.skbank.com.tw/resource/7c08dc80-6492-4a18-ab05-84007fdc5874.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "skbank-gas",
+    "bank": "skbank",
+    "name": "新光加油卡",
+    "name_en": "Shin Kong Gas Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "前三年免年費；次年起正附卡合併年度累計消費達 NT$20,000 享次年免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "fuel"],
+    "headline": "加油消費 0.3% 加油金回饋，機場外環停車 20 天",
+    "rewards": [
+      { "label": "加油消費", "rate": "0.3% 加油金", "rate_value": 0.3, "conditions": "依官網列表頁；細則見加油金回饋辦法" }
+    ],
+    "highlights": [
+      "加油消費累積加油金 0.3%",
+      "國際機場外環停車場停車 20 天",
+      "新光美食饗宴：全台指定飯店餐飲享優惠",
+      "Visa 2026 御璽卡專屬優惠；高額旅遊平安險、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自即日起已停止申辦及進件",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/116",
+    "image_url": "https://www.skbank.com.tw/resource/ea72a57a-2f55-4ba3-8f4e-42d3c08106b8.png",
+    "last_verified": "2026-11-01",
+    "notes": "停止申辦日期官網僅寫「自即日起」，無確切日期。"
+  },
+  {
+    "id": "skbank-esg-platinum",
+    "bank": "skbank",
+    "name": "新光ESG白金卡",
+    "name_en": "Shin Kong ESG Platinum Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "金卡", "白金卡"],
+    "annual_fee": {
+      "amount": 500,
+      "max_amount": 2000,
+      "waiver": "第一年免年費；次年起正附卡合併年度累計消費達 3,000（普卡）／6,000（金卡）／12,000（白金卡）元享次年免年費；使用電子帳單期間免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee"],
+    "headline": "環保材質卡片，每 NT$20 累積 1 點紅利，電子帳單免年費",
+    "rewards": [
+      { "label": "一般消費紅利點數", "rate": "每 NT$20 累積 1 點", "rate_value": 0.3, "conditions": "紅利點數可兌換或折抵；rate_value 依 1,000 點折 60 元換算約 0.3%" }
+    ],
+    "highlights": [
+      "使用電子帳單期間享免年費",
+      "環保材質卡片，新光 ESG 銀行卡碳足跡標籤認證",
+      "高額旅遊平安險、國際機場外環停車場停車、道路救援"
+    ],
+    "requirements": "正卡須為成年人且小於 75 歲",
+    "status": "discontinued",
+    "status_note": "官網標示：自 2026 年 10 月 30 日停止申辦及進件",
+    "status_changed_at": "2026-10-30",
+    "source_url": "https://www.skbank.com.tw/credit_card/credit_card/111",
+    "image_url": "https://www.skbank.com.tw/resource/7ef3040c-9530-4db2-af1f-fdff5a196a95.png",
+    "last_verified": "2026-11-01"
+  }
+]

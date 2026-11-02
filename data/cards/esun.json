@@ -1,0 +1,578 @@
+[
+  {
+    "id": "esun-unicard",
+    "bank": "esun",
+    "name": "玉山Unicard",
+    "name_en": "E.SUN Unicard",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起(1)每年有消費，年年免年費，或(2)使用玉山帳戶自動扣繳信用卡款或帳單e化期間享免年費優惠。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "online-shopping", "travel", "fuel", "transit", "department-store", "supermarket", "insurance", "new-cardholder"],
+    "headline": "百大指定消費最高 4.5% 玉山e point，一般消費最高 1%",
+    "rewards": [
+      { "label": "一般消費", "rate": "最高 1%", "rate_value": 1, "cap": "無上限", "conditions": "需同時申請帳單e化及玉山臺幣帳戶自動扣繳卡費並成功扣繳；僅帳單e化為 0.3%", "valid_until": "2026-12-31" },
+      { "label": "百大指定消費：簡單選（核卡即享）", "rate": "最高 3%（加碼 +2%）", "rate_value": 3, "cap": "加碼歸戶月上限 1,000 點", "conditions": "行動支付、加油交通、生活採買、國內百貨等百大指定消費", "valid_until": "2026-12-31" },
+      { "label": "百大指定消費：任意選（自選 8 家）", "rate": "最高 3.5%（加碼 +2.5%）", "rate_value": 3.5, "cap": "加碼歸戶月上限 1,000 點", "conditions": "於玉山Wallet 設定任選 8 家指定消費", "valid_until": "2026-12-31" },
+      { "label": "百大指定消費：UP選", "rate": "最高 4.5%（加碼 +3.5%）", "rate_value": 4.5, "cap": "加碼歸戶月上限 5,000 點", "conditions": "完成指定任務（當月刷卡滿 3 萬且資產月均 30 萬）或以 149 點 e point 訂閱", "valid_until": "2026-12-31" },
+      { "label": "三商美邦傳統型保費", "rate": "最高 1.5%", "rate_value": 1.5, "cap": "Wallet 加碼 0.3% 每歸戶每月上限 1,000 點", "conditions": "一般消費 1%＋保費加碼 0.2%，另於 Wallet 領取 0.3%", "valid_until": "2027-12-31" }
+    ],
+    "highlights": [
+      "三版卡面：白（悠遊卡功能）、黃（愛金卡功能）、藍（無電子票證）",
+      "權益方案可於玉山Wallet 切換：簡單選／任意選／UP選",
+      "玉山e point 1 點＝NT$1，可折抵帳單、消費或於 e起購 使用",
+      "三商美邦保費 12 期 0 利率（2026/11/1～2027/12/31）",
+      "PETG 環保材質卡片"
+    ],
+    "requirements": "同一持卡人以申請一張正卡為限；需提供財力證明",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_unicard/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/Unicard/1144x720_vw_A025CH.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "頁面 meta 提及新戶最高 20% 回饋，正文未見對應活動細節；年齡／收入門檻未列。"
+  },
+  {
+    "id": "esun-kumamon",
+    "bank": "esun",
+    "name": "玉山熊本熊卡",
+    "name_en": "E.SUN Kumamon Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起前一年度使用帳單e化、玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠，每年重新計算。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "new-cardholder", "mobile-payment"],
+    "headline": "日本消費 2.5% 無上限，指定日本商店加碼最高 8.5%",
+    "rewards": [
+      { "label": "日本一般消費", "rate": "2.5%", "rate_value": 2.5, "cap": "無上限", "conditions": "日本地區（含日本收單商店）；另收 1.5% 國外交易服務費", "valid_until": "2026-12-31" },
+      { "label": "指定日本商店加碼", "rate": "加碼 6%（合計最高 8.5%）", "rate_value": 8.5, "cap": "每歸戶每期 NT$500", "conditions": "需事先登錄；帳單商店名稱需含指定商店", "valid_until": "2026-12-31" },
+      { "label": "日本 PayPay（綁定玉山Wallet）", "rate": "3.5%（合計 5%）", "rate_value": 5, "cap": "每歸戶每季 NT$100", "conditions": "需綁定玉山Wallet 於日本 PayPay 消費，含免收 1.5% 國外交易服務費", "valid_until": "2026-12-31" },
+      { "label": "國內一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無上限", "conditions": "需綁定帳單e化並申請玉山帳戶自動扣繳卡費", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "四版卡面：向右右版、最愛吃版（一般卡）；向左左版、很友好版（日圓雙幣卡）",
+      "日圓雙幣卡國外消費一律以日圓繳款，需開立臺外幣帳戶並設定外幣自動扣繳",
+      "新戶首刷禮：核卡 30 天內國內一般消費滿 NT$3,999 贈熊本熊折疊推車＋保冷袋（2026/10/1～12/31）",
+      "JCB 旅日 App 指定城市最高 30%、MITSUI OUTLET PARK 最高 20% 等日本限時優惠",
+      "石頭紙結合 PETG 環保材質"
+    ],
+    "requirements": "同一持卡人限申請一張一般卡及一張日圓雙幣卡；雙幣卡須開立本行臺外幣帳戶",
+    "status": "active",
+    "apply_url": "https://esun.co/h95ur",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/Copy-of-e-card/A023_eC_1144x720px.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "日本回饋為限時活動（至 2026/12/31）；國外消費另收 1.5% 手續費（日圓雙幣卡亦收）。"
+  },
+  {
+    "id": "esun-ubear",
+    "bank": "esun",
+    "name": "玉山ＵBear信用卡",
+    "name_en": "E.SUN U Bear Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；使用帳單e化或玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "online-shopping", "streaming", "mobile-payment", "new-cardholder"],
+    "headline": "網購最高 3%、指定數位訂閱最高 10% 現金回饋",
+    "rewards": [
+      { "label": "國內外一般消費", "rate": "最高 1%", "rate_value": 1, "cap": "無上限", "conditions": "綁定帳單e化或臺幣帳戶自動扣繳享 0.5%，兩者皆申辦享 1%；指定數位訂閱平台不計", "valid_until": "2027-02-28" },
+      { "label": "網路消費（含行動支付）", "rate": "最高 3%（1%＋加碼 2%）", "rate_value": 3, "cap": "加碼每期 NT$150（正附卡合計）", "conditions": "加碼需綁定帳單e化；不含保費、超商、小額支付平台、指定訂閱平台", "valid_until": "2027-02-28" },
+      { "label": "指定數位訂閱平台（Netflix、ChatGPT、Gemini、Steam、Nintendo、PlayStation）", "rate": "最高 10%", "rate_value": 10, "cap": "每期 NT$100", "conditions": "不與一般／網購回饋併計", "valid_until": "2027-02-28" },
+      { "label": "新戶首刷禮：一般消費加碼", "rate": "加碼 10%", "rate_value": 10, "cap": "每月 NT$300、每歸戶 NT$600", "conditions": "核卡次月起連續 2 個月；2026/9/1～11/30 核卡", "valid_until": "2026-11-30" }
+    ],
+    "highlights": [
+      "三版卡面：粉（愛金卡）、黃（悠遊卡）、黑（無儲值功能）",
+      "新卡友於核卡 60 天內指定娛樂／售票／網購通路再享 10%（每歸戶上限 NT$1,200）",
+      "綁定玉山Wallet 使用 TWQR／台灣Pay 最高 13%＋指定店家 20%（2026/9/1～11/30）",
+      "Mastercard Live Nation 演唱會優先購票（2026/7/1～2027/6/30）",
+      "Surfshark VPN 優惠券（正卡人）"
+    ],
+    "requirements": "同一持卡人以申請一張正卡為限",
+    "status": "active",
+    "apply_url": "https://www.esunbank.com.tw/event/credit/card_ubear/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/u-bear/u-bear_460x288_2022.webp",
+    "promo_until": "2027-02-28",
+    "last_verified": "2026-11-01",
+    "notes": "頁面宣稱新戶最高 23%，為多項活動疊加；基本回饋期間至 2027/2/28。"
+  },
+  {
+    "id": "esun-pi",
+    "bank": "esun",
+    "name": "玉山 Pi 拍錢包信用卡",
+    "name_en": "E.SUN Pi Wallet Card",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["mobile-payment", "online-shopping", "insurance", "new-cardholder", "co-branded"],
+    "headline": "一般消費最高 3% P幣，保費 1.2% P幣無上限",
+    "rewards": [
+      { "label": "一般消費基本回饋", "rate": "1% P幣", "rate_value": 1, "cap": "無上限", "conditions": "需申辦帳單e化並綁定 Pi 拍錢包 App；未申辦帳單e化者 0.3%", "valid_until": "2027-02-28" },
+      { "label": "一般消費加碼（當月消費 NT$1 萬～29,999）", "rate": "最高 1.8%（加碼 0.8%）", "rate_value": 1.8, "conditions": "需登錄一次；正附卡合併計算", "valid_until": "2027-02-28" },
+      { "label": "一般消費加碼（當月消費 NT$3 萬以上）", "rate": "最高 3%（加碼 2%）", "rate_value": 3, "cap": "每歸戶每月 3,000 P幣", "conditions": "需登錄一次；正附卡合併計算", "valid_until": "2027-02-28" },
+      { "label": "綁定 Pi 拍錢包 App 指定通路", "rate": "最高 5%", "rate_value": 5, "cap": "每歸戶每月 300 P幣", "conditions": "單筆 NT$499 以上，需登錄並設定玉山臺幣帳戶自動扣繳", "valid_until": "2027-02-28" },
+      { "label": "保費一次付清", "rate": "1.2% P幣", "rate_value": 1.2, "cap": "無上限", "conditions": "或單筆滿 NT$6,000 登錄 6 期 0 利率、滿 NT$15,000 登錄 12 期 0 利率（分期不回饋）", "valid_until": "2026-12-31" },
+      { "label": "新戶首刷加碼", "rate": "最高 10%（含新戶加碼 5%）", "rate_value": 10, "cap": "新戶加碼每歸戶每月 150 P幣", "conditions": "2026/9/1～11/30 申辦核卡，核卡後 3 個月內", "valid_until": "2026-11-30" }
+    ],
+    "highlights": [
+      "P幣 1 點＝NT$1，可於 Pi 拍錢包合作通路折抵，折抵無上限",
+      "新戶首刷達檻贈 AirPods 4（官網卡片總覽標示）",
+      "Mastercard Live Nation 演唱會優先購票、Agoda 最高 8% 折扣、Trip.com 機票最高 NT$400 折抵",
+      "百萬刷手挑戰賽：2026/10～12 累積消費 NT$300 萬贈 iPad Air（需登錄）",
+      "玉山環球賞：Mastercard 海外指定國家消費現金回饋"
+    ],
+    "requirements": "同一持卡人以申請一張正卡為限；需註冊並綁定 Pi 拍錢包 App，身分驗證資料須與本行相符",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_pi/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/co-branded-card/pi-card/pi-card.webp",
+    "promo_until": "2027-02-28",
+    "last_verified": "2026-11-01",
+    "notes": "【待核對】官網產品頁與申辦頁皆未載明年費與卡等，annual_fee.amount 0 僅為佔位，請勿顯示為免年費。卡組織依頁面「玉山萬事達卡(含玉山 Pi拍錢包信用卡)」判定為 Mastercard。"
+  },
+  {
+    "id": "esun-starlux",
+    "bank": "esun",
+    "name": "玉山星宇航空聯名卡",
+    "name_en": "E.SUN STARLUX Airlines Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡", "商務鈦金卡", "世界卡", "世界之極卡"],
+    "annual_fee": {
+      "amount": 500,
+      "max_amount": 100000,
+      "waiver": "採年費制。鈦金卡 NT$500（首年免年費，使用玉山帳戶自動扣繳及帳單e化享次年免年費）；商務鈦金卡 NT$1,200；世界卡 NT$6,000；世界之極卡 NT$100,000（邀請制）。附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "co-branded", "premium", "new-cardholder"],
+    "headline": "國外消費最優 NT$10＝1 哩，新卡首刷最高贈 55,000 哩",
+    "rewards": [
+      { "label": "鈦金卡：國內一般消費", "rate": "NT$28＝1 哩", "rate_value": 28, "conditions": "限一般消費，需繳交全額年費", "valid_until": "2026-12-31" },
+      { "label": "鈦金卡：國外一般消費", "rate": "NT$20＝1 哩", "rate_value": 20, "valid_until": "2026-12-31" },
+      { "label": "商務鈦金卡：國內／國外", "rate": "NT$25＝1 哩／NT$15＝1 哩", "rate_value": 15, "valid_until": "2026-12-31" },
+      { "label": "世界卡：國內／國外", "rate": "NT$20＝1 哩／NT$10＝1 哩", "rate_value": 10, "valid_until": "2026-12-31" },
+      { "label": "世界之極卡：國內／國外", "rate": "NT$15＝1 哩／NT$10＝1 哩", "rate_value": 10, "valid_until": "2026-12-31" },
+      { "label": "星宇航空指定通路哩程加速", "rate": "2 倍哩程（含基本哩程）", "conditions": "指定通路一般消費", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "新卡首刷禮：世界之極卡 55,000 哩、世界卡 8,000 哩、商務鈦金卡 1,000 哩、鈦金卡 500 哩（需達消費門檻）",
+      "星宇官網／App 購票：世界之極卡／世界卡 9 折起，商務鈦金卡／鈦金卡 95 折",
+      "生日當月國外實體消費 2 倍哩程（鈦金卡不適用，需登錄）",
+      "世界之極卡／世界卡享星宇國際線優先報到櫃檯、指定地區免費 10G eSIM",
+      "續卡禮：繳清次年年費贈 300～30,000 哩"
+    ],
+    "requirements": "頁面未列收入門檻；世界之極卡採邀請制",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_starlux/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/co-branded-card/starlux/s_w_n.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "哩程回饋至星宇 COSMILE 帳戶；哩程表列為 2026/1/1～12/31 活動期間。image_url 為世界卡卡面（鈦金卡圖為無副檔名的媒體連結）。"
+  },
+  {
+    "id": "esun-eztravel",
+    "bank": "esun",
+    "name": "玉山易遊卡",
+    "name_en": "E.SUN eztravel Card",
+    "networks": ["visa"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費，次年起前一年度使用帳單e化或使用玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠，每年重新計算。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "travel", "co-branded", "new-cardholder", "transit"],
+    "headline": "易遊網機票／訂房最高 10% eMoney，一般消費 0.5%",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.5% eMoney", "rate_value": 0.5, "cap": "無上限", "conditions": "不含易遊網官網／App 刷卡", "valid_until": "2027-06-30" },
+      { "label": "易遊網官網／App 消費", "rate": "2% eMoney", "rate_value": 2, "cap": "無上限", "conditions": "限官網或 App 刷卡；行動支付、門市、傳真刷卡不適用", "valid_until": "2027-06-30" },
+      { "label": "易遊網機票／國外團體／遊輪", "rate": "最高 10%（2%＋加碼 8%）", "rate_value": 10, "cap": "加碼每月 500 點", "conditions": "當月一般消費達 NT$15,000 且於次月 10 日前繳清", "valid_until": "2027-06-30" },
+      { "label": "易遊網訂房", "rate": "最高 10%（2%＋加碼 8%）", "rate_value": 10, "cap": "加碼每月 500 點", "conditions": "購買易遊網機票後 60 天內訂房，皆須一次付清", "valid_until": "2027-06-30" }
+    ],
+    "highlights": [
+      "eMoney 1 點＝NT$1，可折抵易遊網任何商品，效期 6 個月",
+      "新戶首購：核卡後享易遊網 NT$1,000 折扣碼（國際機票稅前 NT$25,000 以上）",
+      "新正卡人升等易遊網白金會員，最長 2 年",
+      "旅遊平安險最高 NT$2,000 萬（全額支付公共運輸或 80% 以上團費）",
+      "道路救援每年 3 次（首年需累積消費 NT$10 萬）；可選悠遊卡功能"
+    ],
+    "requirements": "需先登入易遊網會員後申辦；每人限持一張（正卡或附卡）",
+    "status": "active",
+    "apply_url": "https://card.esunbank.com.tw/EsunCreditweb/txnproc/selApplyCard?PRJCD=APYCRD0066&param=000000000000001",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/co-branded-card/eztravel/ez-card_288x460_2204.png",
+    "promo_until": "2027-06-30",
+    "last_verified": "2026-11-01",
+    "notes": "【待核對】頁面未標示卡組織，networks 為推定。頁面 meta 與正文回饋率不一致（meta 0.6%/1.5%/7%，正文 0.5%/2%/10%），以正文為準。"
+  },
+  {
+    "id": "esun-world",
+    "bank": "esun",
+    "name": "玉山世界卡",
+    "name_en": "E.SUN World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費；次年起正附卡合併年度刷卡消費達 NT$50 萬(含)以上，或每年新增理財（基金／保險／黃金存摺／外幣結購）享次年免年費。醫師世界卡門檻 NT$25 萬。附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "overseas", "airport-lounge", "dining", "insurance", "new-cardholder"],
+    "headline": "國外實體消費最高 3.5% 現金回饋，指定旅遊通路加碼 3%",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.2% 玉山e point", "rate_value": 0.2, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費", "rate": "1% 現金回饋", "rate_value": 1, "cap": "無上限", "conditions": "當期帳單折抵", "valid_until": "2026-12-31" },
+      { "label": "國外實體消費加碼（依財管會員等級）", "rate": "最高 3.5%（1%＋加碼 1%～2.5%）", "rate_value": 3.5, "cap": "依等級每月 NT$5,000～12,500", "conditions": "需登錄；當月國外實體一般消費達 NT$20,000", "valid_until": "2026-12-31" },
+      { "label": "指定旅遊通路", "rate": "加碼 3% e point（合計 3.2%）", "rate_value": 3.2, "cap": "每月 6,000 點", "conditions": "需登錄；當月國內外一般消費達 NT$50,000", "valid_until": "2026-12-31" },
+      { "label": "國內新臺幣壽險保費", "rate": "加碼 0.9%（合計 1.1%）", "rate_value": 1.1, "cap": "無上限", "conditions": "需登錄", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "採尊榮邀請制；新戶核卡 60 天內一般消費 NT$10 萬贈 3,000 點",
+      "VBO 玉約饗樂：指定餐廳、飯店、高爾夫、機場快速通關禮遇",
+      "高鐵商務車廂升等每卡每月最多 10 張",
+      "線上換匯優惠：美元減 3.5 分、日圓減 0.14 分、歐元減 1.4 角",
+      "玉山黃金種子計畫：國內一般消費 0.3‰ 捐助偏鄉學校圖書館"
+    ],
+    "requirements": "正卡年滿 18 歲，固定年收入達 NT$200 萬以上或月薪達 NT$15 萬以上；學生不得申請正卡",
+    "status": "active",
+    "apply_url": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/world-card/world/world_460x288_2022.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "頁面標題宣稱保費「最高 1.66%」但活動表為 1.1%，未能對應。機場接送／貴賓室見 meta 但正文未詳列。卡組織依「玉山萬事達卡」段落推定。"
+  },
+  {
+    "id": "esun-infinite",
+    "bank": "esun",
+    "name": "玉山無限卡",
+    "name_en": "E.SUN Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "合約期間內首年免年費，次年起只要有不限金額消費即可享免年費。附卡 NT$5,000／卡。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "no-annual-fee", "travel", "overseas", "airport-lounge", "insurance", "dining"],
+    "headline": "國內外一般消費 1% 現金回饋無上限，國外實體最高 2%",
+    "rewards": [
+      { "label": "國內外一般消費", "rate": "1% 現金回饋", "rate_value": 1, "cap": "無上限", "conditions": "當期帳單折抵；特約商店分期不享", "valid_until": "2026-12-31" },
+      { "label": "國外實體消費加碼", "rate": "加碼 1%（合計最高 2%）", "rate_value": 2, "cap": "每季 NT$5,000", "conditions": "需登錄；每季國外實體一般消費累積 NT$10 萬", "valid_until": "2026-12-31" },
+      { "label": "指定航空、高鐵", "rate": "加碼 2% e point（合計最高 3%）", "rate_value": 3, "cap": "每季 2,000 點", "conditions": "需登錄；每季國內一般消費累積 NT$10 萬；含華航、長榮、星宇、國泰、阿聯酋及台灣高鐵", "valid_until": "2026-12-31" },
+      { "label": "國內新臺幣壽險保費", "rate": "加碼 0.1%（合計 1.1%）", "rate_value": 1.1, "cap": "無上限", "conditions": "需登錄；躉繳及三商美邦投資型保單不適用", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "限醫師、牙醫師、中醫師、會計師、建築師、藥師等公會會員及正式職員申辦",
+      "機場接送、機場貴賓室、機場外圍停車、市區停車及道路救援（次數依財管會員身分）",
+      "旅遊平安險最高 NT$5,000 萬、旅遊不便險及全球購物保障",
+      "高鐵商務車廂升等：當月一般消費達 NT$30,000，次月加價 NT$300 升等（每月每卡 2 張）",
+      "首刷禮：新戶或財管會員核卡 60 天內國內一般消費 NT$5 萬贈 NT$500 好禮即享券"
+    ],
+    "requirements": "中華民國醫師、牙醫師、中醫師、會計師、建築師、藥師、藥劑生等公會全國聯合會會員及正式職員",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_doctor-infinite/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/infinite-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/world-card/infinite/_2605__460x288.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "專業人士卡（醫師尊榮／牙醫師／中醫師／建築師／會計師／藥師無限卡），一般消費者不符資格。年費 NT$10,000 但任一筆消費即免，故 effectively_free 標 true。"
+  },
+  {
+    "id": "esun-digital-e",
+    "bank": "esun",
+    "name": "玉山數位e卡",
+    "name_en": "E.SUN Digital e-Card",
+    "networks": ["visa"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 900,
+      "waiver": "首年免年費，次年起前一年度符合(1)任消費一筆，或(2)使用玉山帳戶自動扣繳信用卡款或帳單e化享免年費優惠，每年重新計算。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "ev-charging", "department-store", "supermarket"],
+    "headline": "環保有機指定通路最高 5%，純數位卡即辦即用",
+    "rewards": [
+      { "label": "國內外一般消費", "rate": "0.5% 玉山e point", "rate_value": 0.5, "cap": "每期無上限", "conditions": "需同時申請帳單e化及玉山臺幣帳戶自動扣繳卡費", "valid_until": "2026-12-31" },
+      { "label": "環保、有機指定通路（特斯拉、iRent、GoShare、Gogoro、里仁、主婦聯盟等）", "rate": "最高 5%（0.5%＋加碼 4.5%）", "rate_value": 5, "cap": "加碼歸戶每期 250 點", "conditions": "需帳單e化及自動扣繳，並於關帳前 2 個工作天完成登錄", "valid_until": "2026-12-31" },
+      { "label": "輕時尚版：指定百貨／美妝（新光三越、遠百、SOGO、屈臣氏、寶雅、康是美）", "rate": "最高 3%（0.5%＋加碼 2.5%）", "rate_value": 3, "cap": "加碼歸戶每期 250 點", "conditions": "實體消費需以指定行動支付（玉山Wallet、Apple Pay、Google Pay 等）", "valid_until": "2026-12-31" },
+      { "label": "寵生活版：指定咖啡／支付（cama、路易莎、星巴克、全盈+PAY、悠遊付、icash Pay）", "rate": "最高 3%（0.5%＋加碼 2.5%）", "rate_value": 3, "cap": "加碼歸戶每期 250 點", "conditions": "需帳單e化及自動扣繳", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "不發行實體卡，核卡後於玉山Wallet 開卡、查卡號、綁定消費",
+      "兩版卡面：輕時尚版、寵生活版，可同時申請",
+      "玉山Wallet：近 12 期帳單、即時消費推播、條碼付／掃碼付／感應付",
+      "玉山e point 可即時折抵消費"
+    ],
+    "requirements": "正卡年滿 18 歲並提供財力證明；附卡年滿 15 歲且為正卡親屬",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_e/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/e-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/e-card/_460x288_G_e.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "【待核對】頁面未標示卡組織，networks 為推定。"
+  },
+  {
+    "id": "esun-icash",
+    "bank": "esun",
+    "name": "玉山icash聯名卡",
+    "name_en": "E.SUN icash Co-branded Card",
+    "networks": ["visa", "jcb"],
+    "levels": ["御璽卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費，次年起前一年度使用帳單e化或使用玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠，每年重新計算。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "supermarket", "co-branded", "transit"],
+    "headline": "icash Pay 消費 1% OPENPOINT 無上限，7-ELEVEN 登錄享 6%",
+    "rewards": [
+      { "label": "國內外一般消費", "rate": "0.2% OPENPOINT", "rate_value": 0.2, "cap": "無上限", "conditions": "不含 icash Pay 綁定消費；特店分期不享", "valid_until": "2026-12-31" },
+      { "label": "icash Pay 消費", "rate": "1% OPENPOINT", "rate_value": 1, "cap": "無上限", "conditions": "限本國籍並綁定本人 icash Pay", "valid_until": "2026-12-31" },
+      { "label": "7-ELEVEN 實體門市 icash Pay", "rate": "6% OPENPOINT", "rate_value": 6, "cap": "每歸戶每月 200 點", "conditions": "需登錄，每月 6,000 名", "valid_until": "2026-12-31" },
+      { "label": "享鑽生活指定通路（首次綁定 icash Pay）", "rate": "11% OPENPOINT", "rate_value": 11, "cap": "每 icash Pay 用戶 1,000 點（限 1 次）", "conditions": "首次將玉山卡綁定 icash Pay，當月指定通路累積 NT$5,000；不含 7-ELEVEN", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "VISA 御璽卡／JCB 晶緻卡兩種版本，內建 icash 電子票證",
+      "萬家福／樂家康／Mia C'bon 指定日登錄享 5%（每月 150 點）",
+      "旅遊平安險最高 NT$2,000 萬；道路救援每年最多 3 次（需達消費門檻）",
+      "eTag 自動儲值、通行費 9 折"
+    ],
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_icash/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/icash-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/icash-card/icash-card_460x288_2022.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "享鑽生活上限頁面文字不一致（活動期間限 1 次 vs 每月 1,000 點）。"
+  },
+  {
+    "id": "esun-dual-currency",
+    "bank": "esun",
+    "name": "玉山雙幣信用卡",
+    "name_en": "E.SUN Dual Currency Card",
+    "networks": ["mastercard", "jcb"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起正附卡合併年度消費達 NT$15 萬(含)以上（臺幣與外幣合計），或前一年度任一月底外幣資產達等值 NT$15 萬以上免年費。附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["overseas", "travel", "airport-lounge"],
+    "headline": "國外消費 1.5% 現金回饋無上限，免 1.5% 國外交易服務費",
+    "rewards": [
+      { "label": "國外消費", "rate": "1.5% 現金回饋", "rate_value": 1.5, "cap": "無上限", "conditions": "國外商店或外國收單機構消費", "valid_until": "2026-12-31" },
+      { "label": "美元卡於美國／歐元卡於歐盟地區", "rate": "最高 2%（加碼 0.5%）", "rate_value": 2, "cap": "每期 NT$1,000", "conditions": "需以對應幣別卡於該地區消費", "valid_until": "2026-12-31" },
+      { "label": "國內一般消費", "rate": "0.2% 現金回饋", "rate_value": 0.2, "cap": "無上限", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "美元、歐元、日圓三種幣別卡及 JCB 日圓極緻卡；國外消費以該外幣結付",
+      "2025/7/1 起國外消費免收 1.5% 國外交易服務費",
+      "日圓 Mastercard 版自 2025/7/1 起因系統升級暫停申辦",
+      "卡友禮遇：旅遊保險、機場貴賓室、機場停車（需達消費門檻）、道路救援",
+      "Mastercard Live Nation 優先購票；JCB 日圓卡享日本環球影城貴賓室等禮遇"
+    ],
+    "requirements": "需持有本行臺幣及外幣帳戶（可線上同時開立）並設定外幣帳戶自動扣繳",
+    "status": "active",
+    "apply_url": "https://esun.co/SUx8L",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/dualcurrency-card/dualcurrency-card_460x288_2022.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "日圓 Mastercard 版 2025/7/1 起暫停申辦（頁面載明）；美元／歐元／JCB 日圓版仍可申辦。免年費門檻 15 萬非輕易達成，故 effectively_free false。"
+  },
+  {
+    "id": "esun-digital-insurance",
+    "bank": "esun",
+    "name": "玉山數位保險卡",
+    "name_en": "E.SUN Digital Insurance Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費，次年起前一年度使用帳單e化、使用玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠（三擇一），每年重新計算。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "insurance", "installment"],
+    "headline": "保費一次付清 1.2% 玉山e point 無上限，或 12 期 0 利率",
+    "rewards": [
+      { "label": "保費自動扣繳一次付清", "rate": "1.2% 玉山e point", "rate_value": 1.2, "cap": "無上限", "conditions": "限國內新臺幣保費；部分躉繳及投資型保單不適用", "valid_until": "2026-12-31" },
+      { "label": "保費分期（NT$10,000～19,999，3 期）", "rate": "0.5% 玉山e point", "rate_value": 0.5, "cap": "分期相關回饋上限 10,000 點", "conditions": "需登錄", "valid_until": "2026-12-31" },
+      { "label": "非保費一般消費", "rate": "0.2% 玉山e point", "rate_value": 0.2, "conditions": "限新增非保費一般消費", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "不發行實體卡，核卡後於玉山Wallet 開卡、即時扣繳保費",
+      "保費 NT$1～19,999 享 12 期 0 利率；NT$20,000 以上 3 或 12 期 0 利率",
+      "推薦禮：推薦新戶辦卡並於 90 天內新增保費交易，推薦人得 NT$700 刷卡金",
+      "玉山e point 可折抵帳單（最高 30%）或消費（最高 100%）"
+    ],
+    "requirements": "正卡年滿 18 歲並提供財力證明；附卡年滿 15 歲且為正卡親屬",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_inscard/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/inscard/460.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "esun-teacher",
+    "bank": "esun",
+    "name": "玉山教師(鈦金/御璽)卡",
+    "name_en": "E.SUN Teacher Card",
+    "networks": ["mastercard", "visa"],
+    "levels": ["鈦金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費，次年起前一年度使用帳單e化、使用玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠，每年重新計算。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "insurance", "travel"],
+    "headline": "教師專屬卡，單筆 NT$8,000 以上消費 0.4% 現金回饋",
+    "rewards": [
+      { "label": "一般消費單筆 NT$7,999 以下", "rate": "0.2%", "rate_value": 0.2, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "一般消費單筆 NT$8,000 以上", "rate": "0.4%", "rate_value": 0.4, "cap": "無上限", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "鈦金卡（Mastercard）專寵女老師、御璽卡（Visa）尊榮男老師",
+      "旅遊平安險最高 NT$2,000 萬（全額支付公共運輸或 80% 以上團費）",
+      "道路救援首年免費，次年起需年消費 NT$10 萬",
+      "eTag 自動儲值、通行費 9 折"
+    ],
+    "requirements": "年滿 18 歲之教育部立案公私立學校教師、退休教師、聘任職員或約僱人員，或政府立案知名補習班教職者（不含安親班、才藝班），並提供財力證明",
+    "status": "active",
+    "apply_url": "https://event.esunbank.com.tw/credit/card_teacher/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/teacher-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/teacher-card/teacher-card_460x288_2022.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "頁面 meta 寫最高 0.6%，正文為 0.4%，以正文為準。"
+  },
+  {
+    "id": "esun-poya",
+    "bank": "esun",
+    "name": "寶雅悠遊聯名卡",
+    "name_en": "E.SUN POYA EasyCard Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "白金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 3000,
+      "waiver": "首年免年費；次年起前一年度使用帳單e化、使用玉山帳戶自動扣繳卡費或刷卡任一筆消費即免年費，每年重新計算。普卡 NT$300、白金卡 NT$900、御璽卡 NT$3,000；附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "transit", "new-cardholder"],
+    "headline": "寶雅消費每 1 元 1 點寶雅點數，週末單筆滿 999 享 13% 回饋",
+    "rewards": [
+      { "label": "寶雅實體門市及寶雅線上買", "rate": "每 NT$1＝1 點寶雅會員點數", "conditions": "寶雅會員點數 300 點折 NT$1", "valid_until": "2026-12-31" },
+      { "label": "店外一般消費", "rate": "0.2% 玉山e point", "rate_value": 0.2, "cap": "無上限", "conditions": "館外特店分期不適用", "valid_until": "2026-12-31" },
+      { "label": "週末狂歡日（寶雅週六、日）", "rate": "13% 現金回饋", "rate_value": 13, "cap": "每月歸戶 NT$300", "conditions": "單筆滿 NT$999，需登錄；寶雅線上買行動支付不適用", "valid_until": "2026-12-31" },
+      { "label": "新卡首刷禮（寶雅）", "rate": "15% 現金回饋", "rate_value": 15, "cap": "每歸戶 NT$300", "conditions": "首次申辦正卡，核卡 60 天內首刷單筆滿 NT$999，需綁定寶雅會員", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "週一至週五以 POYA 支付綁定本卡單筆滿 NT$888 贈寶雅點數 13,500 點（每卡每月 2 次）",
+      "POYA 支付首綁禮 3,000 點寶雅點數",
+      "寶雅門市單筆滿 NT$350 可用玉山e point 1 點折 NT$1",
+      "內建悠遊卡功能；旅遊平安險最高 NT$2,000 萬",
+      "部分專櫃單筆滿 NT$3,000 享 6／12 期零利率"
+    ],
+    "status": "active",
+    "apply_url": "https://www.esunbank.com.tw/event/credit/card_poya/index.html",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/co-branded-card/poya-card/poya-card_460x288.webp",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "【待核對】頁面未標示卡組織，依普卡／白金／御璽卡等推定為 Visa。meta 寫最高 10%／線上 7%，正文為 13%，以正文為準。"
+  },
+  {
+    "id": "esun-only",
+    "bank": "esun",
+    "name": "玉山Only卡",
+    "name_en": "E.SUN Only Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起申辦帳單e化及玉山帳戶自動扣繳卡費，或年度刷卡累計消費滿 NT$15 萬(含)以上或滿 12 次，則次年免年費。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["travel", "overseas", "dining", "transit"],
+    "headline": "已停止申辦：依消費等級最高 3.2% 玉山e point 回饋",
+    "rewards": [
+      { "label": "一般消費基本回饋", "rate": "0.4%", "rate_value": 0.4, "cap": "無上限", "conditions": "分期付款交易不回饋", "valid_until": "2026-12-31" },
+      { "label": "紅利倍多芬 Level 5（年累積消費 NT$688,000）", "rate": "最高 3.2%（加贈 2.8%）", "rate_value": 3.2, "cap": "加贈每歸戶每期 1,500 點", "conditions": "Level 2～5 加贈 0.4%／1.2%／2%／2.8%，依年度累積消費升等", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "自 2026/1/1 起停止申辦，2026/9/1 起終止發行，權益及換卡訊息詳見官網公告",
+      "具悠遊卡或一卡通功能；eTag 自動儲值、通行費 9 折",
+      "玉山e point 可折抵帳單最高 30%、折抵消費最高 100%"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「自2026/1/1起停止申辦，2026/9/1起終止發行」。",
+    "status_changed_at": "2026-09-01",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/only-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/only-card/only-card_460x288_2022.webp",
+    "last_verified": "2026-11-01",
+    "notes": "頁面 meta 宣稱最高 13 倍／5.2%，正文表格最高 3.2%，以正文為準。"
+  },
+  {
+    "id": "esun-signature",
+    "bank": "esun",
+    "name": "玉山御璽卡",
+    "name_en": "E.SUN Signature Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費，次年起前一年度使用帳單e化、玉山帳戶自動扣繳信用卡款或任消費一筆享免年費優惠。附卡免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["travel", "insurance"],
+    "headline": "已停止申辦：國內外一般消費 0.2% 玉山e point，換發 Unicard",
+    "rewards": [
+      { "label": "國內外一般消費", "rate": "0.2% 玉山e point", "rate_value": 0.2, "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "自 2026/7/1 起停止申辦，2026/9/14 起終止發行；到期或補發改換發玉山Unicard",
+      "Visa 御璽卡卓越禮遇：指定餐廳、飯店優惠",
+      "旅遊平安險及不便險最高 NT$2,000 萬"
+    ],
+    "status": "discontinued",
+    "status_note": "官網標示「自2026/7/1起停止申辦，2026/9/14起終止發行」，2026/11 起到期卡換發玉山Unicard。",
+    "status_changed_at": "2026-09-14",
+    "source_url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/signature-card",
+    "image_url": "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/signature-card/signature-card_460x288_2022.webp",
+    "last_verified": "2026-11-01"
+  }
+]

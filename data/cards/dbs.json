@@ -1,0 +1,734 @@
+[
+  {
+    "id": "dbs-eco",
+    "bank": "dbs",
+    "name": "星展eco永續卡",
+    "name_en": "DBS eco Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金商務卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "ev-charging", "insurance", "mobile-payment", "new-cardholder", "transit"],
+    "headline": "國內外一般消費 1% 無上限，日韓泰新美歐實體消費 5%",
+    "rewards": [
+      {
+        "label": "國內／國外一般消費（含保費、代扣繳、超商街口支付）",
+        "rate": "1% 現金積點",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "現金積點 1 點＝NT$1，效期 18 個月，Card+ App 以 300 點為單位折抵帳單",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本／韓國／泰國／新加坡／美洲／歐洲當地實體商店（含 Apple Pay／Samsung Pay）",
+        "rate": "5% 現金積點",
+        "rate_value": 5,
+        "cap": "加碼 4% 每期帳單上限 600 點",
+        "conditions": "1% 無上限＋加碼 4%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "eco 消費（Tesla 充電、Gogoro 電池資費、茶籽堂／鮮乳坊／馳綠等社會企業）",
+        "rate": "最高 10% 現金積點",
+        "rate_value": 10,
+        "cap": "加碼 9% 每期帳單上限 500 點",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶 2026/11～12 月核卡 30 天內登入 Card+、申請電子帳單、單筆消費滿 NT$1,000，首刷禮三選一（Butterbear 20 吋行李箱／無線鍵鼠組／NT$200 刷卡金）",
+      "海外實體餐廳消費登錄最高 10% 刷卡金（每月上限 NT$1,000，2026/9/1～12/31）",
+      "指定國旅通路當月滿 NT$20,000 登錄最高 5%（每月上限 NT$1,000）",
+      "Mastercard 海外消費回饋平台註冊享精選商店最高 25% 現金回饋",
+      "具一卡通票證功能；威秀購票 6 折起"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=310",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs_eco/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_titanium_business_ipass_310-684x630.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "頁面標示「本卡為萬事達卡鈦金商務卡」，但為一般消費者產品。"
+  },
+  {
+    "id": "dbs-everyday-signature",
+    "bank": "dbs",
+    "name": "星展everyday威士御璽卡",
+    "name_en": "DBS everyday Visa Signature Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "streaming", "transit", "new-cardholder"],
+    "headline": "一般消費 NT$25＝1 點活利積分，指定海外串流平台 10 倍",
+    "rewards": [
+      {
+        "label": "國內／國外一般消費",
+        "rate": "NT$25＝1 點活利積分",
+        "rate_value": 1
+      },
+      {
+        "label": "透過星展申請公用事業費代扣繳",
+        "rate": "NT$25＝1 點活利積分",
+        "rate_value": 1
+      },
+      {
+        "label": "指定海外串流影音平台（Netflix、Disney+、YouTube、Spotify、iTunes）",
+        "rate": "10 倍活利積分",
+        "rate_value": 10,
+        "conditions": "含原 1 倍"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮：宜睿多選券 NT$888",
+      "當月有消費，次月每日 1 次最長 1 小時台灣聯通停車（每次折抵活利積分 100 點）",
+      "刷國際線機票或團費 8 成以上，國際機場接送 NT$675 起（每人 2 次）",
+      "具一卡通票證功能"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=158",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/everyday/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/everyday-Signature-684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "活利積分約 NT$25＝1 點，折抵價值依兌換方式而異，rate_value 以點數倍率記錄。"
+  },
+  {
+    "id": "dbs-aov",
+    "bank": "dbs",
+    "name": "星展傳說對決聯名卡",
+    "name_en": "DBS Arena of Valor Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "streaming", "online-shopping", "dining", "overseas", "new-cardholder", "transit"],
+    "headline": "生活玩家精選通路最高 10%，日韓泰新美歐實體消費 5%",
+    "rewards": [
+      {
+        "label": "國內／國外一般消費",
+        "rate": "1% 現金積點",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "含國內基本回饋 0.2%；現金積點效期 18 個月",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "生活玩家精選通路（App Store、Google Play、Steam、Nintendo、PlayStation、Netflix、Disney+、Spotify、Uber Eats、foodpanda、麥當勞、蝦皮、淘寶、拓元、KKTIX 等）",
+        "rate": "最高 10% 現金積點",
+        "rate_value": 10,
+        "cap": "加碼 9% 每人每月上限 500 點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "日本／韓國／泰國／新加坡／美洲／歐洲當地實體商店",
+        "rate": "5% 現金積點",
+        "rate_value": 5,
+        "cap": "加碼 4% 每人每月上限 500 點",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮 1,400 貝殼幣",
+      "首次成為星耀理財客戶並每月完成換匯或轉帳，綁 LINE Pay 消費享 10% 刷卡金（每月最高 NT$500）",
+      "指定訂房平台最高 16% 優惠",
+      "具一卡通票證功能"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=130",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-aov/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/AOV-Signature-684x630.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依卡面圖檔名 AOV-Signature 判定為 Visa 御璽卡。"
+  },
+  {
+    "id": "dbs-travel-world",
+    "bank": "dbs",
+    "name": "星展飛行世界商務卡",
+    "name_en": "DBS Travel World Business Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 3600,
+      "waiver": "正卡年費 NT$3,600 採預收制，附卡免年費；無免年費門檻（續卡繳年費滿一年贈飛行積金 3,000 點）",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "airport-lounge", "premium", "new-cardholder"],
+    "headline": "海外 NT$18、國內 NT$22 累積 1 點飛行積金，一年 2 次機場貴賓室",
+    "rewards": [
+      {
+        "label": "海外一般消費",
+        "rate": "NT$18＝1 點飛行積金",
+        "rate_value": 18,
+        "conditions": "飛行積金持卡期間有效，可兌換亞洲萬里通、長榮無限萬哩遊、新航 KrisFlyer、華夏哩程"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "NT$22＝1 點飛行積金",
+        "rate_value": 22
+      }
+    ],
+    "highlights": [
+      "新戶繳足年費、核卡 30 天內一般消費累積 NT$50,000，贈飛行積金 5,000 點",
+      "一年 2 次免費 U.First 全球機場貴賓室",
+      "機場接送優惠價 NT$528 起；一年最高 30 天機場外圍免費停車",
+      "刷卡滿額次月週六、日市區免費停車最高 2 小時",
+      "旅遊平安險最高 NT$3,600 萬"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$24 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=405",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/travelworld/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/travelworld-684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "飛行積金兌換哩程比率未在產品頁載明（依回饋獎勵計畫頁）；rate_value 為每點飛行積金所需台幣。"
+  },
+  {
+    "id": "dbs-travel-world-elite",
+    "bank": "dbs",
+    "name": "星展飛行世界之極卡",
+    "name_en": "DBS Travel World Elite Card",
+    "networks": ["mastercard"],
+    "levels": ["World Elite"],
+    "annual_fee": {
+      "amount": 24000,
+      "waiver": "首年需繳年費，採預收制；持卡第 2 年起前一年度正附卡合計一般消費達 NT$1,000 萬享次年免年費",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["premium", "travel", "overseas", "airport-lounge", "new-cardholder"],
+    "headline": "海外 NT$15 累積 1 點飛行積金，4 次免費機場接送、無限次貴賓室",
+    "rewards": [
+      {
+        "label": "海外一般消費",
+        "rate": "NT$15＝1 點飛行積金",
+        "rate_value": 15
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "NT$18＝1 點飛行積金",
+        "rate_value": 18
+      }
+    ],
+    "highlights": [
+      "新戶繳足年費、核卡 30 天內一般消費累積 NT$100,000，贈飛行積金 35,000 點；續卡禮 10,000 點",
+      "一年 4 次免費國際機場接送",
+      "無限次機場貴賓室，正卡再享免費攜伴 2 位",
+      "機場停車最高 30 天免費；每年 2 次環宇通關禮遇",
+      "旅遊平安險最高 NT$5,000 萬"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$36 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=452",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/travel_world_elite/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/Travel_World_Elite_MC_684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-travel-titanium",
+    "bank": "dbs",
+    "name": "星展飛行鈦金卡",
+    "name_en": "DBS Travel Titanium Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "miles",
+    "tags": ["no-annual-fee", "travel", "overseas", "transit"],
+    "headline": "海外 NT$20、國內 NT$35 累積 1 點飛行積金，免年費入門哩程卡",
+    "rewards": [
+      {
+        "label": "海外一般消費",
+        "rate": "NT$20＝1 點飛行積金",
+        "rate_value": 20
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "NT$35＝1 點飛行積金",
+        "rate_value": 35
+      }
+    ],
+    "highlights": [
+      "機場接送優惠價 NT$728 起（6 個月內刷國外機票或團費達 NT$1 萬）",
+      "U.First 全球機場貴賓室自費優惠價 NT$850",
+      "刷國外機票或團費單筆達 NT$2 萬，機場外圍免費停車一年 3 次、每次最長 5 天",
+      "五大線上訂房網站最優 21% 優惠；旅遊平安險最高 NT$2,000 萬",
+      "具一卡通票證功能"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=359",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/travel_titanium/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/travel-titanium-684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-insignia",
+    "bank": "dbs",
+    "name": "星展極耀無限卡",
+    "name_en": "DBS Insignia Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 36000,
+      "waiver": "採預收制，附卡 4 張免年費（第 5 張起每張 NT$3,500）；持卡第 2 年起前一年度正卡一般消費達 NT$1,000 萬享次年免年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "dining"],
+    "headline": "NT$8 累積 1 點活利積分，一年 8 次機場接送、無限次貴賓室",
+    "rewards": [
+      {
+        "label": "國內／國外一般消費",
+        "rate": "NT$8＝1 點活利積分",
+        "rate_value": 1,
+        "conditions": "活利積分持卡期間有效",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "一年 8 次國際機場接或送；一年 30 天免費機場外圍停車",
+      "正附卡無限次使用 U.First 全球機場貴賓室；每年最高 2 次環宇通關",
+      "極耀饗宴最優 2 人同行 1 人免費；週末免費市區停車",
+      "新戶核卡 60 天內一般消費達 NT$120,000 並繳足年費，贈 Georg Jensen 禮品",
+      "旅遊平安險最高 NT$5,000 萬"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$500 萬以上、或他行近 6 個月資產月均 NT$3,000 萬以上、或星展豐盛私人客戶；專人聯繫申辦",
+    "status": "active",
+    "status_note": "無線上申辦，需透過「專人聯繫」表單由專人服務",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/dbs-forms/credit-card-application.page",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs_Insignia/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/insignia-684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-vantage",
+    "bank": "dbs",
+    "name": "星展晶耀無限卡",
+    "name_en": "DBS Vantage Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 5500,
+      "waiver": "正卡年費 NT$5,500 採預收制，附卡免年費；頁面未列免年費門檻",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "dining"],
+    "headline": "NT$30 累積 1 點活利積分，一年 2 次機場接送、正卡無限次貴賓室",
+    "rewards": [
+      {
+        "label": "國內／國外一般消費",
+        "rate": "NT$30＝1 點活利積分（豐盛晶耀無限卡 NT$15＝1 點）",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "一年 2 次免費國際機場接或送",
+      "正卡人無限次使用機場貴賓室",
+      "頂級饗宴兩人同行 8 折；週末免費市區停車",
+      "新戶 2026/9/1～12/31 核卡 60 天內一般消費達 NT$60,000 並繳足年費，贈 GRANDI 香檳杯組"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$200 萬以上、或他行總資產月均 NT$200 萬以上、或星展豐盛理財戶；非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=192",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs_Vantage/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/dbs-Vantage-684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-funlife",
+    "bank": "dbs",
+    "name": "星展饗樂生活卡",
+    "name_en": "DBS funlife Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "dining", "travel", "new-cardholder"],
+    "headline": "威秀購票天天 6 折起，王品集團平日天天 9 折",
+    "rewards": [
+      {
+        "label": "王品指定品牌餐廳、威秀影城／MUVIE CINEMAS",
+        "rate": "雙倍活利積分",
+        "rate_value": 2,
+        "conditions": "含原 1 倍；百貨、商場分店不適用"
+      },
+      {
+        "label": "一般消費",
+        "rate": "活利積分 1 倍",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "威秀影城週一至週四全票 6 折（每日 2 張）、假日 83 折，小爆米花＋中可 NT$49 加價購",
+      "王品集團人氣品牌平日套餐每客 9 折，首年生日套餐買一送一",
+      "KKday 旅遊體驗最優 8 折，日韓熱門商品最優 75 折",
+      "台灣虎航全航線最優 88 折起",
+      "新戶首刷禮 300 元王品集團即享券"
+    ],
+    "requirements": "正卡年滿 18 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=763",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-funlife/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/funlife_684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "一般消費活利積分比率未在產品頁載明（權益手冊年費表列為「饗樂生活（御璽）卡 2,400 元／（白金）卡 1,200 元」，卡面為 Visa Signature）。"
+  },
+  {
+    "id": "dbs-pchome-prime",
+    "bank": "dbs",
+    "name": "星展PChome Prime聯名卡",
+    "name_en": "DBS PChome Prime Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "online-shopping", "overseas", "streaming", "installment", "new-cardholder"],
+    "headline": "PChome 站內消費最高 6% 回饋（分期同享），國外指定通路最高 3%",
+    "rewards": [
+      {
+        "label": "PChome 站內消費",
+        "rate": "最高 6%",
+        "rate_value": 6,
+        "cap": "聯名點數每期帳單上限 1,000 點、P 幣每期上限 1,000（週四加碼及分期不計入）",
+        "conditions": "聯名點數 2%＋P 幣 2%（需綁定 PChome 帳號）＋每週四加碼 P 幣 2%；站內分期登錄享 P 幣 4%＋週四 2%"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "0.5% PChome 聯名點數",
+        "rate_value": 0.5,
+        "cap": "每期帳單聯名點數上限 1,000 點"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "0.5% PChome 聯名點數",
+        "rate_value": 0.5
+      },
+      {
+        "label": "國外指定通路（Coupang、Amazon、iHerb、SHEIN、Netflix、Spotify、Nintendo、YouTube、Disney+、PlayStation 等）",
+        "rate": "最高 3%",
+        "rate_value": 3,
+        "cap": "加碼 2.5% P 幣年度上限 2,000 P 幣",
+        "conditions": "0.5% 聯名點數＋2.5% P 幣，需綁定 PChome 會員帳戶",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮 800 點 P 幣",
+      "1 P 幣＝NT$1，可於 PChome 結帳 100% 折抵",
+      "威秀購票平日 6 折起、假日 85 折",
+      "Klook 全站最優 85 折起"
+    ],
+    "requirements": "正卡年滿 18 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=771",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-pchomeprime/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/dbs_PChome_684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "卡片總覽比較表寫「海外消費享1.5%回饋」，但產品頁注意事項為國外 0.5% 聯名點數＋指定通路 2.5% P 幣；以產品頁為準。網路別依卡面圖（VISA Signature）判定。"
+  },
+  {
+    "id": "dbs-happygo",
+    "bank": "dbs",
+    "name": "星展HAPPY GO聯名卡",
+    "name_en": "DBS HAPPY GO Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "mobile-payment", "new-cardholder"],
+    "headline": "每 NT$100 累積 1 點 HAPPY GO，遠東 SOGO／遠百等指定商店最高 6 倍",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "每 NT$100＝1 點 HAPPY GO 點數",
+        "rate_value": 1,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "HAPPY GO 特約商店",
+        "rate": "2 倍點數",
+        "rate_value": 2,
+        "conditions": "含原可得 1 倍及特約商店消費 1 倍"
+      },
+      {
+        "label": "指定商店（遠東 SOGO、遠東百貨等）",
+        "rate": "3 倍點數",
+        "rate_value": 3,
+        "conditions": "含原可得 1 倍及特約商店 1 倍"
+      },
+      {
+        "label": "指定商店使用 HAPPY GO Pay 綁定本卡",
+        "rate": "6 倍點數",
+        "rate_value": 6,
+        "conditions": "含原可得 1 倍及特約商店 1 倍"
+      }
+    ],
+    "highlights": [
+      "新戶核卡 30 天內登入 Card+、申請電子帳單並單筆消費滿 NT$1,000，贈 750 點 HAPPY GO",
+      "遠百百貨服飾 9 折，折扣期間再 95 折；各店停車優惠",
+      "2026 Q4 八大通路滿額最高贈 450 點"
+    ],
+    "requirements": "正卡年滿 18 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=164",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-happygo/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/dbs-happygo-684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "網路別依卡面圖（VISA Platinum）判定。"
+  },
+  {
+    "id": "dbs-cru",
+    "bank": "dbs",
+    "name": "星展喜憨兒認同卡",
+    "name_en": "DBS Children Are Us Affinity Card",
+    "networks": ["visa"],
+    "levels": ["白金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 600,
+      "max_amount": 1200,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "new-cardholder"],
+    "headline": "海內外消費 NT$30＝1 點活利積分，消費 0.275% 捐助喜憨兒基金會",
+    "rewards": [
+      {
+        "label": "海內外一般消費",
+        "rate": "NT$30＝1 點活利積分",
+        "rate_value": 1,
+        "conditions": "另由本行提撥消費金額 0.275% 捐助喜憨兒社會福利基金會"
+      }
+    ],
+    "highlights": [
+      "新戶首刷禮 NT$300 刷卡金",
+      "喜憨兒全台門市自製品最優 88 折、餐廳最優 95 折"
+    ],
+    "requirements": "正卡年滿 18 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=162",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-cru/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/cru-684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "頁面標示御璽卡「開放申辦」，白金卡年費 600 僅列於年費表；網路別依御璽／白金卡別推定為 Visa。"
+  },
+  {
+    "id": "dbs-livefresh-biz-signature",
+    "bank": "dbs",
+    "name": "星展炫晶商務御璽卡",
+    "name_en": "DBS Live Fresh Business Signature Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "transit"],
+    "headline": "海外消費 2.5%、國內消費 0.8% 現金回饋",
+    "rewards": [
+      {
+        "label": "海外一般消費",
+        "rate": "2.5%",
+        "rate_value": 2.5,
+        "conditions": "現金回饋自動折抵帳單；不含歐洲地區實體商店交易"
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "0.8%",
+        "rate_value": 0.8
+      }
+    ],
+    "highlights": [
+      "當月新增消費達 NT$20,000，次月台灣聯通市區停車每日 2 小時免費",
+      "國內外機場貴賓室單次 NT$399；國內機場接送單趟 NT$675",
+      "高鐵票＋高鐵接送最高 5 折；日本精品名牌最高 10% 現金回饋",
+      "具一卡通票證功能"
+    ],
+    "requirements": "正卡年齡 18～75 歲，年收入 NT$22 萬以上，非學生身分",
+    "status": "active",
+    "apply_url": "https://www.dbs.com.tw/personal-zh/hoap/tw-ccoa/home?cardId=205",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/livefresh_biz_signature_ipass/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/live_fresh_signature_biz_684x630.png",
+    "last_verified": "2026-11-01",
+    "notes": "年費與申辦資格在產品頁為圖片，數字取自卡片總覽比較表及權益手冊年費表（炫晶商務御璽卡 2,000 元）。雖名為商務御璽卡，為一般消費者產品。"
+  },
+  {
+    "id": "dbs-eco-select-plus",
+    "bank": "dbs",
+    "name": "星展eco永續優選PLUS卡",
+    "name_en": "DBS eco Select PLUS Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["dining", "supermarket", "fuel", "ev-charging"],
+    "headline": "國內外一般消費 0.5% 無上限，國內餐廳／量販／加油／eco 消費最優 2%",
+    "rewards": [
+      {
+        "label": "國內／國外一般消費",
+        "rate": "0.5% 現金紅利",
+        "rate_value": 0.5,
+        "cap": "無上限"
+      },
+      {
+        "label": "國內餐廳／量販超市／加油站／eco 消費",
+        "rate": "最優 2% 現金紅利",
+        "rate_value": 2,
+        "cap": "加碼 1.5% 每期帳單上限 300 點"
+      }
+    ],
+    "highlights": [
+      "已停止申辦，目前不提供正卡申請"
+    ],
+    "status": "discontinued",
+    "status_note": "卡片總覽標示「停止申辦」／「目前不提供正卡申請」",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/eco-plus",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_card_titanium_select_plus_684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-everyday-platinum",
+    "bank": "dbs",
+    "name": "星展everyday威士白金卡",
+    "name_en": "DBS everyday Visa Platinum Card",
+    "networks": ["visa"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["transit"],
+    "headline": "一般消費 NT$25＝1 點活利積分",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "NT$25＝1 點活利積分",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "已停止申辦",
+      "滿額次月每日 1 次 2 小時台灣聯通停車"
+    ],
+    "status": "discontinued",
+    "status_note": "卡片總覽標示「停止申辦」／「目前不提供新卡申請」",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/everyday_2023/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/everyday-684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-livefresh-signature",
+    "bank": "dbs",
+    "name": "星展炫晶御璽卡",
+    "name_en": "DBS Live Fresh Signature Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；次年起當年度正卡累計交易 12 次、累計消費達 NT$30,000 或全年度使用電子帳單，任一即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["overseas"],
+    "headline": "海外消費 2.5%、國內消費 0.8% 現金回饋",
+    "rewards": [
+      {
+        "label": "海外一般消費",
+        "rate": "2.5%",
+        "rate_value": 2.5
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "0.8%",
+        "rate_value": 0.8
+      }
+    ],
+    "highlights": [
+      "已停止申辦",
+      "當月刷 2 萬，次月停車 2 小時免費"
+    ],
+    "status": "discontinued",
+    "status_note": "卡片總覽標示「停止申辦」／「目前不提供新卡申請」",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/livefresh",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/livefresh-684x630.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "dbs-treasures-infinite",
+    "bank": "dbs",
+    "name": "星展豐盛無限卡",
+    "name_en": "DBS Treasures Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 3600,
+      "waiver": "首年需繳年費；第 2 年起正卡前一年度刷卡消費滿 NT$20 萬享次年免年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "dining"],
+    "headline": "海外 NT$5、國內 NT$10 累積 1 點活利積分",
+    "rewards": [
+      {
+        "label": "海外一般消費",
+        "rate": "NT$5＝1 點活利積分",
+        "rate_value": 1
+      },
+      {
+        "label": "國內一般消費",
+        "rate": "NT$10＝1 點活利積分",
+        "rate_value": 1
+      }
+    ],
+    "highlights": [
+      "已停止申辦",
+      "星級餐廳最優 2 人同行 1 人免費；一年最高 2 次全球機場貴賓室；一年 3 次機場外圍停車"
+    ],
+    "status": "discontinued",
+    "status_note": "產品頁標示「星展豐盛無限卡已停止申辦」",
+    "source_url": "https://www.dbs.com.tw/personal-zh/cards/infinite/index.html",
+    "image_url": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/infinite-684x630.png",
+    "last_verified": "2026-11-01"
+  }
+]

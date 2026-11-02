@@ -1,0 +1,811 @@
+[
+  {
+    "id": "kgi-more-buy",
+    "bank": "kgi",
+    "name": "魔BUY悠遊鈦金卡",
+    "name_en": "KGI More Buy Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 12 次或累積消費達 6 萬元，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "mobile-payment",
+      "overseas",
+      "transit",
+      "insurance"
+    ],
+    "headline": "12 大行動支付國內消費最高 4% 現金點，國外消費 2%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.7%",
+        "rate_value": 0.7,
+        "cap": "無上限",
+        "conditions": "現金點 1 點 = 1 元，500 點可兌換 500 元刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（含國外網站購物）",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "12 大行動支付國內一般消費（Apple Pay、Google Pay、LINE Pay、街口、Pi、悠遊付、OPEN錢包、橘子支付、icash Pay、歐付寶、全盈+PAY、全支付）",
+        "rate": "最高 4%",
+        "rate_value": 4,
+        "cap": "加碼 3.3% 每月上限 300 點",
+        "conditions": "含 0.7% 基本回饋 + 3.3% 加碼；需每月登錄且當月行動支付國內一般消費累積滿 3,000 元",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "12 大行動支付國內消費最高 4% 現金點回饋（加碼每月上限 300 點，需登錄）",
+      "國外消費及國外網購 2% 現金點回饋無上限",
+      "國內一般消費 0.7% 現金點，不限通路、不限門檻",
+      "新核卡現金點效期 2 年，500 點即可兌換 500 元刷卡金",
+      "具悠遊卡功能，自動加值",
+      "申辦電子帳單即免年費"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/qr/vsgibbwz",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/more-buy-credit-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/02/credit-card-listing-02---desktop.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官網同頁另列「魔BUY鈦金卡（非悠遊）正卡 500 元/附卡 300 元，享免年費」，權益手冊註明該卡已不開放申請，故本筆以魔BUY悠遊鈦金卡為準。"
+  },
+  {
+    "id": "kgi-cashback",
+    "bank": "kgi",
+    "name": "現金回饋卡（御璽卡／鈦金卡）",
+    "name_en": "KGI Cash Back Card",
+    "networks": [
+      "visa",
+      "mastercard"
+    ],
+    "levels": [
+      "現金回饋御璽卡",
+      "現金回饋鈦金卡",
+      "現金回饋悠遊御璽卡",
+      "現金回饋悠遊鈦金卡",
+      "現金回饋悠遊Combo鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 6 次，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "insurance"
+    ],
+    "headline": "國外消費 2%、國內 0.7% 刷卡金回饋無上限，次期帳單直接折抵",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "0.7%",
+        "rate_value": 0.7,
+        "cap": "無上限",
+        "conditions": "刷卡金於次期帳單回饋入帳，扣抵新增消費，無使用期限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（含國外網站購物）",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國外消費 2% 刷卡金回饋無上限",
+      "國內一般消費 0.7% 刷卡金回饋，不限通路、不限門檻",
+      "刷卡金於次期帳單直接入帳折抵，無使用期限",
+      "最高 2,000 萬旅行平安險，班機／行李延誤最高 1 萬元",
+      "全球購物保障每一事故最高 30 萬元",
+      "年刷 6 次或申辦電子帳單即免年費"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/qr/4puoyyzs",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/cash-back-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/03/cash-back-card_195x195.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "一個產品頁涵蓋御璽／鈦金／悠遊／Combo 多種版本；網路組織依「御璽」（Visa）與「鈦金」（Mastercard，官網列為指定萬事達卡）推定。"
+  },
+  {
+    "id": "kgi-dual-currency-miles",
+    "bank": "kgi",
+    "name": "雙幣哩程卡",
+    "name_en": "KGI Dual Currency Mileage Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "商務御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 12 次或累積消費達 6 萬元，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "miles",
+    "tags": [
+      "no-annual-fee",
+      "travel",
+      "overseas",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "一般消費 22 元＝1 哩，指定財管戶國外消費最優 12 元＝1 哩",
+    "rewards": [
+      {
+        "label": "國內外一般消費",
+        "rate": "NT$22 = 1 哩程點",
+        "rate_value": 22,
+        "cap": "每期帳單回饋上限 20,000 哩程點",
+        "conditions": "哩程點 1:1 兌換中華航空、長榮航空、亞洲萬里通哩程，1:2 兌換台灣高鐵 TGo 點數",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定財管會員國外一般消費",
+        "rate": "NT$12 = 1 哩程點",
+        "rate_value": 12,
+        "cap": "無上限",
+        "conditions": "本行個人往來資產總額達 300 萬元以上財管會員",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定財管會員國內一般消費",
+        "rate": "NT$18 = 1 哩程點",
+        "rate_value": 18,
+        "cap": "無上限",
+        "conditions": "本行個人往來資產總額達 300 萬元以上財管會員",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "Apple Pay 綁定儲值日本 Suica、桃園捷運閘門刷卡",
+        "rate": "NT$6 = 1 哩程點",
+        "rate_value": 6,
+        "cap": "每戶每月加碼上限 600 點",
+        "conditions": "每月 1 日開放登錄限量 500 名",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國內外一般消費 22 元 = 1 哩程點，可 1:1 兌換華航、長榮、亞洲萬里通哩程或 1:2 兌換高鐵 TGo 點",
+      "往來資產 300 萬以上財管會員國外 12 元、國內 18 元 = 1 哩，回饋無上限",
+      "臺幣搭配美元、日圓或歐元一種外幣，海外消費直接以外幣結帳",
+      "新戶核卡 30 日內一般消費滿 5,000 元並換匯一筆享 800 哩程點",
+      "每月 5 號兌換哩程加碼 50%（限量）",
+      "機場接送單程禮遇價 675 元，Trip.com／Agoda 訂房最高 8% 折扣"
+    ],
+    "requirements": "需持有凱基銀行臺幣及外幣帳戶並以帳戶自動扣繳卡費（可於申辦流程同時開戶）",
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/dc/dc_landing?PProductType=aio-dc-d3&productId=cc:ALLCARD,d3:6&ccGroup=dc",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/dual-currency-mileage-credit-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/dual-currency-mileage-credit-card/d_195x195_list.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費 3,000/1,500 取自信用卡權益手冊 PDF（卡別列為「雙幣哩程商務御璽卡」）；產品頁只寫「使用電子帳單享免年費」。網路組織依活動頁 Visa 國際組織優惠推定。累哩活動期間 115/7/1–115/12/31。"
+  },
+  {
+    "id": "kgi-crypto-reward",
+    "bank": "kgi",
+    "name": "幣享悠遊鈦金卡",
+    "name_en": "KGI Crypto Reward Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 12 次或累積消費達 6 萬元，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "dining",
+      "fuel",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "首張點數可兌換加密貨幣的信用卡，海外消費 3.5% 優惠、指定消費 3%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "conditions": "幣享點 1 點 = 1 元，效期 2 年，可兌換合作交易所指定加密貨幣",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "海外一般消費",
+        "rate": "3.5%",
+        "rate_value": 3.5,
+        "conditions": "2% 幣享點 + 免 1.5% 海外交易手續費",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定消費（國內餐廳、加油站、Nintendo／PlayStation／Steam 遊戲平台）",
+        "rate": "3%",
+        "rate_value": 3,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "申辦備用金且啟額後國內消費加碼",
+        "rate": "+12%（合計最高 15%）",
+        "rate_value": 15,
+        "cap": "每月加碼上限 400 點，最高 6 個月",
+        "conditions": "需新申辦備用金並啟用額度",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "幣享點 1 點 = 1 元，可兌換 MAX／BitoPro 合作交易所指定加密貨幣",
+      "海外消費 2% 幣享點並免 1.5% 海外交易手續費",
+      "國內餐廳、加油站及指定遊戲平台 3% 幣享點",
+      "新戶首年兌幣加碼 50%，核卡 30 天內首刷一筆贈 300 幣享點",
+      "當月悠遊卡自動加值享 10% 悠遊付現金券（每月上限 50 元，需登錄）",
+      "申辦電子帳單即免年費"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/cc/CC_identity?PProductType=cc&shortUrl=pzuym5mc&productId=cc:666001",
+    "source_url": "https://www.kgibank.com.tw/webpages/crypto-currency-credit-card/index.html",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/crypto_reward_card/credit-card-listing-02_.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋為「幣享點」（可折抵或兌幣），歸類 points。年費取自權益手冊 PDF。活動期間 115/4/1–115/12/31；15% 需加辦備用金（信貸額度）才適用，maintainer 可考慮是否顯示。"
+  },
+  {
+    "id": "kgi-eslite",
+    "bank": "kgi",
+    "name": "誠品悠遊御璽卡",
+    "name_en": "KGI eslite Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 6 次，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "department-store",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "誠品黑卡會員店內消費最高 7% 現金點回饋",
+    "rewards": [
+      {
+        "label": "國內外一般消費",
+        "rate": "0.3%",
+        "rate_value": 0.3,
+        "cap": "無上限",
+        "conditions": "回饋為凱基現金點",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "凱基銀行帳戶自動扣繳信用卡費加碼",
+        "rate": "+2%",
+        "rate_value": 2,
+        "cap": "每期帳單加碼上限 400 點",
+        "conditions": "須以凱基帳戶綁定自動扣繳卡款；限一般消費且不含保費",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "誠品店內消費（誠品黑卡會員）",
+        "rate": "最高 7%",
+        "rate_value": 7,
+        "cap": "店內加碼 4.7% 每月上限 4,200 點",
+        "conditions": "0.3% + 自動扣繳 2% + 黑卡店內加碼 4.7%；結帳需出示本人誠品會員，不含分期交易",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "誠品店內消費（誠品金卡會員）",
+        "rate": "最高 6%",
+        "rate_value": 6,
+        "cap": "店內加碼 3.7% 每月上限 1,400 點",
+        "conditions": "0.3% + 自動扣繳 2% + 金卡店內加碼 3.7%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "誠品黑卡會員店內消費最高 7%、金卡會員最高 6% 現金點回饋",
+      "凱基帳戶自動扣繳卡費加碼 2%（每期上限 400 點）",
+      "指定誠品生活店內免費停車 1 小時",
+      "新戶核卡 30 日內消費滿 3,000 元享 300 元刷卡金，或持凱基帳戶享誠品限定好禮 3 選 1（至 2026-12-31）",
+      "「誠品綠」及「時光紅」兩款卡面，具悠遊卡功能",
+      "年刷 6 次或申辦電子帳單即免年費"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/cc/CC_landing?PProductType=cc&shortUrl=&productId=cc:5",
+    "source_url": "https://www.kgibank.com.tw/webpages/eslite-credit-card/index.html",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/ek-card/credit-card-listing-02_ek-195x195.gif",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "年費取自權益手冊 PDF（誠品悠遊御璽卡 3,000/1,500，年度消費 6 次免年費）。白卡／非誠品會員僅享 0.3% + 2% 共 2.3%。活動期間 115/7/1–115/12/31。"
+  },
+  {
+    "id": "kgi-more-fun",
+    "bank": "kgi",
+    "name": "魔FUN悠遊御璽卡",
+    "name_en": "KGI More Fun Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "第一年免年費；年度消費 12 次或累積消費達 6 萬元，或申辦電子帳單並持續使用者，享次年度免年費。附卡 900 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "streaming",
+      "fuel",
+      "transit"
+    ],
+    "headline": "連鎖影城、Netflix 等線上影音最高 50% 現金點回饋",
+    "rewards": [
+      {
+        "label": "國內外一般消費",
+        "rate": "0.5%",
+        "rate_value": 0.5,
+        "cap": "無上限",
+        "conditions": "現金點 1 點 = 1 元，500 點可兌換 500 元刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "連鎖影城電影票",
+        "rate": "50%",
+        "cap": "當日上限 250 點，當期上限 500 點",
+        "conditions": "當期結帳新增一般消費滿 3,000 元；限二家分店以上同名影城，行動支付結帳不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定線上影音（Netflix、Spotify、YouTube、KKBOX、KKTV、Disney+）",
+        "rate": "50%",
+        "cap": "當期上限 150 點",
+        "conditions": "當期結帳新增一般消費滿 3,000 元；限原平台直接扣款",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "全臺連鎖影城票價 50% 現金點回饋（當期上限 500 點）",
+      "Netflix、Spotify、YouTube、KKBOX、KKTV、Disney+ 50% 現金點回饋（當期上限 150 點）",
+      "全國加油站汽油每公升降 1 元、自助加油降 1.3 元，不限次數",
+      "國內外一般消費 0.5% 現金點",
+      "具悠遊卡功能",
+      "正卡年費僅 1,800 元，申辦電子帳單即免"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/qr/t7ajnz72",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/more-fun-visa-signature-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/06/credit-card-listing-06---desktop.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "50% 影音回饋需當期一般消費門檻 3,000 元且上限低；影城與影音消費本身不列入 0.5% 一般回饋。 影城／影音 50% 回饋因上限極低（當期 500／150 點），未填 rate_value 以免排序失真。"
+  },
+  {
+    "id": "kgi-life-signature",
+    "bank": "kgi",
+    "name": "凱基人壽御璽卡",
+    "name_en": "KGI Life Visa Signature Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 6 次或不限金額扣繳凱基人壽保費一次，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "insurance",
+      "installment",
+      "new-cardholder",
+      "transit"
+    ],
+    "headline": "國內外一般消費 1% 回饋無上限，凱基人壽保費 1% 或 12 期 0 利率",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "刷卡金於次期帳單回饋；116/3/1 起改以現金點回饋",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（含國外網站購物）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "凱基人壽保費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "新戶首年保費 1% 回饋與 12 期 0 利率可併行；次年起二擇一；不含投資型保單",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "國內外一般消費 1% 回饋無上限",
+      "新戶首年凱基人壽保費 1% 回饋＋12 期分期 0 利率同享",
+      "2,000 萬旅行平安險，班機或行李延誤最高 2 萬、行李遺失最高 6 萬",
+      "全球購物保障每一事故最高 30 萬元",
+      "扣繳凱基人壽保費一次即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/qr/ca6uz07z",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/kgi-life-insurance-visa-signature-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/08/credit-card-listing-07---desktop.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "權益手冊將此卡列為「凱基人壽悠遊御璽卡」。官網公告自 116/3/1 起結帳之帳單回饋由刷卡金改為現金點。"
+  },
+  {
+    "id": "kgi-life-infinite",
+    "bank": "kgi",
+    "name": "凱基人壽無限卡",
+    "name_en": "KGI Life Visa Infinite Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "無限卡"
+    ],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費；核卡後正、附卡年度一般新增消費合併（含凱基人壽保費）達 30 萬元享次年免年費。附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "premium",
+      "co-branded",
+      "insurance",
+      "installment",
+      "airport-lounge",
+      "travel"
+    ],
+    "headline": "邀請制無限卡，一般消費 1% 回饋、年享貴賓室 4 次與機場接送 2 次",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（含國外網站購物）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "凱基人壽保費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "新戶首年保費 1% 回饋與 12 期 0 利率可併行；次年起二擇一；不含投資型保單",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "本卡採邀請制",
+      "年度 U.First 全球貴賓室最高 4 次、機場接／送最高 2 次",
+      "指定停車場免費停車，每卡每月最高 10 次、每次 2 小時",
+      "5,000 萬元高額旅遊平安險",
+      "新戶首年凱基人壽保費 1% 回饋＋12 期分期 0 利率",
+      "年度消費達 30 萬元（含保費）享次年免年費"
+    ],
+    "requirements": "邀請制",
+    "status": "active",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/kgi-life-insurance-visa-infinite-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/09/credit-card-listing-09---desktop.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "邀請制，無線上申請連結。官網公告自 116/3/1 起回饋由刷卡金改為現金點。"
+  },
+  {
+    "id": "kgi-visa-infinite",
+    "bank": "kgi",
+    "name": "凱基無限卡",
+    "name_en": "KGI Visa Infinite Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "無限卡"
+    ],
+    "annual_fee": {
+      "amount": 5000,
+      "waiver": "首年免年費；正卡該年一般消費滿 30 萬元享次年免年費。附卡免年費（私人銀行／鑽石會員一正三附、白金會員一正一附免年費）。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "premium",
+      "travel",
+      "overseas",
+      "airport-lounge",
+      "dining",
+      "insurance"
+    ],
+    "headline": "邀請制頂級卡，海外消費最高 2% 刷卡金，機場接送 6 次、貴賓室 10 次",
+    "rewards": [
+      {
+        "label": "國內一般消費（私人銀行／鑽石／白金會員）",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "金采會員單月未達 5 萬元為 0.6%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費（私人銀行／鑽石會員）",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "白金／金采會員為 1.5%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "本卡為邀請制，依財管會員等級提供禮遇，欲申辦請洽理專",
+      "全球機場接送正卡 6 次／附卡 4 次，U.First 全球貴賓室正卡 10 次／附卡 5 次",
+      "最高 5,000 萬旅遊平安險",
+      "免費市區停車每次 3 小時，海外 eSIM／SIM 卡免費 3 次",
+      "精選餐廳兩人同行一人免費（正附卡合計每月 1 次）",
+      "指定高爾夫球場擊球禮遇、日本米其林用餐套餐 92 折"
+    ],
+    "requirements": "邀請制，限本行財富管理個人會員（KGI Private／Diamond／Platinum／Gold）",
+    "status": "active",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/visa-infinite-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/01/card_list_195x195_.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "邀請制，無線上申請連結。回饋率依財管會員等級分層，rewards 取最高等級數字。"
+  },
+  {
+    "id": "kgi-more-rich",
+    "bank": "kgi",
+    "name": "魔利悠遊御璽卡",
+    "name_en": "KGI More Rich Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 12 次或累積消費達 6 萬元，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元（本卡不提供附卡）。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "transit",
+      "new-cardholder"
+    ],
+    "headline": "新戶限定，核卡後 6 個月循環利率 6.25%，國外 1.5%／國內 1% 現金點",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "現金點 1 點 = 1 元，每 500 點兌換 500 元刷卡金",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外消費（含國外網站購物）",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "核卡後 6 個月循環信用利率 6.25%",
+      "國內一般消費 1%、國外消費 1.5% 現金點回饋無上限",
+      "邀請制且限本行新戶（無任一本行流通卡）申辦，不提供附卡",
+      "班機／行李延誤最高 1 萬元、行李遺失最高 3 萬元",
+      "綁定電子帳單年年免年費"
+    ],
+    "requirements": "邀請制；限無任一本行流通卡之新戶，且不可同時申辦本行其他卡片",
+    "status": "active",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/morerich_card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/more_richcard/more_rich195x195.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "邀請制，無線上申請連結。"
+  },
+  {
+    "id": "kgi-tintin-titanium",
+    "bank": "kgi",
+    "name": "丁丁藥局悠遊鈦金卡",
+    "name_en": "KGI Tin Tin Drugstore Titanium Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "第一年免年費；年度消費 12 次或累積消費達 6 萬元，或申辦電子帳單並持續使用者，享次年度免年費。附卡 1,500 元。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "installment",
+      "transit",
+      "new-cardholder",
+      "insurance"
+    ],
+    "headline": "丁丁藥局每週三紅利 3 倍，店內購物卡友價與 3／6 期 0 利率",
+    "rewards": [
+      {
+        "label": "國內外一般消費（30 而利紅利點數）",
+        "rate": "每 NT$30 累積 1 點",
+        "conditions": "依 30 而利紅利點數酬賓活動辦法；丁丁藥局單筆滿 1,000 元可以 1,000 點折抵 60 元，最高折抵 50%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "每週三丁丁藥局店內消費",
+        "rate": "紅利點數 3 倍",
+        "conditions": "含原 1 倍，分期交易不列入",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "丁丁藥局店內購物享卡友價，指定品牌奶粉開罐價、尿布拆封價",
+      "每週三丁丁藥局消費紅利點數 3 倍回饋",
+      "丁丁藥局不限金額 3 期 0 利率，單筆滿 6,000 元享 6 期 0 利率",
+      "新戶核卡 30 天內丁丁藥局單筆滿 888 元贈 200 元提貨券（至 2026-12-31）",
+      "新辦卡核卡 30 天內綁定街口／全支付於 7-11、全家、全聯消費享 10% 刷卡金（上限 150 元）",
+      "具悠遊卡功能，優先參加丁丁媽媽教室"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/qr/7v2b2ik1",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/tin-tin-drugstore-mastercard-titanium-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/04/cardlist195x195.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "kgi-tintin-gold",
+    "bank": "kgi",
+    "name": "丁丁藥局金卡",
+    "name_en": "KGI Tin Tin Drugstore Gold Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "金卡"
+    ],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "正卡及附卡免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "installment",
+      "new-cardholder",
+      "insurance"
+    ],
+    "headline": "免年費，丁丁藥局店內卡友價與紅利點數折抵最高 50%",
+    "rewards": [
+      {
+        "label": "國內外一般消費（30 而利紅利點數）",
+        "rate": "每 NT$30 累積 1 點",
+        "conditions": "依 30 而利紅利點數酬賓活動辦法；丁丁藥局單筆滿 1,000 元可以 1,000 點折抵 60 元，最高折抵 50%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "正卡及附卡免年費",
+      "丁丁藥局店內購物享卡友價，指定品牌奶粉開罐價、尿布拆封價",
+      "丁丁藥局不限金額 3 期 0 利率，單筆滿 6,000 元享 6 期 0 利率",
+      "800 萬旅行平安險，班機或行李延誤最高 7,000 元",
+      "新辦卡核卡 30 天內綁定街口／全支付於 7-11、全家、全聯消費享 10% 刷卡金（上限 150 元）"
+    ],
+    "status": "active",
+    "apply_url": "https://www.kgibank.com/obd/qr/v448gtez",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/tin-tin-drugstore-mastercard-gold-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/05/cardlist195x195.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "kgi-easycard-platinum",
+    "bank": "kgi",
+    "name": "悠遊聯名白金卡",
+    "name_en": "KGI EasyCard Platinum Card",
+    "networks": [
+      "visa",
+      "mastercard"
+    ],
+    "levels": [
+      "白金卡"
+    ],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "白金卡／金卡免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "co-branded",
+      "transit"
+    ],
+    "headline": "每 30 元 1 點紅利，依月消費級距最高 5 倍（115/1/1 起暫停申辦）",
+    "rewards": [
+      {
+        "label": "一般消費（30 而利紅利點數）",
+        "rate": "每 NT$30 累積 1 點",
+        "conditions": "每月新增消費 5,001 元以上依級距 1.5 倍至 5 倍回饋；每 1,000 點可兌換 50 元刷卡金",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "悠遊卡信用卡二合一，自動加值",
+      "每月帳單新增消費 5,001～30,000 元紅利 1.5 倍，100 萬元以上最高 5 倍",
+      "每 1,000 點紅利可兌換 50 元刷卡金",
+      "白金卡免年費"
+    ],
+    "status": "suspended",
+    "status_note": "官網卡片總覽及產品頁標示「115/1/1 起暫停申辦」。",
+    "status_changed_at": "2026-01-01",
+    "source_url": "https://www.kgibank.com.tw/zh-tw/personal/credit-card/list/kgib-platinum-credit-card",
+    "image_url": "https://www.kgibank.com.tw/zh-tw/-/media/images/kgib/personal/0004-credit-card-detail/07/credit-card-listing-08---desktop.png",
+    "last_verified": "2026-11-01",
+    "notes": "年費依權益手冊 PDF「白金卡/金卡 免年費」。"
+  }
+]

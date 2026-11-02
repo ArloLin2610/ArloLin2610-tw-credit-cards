@@ -914,8 +914,8 @@
     "networks": ["visa"],
     "levels": ["御璽卡"],
     "annual_fee": {
-      "amount": 2000,
-      "waiver": "依頁面年費政策（首年免年費，電子化帳單或年消費達檻免年費）",
+      "amount": 1000,
+      "waiver": "首年免年費；申辦電子化帳單成功且有效期間免年費，或年消費達 1 萬元或 10 次以上免年費；5,000 元或 5 次以上收 500 元",
       "effectively_free": true
     },
     "reward_type": "cashback",
@@ -943,6 +943,6 @@
     "source_url": "https://card.ubot.com.tw/CardDetail/cardDetail208",
     "image_url": "https://activity.ubot.com.tw/eCardWeb/images/cardInfo/VS86.png",
     "last_verified": "2026-11-01",
-    "notes": "停發卡；年費金額未逐字核對頁面年費表，請再確認。"
+    "notes": "停發卡。"
   }
 ]
