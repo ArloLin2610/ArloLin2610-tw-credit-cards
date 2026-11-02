@@ -246,6 +246,10 @@ if (!SNAPSHOT_ONLY) {
     if (!DRY) fs.writeFileSync(path.join(root, `data/proposals/${TODAY}/REPORT.md`), renderReport(report));
   }
 }
+if (report.errors.length) {
+  console.log('\nfetch errors:');
+  for (const e of report.errors) console.log(`  ${e.bank.padEnd(10)} ${e.card_id ? e.card_id + ' ' : ''}${e.url ?? ''} — ${e.status ? `HTTP ${e.status} ` : ''}${e.error ?? ''}`);
+}
 if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `has_changes=${hasChanges}\nreport_path=data/proposals/${TODAY}/REPORT.md\ndate=${TODAY}\n`);
 console.log(`\n${report.proposals.length} proposals, ${report.errors.length} errors${hasChanges ? ` → data/proposals/${TODAY}/REPORT.md` : ''}`);
 

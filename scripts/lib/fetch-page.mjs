@@ -45,8 +45,23 @@ async function robotsAllows(url) {
     );
   }
   const rules = await robotsCache.get(origin);
-  const p = new URL(url).pathname;
-  return !rules.some((r) => p.startsWith(r.replace(/\*.*$/, '')));
+  const u = new URL(url);
+  const p = u.pathname + u.search;
+  return !rules.some((rule) => ruleToRegex(rule).test(p));
+}
+
+// robots.txt path pattern → regex: "*" matches anything, trailing "$" anchors.
+const ruleRegexCache = new Map();
+function ruleToRegex(rule) {
+  if (!ruleRegexCache.has(rule)) {
+    const anchored = rule.endsWith('$');
+    const body = (anchored ? rule.slice(0, -1) : rule)
+      .split('*')
+      .map((s) => s.replace(/[.+?^${}()|[\]\\]/g, '\\$&'))
+      .join('.*');
+    ruleRegexCache.set(rule, new RegExp('^' + body + (anchored ? '$' : '')));
+  }
+  return ruleRegexCache.get(rule);
 }
 const STOP_WORDS = /停止申請|停發|停止發行|已停止受理|不再受理|暫停申請|停止受理|停止核發/;
 
@@ -154,15 +169,28 @@ async function browserFetch(url) {
 /**
  * @returns {Promise<{ok:boolean,status:number,finalUrl:string,title:string,text:string,links:Array,images:Array,viaBrowser:boolean,error?:string,stopKeywords:string[]}>}
  */
+// After this many consecutive timeouts/connection failures on one host we stop
+// trying that host for the rest of the run (it is down or blocking us).
+const HOST_FAIL_LIMIT = 3;
+const hostFailures = new Map();
+const empty = (url, error) => ({ ok: false, status: 0, finalUrl: url, viaBrowser: false, error, stopKeywords: [], title: '', text: '', links: [], images: [] });
+
 export async function fetchPage(url, { allowBrowser = true } = {}) {
-  if (!(await robotsAllows(url))) {
-    return { ok: false, status: 0, finalUrl: url, viaBrowser: false, error: 'disallowed by robots.txt', stopKeywords: [], title: '', text: '', links: [], images: [] };
+  if (!(await robotsAllows(url))) return empty(url, 'disallowed by robots.txt');
+  let host = '';
+  try {
+    host = new URL(url).host;
+  } catch {
+    return empty(url, 'invalid url');
   }
+  if ((hostFailures.get(host) || 0) >= HOST_FAIL_LIMIT) return empty(url, `skipped: ${host} failed ${HOST_FAIL_LIMIT} times in a row this run`);
   let r;
   try {
     r = await plainFetch(url);
+    hostFailures.set(host, 0);
   } catch (e) {
-    r = { status: 0, html: '', finalUrl: url, error: e.message };
+    r = { status: 0, html: '', finalUrl: url, error: e.name === 'AbortError' ? 'timeout' : e.message };
+    hostFailures.set(host, (hostFailures.get(host) || 0) + 1);
   }
   let parsed = htmlToText(r.html || '', r.finalUrl);
   let viaBrowser = false;
