@@ -12,7 +12,8 @@ interface Props {
 const SITE_NAME = '卡比';
 const { title, description = '台灣各大銀行信用卡福利一次比較：現金回饋、哩程、點數，附卡圖、年費與官方申請連結，資料定期對照官網更新。', ogImage, noindex = false } = Astro.props;
 const fullTitle = title === SITE_NAME ? `${SITE_NAME}｜台灣信用卡福利比較` : `${title}｜${SITE_NAME}`;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const cleanPath = Astro.url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+const canonical = new URL(cleanPath, Astro.site);
 const nav = [
   { href: '/category/cashback', label: '現金回饋' },
   { href: '/category/miles', label: '哩程' },
