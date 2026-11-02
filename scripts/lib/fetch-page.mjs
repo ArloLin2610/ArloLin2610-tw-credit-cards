@@ -63,7 +63,10 @@ function ruleToRegex(rule) {
   }
   return ruleRegexCache.get(rule);
 }
-const STOP_WORDS = /停止申請|停發|停止發行|已停止受理|不再受理|暫停申請|停止受理|停止核發/;
+// Lines that may announce the card is closed to applications. Checked per line;
+// the checker further requires the line to be short or to name the card.
+const STOP_WORDS = /(停止|暫停|終止)(新卡)?(申請|申辦|受理|核發|發行|發卡)|停發|不再受理(新卡)?(申請|申辦)/;
+const STOP_NOISE = /逾期|即享券|肖像|卡面|簡訊|兌換|活動結束/;
 
 let browserPromise = null;
 async function getBrowser() {
@@ -204,7 +207,7 @@ export async function fetchPage(url, { allowBrowser = true } = {}) {
   }
   const ok = r.status >= 200 && r.status < 400 && parsed.text.length >= MIN_TEXT / 4;
   const stopKeywords = [];
-  for (const line of parsed.text.split('\n')) if (STOP_WORDS.test(line)) stopKeywords.push(line.slice(0, 160));
+  for (const line of parsed.text.split('\n')) if (STOP_WORDS.test(line) && !STOP_NOISE.test(line)) stopKeywords.push(line.slice(0, 160));
   return { ok, status: r.status, finalUrl: r.finalUrl, viaBrowser, error: r.error, stopKeywords: stopKeywords.slice(0, 6), ...parsed };
 }
 

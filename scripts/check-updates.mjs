@@ -156,11 +156,13 @@ async function checkBank(bank) {
     }
 
     /* 2a. status signals */
-    const suspicious = gone || redirectedAway || page.stopKeywords.length > 0;
+    // Only lines that are short (a banner/notice) or that name this card count as evidence.
+    const stopLines = page.stopKeywords.filter((l) => l.length <= 80 || l.includes(card.name));
+    const suspicious = gone || redirectedAway || stopLines.length > 0;
     if (suspicious && card.status === 'active') {
       summary.flagged++;
       let decision = null;
-      if (USE_LLM && !gone) decision = await llm.classifyStatus({ cardName: card.name, pageText: page.text, httpStatus: page.status, stopKeywords: page.stopKeywords }).catch(() => null);
+      if (USE_LLM && !gone) decision = await llm.classifyStatus({ cardName: card.name, pageText: page.text, httpStatus: page.status, stopKeywords: stopLines }).catch(() => null);
       const newStatus = gone ? 'discontinued' : decision && decision.confidence >= 0.75 && decision.status !== 'unknown' ? decision.status : null;
       if (newStatus && newStatus !== 'active') {
         card.status = newStatus;
@@ -168,10 +170,10 @@ async function checkBank(bank) {
         card.status_note = decision?.status_note || (gone ? '官網產品頁已移除' : '官網標示停止申請');
         card.last_verified = TODAY;
         dirty = true;
-        proposal({ type: 'status', bank: bank.id, card_id: card.id, card_name: card.name, new_status: newStatus, confidence: gone ? 'high' : 'medium', evidence: gone ? `HTTP ${page.status}` : decision?.reason || page.stopKeywords.join(' | '), source_url: card.source_url });
+        proposal({ type: 'status', bank: bank.id, card_id: card.id, card_name: card.name, new_status: newStatus, confidence: gone ? 'high' : 'medium', evidence: gone ? `HTTP ${page.status}` : decision?.reason || stopLines.join(' | '), source_url: card.source_url });
         changelog.push({ date: TODAY, type: 'status', bank: bank.id, card_id: card.id, card_name: card.name, summary: newStatus === 'discontinued' ? '官網顯示已停止申請' : '官網顯示暫停申請', source_url: card.source_url });
       } else {
-        proposal({ type: 'flag', bank: bank.id, card_id: card.id, card_name: card.name, confidence: 'low', evidence: gone ? `HTTP ${page.status}` : redirectedAway ? `導向 ${page.finalUrl}` : page.stopKeywords.join(' | '), source_url: card.source_url, note: '需人工確認申請狀態' });
+        proposal({ type: 'flag', bank: bank.id, card_id: card.id, card_name: card.name, confidence: 'low', evidence: gone ? `HTTP ${page.status}` : redirectedAway ? `導向 ${page.finalUrl}` : stopLines.join(' | '), source_url: card.source_url, note: '需人工確認申請狀態' });
       }
     }
 
