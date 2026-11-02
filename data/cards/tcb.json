@@ -1,0 +1,727 @@
+[
+  {
+    "id": "tcb-infinite-diamond",
+    "bank": "tcb",
+    "name": "無限金鑽卡",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 15000,
+      "waiver": "第一年免年費；第二年起正附卡合併計算前一年度消費滿 30 萬元以上，當年度免年費",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance", "new-cardholder"],
+    "headline": "國內 1%、國外 2.5% 現金回饋無上限",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "2.5%", "rate_value": 2.5, "cap": "無上限" },
+      { "label": "國內壽險保費（單筆 20 萬元以上）", "rate": "加碼 0.5%", "rate_value": 0.5, "cap": "每月上限 NT$10,000", "conditions": "以本卡代繳國內壽險保費單筆達 20 萬元以上，正附卡合併計算", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "年度 6 次國際機場指定區域接送服務、機場貴賓室、60 天國際機場外圍停車",
+      "高額旅遊平安險 5,000 萬元、50 公里道路救援",
+      "天天享市區停車、升等高鐵商務車廂 3 張",
+      "新卡迎賓禮：全新卡戶核卡後 45 天內一般消費達 3 萬元，獲王品集團 3,000 元即享券（至 2026/12/31）",
+      "提撥一般消費 0.1% 捐助國內生態環境保護公益團體"
+    ],
+    "requirements": "正卡申請人需為成年人，固定年收入達新臺幣 300 萬元以上",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/infinite",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/infinite/infinite-card.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-kanahei-easycard",
+    "bank": "tcb",
+    "name": "卡娜赫拉的小動物悠遊聯名卡（環保綠能卡）",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "mobile-payment", "streaming", "ev-charging", "transit", "new-cardholder"],
+    "headline": "國內外 1% 無上限，行動支付／綠能／影音三大通路加碼 10%",
+    "rewards": [
+      { "label": "國內／國外一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "無最低門檻" },
+      { "label": "指定行動支付（LINE Pay、街口、悠遊付、icash Pay、歐付寶、台灣Pay）", "rate": "加碼 10%", "rate_value": 10, "cap": "每項通路每月上限 NT$100，三通路合計每月最高 NT$300", "conditions": "當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" },
+      { "label": "指定綠能通路（Gogoro Network、GoShare、WeMo、特斯拉充電）", "rate": "加碼 10%", "rate_value": 10, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上；以行動支付付款不適用", "valid_until": "2026-12-31" },
+      { "label": "指定遊戲影音（Nintendo、PlayStation、KKBOX、Netflix、Spotify、YouTube Premium、Disney+）", "rate": "加碼 10%", "rate_value": 10, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上；以行動支付付款不適用", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "申辦電子帳單即免年費",
+      "全新戶首刷禮：核卡後 45 天內一般消費任 2 筆達 888 元且自動加值 1 次，送卡娜赫拉藍牙喇叭麥克風組（限量，至 2026/12/31）",
+      "全新戶透過網銀或 App 數位申辦再加碼 100 元刷卡金",
+      "悠遊卡自動加值功能；市區停車、國際機場停車、機場貴賓室、道路救援",
+      "卡片採用 PETG 環保材質；發卡達 1 萬卡合庫提撥美金 5,000 元種樹"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/kanahei/card01.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "三大通路 10% 加碼為 2026/7/1–12/31 活動；10% 為加碼率（含基本 1% 共 11%）。"
+  },
+  {
+    "id": "tcb-kanahei-virtual",
+    "bank": "tcb",
+    "name": "卡娜赫拉的小動物無實體卡",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "mobile-payment", "online-shopping", "streaming", "ev-charging", "new-cardholder"],
+    "headline": "無實體卡即辦即用，國內外 1% 無上限、三大通路加碼 10%",
+    "rewards": [
+      { "label": "國內／國外一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "無最低門檻" },
+      { "label": "指定行動支付／綠能通路／遊戲影音", "rate": "加碼 10%", "rate_value": 10, "cap": "每項通路每月上限 NT$100，合計每月最高 NT$300", "conditions": "當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "線上申辦、App 開卡，省去等待製卡寄送時間；僅適用網路交易與綁定行動支付",
+      "申辦電子帳單即免年費",
+      "全新戶首刷禮：核卡後 45 天內一般消費任 2 筆達 888 元，送卡娜赫拉藍牙喇叭麥克風組（至 2026/12/31）",
+      "機場貴賓室、信用卡綜合保險",
+      "不提供附卡，不具電子票證功能"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei--virtual",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/kanahei/card01.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "卡組織未於官網明示（卡片總覽篩選為「不限」）；頁面「國際組織優惠」連至 Mastercard 優惠網站，暫填 mastercard，請確認。圖片沿用實體卡卡面。"
+  },
+  {
+    "id": "tcb-lihigh",
+    "bank": "tcb",
+    "name": "合庫利High卡",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申請電子帳單免年費；第一年免年費，第二年起正卡前一年度累積消費達 6 萬元或達 6 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "airport-lounge", "new-cardholder", "transit"],
+    "headline": "國內最高 3%、日本 3% 現金回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1 },
+      { "label": "國外一般消費", "rate": "1%", "rate_value": 1 },
+      { "label": "日本一般消費", "rate": "加碼 2%（合計 3%）", "rate_value": 3, "valid_until": "2026-12-31" },
+      { "label": "其他國家一般消費", "rate": "加碼 1%（合計 2%）", "rate_value": 2, "valid_until": "2026-12-31" },
+      { "label": "全新卡戶國內一般消費", "rate": "加碼 1%", "rate_value": 1, "cap": "每月上限 NT$100", "conditions": "2026/7/1–12/31 核卡之全新卡戶，核卡日至次月起算三個月內", "valid_until": "2026-12-31" },
+      { "label": "數位申辦國內一般消費", "rate": "加碼 1%", "rate_value": 1, "cap": "每月上限 NT$100", "conditions": "透過合庫網銀或 App 申請，核卡日至次月起算三個月內", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "一卡通功能，自動加值",
+      "JCB 晶緻卡獨享禮遇；市區停車、國際機場停車、機場貴賓室、道路救援",
+      "申請電子帳單享免年費",
+      "2023/8/1 起原卡面停止發行，改以新卡面發行（原卡面仍可使用）"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/ipass-intro",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/ipass-intro/230718_ipass_bn_200x120new.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "「國內最高 3%」= 基本 1% + 全新戶 1% + 數位申辦 1%，後兩者為限時三個月加碼。"
+  },
+  {
+    "id": "tcb-world",
+    "bank": "tcb",
+    "name": "世界卡",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "第一年免年費；第二年起正附卡合併前一年度消費滿 20 萬元免年費；未達者每消費 2 萬元可折抵年費 1,000 元",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance"],
+    "headline": "國內 1%、國外 2.1% 現金回饋無上限",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "2.1%", "rate_value": 2.1, "cap": "無上限" }
+    ],
+    "highlights": [
+      "滿額享指定區域國際機場接送、市區停車 2 小時",
+      "機場貴賓室、高鐵升等、國際機場停車、道路救援",
+      "世界卡獨家海外旅遊保險、信用卡綜合保險",
+      "Sisley 尊寵生日獻禮",
+      "單筆消費達 NT$3,000 以上簡訊通知"
+    ],
+    "requirements": "正卡申請人需為成年人，固定年收入達 200 萬元以上",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/world-card",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/world-card/card04.jpg",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-infinite",
+    "bank": "tcb",
+    "name": "無限卡",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 8000,
+      "waiver": "第一年免年費；第二年起正卡 ID 名下全部卡片（不含金鑽卡、世界卡）前一年度消費達 20 萬元免年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "insurance"],
+    "headline": "國內每 20 元 2 點、國外每 20 元 5 點紅利積點",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "每 NT$20 累積 2 點（約 0.6%）", "rate_value": 0.6 },
+      { "label": "國外一般消費", "rate": "每 NT$20 累積 5 點（約 1.5%）", "rate_value": 1.5 }
+    ],
+    "highlights": [
+      "紅利積點 1,000 點可兌換刷卡金 60 元",
+      "滿額享指定區域國際機場接送、免費市區停車 2 小時",
+      "機場貴賓室、高鐵升等、國際機場停車、道路救援",
+      "Visa 無限卡尊榮禮遇、信用卡綜合保險"
+    ],
+    "requirements": "正卡申請人需為成年人，固定年收入達 200 萬元以上",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/unlimit-card",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/unlimit-card/unlimit.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-i-joy",
+    "bank": "tcb",
+    "name": "i享樂生活卡",
+    "networks": ["mastercard", "visa"],
+    "levels": ["御璽卡", "鈦金卡", "Combo卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "第一年免年費；第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費（依年費總表御璽／鈦金卡標準）",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["mobile-payment", "overseas", "travel", "airport-lounge", "transit"],
+    "headline": "國內 1% 無上限，指定四大通路最高 5% 現金回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "指定四大通路", "rate": "最高 5%", "rate_value": 5, "conditions": "通路名單、門檻與上限詳活動網頁" }
+    ],
+    "highlights": [
+      "國內現金回饋 1% 無上限",
+      "指定四大通路最高享 5% 現金回饋",
+      "Mastercard 國際組織加碼海外消費回饋",
+      "機場接送、機場貴賓室、悠遊卡功能、行動支付"
+    ],
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/i-joy/card02.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "活動詳情頁 https://portal.tcb-bank.com.tw:8443/Campaign/I_Joy_2023/index.html 無法抓取（robots/連線被拒）；回饋數字取自官網卡片總覽摘要，年費取自官網年費總表（御璽／鈦金 1,800）。四大通路名單、門檻、上限與活動期間需人工確認。"
+  },
+  {
+    "id": "tcb-lohas",
+    "bank": "tcb",
+    "name": "樂活卡",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費（依年費總表御璽卡標準）",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "dining", "travel", "airport-lounge", "mobile-payment", "transit"],
+    "headline": "樂齡生活卡，國內消費單筆回饋最高 9%",
+    "rewards": [
+      { "label": "國內消費（單筆）", "rate": "最高 9%", "rate_value": 9, "conditions": "回饋結構與門檻詳活動網頁" },
+      { "label": "樂活加碼（合庫安養信託委託人 +1%、幸福滿袋以房養老客戶 +1%）", "rate": "加碼 2%", "rate_value": 2, "cap": "每月回饋上限 NT$100（2026/7/1 起由 300 元調降）", "conditions": "需為合庫安養信託委託人或以房養老客戶" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費",
+      "國內消費單筆回饋最高 9%",
+      "機場接送、機場貴賓室、悠遊卡功能、行動支付、有機生活通路優惠",
+      "2026/7/1 起樂活加碼 2% 每月上限由 300 元調整為 100 元（官網公告）"
+    ],
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/lohas/card01.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "活動詳情頁 https://portal.tcb-bank.com.tw:8443/Campaign/Lohas2023/index.html 無法抓取；「最高 9%」取自官網卡片總覽摘要，加碼 2% 內容取自 2026-04-20 官網公告 /personal-banking/credit-card/common-services/announcement/27。基本回饋率未確認。"
+  },
+  {
+    "id": "tcb-i-sport",
+    "bank": "tcb",
+    "name": "i運動卡",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "transit", "overseas", "airport-lounge"],
+    "headline": "綠色交通／健身／運動裝備三大通路加碼 5%",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "國外（含海外網購）一般消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "綠色交通（悠遊卡自動加值、Gogoro Network、高鐵、臺鐵）", "rate": "加碼 5%", "rate_value": 5, "cap": "每項通路每月上限 NT$100，合計最高 NT$300", "conditions": "當期帳單新增一般消費達 NT$2,999 以上" },
+      { "label": "揮汗健身（健身工廠、World Gym、Curves、LESMILLS）", "rate": "加碼 5%", "rate_value": 5, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上" },
+      { "label": "運動裝備（迪卡儂、NIKE、adidas、PUMA、New Balance、摩曼頓、尚智直營門市）", "rate": "加碼 5%", "rate_value": 5, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上；限直營門市" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費",
+      "提撥一般消費 0.25% 協助國內偏鄉體育運動發展",
+      "使用合庫數位帳戶委扣帳款，每期回饋 5 元刷卡金",
+      "卡片採用 PETG 環保材質",
+      "市區停車、國際機場停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/i-sport",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/i-sport/isport.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "0.5%/1.5% 基本回饋標示活動期間 2026/7/1–12/31。"
+  },
+  {
+    "id": "tcb-dual-currency",
+    "bank": "tcb",
+    "name": "雙幣信用卡",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "第一年免年費；第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["overseas", "travel", "airport-lounge"],
+    "headline": "國外消費以美元／日圓結算，享 2% 現金回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "以約定外幣（美元或日圓）計算回饋" }
+    ],
+    "highlights": [
+      "可約定以美元或日圓結付國外消費，自本行外幣帳戶自動扣繳，並提供新臺幣自動換匯",
+      "市區停車、國際機場停車、機場貴賓室、道路救援、信用卡綜合保險",
+      "Mastercard 國際組織加碼海外消費回饋"
+    ],
+    "requirements": "需為成年人並提供財力證明；須開立本行臺、外幣帳戶並約定外幣帳戶自動扣繳",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/dual",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/dual/dualcurrency_3x.png",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-hanlai",
+    "bank": "tcb",
+    "name": "漢來美食聯名卡",
+    "networks": ["jcb", "mastercard"],
+    "levels": ["晶緻一卡通聯名卡", "鈦金悠遊聯名卡", "世界卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "max_amount": 10000,
+      "waiver": "依年費總表：晶緻／鈦金卡第一年免年費，第二年起前一年度消費達門檻免年費；世界卡正卡 10,000 元，前一年度消費滿 20 萬免年費",
+      "effectively_free": false
+    },
+    "reward_type": "other",
+    "tags": ["co-branded", "dining", "travel", "airport-lounge", "new-cardholder", "transit"],
+    "headline": "漢來美食餐廳（含島語）消費享 9 折優惠",
+    "rewards": [
+      { "label": "漢來美食餐廳（含島語）", "rate": "9 折", "conditions": "詳活動網頁" }
+    ],
+    "highlights": [
+      "漢來美食餐廳（含島語）消費享 9 折優惠",
+      "新戶首刷禮、滿額禮（晶緻／鈦金）",
+      "世界卡享生日禮、卡友日專屬優惠",
+      "一卡通（晶緻）／悠遊卡（鈦金）功能；機場接送、機場貴賓室"
+    ],
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/hanlai/jcb.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "活動詳情頁 https://portal.tcb-bank.com.tw:8443/Campaign/Hanlai2023/index.html 無法抓取；內容取自官網卡片總覽摘要（三張卡別合併為一筆）。現金回饋率、首刷禮內容未確認；年費取自官網年費總表。"
+  },
+  {
+    "id": "tcb-energy",
+    "bank": "tcb",
+    "name": "活力御璽卡",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "airport-lounge"],
+    "headline": "國內 1%、國外 1.5% 現金回饋無上限",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費",
+      "市區停車、國際機場停車、機場貴賓室、道路救援、信用卡綜合保險",
+      "2020 東京奧運限量卡面已額滿，續卡改為銀行版卡面"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/energy",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/energy/w1.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "回饋率標示活動期間 2026/7/1–12/31，之後基本回饋率需再確認。"
+  },
+  {
+    "id": "tcb-kanahei-icash-cash",
+    "bank": "tcb",
+    "name": "卡娜赫拉的小動物icash聯名卡（夢想鑽現卡）",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "online-shopping", "new-cardholder", "airport-lounge"],
+    "headline": "國內外 1% 無上限，網購 3% 現金回饋",
+    "rewards": [
+      { "label": "國內／國外一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "無最低門檻" },
+      { "label": "網路購物", "rate": "3%（含基本 1%，加碼 2%）", "rate_value": 3, "cap": "加碼 2% 部分每期帳單上限 NT$150", "conditions": "須為本行系統判定之網路消費；無最低門檻", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費（製卡費每張正卡 NT$200）",
+      "全新戶首刷禮：核卡後 45 天內一般消費任 2 筆達 888 元且自動加值 1 次，送卡娜赫拉藍牙喇叭麥克風組（至 2026/12/31）",
+      "首次申辦帳戶自動扣繳或代扣公用事業費用，核卡後 90 天內扣繳成功回饋 100 元刷卡金",
+      "icash 2.0 自動加值功能；7-ELEVEN 使用 icash Pay 享點數回饋活動",
+      "市區停車、國際機場停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/icash-kanahei",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/kanahei/card03.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "官網年費總表另載：卡娜赫拉 icash 聯名卡每張正卡製卡費 200 元。"
+  },
+  {
+    "id": "tcb-kanahei-icash-points",
+    "bank": "tcb",
+    "name": "卡娜赫拉的小動物icash聯名卡（夢想鑽點卡）",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "supermarket", "new-cardholder", "airport-lounge"],
+    "headline": "國內外消費 1% OPENPOINT 回饋，7-ELEVEN icash 消費 3%",
+    "rewards": [
+      { "label": "國內／國外一般消費", "rate": "OPENPOINT 1%", "rate_value": 1, "cap": "無上限", "conditions": "無最低門檻" },
+      { "label": "7-ELEVEN 門市 icash 2.0 消費", "rate": "OPENPOINT 3%", "rate_value": 3, "cap": "每月每卡上限 100 點", "conditions": "當月新增 1 筆 NT$888 以上國內一般消費；限本卡自動加值金額以 icash 全額支付", "valid_until": "2026-12-31" },
+      { "label": "7-ELEVEN CITY CAFE", "rate": "每杯加贈 2 點", "conditions": "以本卡 icash 2.0 功能單筆支付全額" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費（製卡費每張正卡 NT$200）",
+      "全新戶首刷禮：核卡後 45 天內一般消費任 2 筆達 888 元且自動加值 1 次，送卡娜赫拉藍牙喇叭麥克風組（至 2026/12/31）",
+      "首次申辦帳戶自動扣繳或代扣公用事業費用，核卡後 90 天內扣繳成功回饋 100 元刷卡金",
+      "icash 2.0 自動加值功能；市區停車、國際機場停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei-2",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/kanahei/card02.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-icash",
+    "bank": "tcb",
+    "name": "icash聯名卡",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申請電子帳單免年費；第一年免年費，第二年起前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "online-shopping", "supermarket", "new-cardholder", "airport-lounge"],
+    "headline": "網購 3% 現金回饋，7-ELEVEN icash 消費 OPENPOINT 3%",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限" },
+      { "label": "網路消費", "rate": "3%（含基本回饋）", "rate_value": 3, "cap": "每期帳單上限 NT$150", "conditions": "當期新增一般消費（不含網路消費）達 NT$3,000 以上", "valid_until": "2026-12-31" },
+      { "label": "7-ELEVEN 門市 icash 2.0 消費", "rate": "OPENPOINT 3%", "rate_value": 3, "cap": "每月每卡上限 100 點", "conditions": "當月新增 1 筆 NT$888 以上國內一般消費；限 LOGO 版卡", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "申請電子帳單免年費",
+      "全新戶首刷禮：核卡後 45 天內一般消費任 2 筆達 888 元且自動加值 1 次，贈 300 點 OPENPOINT（至 2026/12/31）",
+      "首次申辦帳戶自動扣繳或代扣公用事業費用，核卡後 90 天內扣繳成功回饋 100 元刷卡金",
+      "icash 2.0 自動加值免手續費；7-ELEVEN CITY CAFE 每杯加贈 2 點",
+      "市區停車、國際機場停車、機場貴賓室、道路救援、高鐵升等"
+    ],
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/icash",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/icash/icash.jpg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-ndmc-affinity",
+    "bank": "tcb",
+    "name": "國防醫學院鈦金悠遊認同卡",
+    "networks": ["mastercard"],
+    "levels": ["鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "transit", "new-cardholder", "airport-lounge"],
+    "headline": "國外消費 3% 現金回饋無上限，刷卡做公益",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.8%", "rate_value": 0.8, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "國外（含海外網購）一般消費", "rate": "3%", "rate_value": 3, "cap": "無上限", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費",
+      "全新戶首刷禮：核卡後 45 天內一般消費達 2,999 元且自動加值 1 次，獲 300 元刷卡金（2026/7/1–12/31）",
+      "合庫提撥一般消費 0.2% 回饋國防醫學院軍事教育基金",
+      "三總好食城、蔦屋書店等指定通路刷卡最高 9 折",
+      "悠遊卡功能；市區停車、國際機場停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡（不限國防醫學院師生）",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/cooperative19",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/cooperative19/113-0316-card.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "0.8%/3% 回饋標示為 2026/7/1–12/31 活動。"
+  },
+  {
+    "id": "tcb-chungtai-affinity",
+    "bank": "tcb",
+    "name": "中台世界博物館御璽悠遊認同卡",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；第一年免年費，第二年起各卡前一年度刷卡 1 次以上（含自動加值）免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "transit", "new-cardholder", "airport-lounge"],
+    "headline": "國內 0.5%、國外 1.5% 現金回饋無上限，刷卡做公益",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限" }
+    ],
+    "highlights": [
+      "申辦電子帳單免年費；前一年度刷卡 1 次即免年費",
+      "全新戶首刷禮：核卡後 45 天內一般消費達 2,999 元且自動加值 1 次，獲 300 元刷卡金",
+      "上市滿額加碼禮：核卡後累積一般消費達 88,000 元，贈 LED 摺疊心經屏風書燈（限量 400 份）",
+      "合庫提撥一般消費 0.25%～0.3% 回饋中台文化藝術基金會",
+      "悠遊卡功能；市區停車、國際機場停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/cooperative18",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/cooperative18/113-0208-card.png",
+    "last_verified": "2026-11-01",
+    "notes": "卡組織依「御璽卡」等級與頁面 Visa 字樣推定為 Visa（卡片總覽篩選為「不限」）。"
+  },
+  {
+    "id": "tcb-lukang-mazu-affinity",
+    "bank": "tcb",
+    "name": "鹿港天后宮認同卡",
+    "networks": ["mastercard", "jcb"],
+    "levels": ["Mastercard 鈦金悠遊認同卡", "JCB 晶緻一卡通認同卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；第二年起各卡前一年度刷卡 1 次以上（含自動加值）免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "transit", "new-cardholder", "airport-lounge"],
+    "headline": "國內 0.5%、國外 1.5% 現金回饋無上限，年刷 10 萬免費點燈",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限" }
+    ],
+    "highlights": [
+      "全新戶首刷禮：核卡後 45 天內一般消費達 2,999 元且自動加值 1 次，獲 300 元刷卡金",
+      "滿額禮：每年度累積一般消費達 10 萬元，次年免費於鹿港天后宮點燈一盞一年",
+      "合庫提撥一般消費 0.3% 回饋鹿港天后宮作公益用途",
+      "每張卡均經香爐儀式加持",
+      "悠遊卡（鈦金）／一卡通（晶緻）功能；市區停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "正卡申請人需為成年人；大專院校以上已成年在學學生可申請正卡",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/temple",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/temple/mastercard.jpg",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-profit-visa",
+    "bank": "tcb",
+    "name": "御璽商旅卡",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "第一年免年費；第二年起正卡前一年度累積消費達 8 萬元或達 8 筆免年費（官網年費總表）",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["overseas", "travel", "airport-lounge"],
+    "headline": "國內 0.3%、國外 1.5% 現金回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.3%", "rate_value": 0.3 },
+      { "label": "國外一般消費", "rate": "1.5%", "rate_value": 1.5 }
+    ],
+    "highlights": [
+      "市區停車、國際機場停車、機場貴賓室、道路救援、信用卡綜合保險",
+      "Visa 國際組織優惠"
+    ],
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/profit-visa-card",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/profit-visa-card/profit-visa-card.png",
+    "last_verified": "2026-11-01",
+    "notes": "產品頁未列年費，年費取自官網信用卡年費總表「御璽商旅卡」項。"
+  },
+  {
+    "id": "tcb-platinum",
+    "bank": "tcb",
+    "name": "白金卡",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["白金卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "第一年免年費；第二年起各卡前一年度刷卡 1 次即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "travel", "airport-lounge"],
+    "headline": "每滿 25 元累積 1 點紅利，每年刷卡一次免年費",
+    "rewards": [
+      { "label": "一般消費", "rate": "每 NT$25 累積 1 點紅利積點" }
+    ],
+    "highlights": [
+      "每年度刷卡一次即可免年費",
+      "高鐵商務車廂升等禮遇",
+      "機場接送服務、國際機場停車、機場貴賓室、道路救援、旅遊平安險"
+    ],
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/platinum-card",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/platinum-card/master-platinum-card.png",
+    "last_verified": "2026-11-01",
+    "notes": "年費金額取自官網年費總表（白金卡正卡 1,200 元）。紅利點數現金價值未於頁面標示（無限卡頁面載 1,000 點＝刷卡金 60 元，未必適用）。"
+  },
+  {
+    "id": "tcb-sweet-home",
+    "bank": "tcb",
+    "name": "愛家卡（合庫房貸戶限定）",
+    "networks": ["visa", "mastercard"],
+    "levels": ["VISA 御璽愛家卡", "Mastercard 鈦金愛家卡", "Mastercard 白金愛家卡"],
+    "annual_fee": {
+      "amount": 1200,
+      "max_amount": 1800,
+      "waiver": "御璽卡申辦電子帳單免年費；御璽／鈦金第二年起前一年度消費達 8 萬或 8 筆免年費；白金卡前一年度刷卡 1 次免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "department-store"],
+    "headline": "房貸戶一般消費 1%+0.2%，指定 3C 居家百貨加碼 5%",
+    "rewards": [
+      { "label": "國內／國外一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "房貸戶加碼（VISA 御璽愛家卡）", "rate": "加碼 0.2%", "rate_value": 0.2, "conditions": "房貸仍有現欠餘額且繳息正常之本行房貸戶正卡", "valid_until": "2026-12-31" },
+      { "label": "指定 3C 居家百貨（特力屋、宜得利、IKEA、全國電子、燦坤等）", "rate": "加碼 5%", "rate_value": 5, "cap": "每月上限 NT$300", "conditions": "VISA 御璽愛家卡；當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" },
+      { "label": "代扣指定公用事業費用（中華電信、台電、自來水、瓦斯）", "rate": "0.2%", "rate_value": 0.2, "cap": "每月上限 NT$300", "conditions": "VISA 御璽愛家卡", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "限合庫房貸戶申辦",
+      "VISA 御璽愛家卡申辦電子帳單期間免年費",
+      "市區停車、國際機場停車、機場貴賓室、道路救援、信用卡綜合保險"
+    ],
+    "requirements": "限合作金庫房貸戶",
+    "status": "active",
+    "apply_url": "https://cobank.tcb-bank.com.tw/TCB.PRIVATE.SERVICE/#/card-center/apply-card/main",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/house-loan",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/house-loan/sweethomeplatinum.jpeg",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01"
+  },
+  {
+    "id": "tcb-hospital",
+    "bank": "tcb",
+    "name": "一般醫院卡",
+    "networks": ["mastercard"],
+    "levels": ["Combo 鈦金卡"],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申辦電子帳單免年費；Combo 鈦金卡第一年免年費，第二年起累積消費達 8 萬元或 8 筆免年費（官網年費總表）",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "mobile-payment", "fuel", "overseas", "new-cardholder"],
+    "headline": "國內 1%、國外 2%，四大通路最高 5% 現金回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限" },
+      { "label": "外送叫車（Uber、Uber Eats、foodpanda）", "rate": "加碼 4%（合計 5%）", "rate_value": 5, "cap": "每項通路每月上限 NT$100，合計最高 NT$300", "conditions": "當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" },
+      { "label": "行動支付（LINE Pay、街口、橘子支付、悠遊付、歐付寶、Pi 拍錢包）", "rate": "加碼 4%（合計 5%）", "rate_value": 5, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" },
+      { "label": "中油直營加油站", "rate": "加碼 4%（合計 5%）", "rate_value": 5, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" },
+      { "label": "健身工廠、World Gym、Curves、年代售票、兩廳院售票", "rate": "加碼 4%（合計 5%）", "rate_value": 5, "cap": "每月上限 NT$100", "conditions": "當期帳單新增一般消費達 NT$2,999 以上", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "限榮民總醫院、長庚醫院、成大醫院、三軍總醫院暨所屬在職員工申請",
+      "全新戶首刷禮：核卡後 45 天內一般消費達 2,999 元且悠遊卡自動加值 1 筆，獲 300 元刷卡金（2026 年）",
+      "使用合庫數位帳戶委扣帳款，每期回饋 5 元刷卡金",
+      "Combo 卡結合金融卡功能，不發行附卡",
+      "市區停車、國際機場停車、機場貴賓室、道路救援"
+    ],
+    "requirements": "限榮民總醫院、長庚醫院、成大醫院、三軍總醫院在職員工；需為成年人並於本行開立活期性存款",
+    "status": "active",
+    "source_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/tcb-hospital",
+    "image_url": "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/tcb-hospital/card-2.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "台大醫院卡（/intro/overview/ntuh）為同內容、限台大醫院員工之版本，未另建一筆。卡組織依卡片總覽鈦金 Combo 卡及卡面推定為 Mastercard。"
+  }
+]

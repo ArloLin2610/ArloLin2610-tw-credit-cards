@@ -14,7 +14,7 @@ export const bankById = new Map(banks.map((b) => [b.id, b]));
 
 export const cards: Card[] = Object.entries(cardModules)
   .flatMap(([, arr]) => arr)
-  .filter((c) => bankById.has(c.bank))
+  .filter((c) => bankById.has(c.bank) && !c.needs_review)
   .sort((a, b) => {
     const ai = banks.findIndex((x) => x.id === a.bank);
     const bi = banks.findIndex((x) => x.id === b.bank);

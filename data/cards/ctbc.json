@@ -1,0 +1,504 @@
+[
+  {
+    "id": "ctbc-linepay",
+    "bank": "ctbc",
+    "name": "LINE Pay卡",
+    "name_en": "CTBC LINE Pay Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡",
+      "商務御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首次申辦免年費；次年起申請電子或行動帳單、或以中信存款帳號自動扣繳卡款即免年費；2026/1/1～12/31 成功綁定 LINE Pay 亦享免年費。附卡 NT$900。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "mobile-payment",
+      "online-shopping",
+      "overseas",
+      "dining",
+      "transit",
+      "travel",
+      "new-cardholder"
+    ],
+    "headline": "國內外一般消費 1%、國外實體 2.8% LINE POINTS，指定通路最高 16%",
+    "rewards": [
+      {
+        "label": "國內外一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "需先綁定 LINE Pay；回饋 LINE POINTS，約請款後 5 個工作天入點；分期交易不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外實體商店消費",
+        "rate": "2.8%",
+        "rate_value": 2.8,
+        "cap": "無上限",
+        "conditions": "1% 基本＋1.8% 加碼；限面對面交易（實體卡或 Apple/Google/Samsung Pay），網購及第三方支付不適用",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外實體商店限時加碼",
+        "rate": "最高 5%",
+        "rate_value": 5,
+        "conditions": "2026/7/1～9/30 需登錄；不含歐盟地區（已結束，待官網更新）",
+        "valid_until": "2026-09-30"
+      },
+      {
+        "label": "一卡通儲值金支付大眾交通（高鐵除外）",
+        "rate": "1%",
+        "rate_value": 1
+      },
+      {
+        "label": "超過 100 大品牌指定通路加碼",
+        "rate": "最高 16%",
+        "rate_value": 16,
+        "conditions": "各品牌加碼比率、名額及期間不同，見官網優惠一覽表；商店加碼 90 個工作天後入點"
+      }
+    ],
+    "highlights": [
+      "LINE POINTS 1 點＝NT$1，可於 LINE Pay 直接折抵；一般點數 180 天效期（持續消費可延展）",
+      "新戶首刷禮：核卡 30 日內消費 NT$888 送 LINE POINTS 300 點（新卡 100 點），2026/7/1～12/31 申辦",
+      "海外訂房／旅遊平台（Klook、KKday 等）最高 20%",
+      "推薦好友：推薦人 100 點、被推薦人 50 點（限 Visa 商務御璽／御璽卡）",
+      "可選多款卡面；另有 LINE Pay 簽帳金融卡及 LINE Pay 鼎極卡"
+    ],
+    "requirements": "正卡須年滿 18 歲，固定年收入 NT$20 萬以上；附卡 15 歲以上（未滿 18 歲需法定代理人同意）",
+    "status": "active",
+    "apply_url": "https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_card_index/cc_service_card_apply.html?Dsn=0&Card1%5BCrd%5D=C_LINEPay",
+    "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+    "image_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/gifts/gift_cards_content_VISA-lg.png",
+    "last_verified": "2026-11-01",
+    "notes": "Sources: official LINE Pay minisite (notice.html, gifts.html, faq.html) + annual-fee FAQ (service.ctbcbank.com kmid=11633: 商務御璽/御璽/晶緻 NT$1,800/900). FAQ fee row also lists a 晶緻卡 tier, but the minisite only markets Visa 商務御璽/御璽 — 晶緻 omitted from levels. Image is the 御璽卡 header image on the gifts page (verify it shows the card face). Main product page (twrbo/.../cc_cards) is bot-protected and was not read."
+  },
+  {
+    "id": "ctbc-ana",
+    "bank": "ctbc",
+    "name": "ANA聯名卡",
+    "name_en": "CTBC ANA Co-branded Card",
+    "networks": [
+      "visa",
+      "jcb"
+    ],
+    "levels": [
+      "白金卡",
+      "御璽卡",
+      "晶緻卡",
+      "商務御璽卡",
+      "無限卡",
+      "極緻卡"
+    ],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 8000,
+      "waiver": "白金卡（NT$1,500）及御璽卡（NT$1,800）首年免年費；晶緻卡／商務御璽卡 NT$2,000（附卡 NT$1,000）、無限卡／極緻卡 NT$8,000（附卡 NT$4,000）不免年費，續繳年費贈續卡哩（NT$2,000 贈 2,000 哩、NT$8,000 贈 6,000 哩）。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": [
+      "travel",
+      "overseas",
+      "airport-lounge",
+      "co-branded",
+      "new-cardholder",
+      "premium"
+    ],
+    "headline": "極緻／無限卡國外消費 NT$10＝1 哩，ANA 機票哩程加碼 50%",
+    "rewards": [
+      {
+        "label": "極緻卡／無限卡：一般消費",
+        "rate": "NT$20＝1 哩",
+        "rate_value": 20,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "極緻卡／無限卡：國外實體消費及指定訂房平台",
+        "rate": "NT$10＝1 哩",
+        "rate_value": 10,
+        "conditions": "訂房平台限 Agoda、Airbnb、Booking.com、Expedia、Hotels.com、Trip.com",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "晶緻卡／商務御璽卡：一般消費",
+        "rate": "NT$30＝1 哩",
+        "rate_value": 30,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "晶緻卡／商務御璽卡：國外實體消費及指定訂房平台",
+        "rate": "NT$15＝1 哩",
+        "rate_value": 15,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "御璽卡／白金卡：一般消費",
+        "rate": "NT$40＝1 哩",
+        "rate_value": 40,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "御璽卡／白金卡：國外實體消費",
+        "rate": "NT$30＝1 哩",
+        "rate_value": 30,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "ANA 營運航班機票飛行哩程加碼",
+        "rate": "極緻／無限 +50%、晶緻／商務御璽 +25%、御璽／白金 +10%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新卡首刷禮最高 13,000 哩：繳年費並於核卡 30 天內消費達門檻（NT$8,000 年費卡 6,000 哩、NT$2,000 年費卡 2,000 哩），極緻卡 60 天內消費 NT$20 萬再加 7,000 哩（限量）",
+      "極緻／無限／晶緻／商務御璽卡：國際機場指定貴賓室一年 4 次、機場停車不限次每次 30 天、ANA 國際線商務艙櫃台報到",
+      "極緻／無限卡：機場接送一年 2 次、道路救援一年 3 次、尊榮代駕一年 2 次",
+      "旅行平安險最高 NT$5,000 萬、海外全程險最高 NT$1,000 萬（刷機票全額或團費 80% 以上）",
+      "ANA 機場免稅店 9 折起、ANA SKY SHOP 機上購物 9 折；JCB 卡別另享 ANA CARD Mile Plus 日本特約商店加碼"
+    ],
+    "requirements": "新卡優惠限申辦前 12 個月內未持有任何 ANA 聯名卡者",
+    "status": "active",
+    "apply_url": "https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_card_index/cc_service_card_apply.html/?CrdTp=A04&Crd=C_ANA",
+    "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/ANA/p2.html",
+    "last_verified": "2026-11-01",
+    "notes": "Rates from official ANA minisite (p2.html 飛常哩遇, p1/p4/p5). Fees from CTBC's official Jan-2026 credit-card user guide PDF (Foreigners-service/p2.html) and ANA minisite first-swipe table. Network mapping inferred: JCB = 極緻/晶緻/白金 (ANA CARD Mile Plus 'JCB 卡別' applies to these), Visa = 無限/商務御璽/御璽. No card-face image on the minisite (only banners) — image_url omitted."
+  },
+  {
+    "id": "ctbc-allme",
+    "bank": "ctbc",
+    "name": "ALL ME卡",
+    "name_en": "CTBC ALL ME Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "商務鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "首年免年費；次年起綁定 Hami Pay 或 Pi 拍錢包 App 即免年費。附卡 NT$900。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "mobile-payment",
+      "overseas",
+      "online-shopping",
+      "co-branded"
+    ],
+    "headline": "國內 1%、國外實體 2.2%，Pi 拍錢包／Hami Pay 及四大超商 3%",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "conditions": "ALL ME 點 1 點＝NT$1，效期 6 個月",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外一般消費",
+        "rate": "1%",
+        "rate_value": 1,
+        "cap": "無上限",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "國外實體商店面對面消費加碼",
+        "rate": "+1.2%（合計 2.2%）",
+        "rate_value": 2.2,
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "Pi 拍錢包／Hami Pay 掃碼指定商店",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "各加碼合計每戶每月上限 300 點（正附卡合併）",
+        "conditions": "1% 基本＋2% 加碼",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "四大超商",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "各加碼合計每戶每月上限 300 點",
+        "conditions": "基本回饋 0%＋加碼 3%",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "中華電信集團、網家（PChome）集團指定通路",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "各加碼合計每戶每月上限 300 點",
+        "conditions": "刷卡或綁定 Pi 拍錢包／Hami Pay／Apple Pay／Google Pay／Samsung Pay",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "與中華電信、PChome 網家合作；點數可轉 Hami Point 或 Pi 拍錢包 P 幣折抵",
+      "2026/1/16 起中信點轉為 ALL ME 點，正附卡消費合併計算",
+      "免費道路救援一年 3 次；旅平險 NT$2,000 萬",
+      "縣市路邊停車費及台北市公有路外停車費以 Pi 拍錢包繳費享回饋",
+      "神腦、Hami、MOD 等合作優惠"
+    ],
+    "status": "active",
+    "apply_url": "https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_card_index/cc_service_card_apply.html?Dsn=0&Card1%5BCrd%5D=C_AllMe",
+    "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/ALLME/index.html",
+    "image_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/ALLME/assets/images/common/CTBC_202504_AllMeCard.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "Rates from official ALLME minisite (index.html + notice.html). Minisite shows two campaign windows (114/4/1–6/30 on the table vs 115/7/1–12/31 in the bonus terms) — the newer one is used. Tier 商務鈦金卡 from fee FAQ (kmid=11633); fee NT$1,800/900 from the Jan-2026 user guide (Titanium Business row). Network Mastercard from minisite 'Mastercard優惠' link. image_url is the og share image — verify it shows the card face."
+  },
+  {
+    "id": "ctbc-cpc",
+    "bank": "ctbc",
+    "name": "中油聯名卡",
+    "name_en": "CTBC CPC Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "白金卡",
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 1800,
+      "waiver": "首年免年費；次年起申請電子或行動帳單、以中信存款帳號自動扣繳卡款、或所持中油聯名卡已綁定中油 Pay（綁定期間）即免年費。白金卡 NT$1,500／附卡 NT$750；御璽卡 NT$1,800／附卡 NT$900。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "fuel",
+      "mobile-payment",
+      "co-branded",
+      "new-cardholder"
+    ],
+    "headline": "中油 Pay 儲值＋加油最高 6.8% 回饋，綁定中油 Pay 免年費",
+    "rewards": [
+      {
+        "label": "中油 Pay 加油／儲值：中信紅利點數",
+        "rate": "御璽卡每 NT$30 累積 3 點、白金卡每 NT$30 累積 2 點（最高 3 倍，約 0.8%）",
+        "rate_value": 0.8,
+        "conditions": "100 點可折抵 NT$8 油資（天天點點成金，自助加油不適用）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "中油 Pay 加油：中油 VIP 點數",
+        "rate": "最高 2 倍（約 2%）",
+        "rate_value": 2,
+        "conditions": "汽油每 NT$1 累積 1 點、柴油每 NT$2 累積 1 點，單次加油滿 NT$50",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "中油 Pay 線上儲值",
+        "rate": "最高 4%",
+        "rate_value": 4,
+        "cap": "單筆儲值 NT$500 以上享 2% 加碼（儲值餘額上限 NT$10,000）",
+        "conditions": "週一單筆儲值 NT$3,000 以上再加 2%",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "新戶／新卡禮最高 NT$500：核卡 30 日內中油加油或中油 Pay 儲值滿 NT$500，三選一（油資回饋金／電子油券／中油禮品卡），2026/10/1～12/31 申辦",
+      "綁定中油 Pay 送 NT$50、綁定期間免年費及儲值券；首次加油滿 NT$50 送 7,000 VIP 點",
+      "週一會員日 VIP 點數 2 倍、中信紅利最高 10 倍；週五加油日滿 NT$500 送儲值券",
+      "御璽卡免費道路救援一年 3 次（每次 50 公里）；旅平險最高 NT$2,000 萬",
+      "停車費自動扣繳免手續費"
+    ],
+    "requirements": "正卡須年滿 20 歲；白金卡固定年收入 NT$20 萬以上、御璽卡 NT$40 萬以上；大專學生年收入 NT$10 萬以上",
+    "status": "active",
+    "apply_url": "https://ob.ctbcbank.com/card/#/apply?CrdTp=&Crd=C_CPC&Act=DEFAULT&CrdF=8515",
+    "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/CPC/index.html",
+    "image_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/CPC/assets/images/common/CTBC_CPCCard_ogImg_202609.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "NETWORK NOT STATED on any page read — Visa is inferred from the 御璽 tier naming; verify. Rates from official CPC minisite (index.html, faq.html); fees from fee FAQ (kmid=11631/11633). General (non-CPC) spending points rate not stated on the minisite. image_url is the og share image — verify it shows the card face."
+  },
+  {
+    "id": "ctbc-uniopen",
+    "bank": "ctbc",
+    "name": "uniopen聯名卡",
+    "name_en": "CTBC uniopen Co-branded Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申請電子或行動帳單期間免年費（官網 FAQ 歸類於電子帳單免年費卡別）。附卡 NT$900。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "supermarket",
+      "mobile-payment"
+    ],
+    "headline": "OPENPOINT 回饋 2% 無上限（統一集團通路加碼待官網驗證）",
+    "rewards": [
+      {
+        "label": "一般消費 OPENPOINT 回饋",
+        "rate": "2%",
+        "rate_value": 2,
+        "cap": "無上限",
+        "conditions": "依中信「旅遊玩家」官方活動頁敘述；統一集團 30 品牌加碼（媒體報導最高 11%，單筆需滿 NT$199）未能自官網驗證"
+      }
+    ],
+    "highlights": [
+      "2025 年起由中國信託獨家發行之統一集團 uniopen 聯名卡，回饋 OPENPOINT",
+      "Trip.com 輸入優惠碼機票最高折 NT$800、飯店最高折 NT$1,200（中信旅遊玩家活動）",
+      "JAL 日本航空 uniopen 卡友專屬機票折扣（2026/4 活動）"
+    ],
+    "status": "active",
+    "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/TravelPlayer/air.html",
+    "last_verified": "2026-11-01",
+    "notes": "PARTIAL — REWARDS LARGELY UNVERIFIED. Only the '2% OPENPOINT 無上限' statement comes from an official CTBC page (TravelPlayer minisite). Tier 鈦金卡 from fee FAQ (kmid=11631 'uniopen聯名鈦金卡'); fee NT$1,800/900 assumed from the 鈦金 row of the Jan-2026 user guide; network Mastercard inferred from 鈦金 tier. No official product page, apply URL or image could be read (bot challenge). Re-verify everything once the product page is accessible.",
+    "needs_review": true
+  },
+  {
+    "id": "ctbc-lol",
+    "bank": "ctbc",
+    "name": "英雄聯盟卡",
+    "name_en": "CTBC League of Legends Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "申請電子或行動帳單期間免年費（官網 FAQ 歸類於電子帳單免年費卡別）。附卡 NT$900。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "streaming",
+      "online-shopping"
+    ],
+    "headline": "遊戲／影音通路現金回饋卡（回饋率待官網驗證）",
+    "rewards": [
+      {
+        "label": "一般消費及指定遊戲／影音通路",
+        "rate": "官網回饋計劃本次未能讀取",
+        "conditions": "中信官網信用卡頁面對非瀏覽器用戶顯示機器人驗證頁，未能取得回饋率；請勿在站上顯示為確定數值"
+      }
+    ],
+    "highlights": [
+      "Riot Games《英雄聯盟》聯名卡，另有英雄聯盟簽帳金融卡",
+      "官網 FAQ 列為申請電子帳單即免年費之卡別"
+    ],
+    "status": "active",
+    "source_url": "https://service.ctbcbank.com/FAQ/Page01?kmid=11631",
+    "last_verified": "2026-11-01",
+    "notes": "PARTIAL — REWARDS UNVERIFIED. Only existence + fee-waiver category confirmed via official FAQ (kmid=11631 lists 英雄聯盟信用卡 under e-statement waiver cards). Tier/network/fee are inferences (third-party listings describe it as 鈦金卡; 鈦金 row of Jan-2026 guide = NT$1,800/900). No official product page, apply URL or image readable. Consider hiding until verified.",
+    "needs_review": true
+  },
+  {
+    "id": "ctbc-china-airlines",
+    "bank": "ctbc",
+    "name": "中華航空聯名卡",
+    "name_en": "CTBC China Airlines Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "商務御璽卡",
+      "鼎尊無限卡",
+      "璀璨無限卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "max_amount": 22000,
+      "waiver": "商務御璽卡首年免年費，次年起 NT$1,800（附卡 NT$900）；鼎尊無限卡 NT$8,000、璀璨無限卡 NT$22,000，附卡免年費。113/12/31 前核卡之商務御璽卡適用電子帳單免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": [
+      "travel",
+      "overseas",
+      "airport-lounge",
+      "co-branded",
+      "premium"
+    ],
+    "headline": "華航哩程聯名卡，生日當月國外實體消費最優 NT$6＝1 哩",
+    "rewards": [
+      {
+        "label": "生日當月國外實體消費",
+        "rate": "最優 NT$6＝1 哩",
+        "rate_value": 6,
+        "conditions": "依中信「旅遊玩家」官方活動頁；一般消費及各卡別基本累積率本次未能自官網讀取"
+      },
+      {
+        "label": "繳稅（2025 活動）",
+        "rate": "NT$300＝1 哩",
+        "rate_value": 300,
+        "conditions": "中信金控新聞稿 2025/4/22，僅供參考",
+        "valid_until": "2025-06-30"
+      }
+    ],
+    "highlights": [
+      "三卡別：商務御璽卡、鼎尊無限卡（原無限商務卡）、璀璨無限卡（原璀璨商務卡）",
+      "官網 2026 年 1 月版用卡須知載明各卡別年費：璀璨無限 NT$22,000、鼎尊無限 NT$8,000、商務御璽首年免",
+      "詳細哩程累積率、貴賓室及接送次數請以官網為準"
+    ],
+    "status": "active",
+    "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/Foreigners-service/p2.html",
+    "last_verified": "2026-11-01",
+    "notes": "PARTIAL — EARN RATES UNVERIFIED. Fees from the official Jan-2026 user guide (China Airlines Priority Infinite 22,000 / Infinite Business 8,000 / Signature Business first-year free then 1,800/900). Tier names 鼎尊無限/璀璨無限 are the current marketing names per third-party listings; the guide uses 'Priority Infinite / Infinite Business'. Network Visa inferred (御璽/無限 tiers). Official product page C_CAL.html is bot-protected; CAL minisite index is an empty shell.",
+    "needs_review": true
+  },
+  {
+    "id": "ctbc-agoda",
+    "bank": "ctbc",
+    "name": "Agoda聯名卡",
+    "name_en": "CTBC Agoda Co-branded Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "商務御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "正附卡年度新增消費合計滿 NT$60,000 免次年年費（NT$30,000～60,000 減半為 NT$900）；或綁定中信 LINE 官方帳號個人化服務、申請電子／行動帳單、中信帳戶自動扣繳卡款、年費計算前 6 個月內登入中信行動銀行 App 其一亦免年費。附卡 NT$900。",
+      "effectively_free": true
+    },
+    "reward_type": "other",
+    "tags": [
+      "no-annual-fee",
+      "travel",
+      "co-branded"
+    ],
+    "headline": "消費回饋 Agoda A 金，訂房折抵（回饋率待官網驗證）",
+    "rewards": [
+      {
+        "label": "一般消費 Agoda A 金回饋",
+        "rate": "比率未載於申請書，待官網驗證",
+        "conditions": "A 金以美元計入 Agoda 帳戶，需達 Agoda VIP Platinum 會籍方可使用；A 金效期 2 年"
+      }
+    ],
+    "highlights": [
+      "Visa 商務御璽卡，五款卡面可選（秋楓紅／日落橙／森林綠／秘境紫／海岸藍）",
+      "每人限申辦一張",
+      "回饋為 Agoda A 金而非信用卡點數"
+    ],
+    "status": "active",
+    "source_url": "https://www.ctbcbank.com/content/dam/twrbo/pdf/creditcard/applyform/CC_C_Agoda.pdf",
+    "last_verified": "2026-11-01",
+    "notes": "PARTIAL. Source is the official application form PDF (terms marked 113.01 修訂版, A 金 program period 2024/6/1–12/31) — fee/waiver likely current, but reward program dates are stale. Official product page (cc_feedback_agoda.html) is bot-protected. No card image available.",
+    "needs_review": true
+  }
+]

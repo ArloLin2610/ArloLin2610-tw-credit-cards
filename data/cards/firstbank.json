@@ -1,0 +1,638 @@
+[
+  {
+    "id": "firstbank-ileo",
+    "bank": "firstbank",
+    "name": "iLEO信用卡",
+    "name_en": "iLEO Credit Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆，即免次年年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "mobile-payment",
+      "overseas",
+      "online-shopping",
+      "streaming",
+      "transit",
+      "new-cardholder",
+      "installment"
+    ],
+    "headline": "新戶海外消費＆指定支付最高 13% 現金回饋",
+    "rewards": [
+      {
+        "label": "新戶指定支付（LINE Pay、街口、Apple Pay、Google Pay、Samsung Pay）",
+        "rate": "10%",
+        "rate_value": 10,
+        "cap": "NT$500／每戶",
+        "conditions": "新戶首次申辦且使用電子帳單與 iLEO 數位帳戶自扣，核卡後 90 天內",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新戶海外外幣消費（含實體店與網購）",
+        "rate": "10%",
+        "rate_value": 10,
+        "cap": "NT$500／每戶",
+        "conditions": "新戶首次申辦且使用電子帳單與 iLEO 數位帳戶自扣，核卡後 90 天內；海外實體店須以實體卡刷卡或感應支付",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "新卡首刷禮：全台捷運／輕軌及國際指定城市感應乘車",
+        "rate": "10%",
+        "rate_value": 10,
+        "cap": "NT$100／每卡",
+        "conditions": "首次申辦 iLEO 信用卡之舊戶，核卡後 90 天內持卡（含綁定國際支付）感應乘車",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "附卡首刷禮：指定平台（momo、蝦皮、酷澎、klook、kkday）",
+        "rate": "10%",
+        "rate_value": 10,
+        "cap": "NT$200／每附卡",
+        "conditions": "附卡持卡人首次申辦，核卡後 90 天內",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "領券：當月指定數位訂閱（Netflix、Disney+、YouTube Premium、ChatGPT、Gemini、Claude 等）",
+        "rate": "5%",
+        "rate_value": 5,
+        "cap": "NT$200／每月",
+        "conditions": "當月刷 3 次單筆滿千一般消費並申辦帳戶扣繳與電子帳單，領券多選一（限量 3,000 名）",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "領券：當月指定平台（momo／蝦皮／酷澎／klook／kkday）",
+        "rate": "3%",
+        "rate_value": 3,
+        "cap": "NT$200／每月",
+        "conditions": "領券多選一，條件同上",
+        "valid_until": "2026-12-31"
+      },
+      {
+        "label": "指定通路",
+        "rate": "最高 2%",
+        "rate_value": 2,
+        "conditions": "通路名單與上限詳官網活動頁"
+      }
+    ],
+    "highlights": [
+      "加辦 iLEO 數位帳戶且任刷一筆，送 Uber 抵用券 100 元（新戶）",
+      "單筆滿千享 3 期 0 利率分期（分期交易不列入現金回饋）",
+      "嘟嘟房市區停車每日 1 次免費 2 小時（前期帳單一般消費達 7,000 元）",
+      "國際機場周邊停車一年免費 15 天；一年 2 次免費 50 公里道路救援",
+      "最高 2,000 萬元旅遊平安險、100 萬元傷害醫療及旅遊不便險",
+      "免收掛失費、免自負額"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://webar.firstbank.com.tw/c000000671/index.html",
+    "image_url": "https://www.ileolife.com/weba/4016E0B9-A425-47DA-BC44-5C5C6EC0A74F/618C04FC-A42B-4C51-B54F-A2C967FFF3C8/20250627152541_1indexileocard.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-02",
+    "notes": "官方產品頁 https://card.firstbank.com.tw/sites/card/zh_TW/1565690685937 內容由 JS 載入無法抓取；資料取自官方 iLEO 活動頁（活動期間 2026.7.1–12.31）及官方年費收費標準 PDF。一般消費基本回饋率與「指定通路最高 2%」細節未能取得，請人工確認。「最高 13%」為新戶多項加碼疊加後之最高值。"
+  },
+  {
+    "id": "firstbank-wonderful",
+    "bank": "firstbank",
+    "name": "Wonderful星璨卡",
+    "name_en": "Wonderful Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "travel",
+      "overseas"
+    ],
+    "headline": "百貨購物或海外實體商店最高 3.5% 現金回饋",
+    "rewards": [
+      {
+        "label": "百貨購物或海外實體商店",
+        "rate": "最高 3.5%",
+        "rate_value": 3.5
+      },
+      {
+        "label": "指定通路消費",
+        "rate": "1.5%",
+        "rate_value": 1.5
+      }
+    ],
+    "highlights": [
+      "指定類別（電信、旅遊等）消費 2% 現金回饋，每月上限 500 元",
+      "其他消費 0.5% 現金回饋無上限",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "last_verified": "2026-11-02",
+    "notes": "回饋率取自官網英文版信用卡介紹頁（Wonderful Card），中文產品頁 https://card.firstbank.com.tw/sites/Satellite?c=CreditCard&cid=1565690686302&d=Touch&pagename=FirstBankCard%2FCreditCard%2Fzh%2FCreditCardDetailView 內容由 JS 載入無法抓取。卡組織未於可取得的官方資料載明（暫填 mastercard，請確認）；英文頁的卡面圖片 alt 標示與卡名不符，故未填 image_url。年費取自官方收費標準 PDF。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-living-green",
+    "bank": "firstbank",
+    "name": "Living Green綠活卡",
+    "name_en": "Living Green Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "transit"
+    ],
+    "headline": "樂活通路最高 5% 回饋，附加悠遊卡、一卡通",
+    "rewards": [
+      {
+        "label": "樂活通路",
+        "rate": "最高 5%",
+        "rate_value": 5,
+        "conditions": "通路清單與上限以官網活動頁為準"
+      }
+    ],
+    "highlights": [
+      "鼓勵使用電子帳單與大眾運輸的環保主題卡",
+      "可搭乘台北／桃園機場／高雄捷運、公車、台鐵指定車站及高鐵自由座，餘額不足自動加值",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "image_url": "https://www.firstbank.com.tw/sites/fcb/image/1565688855413",
+    "last_verified": "2026-11-02",
+    "notes": "官網英文介紹頁僅稱「high cashback on public transportation」未給比率；中文產品頁與活動頁（如「樂活通路最高5%回饋」/sites/card/zh_TW/1565705148928）內容由 JS 載入無法抓取。卡組織未載明（暫填 mastercard，請確認）。年費取自官方收費標準 PDF。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-ipass",
+    "bank": "firstbank",
+    "name": "一卡通聯名卡",
+    "name_en": "iPass Co-branded Credit Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "普卡"
+    ],
+    "annual_fee": {
+      "amount": 300,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費；附卡終身免年費",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit"
+    ],
+    "headline": "國內 1%、日韓海外實體 3.5% 現金回饋，附加一卡通",
+    "rewards": [
+      {
+        "label": "國內一般消費",
+        "rate": "1%",
+        "rate_value": 1
+      },
+      {
+        "label": "日本、韓國海外實體消費",
+        "rate": "3.5%",
+        "rate_value": 3.5
+      },
+      {
+        "label": "指定早餐店",
+        "rate": "最高 5%",
+        "rate_value": 5
+      },
+      {
+        "label": "生日饗宴",
+        "rate": "最高 2%",
+        "rate_value": 2
+      }
+    ],
+    "highlights": [
+      "一般消費 1% 現金回饋",
+      "結合一卡通功能，餘額不足自動加值；可搭乘捷運、公車、台鐵指定車站及高鐵自由座",
+      "年費僅 300 元，申辦電子帳單或任刷一筆即免年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "image_url": "https://www.firstbank.com.tw/sites/fcb/image/1565688855684",
+    "last_verified": "2026-11-02",
+    "notes": "1% 取自官網英文介紹頁；年費取自官方收費標準 PDF（一卡通聯名卡正卡 300 元）。卡組織與回饋上限未載明（暫填 mastercard，請確認）。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-icash",
+    "bank": "firstbank",
+    "name": "icash聯名卡",
+    "name_en": "icash Co-branded Credit Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "supermarket"
+    ],
+    "headline": "統一超商／指定餐飲 10% 回饋，新卡友日韓 5%",
+    "rewards": [
+      {
+        "label": "統一超商、指定餐飲",
+        "rate": "10%",
+        "rate_value": 10,
+        "conditions": "需附加 icash2.0；上限以官網為準"
+      },
+      {
+        "label": "新卡友日本、韓國消費",
+        "rate": "5%",
+        "rate_value": 5
+      }
+    ],
+    "highlights": [
+      "結合 icash 功能，餘額不足自動加值",
+      "7-ELEVEN 及指定門市以 icash 付款加贈 OPENPOINT",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "image_url": "https://www.firstbank.com.tw/sites/fcb/image/1565688855743",
+    "last_verified": "2026-11-02",
+    "notes": "回饋細節未能取得（中文產品頁由 JS 載入）。官方收費標準 PDF 未單獨列出 icash 聯名卡年費，暫依同級 1,200 元標準填寫，請確認。卡組織未載明。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-easycard",
+    "bank": "firstbank",
+    "name": "悠遊聯名卡",
+    "name_en": "EasyCard Co-branded Credit Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit"
+    ],
+    "headline": "悠遊付消費 3% 回饋，JCB 晶緻卡自動加值 10%",
+    "rewards": [
+      {
+        "label": "悠遊付消費",
+        "rate": "3%",
+        "rate_value": 3
+      },
+      {
+        "label": "JCB 晶緻卡悠遊卡自動加值",
+        "rate": "10%",
+        "rate_value": 10
+      }
+    ],
+    "highlights": [
+      "結合悠遊卡功能，餘額不足自動加值",
+      "可搭乘台北／桃園機場／高雄捷運、公車、台鐵指定車站及高鐵自由座",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "image_url": "https://www.firstbank.com.tw/sites/fcb/image/1565688855804",
+    "last_verified": "2026-11-02",
+    "notes": "回饋細節未能取得。官方收費標準 PDF 未單獨列出悠遊聯名卡年費，暫依同級 1,200 元標準填寫，請確認。卡組織未載明。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-leezen",
+    "bank": "firstbank",
+    "name": "里仁為美福智聯名卡",
+    "name_en": "Leezen Co-branded Credit Card",
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費；附卡終身免年費",
+      "effectively_free": true
+    },
+    "reward_type": "other",
+    "tags": [
+      "no-annual-fee",
+      "co-branded"
+    ],
+    "headline": "刷卡做公益，固定比例捐助福智文教基金會與慈心有機農業發展基金會",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "固定比例捐助公益（比率未於可取得之官方頁面載明）"
+      }
+    ],
+    "highlights": [
+      "每筆消費由第一銀行提撥固定比例捐助福智文教基金會與慈心有機農業發展基金會，推廣有機農業",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://www.firstbank.com.tw/sites/fcb/1565688843684",
+    "image_url": "https://www.firstbank.com.tw/sites/fcb/image/1565689811401",
+    "last_verified": "2026-11-02",
+    "notes": "官方收費標準 PDF 列為「里仁御璽聯名卡」正卡 1,200 元；御璽卡等級推定為 Visa。中文產品頁 https://card.firstbank.com.tw/sites/card/zh_TW/1565690709113 由 JS 載入無法抓取，捐助比率與回饋未確認。",
+    "needs_review": true
+  },
+  {
+    "id": "firstbank-yilan-affinity",
+    "bank": "firstbank",
+    "name": "宜蘭認同卡",
+    "name_en": "YiLan Affinity Card",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1200,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費；附卡終身免年費",
+      "effectively_free": true
+    },
+    "reward_type": "other",
+    "tags": [
+      "no-annual-fee",
+      "travel"
+    ],
+    "headline": "全台餐廳／住宿／旅遊／外送／樂園 3% 回饋",
+    "rewards": [
+      {
+        "label": "全台餐廳、住宿、旅遊、外送、樂園、特店",
+        "rate": "3%",
+        "rate_value": 3
+      },
+      {
+        "label": "宜蘭傳藝、蘭陽博物館、童玩節",
+        "rate": "門票折扣"
+      }
+    ],
+    "highlights": [
+      "2018 年與宜蘭縣政府合作發行",
+      "持卡享宜蘭景點與在地商店優惠",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "image_url": "https://www.firstbank.com.tw/sites/fcb/image/1565688855516",
+    "last_verified": "2026-11-02",
+    "notes": "年費取自官方收費標準 PDF。卡組織未載明（暫填 mastercard，請確認）；回饋細節未能取得。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-glory-world",
+    "bank": "firstbank",
+    "name": "GLORY+世界卡",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "世界卡"
+    ],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "首年免年費；第 2 年起正附卡合併前一年度一般消費及分期消費達 30 萬元免年費，未達者每消費 3 萬元折抵年費 1,000 元；附卡 5,000 元",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": [
+      "premium",
+      "travel",
+      "insurance"
+    ],
+    "headline": "頂級世界卡：5,000 萬旅平險、機場停車不限次數",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "紅利積點（累點比率未於可取得之官方頁面載明）"
+      }
+    ],
+    "highlights": [
+      "公共運輸工具期間旅行平安險 5,000 萬元、海外全程旅平險 1,000 萬元",
+      "2026 年桃園／高雄機場周邊停車不限次數，每次最多 30 天（須刷卡付機票或 80% 團費達 2 萬元）",
+      "道路救援優惠期間內次數不限（前期帳單一般消費達 2 萬元）",
+      "全球購物保障保險每物品 10 萬、每事故 20 萬",
+      "世界卡禮賓秘書服務"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://www.firstbank.com.tw/sites/fcb/files/1565683022506",
+    "last_verified": "2026-11-02",
+    "notes": "資料取自官方 2026 信用卡權益手冊 PDF 及收費標準 PDF；回饋率、年收入門檻與卡面圖未能取得（中文產品頁由 JS 載入）。",
+    "needs_review": true
+  },
+  {
+    "id": "firstbank-eshine-world",
+    "bank": "firstbank",
+    "name": "義享天地聯名卡",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡",
+      "世界卡"
+    ],
+    "annual_fee": {
+      "amount": 1200,
+      "max_amount": 10000,
+      "waiver": "鈦金卡：首年免年費，第 2 年起申請電子帳單或任消費 1 筆免年費；世界卡：首年免年費，第 2 年起正附卡合併消費達 30 萬元或義享時尚廣場館內消費達 20 萬元免年費",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": [
+      "co-branded",
+      "department-store",
+      "premium",
+      "travel",
+      "insurance"
+    ],
+    "headline": "義享時尚廣場聯名卡，世界卡館內消費 20 萬免年費",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "紅利積點（累點比率未於可取得之官方頁面載明）"
+      }
+    ],
+    "highlights": [
+      "與高雄義享時尚廣場聯名發行，分鈦金卡與世界卡",
+      "世界卡享 5,000 萬旅平險、機場周邊停車不限次數、道路救援不限次數",
+      "鈦金卡年費 1,200 元，申辦電子帳單或任刷一筆即免年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://www.firstbank.com.tw/sites/fcb/files/1565684562677",
+    "last_verified": "2026-11-02",
+    "notes": "年費取自官方收費標準 PDF，權益取自 2026 權益手冊；回饋率與卡面圖未能取得。",
+    "needs_review": true
+  },
+  {
+    "id": "firstbank-business-travel",
+    "bank": "firstbank",
+    "name": "商旅卡",
+    "networks": [
+      "visa",
+      "mastercard"
+    ],
+    "levels": [
+      "白金商旅卡",
+      "鈦金商旅卡",
+      "御璽商旅卡"
+    ],
+    "annual_fee": {
+      "amount": 1200,
+      "max_amount": 2000,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費；附卡終身免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "travel",
+      "insurance"
+    ],
+    "headline": "海外實體店家最高 3.3% 回饋無上限，3,000 萬旅平險",
+    "rewards": [
+      {
+        "label": "鈦金商旅卡：海外實體店家",
+        "rate": "最高 3.3%",
+        "rate_value": 3.3,
+        "cap": "無上限"
+      },
+      {
+        "label": "御璽商旅卡：海外外幣消費",
+        "rate": "最高 3%",
+        "rate_value": 3
+      },
+      {
+        "label": "白金商旅卡：外幣消費",
+        "rate": "1.5%",
+        "rate_value": 1.5,
+        "cap": "無上限"
+      }
+    ],
+    "highlights": [
+      "公共運輸工具期間旅行平安險 3,000 萬元、海外全程旅平險 1,000 萬元",
+      "2026 年桃園／高雄機場周邊停車每次最多 5 天，全年最多 20 天",
+      "道路救援優惠期間內最多免費 2 次",
+      "全球購物保障保險每物品 10 萬、每事故 20 萬"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "last_verified": "2026-11-02",
+    "notes": "白金商旅卡 1,200 元；鈦金／御璽商旅卡 2,000 元（官方收費標準 PDF）。卡組織依等級名稱推定（御璽＝Visa、鈦金＝Mastercard）；回饋率與卡面圖未能取得。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  },
+  {
+    "id": "firstbank-dual-currency",
+    "bank": "firstbank",
+    "name": "雙幣卡",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 2000,
+      "waiver": "首年免年費；第 2 年起正卡申請電子帳單成功，或不限金額任消費 1 筆即免年費；附卡終身免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "overseas",
+      "travel"
+    ],
+    "headline": "國外消費以約定外幣結付，免除新臺幣換匯",
+    "rewards": [
+      {
+        "label": "一般消費",
+        "rate": "紅利積點（累點比率未於可取得之官方頁面載明）"
+      }
+    ],
+    "highlights": [
+      "國外交易以約定外幣結付並自外幣帳戶扣繳",
+      "首年免年費，申辦電子帳單或任刷一筆即免次年年費"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://www.firstbank.com.tw/sites/fcb/files/1565684562677",
+    "last_verified": "2026-11-02",
+    "notes": "年費取自官方收費標準 PDF；卡組織、回饋率、卡面圖未能取得（中文產品頁由 JS 載入）。",
+    "needs_review": true
+  },
+  {
+    "id": "firstbank-taoyuan-citizen",
+    "bank": "firstbank",
+    "name": "桃園市市民卡聯名卡",
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [],
+    "annual_fee": {
+      "amount": 0,
+      "waiver": "終身免年費",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "transit"
+    ],
+    "headline": "加油／外送／居家／連鎖餐飲／商場樂園最高 5% 現金回饋",
+    "rewards": [
+      {
+        "label": "全臺加油、外送平台、居家生活、連鎖餐飲、商場樂園",
+        "rate": "最高 5%",
+        "rate_value": 5
+      },
+      {
+        "label": "海外外幣消費",
+        "rate": "最高 5%",
+        "rate_value": 5
+      }
+    ],
+    "highlights": [
+      "與桃園市政府市民卡聯名，終身免年費（官方收費標準）",
+      "市民卡功能依桃園市政府規定"
+    ],
+    "status": "active",
+    "apply_url": "https://ibank.firstbank.com.tw/NetBankNonTxn/CCard/cardApply01.html",
+    "source_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
+    "last_verified": "2026-11-02",
+    "notes": "僅年費（終身免年費）來自官方收費標準 PDF；卡組織、回饋率、卡面圖未能取得。 回饋率改取自官網「信用卡一覽」頁的卡片摘要（2026-11-02 瀏覽器讀取）；卡組織仍未確認。"
+  }
+]

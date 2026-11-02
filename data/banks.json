@@ -32,8 +32,13 @@
     "short_name": "台新",
     "name_en": "Taishin Bank",
     "website": "https://www.taishinbank.com.tw/",
-    "cards_index_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/",
-    "color": "#E4002B"
+    "cards_index_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/index.html?type=type1",
+    "color": "#E4002B",
+    "watch_urls": [
+      "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/index.html?type=type2",
+      "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/index.html?type=type3",
+      "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/index.html?type=type4"
+    ]
   },
   {
     "id": "fubon",
@@ -87,7 +92,8 @@
     "name_en": "Hua Nan Commercial Bank",
     "website": "https://www.hncb.com.tw/",
     "cards_index_url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-    "color": "#C8102E"
+    "color": "#C8102E",
+    "notes": "華南銀行官網目前無法由本站系統讀取，卡片資料整理中。"
   },
   {
     "id": "firstbank",
@@ -95,7 +101,7 @@
     "short_name": "第一銀行",
     "name_en": "First Commercial Bank",
     "website": "https://www.firstbank.com.tw/",
-    "cards_index_url": "https://card.firstbank.com.tw/",
+    "cards_index_url": "https://card.firstbank.com.tw/sites/card/CreditCardList",
     "color": "#1E7A4F"
   },
   {
@@ -104,8 +110,11 @@
     "short_name": "合作金庫",
     "name_en": "Taiwan Cooperative Bank",
     "website": "https://www.tcb-bank.com.tw/",
-    "cards_index_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
-    "color": "#0F4C81"
+    "cards_index_url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview",
+    "color": "#0F4C81",
+    "watch_urls": [
+      "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
+    ]
   },
   {
     "id": "chb",

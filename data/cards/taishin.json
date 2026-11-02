@@ -1,0 +1,733 @@
+[
+  {
+    "id": "taishin-richart",
+    "bank": "taishin",
+    "name": "台新Richart卡",
+    "name_en": "Taishin Richart Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["晶緻卡", "商務御璽卡", "鈦金商務卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 4500,
+      "waiver": "首年免年費；次年起使用台新電子／行動簡訊帳單且生效即免年費。年費標準：鈦金商務／商務御璽卡正附卡 NT$4,500、御璽／鈦金／晶緻卡正卡 NT$3,000 附卡 NT$1,500。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "online-shopping", "mobile-payment", "dining", "overseas", "travel", "streaming", "department-store", "supermarket", "fuel", "transit", "insurance", "new-cardholder"],
+    "headline": "7+1 大刷方案任切，指定通路最高 3.8%、Chill 刷最高 10%",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限" },
+      { "label": "Pay 著刷：台新 Pay／台新 Pay+ 綁定支付（LEVEL 2）", "rate": "3.8%", "rate_value": 3.8, "conditions": "需於 Richart Life App 切換方案並設定台新帳戶扣繳信用卡款（LEVEL 2）；新戶核卡 60 天內免扣繳即享", "valid_until": "2027-12-31" },
+      { "label": "Pay 著刷：LINE Pay／全盈+Pay 綁定", "rate": "2.3%", "rate_value": 2.3, "conditions": "需切換至 Pay 著刷方案，LEVEL 2", "valid_until": "2027-12-31" },
+      { "label": "天天刷／大筆刷／好饗刷／數趣刷／玩旅刷（LEVEL 2）", "rate": "3.3%", "rate_value": 3.3, "conditions": "每日限切換一次；指定通路依方案（日常採買／百貨 Outlet／餐飲外送／網購影音／海外旅遊）", "valid_until": "2027-12-31" },
+      { "label": "假日刷（國定假日不限通路，含保費）", "rate": "2%", "rate_value": 2, "conditions": "LEVEL 2", "valid_until": "2027-12-31" },
+      { "label": "Chill 刷：歡樂微醺／日常續命等指定通路", "rate": "最高 10%", "rate_value": 10, "conditions": "2026/7/8 起於 Richart Life App 開放切換；約會犒賞、應援追星等類別最高 5%；Apple、蝦皮、淘寶等最高 3.3%", "valid_until": "2027-12-31" },
+      { "label": "保費一次付清（免切換免登錄）", "rate": "最高 1.3%", "rate_value": 1.3, "conditions": "不含國外保險、躉繳、投資型、彈性繳保費及分期 0 利率交易" }
+    ],
+    "highlights": [
+      "台新 Point（信用卡）1 點＝NT$1，可折抵卡費或於台新 Pay 約 8 萬家特店使用，效期 2 年",
+      "新核卡預設「天天刷」，正卡人每日 23:59 前可於 Richart Life App 切換方案，每日限一次",
+      "領券加碼最高 8%：Richart Life App 領指定商家優惠券並設定台新帳戶扣繳",
+      "台新 Pay+ 新戶最高 19%（2026/8/1～12/31）；兌換亞洲萬里通最高 8%、華航／長榮 5%",
+      "保費分 12 期 0 利率（登錄 2026/6/10～12/31）；消費滿千可分期，最低 3 期 3.88% 起",
+      "旅遊平安險最高 NT$3,000 萬、海外旅遊全程險最高 NT$500 萬；卡號速取、交易控管",
+      "2025/9/1 起原太陽卡／玫瑰卡（切換刷）、@GoGo 卡、FlyGo 卡、玫瑰 Giving 卡統一更名為台新 Richart 卡"
+    ],
+    "requirements": "正卡須為成年人；學生須年滿 18 歲且年收入達 NT$10 萬；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=634",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg047/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/R111.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Networks/tiers from the page's 國際組織 perks section (Visa 商務御璽卡 / Mastercard 鈦金商務卡 / JCB 晶緻卡); page does not list a dedicated Richart fee row, so fee uses the generic table. LEVEL 1 (no auto-debit) rates are in a garbled table on the page — only LEVEL 2 rates captured. Program period 2026/7/1–2027/12/31."
+  },
+  {
+    "id": "taishin-pxmart",
+    "bank": "taishin",
+    "name": "大全聯信用卡",
+    "name_en": "Taishin PX Mart Card",
+    "networks": ["jcb", "visa"],
+    "levels": ["晶緻卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 3000,
+      "waiver": "晶緻卡持卡年度任刷 1 筆免次年年費；御璽卡年度消費滿 NT$60,000 或 6 次免次年年費。2026 年任刷一筆或完成台新 LINE 官方帳號個人化綁定即免 2026 年年費。附卡 NT$1,500。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "supermarket", "mobile-payment", "co-branded", "installment"],
+    "headline": "大全聯店內最高 1.2%、綁全支付單筆滿千最高 7%",
+    "rewards": [
+      { "label": "大全聯店內消費（基本）", "rate": "0.8%（每 NT$100 累積 8 點）", "rate_value": 0.8, "cap": "無上限", "conditions": "限有會員制度之大全聯門市；點數 10 點＝NT$1，入 PX Pay 帳戶", "valid_until": "2026-12-31" },
+      { "label": "大全聯店內加碼", "rate": "+0.4%（每 NT$100 累積 4 點）", "rate_value": 0.4, "cap": "無上限", "conditions": "合計 1.2%", "valid_until": "2026-12-31" },
+      { "label": "大全聯店內週年加碼（單筆滿 NT$1,000）", "rate": "+1.8%", "rate_value": 1.8, "cap": "每月上限 1,000 點", "valid_until": "2026-12-31" },
+      { "label": "大全聯店內綁全支付加碼（單筆滿 NT$1,000）", "rate": "+4%", "rate_value": 4, "cap": "每月上限 3,000 點", "conditions": "合計最高 7%", "valid_until": "2026-12-31" },
+      { "label": "店外全支付消費（設定台新帳戶自動扣繳）", "rate": "1.5%", "rate_value": 1.5, "cap": "店外合計每期帳單上限 15,000 點", "conditions": "未設定扣繳為 0.8%", "valid_until": "2026-12-31" },
+      { "label": "店外其他一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "店外合計每期帳單上限 15,000 點", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "2025/9/12 起由大潤發聯名卡更名為大全聯信用卡，點數直接匹配 PX Pay 帳戶（10 點＝NT$1）",
+      "週六日自助結帳綁全支付滿 NT$2,000 送 NT$100 現金券（卡友日）",
+      "生日當月大全聯消費滿 NT$4,500 送 1,500 點（需登錄，2026/6/1～2027/5/31）",
+      "大全聯 JCB 卡週年大回饋最高 12%；單筆 NT$1,200 以上可分 3 期 0 利率",
+      "市區停車每日最高 2 小時、居家清潔服務、旅遊平安險最高 NT$2,000 萬",
+      "台新 Pay 綁定消費（2026/10/15 起）不享店內／店外回饋"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=113",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/mgpx3.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Networks from page text (大全聯JCB卡 / Visa 御璽卡; legacy Visa 普卡/白金卡 upgraded to 御璽). Store bonus structure complex; point expiry differs per bonus."
+  },
+  {
+    "id": "taishin-jkopay",
+    "bank": "taishin",
+    "name": "街口聯名卡",
+    "name_en": "Taishin JKOPAY Co-branded Card",
+    "networks": ["mastercard", "jcb"],
+    "levels": ["晶緻卡", "商務鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 4500,
+      "waiver": "使用台新電子帳單或行動帳單（需開卡生效）即免年費；取消電子帳單或加印實體帳單則於次年 2 月帳單收取。晶緻卡正卡 NT$3,000／附卡 NT$1,500；商務鈦金卡正附卡各 NT$4,500。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "co-branded", "dining", "travel", "overseas", "transit"],
+    "headline": "街口支付精選通路最高 3.5% 街口幣，一般消費 1% 無上限",
+    "rewards": [
+      { "label": "一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "四大超商及 Apple 媒體服務限街口支付綁定消費才享回饋；回饋為街口幣" },
+      { "label": "精選通路加碼（Agoda、Klook、高鐵、Uber、新光三越、康是美、Uber Eats、foodpanda、威秀、錢櫃等）", "rate": "+2.5%", "rate_value": 2.5, "cap": "每月精選加碌上限 10,000 街口幣", "conditions": "合計最高 3.5%；部分通路需以街口支付綁定；TWQR 消費不適用加碼", "valid_until": "2026-12-31" },
+      { "label": "日本 PayPay（街口支付綁定）", "rate": "2%", "rate_value": 2, "conditions": "一般 1%＋加碼 1%，另免 1.5% 海外交易手續費", "valid_until": "2026-12-31" },
+      { "label": "街口 App 繳費", "rate": "0.15%（當月繳費滿 NT$1,000 升級 2%）", "rate_value": 2, "cap": "2% 每人每月上限 NT$20 街口券", "conditions": "2026/7/1 起每月限量 55,000 名，需手動領取" }
+    ],
+    "highlights": [
+      "暱稱「豬富卡」；街口幣需於次年 5/31 前使用完畢",
+      "核卡前即可綁定街口支付；支援卡號速取",
+      "Agoda 訂房：JCB 晶緻卡日本飯店最高現折 14%、Mastercard 鈦金商務卡最高現折 10%（2027/3/31 止）",
+      "保費一次付清 1% 回饋或分 12 期 0 利率（2026/7/1～12/31）",
+      "高額旅遊平安險最高 NT$3,000 萬；推薦好友每人 NT$300",
+      "每人限持 1 張街口聯名卡正卡"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eService/CreditCardAP/apply/index.jsp?pc=179",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg038/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/c-250x190-001JKO.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Networks from page (街口商務鈦金卡 Mastercard / 街口晶緻卡 JCB). Annual fee period labelled 2026/1/1–12/31."
+  },
+  {
+    "id": "taishin-rose",
+    "bank": "taishin",
+    "name": "玫瑰卡",
+    "name_en": "Taishin Rose Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "金卡", "白金卡", "晶緻卡", "鈦金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 3000,
+      "waiver": "晶緻／白金／金／普卡持卡年度任刷 1 筆免次年年費；御璽／鈦金卡年度消費滿 NT$60,000 或 6 次免次年年費。2026 年任刷一筆或完成台新 LINE 官方帳號個人化綁定即免 2026 年年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "department-store", "dining", "insurance", "travel"],
+    "headline": "指定套餐：百貨、餐廳、電信月消費滿 NT$30,000 享 1.2%",
+    "rewards": [
+      { "label": "指定套餐：百貨公司／餐廳／電信費（當期新增消費滿 NT$30,000）", "rate": "1.2%", "rate_value": 1.2, "cap": "指定類別＋一般消費每期上限 1,500 點", "conditions": "未滿 NT$30,000 為 0.2%；限卡號 4147-6366／4380-4566 開頭之指定套餐卡", "valid_until": "2027-01-31" },
+      { "label": "指定套餐：一般消費", "rate": "0.2%", "rate_value": 0.2, "cap": "與指定類別合計每期上限 1,500 點", "valid_until": "2027-01-31" },
+      { "label": "保費（當期滿 NT$30,000）", "rate": "1.2%", "rate_value": 1.2, "cap": "無上限", "conditions": "未滿 NT$30,000 為 0.2%", "valid_until": "2027-01-31" },
+      { "label": "自由選方案 A～E 指定類別（限 2021/8/31 前申辦者）", "rate": "1.2%", "rate_value": 1.2, "cap": "每期上限 1,200 點", "conditions": "滿 NT$30,000；簡單雙享為全消費 0.5%", "valid_until": "2027-01-31" }
+    ],
+    "highlights": [
+      "台新 Point（信用卡）1 點＝NT$1，可即時折抵卡費或於台新 Pay 約 8 萬家特店使用",
+      "指定套餐享免費機場接／送及市區臨時停車",
+      "旅遊平安險最高 NT$2,000 萬（2026）",
+      "保費分 12 期 0 利率（2026/7/1～12/31）；eTag 首次申辦最高回饋 NT$100",
+      "新卡預約分期 3／6 期 2.88%（2026/10/1～12/31）"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=11",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg013/card0001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/createCard/NEW20221102_a-216x130-043.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Network Visa from page text 「太陽/玫瑰(指定套餐)VISA卡」; the full tier list comes from the fee table (which tier a new applicant gets is not stated). 自由選 plan closed to new applicants since 2021/8/31. The 切換刷 variant of 玫瑰卡 was renamed Richart card in 2025/9."
+  },
+  {
+    "id": "taishin-sun",
+    "bank": "taishin",
+    "name": "太陽卡",
+    "name_en": "Taishin Sun Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "金卡", "白金卡", "晶緻卡", "鈦金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 3000,
+      "waiver": "晶緻／白金／金／普卡持卡年度任刷 1 筆免次年年費；御璽／鈦金卡年度消費滿 NT$60,000 或 6 次免次年年費。2026 年任刷一筆或完成台新 LINE 官方帳號個人化綁定即免 2026 年年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "fuel", "dining", "insurance", "travel"],
+    "headline": "指定套餐：加油、餐廳、電信月消費滿 NT$30,000 享 1.2%",
+    "rewards": [
+      { "label": "指定套餐：加油／汽車保修／餐廳／電信費（當期新增消費滿 NT$30,000）", "rate": "1.2%", "rate_value": 1.2, "cap": "指定類別＋一般消費每期上限 1,500 點", "conditions": "未滿 NT$30,000 為 0.2%；限卡號 4147-6366／4380-4566 開頭之指定套餐卡", "valid_until": "2027-01-31" },
+      { "label": "指定套餐：一般消費", "rate": "0.2%", "rate_value": 0.2, "cap": "與指定類別合計每期上限 1,500 點", "valid_until": "2027-01-31" },
+      { "label": "保費（當期滿 NT$30,000）", "rate": "1.2%", "rate_value": 1.2, "cap": "無上限", "conditions": "未滿 NT$30,000 為 0.2%", "valid_until": "2027-01-31" },
+      { "label": "自由選方案 A～E 指定類別（限 2021/8/31 前申辦者）", "rate": "1.2%", "rate_value": 1.2, "cap": "每期上限 1,200 點", "conditions": "滿 NT$30,000；簡單雙享為全消費 0.5%，可加選海外消費 1%", "valid_until": "2027-01-31" }
+    ],
+    "highlights": [
+      "台新 Point（信用卡）1 點＝NT$1",
+      "指定套餐享免費機場接／送及市區臨時停車；單筆 NT$3,000 以上消費簡訊通知",
+      "旅遊平安險最高 NT$2,000 萬（2026）",
+      "保費分 12 期 0 利率（2026/7/1～12/31）；eTag 首次申辦最高回饋 NT$100",
+      "新卡預約分期 3／6 期 2.88%（2026/10/1～12/31）"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=10",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg012/card0001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/b-166x127-apollo-a.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Product page has no static card-face image (only an animated gif 'freegifmaker.me_2hyiN.gif'); image_url is the thumbnail from the card index. Network Visa from page text. Tier for new applicants not stated."
+  },
+  {
+    "id": "taishin-dual-currency",
+    "bank": "taishin",
+    "name": "台新雙幣卡",
+    "name_en": "Taishin Dual Currency Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 4500,
+      "waiver": "2026/1/1～12/31 新申辦享首年免年費（每位正卡人限一次）；續期年費正附卡各 NT$4,500，前一持卡年度國內外累計消費達 NT$60,000 折抵 1 卡年費、NT$120,000 折抵 2 卡，以此類推。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["overseas", "travel", "airport-lounge", "new-cardholder"],
+    "headline": "國外消費 2.5% 外幣回饋無上限，外幣帳戶直接扣款",
+    "rewards": [
+      { "label": "國外消費", "rate": "2.5%", "rate_value": 2.5, "cap": "無上限", "conditions": "以外幣回饋，國外消費自對應外幣存款帳戶扣款" },
+      { "label": "國內消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "國內累積消費兌換刷卡金", "rate": "每累積 NT$100,000 兌換 NT$1,000 刷卡金", "rate_value": 1, "conditions": "累積 NT$300,000 可兌換 NT$3,000；透過 Richart Life App 兌換；持卡期間累積無期限", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "可選日圓、美元或歐元雙幣卡，外幣消費免匯差",
+      "機場貴賓室免費使用、環宇禮遇通關、機場接送服務",
+      "國際機場外圍免費停車每次最多 10 天、1 年 4 次",
+      "高額旅遊平安險 NT$3,000 萬；24 小時免費道路救援；百家飯店餐廳 7 折起",
+      "目前不提供卡片、單筆及帳單分期"
+    ],
+    "requirements": "正卡須為成年人；須於台新開立新臺幣帳戶與外幣存款帳戶；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eService/CreditCardAP/apply/index.jsp?pc=25",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg039/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/c-250x190-052.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Network/tier from page perks section (Visa 商務御璽卡). Page says no installment features, yet also lists a 保費 12 期 0 利率 promo — inconsistent."
+  },
+  {
+    "id": "taishin-familymart-richart",
+    "bank": "taishin",
+    "name": "全家Richart聯名卡",
+    "name_en": "Taishin FamilyMart Richart Co-branded Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["御璽卡", "鈦金卡", "鈦金商務卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 4500,
+      "waiver": "首年免年費；次年起使用台新電子／行動簡訊帳單且生效即免年費。御璽／鈦金卡正卡 NT$3,000 附卡 NT$1,500；鈦金商務卡正附卡各 NT$4,500。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "mobile-payment", "transit", "supermarket", "online-shopping", "dining", "travel", "insurance"],
+    "headline": "全家店內最高 3.8% 台新 Point＋Fa 點 5 倍，7+1 大刷方案",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限", "conditions": "未切換方案之指定消費依 0.3% 計算" },
+      { "label": "全家店內：Pay 著刷（台新 Pay 綁定）", "rate": "最高 3.8%", "rate_value": 3.8, "conditions": "與切換刷回饋上限併計；需切換方案並設定台新帳戶扣繳", "valid_until": "2026-12-31" },
+      { "label": "全家店內：天天刷 Fa 點 5 倍", "rate": "單筆滿 NT$100 贈 500 Fa 點", "cap": "每月上限 100,000 Fa 點（正附卡合併）", "conditions": "免切換（實體卡含三大 Pay）為 Fa 點 3 倍；代收代售、禮物卡、儲值、菸品不適用", "valid_until": "2026-12-31" },
+      { "label": "切換刷：天天刷／大筆刷／好饗刷／數趣刷／玩旅刷", "rate": "3.3%", "rate_value": 3.3, "conditions": "LEVEL 2（台新帳戶扣繳）；Pay 著刷 3.8%、LINE Pay／全盈+Pay 2.3%、假日刷 2%、Chill 刷最高 10%", "valid_until": "2027-12-31" },
+      { "label": "保費一次付清", "rate": "最高 1.3%", "rate_value": 1.3, "conditions": "免切換免登錄" }
+    ],
+    "highlights": [
+      "2026/9/15 起由全家 Fish 聯名卡更名，附悠遊卡功能（全家 Richart 悠遊聯名卡）",
+      "全家店內累消滿 NT$1,000 贈 1,000 Fa 點；滿 NT$3,000 贈 Fami!ce 霜淇淋、滿 NT$6,000 贈 Let's Cafe 美式 2 杯（限量）",
+      "月月買一送一券、季季折價券（Richart Life App 領取）；屈臣氏每週一點數 10 倍",
+      "旅遊平安險最高 NT$2,000 萬",
+      "保費分 12 期 0 利率（登錄 2026/6/10～12/31）；新卡消費分期滿千最低 3 期 3.88% 起"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=505",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg025/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/20260828_Richart__M_.png",
+    "last_verified": "2026-11-01",
+    "notes": "Networks from page text: 全家Richart御璽卡(V)、鈦金卡(M)、鈦金商務卡(M). Fa 點 value in NT$ not stated on page."
+  },
+  {
+    "id": "taishin-cathay-pacific-titanium",
+    "bank": "taishin",
+    "name": "國泰航空翱翔鈦金卡",
+    "name_en": "Taishin Cathay Pacific Sky Titanium Card",
+    "networks": ["mastercard"],
+    "levels": ["翱翔鈦金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 2400,
+      "waiver": "無免年費條件；附卡免年費。第 2 年起按時全額繳交 NT$2,400 年費可獲 1,500「亞洲萬里通」里數續卡禮。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "airport-lounge", "co-branded", "new-cardholder"],
+    "headline": "國外消費 NT$15＝1 里、國泰官網購票 NT$5＝1 里",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "NT$25＝1 里", "rate_value": 25, "valid_until": "2026-12-31" },
+      { "label": "國外一般消費（設定台新帳戶自動扣繳）", "rate": "NT$15＝1 里", "rate_value": 15, "conditions": "未設定扣繳為 NT$25＝1 里；扣繳需於結帳日 3 個工作天前設定", "valid_until": "2026-12-31" },
+      { "label": "國泰航空台灣官網／客服中心購票", "rate": "NT$5＝1 里", "rate_value": 5, "conditions": "設定自動扣繳", "valid_until": "2026-12-31" },
+      { "label": "越飛越有哩：海外實體、Agoda／Booking／Expedia／Hotels.com、KKday／Klook、免稅店", "rate": "NT$10＝1 里", "rate_value": 10, "conditions": "需設定自動扣繳且每半年搭乘國泰航空至少 1 次", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "首刷禮（2026/10/1～12/31 申辦）：核卡 60 天內消費 NT$10,000 贈 5,000 里；滿 NT$50,000／100,000 加贈 3,000／5,000 里",
+      "國泰航空優先報到及登機；生日當月機票最優 6 折起；官網購票 88 折起（限時）",
+      "機場停車 2026 年免費 4 次；機場貴賓室每年 2 次；機場接送每年 2 次",
+      "每累積消費 NT$400,000 贈 20 國泰會籍積分（每年上限 100）",
+      "旅遊平安險最高 NT$3,000 萬"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=154",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg003/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/158x286_20231128_blue1.png",
+    "last_verified": "2026-11-01",
+    "notes": "Page title covers 翱翔鈦金卡/鈦金卡; rates shown are for 翱翔鈦金卡 — 鈦金卡 (non-翱翔) rate differences not clearly shown. Fee stated for 翱翔鈦金卡 (NT$2,400)."
+  },
+  {
+    "id": "taishin-cathay-pacific-world",
+    "bank": "taishin",
+    "name": "國泰航空世界卡",
+    "name_en": "Taishin Cathay Pacific World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "無免年費條件；附卡免年費。第 2 年起按時全額繳交 NT$20,000 年費可獲 20,000「亞洲萬里通」里數續卡禮。",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["premium", "travel", "overseas", "airport-lounge", "co-branded", "new-cardholder"],
+    "headline": "指定類別及國泰官網購票 NT$5＝1 里，續卡年年送 20,000 里",
+    "rewards": [
+      { "label": "指定類別消費", "rate": "NT$5＝1 里", "rate_value": 5, "conditions": "指定類別定義見官網；一般消費累積比率頁面未明列" },
+      { "label": "國泰航空台灣官網購票", "rate": "NT$5＝1 里", "rate_value": 5 }
+    ],
+    "highlights": [
+      "首刷禮（2026/10/1～12/31 申辦）：核卡 60 天內一般消費滿 NT$30,000 贈 10,000 里，加碼最高共 25,000 里（需繳年費）",
+      "機場貴賓室每年 8 次；機場接送每年 4 次；環宇商務通關每年 4 次；機場停車 12 次",
+      "市區停車每期 40 小時；生日當月機票最優 5 折起；全臺頂級餐廳 75 折起",
+      "旅遊平安險 NT$5,000 萬",
+      "每累積消費 NT$400,000 贈 20 國泰會籍積分（每年上限 100）",
+      "未轉出之聯名卡里數效期 2 年"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=154",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg002/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/158x286_.png",
+    "last_verified": "2026-11-01",
+    "notes": "General-spend mile rate not captured from page text (only 指定類別 NT$5=1里); re-check the full earn table. Network Mastercard from page (Mastercard 世界卡 禮遇)."
+  },
+  {
+    "id": "taishin-gogoro-rewards",
+    "bank": "taishin",
+    "name": "Gogoro Rewards 聯名卡",
+    "name_en": "Taishin Gogoro Rewards Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 4500,
+      "waiver": "2026/12/31 前申辦享首年免年費；次年免年費三擇一：使用台新電子／行動帳單、設定台新或 Richart 帳戶自動扣繳卡款、持卡年度累積消費滿 NT$60,000。附卡 NT$4,500。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "ev-charging", "transit", "overseas", "travel", "airport-lounge"],
+    "headline": "Gogoro 電池資費最高 4%、GoShare 最高 15%、海外最高 4%",
+    "rewards": [
+      { "label": "一般消費", "rate": "最高 1%", "rate_value": 1, "cap": "無上限", "conditions": "回饋為 Gogoro Smart Points（1 點＝NT$1），需於 Gogoro Wallet 綁定本卡" },
+      { "label": "海外消費", "rate": "最高 4%", "rate_value": 4, "cap": "無上限" },
+      { "label": "Gogoro 電池資費", "rate": "最高 4%", "rate_value": 4, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "GoShare", "rate": "最高 15%", "rate_value": 15, "valid_until": "2026-12-31" },
+      { "label": "Gogoro 購車一次付清", "rate": "最高 2%＋Gogoro Wallet 綁定加碼 2%", "rate_value": 4, "cap": "加碼每月上限 500 點", "conditions": "實體門市新購車另加 600 點；分期購車 12／24 期 0 利率", "valid_until": "2026-12-31" },
+      { "label": "指定超商、高鐵、外送平台、旅遊平台", "rate": "最高 4%", "rate_value": 4 }
+    ],
+    "highlights": [
+      "特仕版為全球首張具車鑰匙功能的金屬信用卡",
+      "Gogoro 門市保固方案最高 40% 回饋；服務中心精品配件折扣金 NT$400",
+      "海外消費達門檻享國內機場貴賓室一年最高 2 次（環亞／東方宇逸）",
+      "訂房網最高 14%（2026 全年，Klook 限量）；GLOBAL WiFi 日韓每日 NT$75",
+      "新卡預約分期 2.88% 起（2026/10/1～2027/3/31）"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=273",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg042/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/createCard/Gogoro_c-250x190.png",
+    "last_verified": "2026-11-01",
+    "notes": "NETWORK NOT STATED on page — Mastercard is an inference from the NT$4,500 鈦金商務-level fee; verify. Rates on page are mostly 「最高」 figures without the underlying tier breakdown."
+  },
+  {
+    "id": "taishin-infinite-prestige",
+    "bank": "taishin",
+    "name": "卓富無限卡",
+    "name_en": "Taishin Prestige Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 25000,
+      "waiver": "預收制，頁面未提供年費減免條件；附卡免年費（最多 2 張）。前一年度消費達 NT$3,000,000 並繳全額年費贈環宇尊榮通關 1 次。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "travel", "airport-lounge", "dining", "insurance", "new-cardholder"],
+    "headline": "年費 NT$25,000 頂級卡：機場接送 12 次、貴賓室 16 次、高鐵升等 6 張",
+    "rewards": [
+      { "label": "一般消費", "rate": "現金回饋無上限（比率詳「卓富無限卡極致禮遇」專頁）", "conditions": "2026/1/1～2027/1/31 結帳帳單", "valid_until": "2027-01-31" },
+      { "label": "保費一次付清", "rate": "最高 1.5%", "rate_value": 1.5, "conditions": "2026/7/1～10/31 活動，需登錄", "valid_until": "2026-10-31" }
+    ],
+    "highlights": [
+      "首刷禮：核卡 60 天內一般消費及保費達 NT$160,000 並繳全額年費贈 NT$10,000 刷卡金（2026 申辦）",
+      "國內機場接或送 12 次／年、國際機場貴賓室 16 次／年、機場外圍停車 12 次／年、環宇商務通關 4 次／年",
+      "高鐵商務車廂免費升等每年最高 6 張；市區停車每日最高 4 小時",
+      "米其林／五星美饌 5 折起、度假飯店 5 折起、虹夕諾雅谷關全房型 97 折",
+      "旅平險最高 NT$5,000 萬、全程險最高 NT$1,000 萬"
+    ],
+    "requirements": "台新財富管理私人銀行／翡翠／金鑽／千萬會員，或年收入達 NT$500 萬；財富無限卡與卓富無限卡正卡限擇一持有",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=171",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg045/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/images/creditcard/cg045_639x1011_2023.png",
+    "last_verified": "2026-11-01",
+    "notes": "Cash-back percentages are on a separate 極致禮遇 page not captured; add when verified. Network Visa from page (Visa無限卡專屬禮遇)."
+  },
+  {
+    "id": "taishin-skm-signature",
+    "bank": "taishin",
+    "name": "新光三越御璽/鈦金/白金卡",
+    "name_en": "Taishin Shin Kong Mitsukoshi Signature/Titanium/Platinum Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["白金卡", "鈦金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 3000,
+      "waiver": "白金卡持卡年度任刷 1 筆免次年年費；御璽／鈦金卡年度消費滿 NT$60,000 或 6 次免次年年費。2026 年任刷一筆或完成台新 LINE 官方帳號個人化綁定即免 2026 年年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "installment"],
+    "headline": "新光三越週五～日店內最高 1%，店內滿千免費停車 2 小時",
+    "rewards": [
+      { "label": "一般消費（店外及平日店內）", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限", "conditions": "台新 Point（信用卡）", "valid_until": "2026-12-31" },
+      { "label": "新光三越店內週五～日加碼（御璽／鈦金卡）", "rate": "+0.7%", "rate_value": 0.7, "cap": "每期帳單加碼上限 1,000 點", "conditions": "合計最高 1%；不含 SKM Park Outlets、新光三越台北車站、新光影城及儲值", "valid_until": "2026-12-31" },
+      { "label": "新光三越店內週五～日加碼（白金／金／普卡）", "rate": "+0.6%", "rate_value": 0.6, "cap": "每期帳單加碼上限 1,200 點", "conditions": "合計最高 0.9%", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "全館單日滿 NT$1,000 享店內 2 小時免費停車，每卡每日最高 4 小時（2026 全年）",
+      "免消費即可辦理新光三越貴賓卡；單筆滿 NT$3,000 享 3 期 0 利率；用餐購物 9 折起",
+      "御璽／鈦金卡：當期消費達 NT$12,000 次期市區停車每日 2 小時；機場外圍停車每次 5 天全年 2 次",
+      "旅遊平安險：御璽／鈦金卡 NT$2,000 萬、白金卡 NT$1,000 萬",
+      "週年慶刷新光三越聯名卡最高 21%（詳活動頁）"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬；同品牌限持一張正卡",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=134",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg008/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/c-250x190-010.gif",
+    "last_verified": "2026-11-01",
+    "notes": "NETWORKS INFERRED from tier names (御璽→Visa, 鈦金→Mastercard); page only says Taishin issues Visa and MasterCard generally. 白金卡 network unknown."
+  },
+  {
+    "id": "taishin-skm-infinite",
+    "bank": "taishin",
+    "name": "新光三越無限/世界卡",
+    "name_en": "Taishin Shin Kong Mitsukoshi Infinite/World Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["無限卡", "世界卡"],
+    "annual_fee": {
+      "amount": 4500,
+      "waiver": "2026/12/31 前首次申辦享首年免年費；持卡年度消費滿 NT$300,000 折抵 1 張正卡年費，滿 NT$600,000 再折抵 1 張附卡，以此類推（正附卡合併計算）。附卡 NT$4,500。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "co-branded", "department-store", "travel", "airport-lounge", "dining"],
+    "headline": "新光三越週五～日店內最高 1.2%，市區停車每期 40 小時",
+    "rewards": [
+      { "label": "一般消費（店外及週一～四店內）", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "新光三越店內週五～日加碼", "rate": "+0.9%", "rate_value": 0.9, "cap": "每期帳單加碼上限 10,000 點", "conditions": "合計最高 1.2%；不含新光影城、SKM Park Outlets 高雄草衙、新光三越台北車站", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "頂級美饌最優 85 折起；店內 9～95 折、免消費辦貴賓卡、單筆 NT$3,000 享 3 期 0 利率",
+      "店內每日 2 小時免費停車（合併最高 4 小時）；市區停車每日 3 小時、每期 40 小時（當期消費滿 NT$12,000）",
+      "機場停車每次最多 30 天、每年 12 次；國內機場貴賓室每年 4 次（近 6 個月機票／團費滿 NT$30,000）",
+      "旅遊平安險最高 NT$5,000 萬、海外全程險 NT$1,000 萬",
+      "24 小時道路救援 50 公里內，每卡每年 6 次"
+    ],
+    "requirements": "正卡須為成年人；信用額度至少 NT$200,000；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=134",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg014/card0001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/c-250x190-009.gif",
+    "last_verified": "2026-11-01",
+    "notes": "NETWORKS INFERRED from tier names (無限→Visa, 世界→Mastercard). Page groups it under 環球無限卡 category for credit-limit sharing."
+  },
+  {
+    "id": "taishin-everrich",
+    "bank": "taishin",
+    "name": "昇恆昌御璽/白金/普卡",
+    "name_en": "Taishin Ever Rich Co-branded Card",
+    "networks": ["visa"],
+    "levels": ["普卡", "白金卡", "御璽卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 3000,
+      "waiver": "2026/1/1～12/31 申辦享首年免年費；第 2 年起持卡年度任刷一筆或完成台新 LINE 官方帳號個人化綁定免次年年費（正附卡分開計算）。標準：御璽卡年度消費滿 NT$60,000 或 6 次、白金／普卡任刷一筆。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "travel", "overseas", "airport-lounge"],
+    "headline": "航空／旅行社／昇恆昌指定市區店 2%、海外 1.5% 現金回饋",
+    "rewards": [
+      { "label": "昇恆昌指定市區店（內湖旗艦店、金湖廣場、澎坊）實體刷卡／航空公司／國內旅行社", "rate": "2%", "rate_value": 2, "cap": "每期帳單回饋總上限 NT$2,500（正附卡合併）", "conditions": "不含線上訂房網（Trip.com、Booking.com、Agoda 等）", "valid_until": "2026-12-31" },
+      { "label": "海外消費", "rate": "1.5%", "rate_value": 1.5, "cap": "與上項合計每期上限 NT$2,500", "conditions": "交易幣別為外幣或交易國別非臺灣", "valid_until": "2026-12-31" },
+      { "label": "其他國內一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "與上項合計每期上限 NT$2,500", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "昇恆昌免稅商品再 9 折起；加入 RICHCLUB 領 85 折券；餐飲／飯店卡友優惠",
+      "御璽卡 2027 年：近 6 個月機票／團費或昇恆昌消費合計滿 NT$30,000 享 1 次免費國內機場單程接送（需登錄）",
+      "臺灣／海外機場貴賓室免費使用；機場外圍停車每次最高 10 天、全年 4 次",
+      "市區停車每日最高 2 小時、每期最高 40 小時",
+      "旅遊平安險最高 NT$2,000 萬；海外交易密碼設定"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg009/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/c-250x190-cg009.png",
+    "last_verified": "2026-11-01",
+    "notes": "Network Visa inferred from the 御璽卡 BIN prefixes 41476353/41476368 stated on page; 白金/普卡 network not stated. Card-specific apply pc code not captured (page's 立即申辦 link); generic apply URL used."
+  },
+  {
+    "id": "taishin-friday",
+    "bank": "taishin",
+    "name": "遠傳friDay聯名卡",
+    "name_en": "Taishin Far EasTone friDay Co-branded Card",
+    "networks": ["visa"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "持卡年度正附卡合併消費滿 NT$60,000 或 6 次免次年年費；2026 年任刷一筆或完成台新 LINE 官方帳號個人化綁定即免 2026 年年費。附卡 NT$1,500。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "travel", "fuel", "dining", "streaming", "new-cardholder"],
+    "headline": "週二五會員日旅遊／加油／電信最高 5% 遠傳幣",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無上限", "conditions": "回饋為遠傳幣（1 點＝NT$1，效期 1 年），需綁定遠傳心生活 App 會員" },
+      { "label": "週二／五會員日：旅遊／加油／電信（含購機及電信帳單）", "rate": "最高 5%", "rate_value": 5, "cap": "加碼每期帳單上限 1,500 遠傳幣", "conditions": "0.5% 基本＋4.5% 加碼；需設定台新帳戶自動扣繳卡款", "valid_until": "2027-07-31" },
+      { "label": "遠傳電信帳單自動代扣繳", "rate": "最高 2.5%", "rate_value": 2.5, "cap": "每期帳單上限 300 遠傳幣", "conditions": "0.5%＋2% 加碼；限正卡人本人遠傳帳號", "valid_until": "2027-07-31" },
+      { "label": "去哪吃餐飲券（週二／五）", "rate": "最高 10%", "rate_value": 10, "conditions": "會員日最高 5%＋限時加碼最高 5%", "valid_until": "2027-07-31" },
+      { "label": "Trip.com／Klook／Agoda 訂房（含週二五加碼）", "rate": "最高 15%", "rate_value": 15, "conditions": "平台 10%＋週二五加碌 5%；2026/5/1～12/31 活動", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "遠傳電信帳單（含 Google Play、Apple、Netflix 代收）自動代扣繳回饋",
+      "iPhone 18 系列購機最高加碼 NT$4,500；新戶電信代扣最高 1,800 遠傳幣",
+      "豆府集團、勝博殿週二第二套 8 折等餐飲優惠",
+      "保費分 12 期 0 利率；新卡 3／6 期分期 2.88%",
+      "卡號速取、交易控管、網路交易 App 驗證"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eService/CreditCardAP/apply/index.jsp?pc=01",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg019/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/files/creditcard/banner_250x190_friDay.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "NETWORK NOT STATED on page and no tier named — Visa is a placeholder guess; verify from card face. Fee NT$3,000 corresponds to 御璽/鈦金 level."
+  },
+  {
+    "id": "taishin-tsannkuen",
+    "bank": "taishin",
+    "name": "燦坤聯名卡",
+    "name_en": "Taishin Tsann Kuen Co-branded Card",
+    "networks": ["mastercard"],
+    "levels": ["白金卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 3000,
+      "waiver": "2026/1/1～12/31 任刷一筆或完成台新 LINE 官方帳號個人化綁定即免年費。鈦金卡正卡 NT$3,000 附卡 NT$1,500；白金卡正卡 NT$1,500 附卡 NT$750。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "transit", "installment", "travel", "new-cardholder"],
+    "headline": "燦坤門市／線上週末 2%、平日 1% K 幣，指定通路最高 10%",
+    "rewards": [
+      { "label": "燦坤實體門市／線上購物（週六日）", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "回饋為燦坤 K 幣", "valid_until": "2027-01-31" },
+      { "label": "燦坤實體門市／線上購物（週一～五）", "rate": "1%", "rate_value": 1, "cap": "無上限", "valid_until": "2027-01-31" },
+      { "label": "店外一般消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限" },
+      { "label": "指定通路（Agoda、Trip.com、易遊網、高鐵、中油直營、foodpanda、Uber Eats、小林眼鏡、World Gym）", "rate": "新戶 10%／舊戶 5%", "rate_value": 10, "cap": "每正卡人每月上限 200 K 幣；每月限量 5,000 名", "conditions": "需於活動頁登錄", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "信用卡與燦坤 3C 會員卡二合一（非會員入會費 NT$500，首刷活動可免）",
+      "燦坤門市 3／6／8 期 0 利率；滿額現折（滿 NT$28,000 分期折 NT$1,000 等）",
+      "悠遊卡／一卡通自動加值（NT$500／NT$200）",
+      "旅遊平安險：鈦金卡最高 NT$2,000 萬、白金卡 NT$1,000 萬",
+      "訂房網最高 14% 優惠（Klook 限量）、GLOBAL WiFi 日韓每日 NT$75"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg023/card002/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/TK3Cc_250x190.gif",
+    "last_verified": "2026-11-01",
+    "notes": "NETWORK NOT STATED on page — Mastercard inferred from 鈦金卡 tier; 白金卡 network unknown. K 幣 value in NT$ not stated. Card-specific apply pc code not captured."
+  },
+  {
+    "id": "taishin-global-infinite",
+    "bank": "taishin",
+    "name": "環球無限卡",
+    "name_en": "Taishin Global Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 30000,
+      "waiver": "正卡 NT$30,000、附卡 NT$25,000；可於次年年費入帳前以每 3,000 點台新 Point（信用卡）兌換 NT$5,000 年費，最高可全額兌換。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "dining", "new-cardholder"],
+    "headline": "國外消費 1.5%、國內 0.3% 無上限，2,000 點換 4,000 哩",
+    "rewards": [
+      { "label": "國內消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限", "valid_until": "2027-01-31" },
+      { "label": "國外消費", "rate": "1.5%", "rate_value": 1.5, "cap": "無上限", "conditions": "交易幣別為外幣或國別非臺灣", "valid_until": "2027-01-31" },
+      { "label": "指定旅行社（統一、良友、東南、雄獅、可樂）滿額回饋", "rate": "單筆滿 NT$30,000 回饋 NT$3,000；滿 NT$60,000 回饋 NT$5,000", "cap": "每卡上限 NT$5,000", "conditions": "不含分期 0 利率及行動支付交易", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "專屬哩程特權：每 2,000 點台新 Point 兌換 4,000 哩（華航／長榮）",
+      "華航商務艙／豪華經濟艙指定旅行社購票 88 折起（2026）",
+      "環宇商務通關每年 2 次、機場接送每年 4 次單程（依近 6 個月旅遊消費門檻）",
+      "Priority Pass 等國際機場貴賓室；國際機場外圍停車不限次數每次最多 30 天；市區停車每日 4 小時",
+      "Q4 首刷禮：新申辦並繳年費，核卡 60 天內消費滿 NT$70,000 贈 NT$10,000 刷卡金",
+      "前身亞洲無限卡已於 2023/12/1 停止新申辦並升級為環球無限卡"
+    ],
+    "requirements": "正卡須為成年人且年薪 NT$1,400,000 以上；須持有台新銀行存款帳戶；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/index.jsp?pc=96",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg001/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/c-250x190-cg001.png",
+    "last_verified": "2026-11-01",
+    "notes": "Network Visa inferred from page text 「匯率以Visa國際組織公告為準」 and 無限卡 tier; not stated outright."
+  },
+  {
+    "id": "taishin-wealth-infinite",
+    "bank": "taishin",
+    "name": "財富無限卡",
+    "name_en": "Taishin Wealth Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "附卡免年費（最多 2 張）；正式財富管理尊爵會員以上首次申辦首年免年費；續期每累積消費 NT$10 萬折抵 NT$2,000（上限 NT$10,000）；千萬財管會員正附卡累積消費 NT$20 萬含 NT$5 萬保費折抵 NT$10,000。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "overseas", "travel", "airport-lounge", "dining", "insurance", "new-cardholder"],
+    "headline": "國外消費 1.8%、保險最高 1.3%、國內 0.3% 現金回饋無上限",
+    "rewards": [
+      { "label": "國外消費", "rate": "1.8%", "rate_value": 1.8, "cap": "無上限" },
+      { "label": "保險消費", "rate": "最高 1.3%", "rate_value": 1.3, "cap": "無上限" },
+      { "label": "國內消費", "rate": "0.3%", "rate_value": 0.3, "cap": "無上限" }
+    ],
+    "highlights": [
+      "首刷禮：核卡 30 日內消費達 NT$80,000 贈 NT$3,000 好禮即享券（2026/7/1～12/31 申辦）",
+      "機場接或送禮遇；每年 2 張免費升等高鐁商務車廂；市區停車每日 1 次 2 小時",
+      "專屬生日獻禮：星級飯店餐廳 50% 現金回饋；全臺頂級餐飲 75 折起",
+      "環亞貴賓室；國際機場外圍停車全年 4 次每次最多 10 天；高爾夫球場擊球優惠價",
+      "旅遊平安險最高 NT$5,000 萬"
+    ],
+    "requirements": "正卡申請人年收入 NT$140 萬以上且為成年人；財富無限卡與卓富無限卡正卡限擇一持有；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/apply/",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg004/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/b-166x127-003.png",
+    "last_verified": "2026-11-01",
+    "notes": "Product page has no dedicated card-face image (only generic icons); image_url is the thumbnail from the card index. Network Visa from page (Visa無限卡專屬禮遇). Card-specific apply pc code not captured."
+  },
+  {
+    "id": "taishin-gogo",
+    "bank": "taishin",
+    "name": "@GoGo卡（現為台新Richart卡）",
+    "name_en": "Taishin @GoGo Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": { "amount": 0 },
+    "reward_type": "points",
+    "tags": ["online-shopping", "mobile-payment", "streaming"],
+    "headline": "網購／Pay／影音最高 6%（2025/9/1 起停止新申辦，併入 Richart 卡）",
+    "rewards": [
+      { "label": "網購／Pay／影音串流（舊權益）", "rate": "最高 6%", "rate_value": 6, "conditions": "頁面 meta 描述之舊權益；2025/9/1 起適用台新 Richart 卡權益" },
+      { "label": "一般消費（舊權益）", "rate": "最高 1%", "rate_value": 1 }
+    ],
+    "highlights": ["2025/9/1 起停止新申辦，既有卡友改適用「台新 Richart 卡」7 大刷方案最高 3.8% 權益", "2019/12/31 前申辦並符合 5 選 1 條件者終生免年費"],
+    "status": "discontinued",
+    "status_note": "官網標示「於2025/9/1起停止新申辦」；原@GoGo卡已更名為台新Richart卡",
+    "status_changed_at": "2025-09-01",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/c-250x190-013GoGo-icash..png",
+    "last_verified": "2026-11-01",
+    "notes": "Page title @GoGo御璽卡 → Visa inferred. Annual fee not stated on this page (placeholder 0). Legacy rates from meta description only."
+  },
+  {
+    "id": "taishin-flygo",
+    "bank": "taishin",
+    "name": "FlyGo卡（現為台新Richart卡）",
+    "name_en": "Taishin FlyGo Card",
+    "networks": ["mastercard"],
+    "levels": ["鈦金商務卡"],
+    "annual_fee": { "amount": 0 },
+    "reward_type": "points",
+    "tags": ["travel", "overseas"],
+    "headline": "原旅遊神卡（2025/9/1 起停止新申辦，併入 Richart 卡）",
+    "rewards": [
+      { "label": "舊權益", "rate": "依台新 Richart 卡權益", "conditions": "2025/9/1 起適用台新 Richart 卡 7 大刷方案" }
+    ],
+    "highlights": ["2025/9/1 起停止新申辦，既有卡友改適用「台新 Richart 卡」權益（玩旅刷 3.3% 等）"],
+    "status": "discontinued",
+    "status_note": "官網標示「於2025/9/1起停止新申辦」；原FlyGo卡已更名為台新Richart卡",
+    "status_changed_at": "2025-09-01",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg018/flygo/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/FlyGo_0901.png",
+    "last_verified": "2026-11-01",
+    "notes": "Page heading 「FlyGo鈦金商務卡」 → Mastercard inferred. No fee or legacy rates on page (placeholder 0)."
+  },
+  {
+    "id": "taishin-rose-giving",
+    "bank": "taishin",
+    "name": "玫瑰Giving卡（現為台新Richart卡）",
+    "name_en": "Taishin Rose Giving Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["悠遊商務御璽卡", "悠遊鈦金商務卡"],
+    "annual_fee": { "amount": 0 },
+    "reward_type": "points",
+    "tags": ["transit"],
+    "headline": "原玫瑰 Giving 悠遊卡（2025/9/1 起停止新申辦，併入 Richart 卡）",
+    "rewards": [
+      { "label": "舊權益", "rate": "依台新 Richart 卡權益", "conditions": "2025/9/1 起適用台新 Richart 卡 7 大刷方案" }
+    ],
+    "highlights": ["2025/9/1 起停止新申辦；2025/10/14 起到期續卡、毀損補發換發台新 Richart 卡卡面"],
+    "status": "discontinued",
+    "status_note": "官網標示「於2025/9/1起停止新申辦」；原玫瑰Giving卡已更名為台新Richart卡",
+    "status_changed_at": "2025-09-01",
+    "source_url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg040/card001/",
+    "image_url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2019/creditcard_intro/Rose-Giving_250x190.gif",
+    "last_verified": "2026-11-01",
+    "notes": "Networks stated on page: 玫瑰Giving悠遊商務御璽(Visa) / 悠遊鈦金商務(Mastercard). No fee on page (placeholder 0)."
+  }
+]

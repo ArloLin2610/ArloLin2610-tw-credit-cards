@@ -1,0 +1,686 @@
+[
+  {
+    "id": "sinopac-dawho",
+    "bank": "sinopac",
+    "name": "DAWHO現金回饋信用卡",
+    "name_en": "DAWHO Cash Back Card",
+    "networks": ["visa"],
+    "levels": ["商務御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間免年費；第 2 年起前 12 個月累計消費滿 NT$150,000 或不限金額消費 12 次免次年年費。不提供附卡。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "transit", "mobile-payment", "new-cardholder"],
+    "headline": "大戶 Plus 國內最高 5%、國外最高 6% 現金回饋",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "回饋存入 DAWHO 數位存款帳戶；分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "回饋存入 DAWHO 數位存款帳戶；分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "大戶 Plus 等級任務加碼（國內外一般消費）", "rate": "+4%", "rate_value": 4, "cap": "每月帳單週期上限 NT$1,000", "conditions": "需完成 DAWHO 帳戶自動扣繳及電子/行動帳單兩項任務；不含保費代繳", "valid_until": "2026-12-31" },
+      { "label": "大戶等級任務加碼（國內外一般消費）", "rate": "+2.5%", "rate_value": 2.5, "cap": "每月帳單週期上限 NT$400", "conditions": "需完成 DAWHO 帳戶自動扣繳及電子/行動帳單兩項任務；大大等級無加碼", "valid_until": "2026-12-31" },
+      { "label": "悠遊卡自動加值（大戶 Plus）", "rate": "5%", "rate_value": 5, "cap": "每月帳單週期上限 NT$500", "conditions": "需完成指定任務；大戶等級 3%（上限 NT$100）、大大等級無回饋", "valid_until": "2026-12-31" },
+      { "label": "新戶指定行動支付", "rate": "最高 20%", "rate_value": 20, "cap": "上限 NT$500", "conditions": "新戶核卡後 30 日內以指定行動支付一般消費；總限量 10,000 戶", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "限已持有永豐 DAWHO 數位帳戶者申辦，回饋直接存入 DAWHO 帳戶",
+      "依 DAWHO 大戶 Plus／大戶／大大等級決定加碼比例",
+      "新戶首登 DACARD App 禮最高 NT$3,500 現金回饋（首登禮 NT$500 限量 2,500 名，需登錄）",
+      "DAWHO 帳戶活存利率最高 1.5%、每月最高 30 次跨行提款及轉帳免手續費",
+      "旅行綜合平安險、機場外圍停車、尊榮秘書、海外緊急支援服務"
+    ],
+    "requirements": "年滿 18 歲，須已持有永豐 DAWHO 數位帳戶；無其他國家/地區稅務居民身分（或需提供 FATCA/CRS 文件）",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?prodtype=5&source=1",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031bf3e0700000aa0f.png",
+    "last_verified": "2026-11-01",
+    "notes": "Network/tier taken from page markup (image data-id maps to Visa 商務御璽卡; page text does not state network). All rates are 2026 H2 promo (2026/7/1–12/31); base 1%/2% is also promo-framed — re-check 2027 H1 terms."
+  },
+  {
+    "id": "sinopac-dual-currency",
+    "bank": "sinopac",
+    "name": "幣倍卡",
+    "name_en": "SinoPac Dual Currency Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間正附卡免年費；第 2 年起前 12 個月累計消費滿 NT$36,000 或不限金額消費 12 次免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "travel", "airport-lounge", "insurance", "mobile-payment", "new-cardholder"],
+    "headline": "國外 2% 現金回饋無上限，外幣回饋直接存入外幣帳戶",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "回饋以外幣存入外幣帳戶；分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "保費代繳（MCC 6300）", "rate": "1.2%", "rate_value": 1.2, "cap": "無上限", "conditions": "分期保費不適用", "valid_until": "2026-12-31" },
+      { "label": "指定通路加碌", "rate": "+4%", "rate_value": 4, "cap": "每期帳單上限 NT$800", "conditions": "需設定台外幣帳戶自動扣繳＋電子帳單，且前月平均存款加投資達 NT$10 萬或具大戶/大戶 Plus 身分", "valid_until": "2026-12-31" },
+      { "label": "新卡綁定 Apple Pay／Google Pay", "rate": "+2%", "rate_value": 2, "cap": "每消費月上限 NT$200", "valid_until": "2026-12-31" },
+      { "label": "新戶指定行動支付", "rate": "最高 20%", "rate_value": 20, "cap": "上限 NT$500；幣倍卡名額 5,200 名", "conditions": "2026/7/1～12/31 申辦、2027/1/15 前核卡，核卡後 30 日內", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "可選美元／日圓／歐元其中一種外幣與台幣雙幣結算，國外消費直接以外幣帳戶扣款免匯差",
+      "機場貴賓室（U.First）每年最多 4 次，前一年度合格消費滿 NT$30 萬",
+      "機場外圍停車每年最多 2 次、每次最長 5 天（需以本卡刷機票 NT$20,000 以上）",
+      "旅行平安險最高 NT$2,000 萬",
+      "線上換匯最優 6 分（指定線上通路）",
+      "須持有永豐外幣存款帳戶，否則無法核發"
+    ],
+    "requirements": "正卡須為成年人；須持有永豐外幣存款帳戶；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?prodtype=6&Branch=OFFICIAL",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031bf87bf00000132f.png",
+    "last_verified": "2026-11-01",
+    "notes": "Network/tier from page markup (data-id → Mastercard 商務鈦金卡). Page headline 「新申辦享最高8%」 not decomposed on page. Overseas FX service fee 0.5% (page says total ~1.5–2% incl. network fee)."
+  },
+  {
+    "id": "sinopac-sport",
+    "bank": "sinopac",
+    "name": "永豐SPORT卡",
+    "name_en": "SinoPac SPORT Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間正附卡免年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "streaming", "new-cardholder"],
+    "headline": "運動達標指定通路最高 5% 豐點回饋",
+    "rewards": [
+      { "label": "一般消費基本回饋", "rate": "0.3%", "rate_value": 0.3, "conditions": "分期交易不適用" },
+      { "label": "一般消費電子/行動帳單加碼", "rate": "+0.7%", "rate_value": 0.7, "conditions": "需於消費當月結帳日前完成電子/行動帳單設定（合計 1%）" },
+      { "label": "運動獎勵加碼（一般消費）", "rate": "+1%", "rate_value": 1, "conditions": "消費當月於大咖 DACARD App 累積 10,000 kcal 或 Apple Watch 圓滿畫圈 10 次，並設定永豐/京城帳戶自動扣繳", "valid_until": "2026-12-31" },
+      { "label": "指定支付／指定通路加碼", "rate": "+3%", "rate_value": 3, "conditions": "指定行動支付（Apple/Google/Samsung/Garmin Pay）及健身、藥妝、遊戲平台等指定通路；運動達標及自動扣繳條件同上（合計最高 5%）", "valid_until": "2026-12-31" },
+      { "label": "新戶指定行動支付", "rate": "最高 20%", "rate_value": 20, "cap": "上限 NT$500；SPORT 卡名額 1,800 名", "conditions": "2026/7/1～12/31 申辦、2027/1/15 前核卡，核卡後 30 日內", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "豐點 1 點＝NT$1，每 100 點自動折抵帳單（20 紅利＝1 豐點）",
+      "指定通路涵蓋 World Gym、健身工廠、屈臣氏、康是美、寶雅、App Store、Google Play、Nintendo、PlayStation、Steam 等",
+      "需下載大咖 DACARD App 並串接運動資料計算 kcal",
+      "指定健身中心新客優惠（2026/7/1～12/31）",
+      "原「汗水不白流」App 已於 2026/1/6 下架，改用大咖 DACARD App"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?prodtype=9&Branch=official&Flag=01&mode=1",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/sportcard.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031c14a5d000001bcd.png",
+    "last_verified": "2026-11-01",
+    "notes": "Network/tier from page markup (data-id → Mastercard 商務鈦金卡). Spending-based annual-fee waiver for SPORT card not listed on page (only generic e-statement waiver). Points awarded two statement cycles later."
+  },
+  {
+    "id": "sinopac-baobei",
+    "bank": "sinopac",
+    "name": "保倍卡",
+    "name_en": "SinoPac Insurance Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["御璽卡", "鈦金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間免年費；第 2 年起鈦金/晶緻卡前 12 個月消費滿 NT$36,000（御璽卡 NT$150,000）或消費 12 次免年費；以本卡繳指定壽險保費 1 次亦免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "insurance", "installment", "new-cardholder"],
+    "headline": "保費 1.2% 現金回饋無上限，或最高 12 期分期 0 利率",
+    "rewards": [
+      { "label": "保費代繳（MCC 6300）", "rate": "1.2%", "rate_value": 1.2, "cap": "無上限", "conditions": "與保費分期 0 利率二選一；分期保費不回饋", "valid_until": "2026-12-31" },
+      { "label": "新卡保費加碼", "rate": "+3%", "rate_value": 3, "cap": "上限 NT$300 刷卡金", "conditions": "核卡 120 日內完成登錄、電子帳單及自動扣繳（合計最高 4.2%）", "valid_until": "2026-12-31" },
+      { "label": "一般消費紅利點數", "rate": "每 NT$30 累積 1 點（最高 5 倍）", "conditions": "含基本 1 倍；分期交易不適用", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "保費 NT$3,000 起可分 3 期、NT$6,000 起 3/6 期、NT$12,000 起 3/6/12 期 0 利率",
+      "登錄後 NT$12,000 以上保費自動 12 期 0 利率",
+      "一般消費單筆 NT$1,000 以上可分 3 期 0 利率",
+      "新戶首刷禮三選一（核卡 30 日內一般消費 NT$2,000 或綁行動支付 NT$1,000）",
+      "Mastercard 鈦金卡限定：核卡 60 日內消費 NT$888 送 7-ELEVEN NT$200 購物金（限量）",
+      "鈦金等級以上享機場接送；旅平險、機場外圍停車、海外緊急支援"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬；每人限持一張保倍卡",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?IsHouseLoanCard=false&CardFace=435001",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/insurance-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a13d4f0e950000093ec.png",
+    "last_verified": "2026-11-01",
+    "notes": "Page also mentions a 白金卡 tier (NT$1,500 fee, NT$12,000 waiver) in the fee section but it is not in the tier selector; omitted from levels. Image is the default-displayed 鈦金卡 face. 7-ELEVEN promo quota conflicts on page (4,000 vs 2,000)."
+  },
+  {
+    "id": "sinopac-green",
+    "bank": "sinopac",
+    "name": "現金回饋Green卡",
+    "name_en": "SinoPac Green Cash Back Card",
+    "networks": ["mastercard"],
+    "levels": ["商務鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間正附卡免年費；第 2 年起前 12 個月累計消費滿 NT$150,000 或不限金額消費 12 次免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "transit", "ev-charging", "insurance", "new-cardholder"],
+    "headline": "國內 1%、國外 2% 無上限，綠色通路最高 5%",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "非臺灣地區商店且非新臺幣交易", "valid_until": "2026-12-31" },
+      { "label": "精選國內綠色通路加碼", "rate": "+4%", "rate_value": 4, "cap": "每期帳單上限 NT$300", "conditions": "需電子/行動帳單並設定永豐/京城帳戶自動扣繳；2026/9/1 起新增健身、電競類別", "valid_until": "2026-12-31" },
+      { "label": "悠遊卡自動加值加碼（限新戶）", "rate": "+4%", "rate_value": 4, "cap": "與綠色通路合併計算，每期帳單上限 NT$300", "conditions": "新戶需設定電子/行動帳單及自動扣繳", "valid_until": "2026-12-31" },
+      { "label": "保費代扣繳", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "不含富邦人壽（含原 ING 安泰）及三商美邦人壽", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "2026/10/29 起發行 miffy 新卡面",
+      "可於 MMA 金融交易網或永豐行動銀行 App 啟用消費碳足跡查詢",
+      "新戶首刷禮：折疊購物車／料理鍋／NT$500 刷卡金三選一",
+      "miffy 吊飾活動：2026/10/29～12/31 新申辦並登錄，核卡 30 日內一般消費滿 NT$5,000（限量 4,000 份）",
+      "旅行綜合平安險、機場外圍停車、尊榮秘書服務"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?CardFace=278178&Branch=official&Flag=01&mode=1",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a181cd581b000002779.png",
+    "last_verified": "2026-11-01",
+    "notes": "Network/tier from page markup (data-id → Mastercard 商務鈦金卡); the page Q&A says single card face. image_url is the product-page card image (new miffy face); the index page uses 1a138f6c2e1000004f25.jpg (older face)."
+  },
+  {
+    "id": "sinopac-jcb-cashback",
+    "bank": "sinopac",
+    "name": "永豐現金回饋JCB卡",
+    "name_en": "SinoPac JCB Cash Back Card",
+    "networks": ["jcb"],
+    "levels": ["晶緻卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間正附卡免年費；第 2 年起前 12 個月累計消費滿 NT$150,000 或不限金額消費 12 次免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "overseas", "online-shopping", "department-store", "mobile-payment", "supermarket", "insurance", "new-cardholder", "travel"],
+    "headline": "特選通路最高 5%，新戶綁指定支付國內最高 10%",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限", "conditions": "須為非新臺幣交易" },
+      { "label": "特選通路加碼（網購／百貨／日本／全支付）", "rate": "+3%", "rate_value": 3, "cap": "每卡戶每期帳單上限 NT$300", "conditions": "需電子/行動帳單＋永豐/京城帳戶自動扣繳；通路含蝦皮、momo、Amazon、酷澎、漢神、SOGO、遠百、日本日幣消費、全支付", "valid_until": "2027-03-31" },
+      { "label": "新申辦綁定指定支付國內加碼", "rate": "+6%", "rate_value": 6, "cap": "每期帳單上限：新戶 NT$150、新卡 NT$50", "conditions": "2026/10/1～12/31 申辦；需電子帳單、自動扣繳並登錄（限量 6 萬名）；指定支付：街口、Apple Pay、Google Pay、Uber Eats、foodpanda", "valid_until": "2027-03-31" },
+      { "label": "日韓泰實體消費滿額加碼", "rate": "5%", "rate_value": 5, "cap": "每卡戶每季上限 NT$1,000", "conditions": "每季累計滿 NT$20,000，需登錄，每季限量 5,000 名；2026 Q3/Q4 已額滿", "valid_until": "2027-03-31" },
+      { "label": "保費代扣繳", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "不含富邦人壽及三商美邦人壽；分期保費不適用", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "國內一般消費當期滿 NT$10,000 加碼 NT$50 刷卡金（需電子帳單＋自動扣繳，至 2027/3/31）",
+      "新戶全支付－全聯加碼 3%，連續 6 個月，每月上限 NT$100",
+      "新戶刷卡禮：核卡 30 日內消費達門檻可選 M.Rino 20 吋行李箱或 NT$500 刷卡金",
+      "JCB 晶緻卡權益：機場接送、MyJapan+ 等日本優惠",
+      "旅行綜合平安險、機場外圍停車、海外緊急支援服務"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?IsHouseLoanCard=false&CardFace=643088",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcardJCB.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/16c98d0bff700000bd35.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "Tier 晶緻卡 inferred from page markup (data-id → JCB 晶緻卡) and JCB Precious perks section. Base 1%/2% stated without an explicit end date on this page."
+  },
+  {
+    "id": "sinopac-daway",
+    "bank": "sinopac",
+    "name": "DAWAY卡",
+    "name_en": "SinoPac DAWAY Card",
+    "networks": ["visa"],
+    "levels": ["御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子或行動帳單並取消實體帳單期間正附卡免年費；第 2 年起前 12 個月累計消費滿 NT$150,000 或不限金額消費 12 次免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "mobile-payment", "overseas", "online-shopping", "dining", "new-cardholder"],
+    "headline": "LINE Pay 回饋 LINE POINTS，國內最高 8%、國外最高 10%",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.5%", "rate_value": 0.5, "cap": "無上限", "conditions": "LINE POINTS 回饋，需綁定 LINE Pay" },
+      { "label": "國外一般消費", "rate": "2.5%", "rate_value": 2.5, "cap": "無上限", "conditions": "非臺灣地區商店且非新臺幣交易" },
+      { "label": "LINE Pay 加碼（DAWAY GO 等級）", "rate": "+1.5%", "rate_value": 1.5, "cap": "每期帳單上限 300 點", "conditions": "需完成自動扣繳、電子/行動帳單、網銀會員＋投資屬性問卷三項任務", "valid_until": "2026-12-31" },
+      { "label": "新戶 LINE Pay 加碼（DAWAY GO 等級）", "rate": "+6%", "rate_value": 6, "cap": "每期帳單上限 500 點", "conditions": "2026/7/1～12/31 申辦並核卡之新戶", "valid_until": "2026-12-31" },
+      { "label": "DAWAY 千日慶 LINE Pay 滿額加碼", "rate": "+3%", "rate_value": 3, "cap": "每戶上限 1,000 點", "conditions": "2026/10/1～12/31 LINE Pay 消費滿 NT$30,000，需登錄（限量 10 萬名）", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "回饋為 LINE POINTS，需先綁定 LINE Pay（限台灣 LINE 帳號，一卡綁一帳號）",
+      "可選 DAWAY 悠遊御璽卡或 DAWAY 御璽卡，每人限持一張",
+      "多項 LINE Pay 限時加碼：路易莎最高 13%、酷澎週三最高 13%、韓國 Olive Young 等",
+      "可用 My data 或帳戶截圖線上申辦，核卡後可先綁 LINE Pay 使用",
+      "旅行綜合平安險、機場外圍停車、尊榮秘書服務"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?prodtype=11&Branch=official",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWAY.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031c04197000006d75.png",
+    "last_verified": "2026-11-01",
+    "notes": "Annual fee from the page's 申請說明 section (正卡 NT$3,000). Page's 8%/10% headline assumes DAWAY GO + new-customer bonuses. Many short-term LINE Pay promos not all captured."
+  },
+  {
+    "id": "sinopac-eternal-world",
+    "bank": "sinopac",
+    "name": "永傳世界卡",
+    "name_en": "SinoPac Eternal World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界商務卡"],
+    "annual_fee": {
+      "amount": 24000,
+      "waiver": "首年不免年費；2026、2027 年累積年消費（含保費）滿 NT$10,000,000 可免當年年費；附卡免年費（最多 2 張）。金屬卡工本費每卡 NT$3,000，繳全額年費者首次製卡免收。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "travel", "airport-lounge", "dining", "overseas"],
+    "headline": "永傳會員專屬金屬卡，現金回饋無上限最高 3.3%",
+    "rewards": [
+      { "label": "一般消費（永傳會員加碼）", "rate": "最高 3.3%", "rate_value": 3.3, "cap": "無上限", "conditions": "分級回饋率以頁面圖表為準；需為永傳會員方享加碼；回饋僅可折抵消費款" }
+    ],
+    "highlights": [
+      "邀請制，限永豐永傳會員申辦；限量金屬卡面",
+      "機場接送最多 12 次（可兌換接送 2 趟、環宇尊榮通關 1 次或高鐵票 2 張）；機場貴賓室最多 12 次；機場停車最多 12 次每次 30 天",
+      "2026 首刷禮：繳全額年費且核卡 60 天內一般消費滿 NT$80,000 送 NT$18,000 刷卡金",
+      "旅行平安險最高 NT$5,000 萬、全程旅平險最高 NT$1,000 萬",
+      "高爾夫擊球禮遇價最優 NT$1,700、饕客盛宴 2 人同行 5 折、國內精選飯店最優 NT$3,000",
+      "高鐵商務車廂升等每月最多 2 張（2026/12/31 止，2027 年起停止）"
+    ],
+    "requirements": "邀請制；正卡申請人須為永豐永傳會員且為成年人；學生不核發；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?CardFace=273088&mode=1",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBCH.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/18bae49fecc000004d68.png",
+    "last_verified": "2026-11-01",
+    "notes": "Tiered cash-back rates are in an image table on the page; only the 「最高3.3%」 headline is in text. Network inferred from page perks links (master-world-business) and nav label 「MasterCard 世界商務卡」."
+  },
+  {
+    "id": "sinopac-wealth-world",
+    "bank": "sinopac",
+    "name": "永富世界卡",
+    "name_en": "SinoPac Prosperity World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界商務卡"],
+    "annual_fee": {
+      "amount": 10000,
+      "waiver": "尊榮理財會員首年免年費（限一次）；次年起 2026–2027 年前 12 期帳單正附卡累計消費滿 NT$40 萬（非會員 NT$50 萬）免年費；消費滿 NT$20 萬未達門檻折抵 NT$4,000；一般每滿 NT$20 萬折抵 NT$2,000（上限 NT$8,000）。附卡 4 張內免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "travel", "airport-lounge", "dining", "new-cardholder"],
+    "headline": "尊榮理財會員頂級卡，現金回饋最高 2% 無上限",
+    "rewards": [
+      { "label": "一般消費", "rate": "最高 2%", "rate_value": 2, "cap": "無上限", "conditions": "分級回饋率以頁面圖表為準；國外一般消費及保費另有規範", "valid_until": "2026-12-31" },
+      { "label": "2026 會員禮：指定行動支付（尊榮理財會員新卡）", "rate": "最高 6%", "rate_value": 6, "cap": "上限 NT$1,000", "conditions": "需設定永豐/京城帳戶自動扣繳，核卡 60 日內合格消費", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "2026/7/1 起限永豐尊榮理財會員（永傳／永富／永聚）申辦",
+      "機場接送每年最多 6 次；機場貴賓室每年最多 8 次（每次出國最多 2 次）；機場停車每年最多 12 次每次 10 天",
+      "旅行平安險最高 NT$5,000 萬、全程旅平險最高 NT$1,000 萬",
+      "非會員首刷禮：繳全額年費並 60 日內一般消費滿 NT$60,000 最高 NT$7,000 刷卡金",
+      "饗受幸福餐飲最優 75 折、國內精選飯店最優折 NT$3,300、高爾夫最優折 NT$2,200",
+      "Netflix 回饋核卡後 3 個月（每月上限 NT$290）"
+    ],
+    "requirements": "限尊榮理財會員（2026/7/1 起）；正卡須為成年人；既有卡友信用額度須達 NT$20 萬；學生不得申辦",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?prodtype=10&Branch=official",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBFU.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/18bf6347f2d0000032c7.png",
+    "last_verified": "2026-11-01",
+    "notes": "Exact tiered cash-back rates are in an image, only 「最高2%」 in text. Network inferred from perks links (master-world-business). 高鐵升等 perk ends 2026/12/31."
+  },
+  {
+    "id": "sinopac-dream-journey",
+    "bank": "sinopac",
+    "name": "夢行卡",
+    "name_en": "SinoPac Dream Journey Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["商務鈦金卡", "商務御璽卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 3000,
+      "waiver": "首年免年費；申請電子帳單並取消實體帳單期間免年費；第 2 年起鈦金卡前 12 個月消費滿 NT$36,000（御璽卡 NT$150,000）或消費 12 次免年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "dining", "fuel", "transit", "insurance", "overseas"],
+    "headline": "鈦金卡特選通路（餐飲、加油、叫車）最高 4% 現金回饋",
+    "rewards": [
+      { "label": "商務鈦金卡一般消費（國內／國外）", "rate": "0.3%", "rate_value": 0.3, "conditions": "2026 下半年基本回饋；分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "商務鈦金卡電子/行動帳單加碼", "rate": "+0.7%", "rate_value": 0.7, "conditions": "需設定電子或行動帳單", "valid_until": "2026-12-31" },
+      { "label": "商務鈦金卡特選通路加碼（國內餐飲、Uber Eats/foodpanda、加油站、Uber/Yoxi/LINE GO）", "rate": "+3%", "rate_value": 3, "cap": "每卡戶每期帳單上限 NT$300", "conditions": "需電子帳單、永豐/京城帳戶自動扣繳並完成登錄；百貨／飯店內餐廳及第三方支付不適用", "valid_until": "2026-12-31" },
+      { "label": "商務御璽卡國內一般消費", "rate": "0.6%", "rate_value": 0.6, "valid_until": "2026-12-31" },
+      { "label": "商務御璽卡國外一般消費", "rate": "1.5%", "rate_value": 1.5, "valid_until": "2026-12-31" },
+      { "label": "保費代繳", "rate": "1%", "rate_value": 1, "conditions": "免登錄，不與一般消費回饋併計", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "旅行平安險及不便險最高 NT$3,500 萬",
+      "鈦金等級以上有機會享機場接送；桃園／小港機場外圍免費停車",
+      "指定卡別登錄並達消費門檻享 24 小時道路救援",
+      "尊榮秘書服務、DACARD App 國內外交易自由選、海外緊急支援"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/online-apply/gift.html",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/excellence-business-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/19208262eee00000c279.png",
+    "last_verified": "2026-11-01",
+    "notes": "No card-specific online apply link; page offers generic 我要辦卡 page and application PDF. Image is the 商務鈦金卡 face (default displayed). Titanium base rate dropped from 1%/2% (2026 H1) to 0.3% + 0.7% e-statement bonus (2026 H2)."
+  },
+  {
+    "id": "sinopac-mitsui-outlet-park",
+    "bank": "sinopac",
+    "name": "MITSUI OUTLET PARK聯名卡",
+    "name_en": "SinoPac MITSUI OUTLET PARK Co-branded Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["御璽卡", "商務鈦金卡", "晶緻卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 3000,
+      "waiver": "首年免年費；申請電子帳單並取消實體帳單期間正附卡免年費；第 2 年起晶緻卡／鈦金商務卡前 12 個月消費滿 NT$36,000 或不限金額消費 12 次免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "dining", "installment", "new-cardholder", "travel"],
+    "headline": "MOP 館外餐飲及全盈+PAY 最高 7% 回饋，館內豐點最高 1%",
+    "rewards": [
+      { "label": "MITSUI OUTLET PARK 館內消費豐點", "rate": "最高 1%", "rate_value": 1, "cap": "無上限", "conditions": "依頁面圖表分級；豐點 1 點＝NT$1，每 100 點折抵", "valid_until": "2026-12-31" },
+      { "label": "館外一般消費豐點", "rate": "0.3%", "rate_value": 0.3, "valid_until": "2026-12-31" },
+      { "label": "館外餐飲及全盈+PAY 特選通路", "rate": "7%", "rate_value": 7, "cap": "每期帳單上限 NT$100", "conditions": "需登錄、電子帳單及永豐/京城帳戶自動扣繳；MOP 林口／台中港／台南館內餐飲不適用", "valid_until": "2026-12-31" },
+      { "label": "JCB 卡日韓泰實體消費滿額加碼", "rate": "+2%", "rate_value": 2, "cap": "每卡每季上限 NT$1,000", "conditions": "每季實體消費滿 NT$30,000，每季限量 3,000 名登錄；限 JCB 聯名卡", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "館內分期 0 利率：NT$3,000 分 3 期、NT$6,000 分 3/6 期",
+      "館內指定店櫃 85 折起；林口、台南館每日免費停車 2 小時",
+      "紅利變現金：1,000 點折 NT$80（單筆 NT$100 以上）",
+      "新戶首刷禮：核卡 30 日內消費達門檻可選 NT$500 館內刷卡金或 Rino 20 吋行李箱",
+      "週年慶期間館內滿額刷卡金（台中港 10/30～11/22、林口 10/15～11/8）"
+    ],
+    "requirements": "正卡須為成年人（詳細資格見申請說明）",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?IsHouseLoanCard=false&CardFace=436178",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/mitsui-outlet-park-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031bf5e2c0000039e7.png",
+    "last_verified": "2026-11-01",
+    "notes": "Tier/network mapping from radio selector markup (御璽=Visa, 商務鈦金=Mastercard, 晶緻=JCB). Image is the 商務鈦金卡 face (default displayed). 御璽卡 fee waiver threshold not listed on page. Anniversary cash-back figures conflict on page."
+  },
+  {
+    "id": "sinopac-55688",
+    "bank": "sinopac",
+    "name": "永豐55688聯名卡",
+    "name_en": "SinoPac 55688 Co-branded Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["御璽卡", "商務鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "waiver": "首年免年費；申請電子帳單期間正卡免年費；第 2 年起前 12 個月正卡消費滿 NT$150,000 或不限金額消費 12 次免次年年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "transit", "fuel", "ev-charging", "mobile-payment", "new-cardholder"],
+    "headline": "55688 App 綁卡搭車最高 8% T Points，一般消費 1% 無上限",
+    "rewards": [
+      { "label": "一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限", "conditions": "不含 55688 App 綁卡交易；分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "55688 App 綁卡交易", "rate": "最高 8%", "rate_value": 8, "cap": "每月上限 200 T Points", "conditions": "需以即時綁卡功能綁定本人 55688 帳號", "valid_until": "2026-12-31" },
+      { "label": "精選通路加碼（鐵路、加油、充電樁、部分餐飲、55688 集團服務）", "rate": "+3%", "rate_value": 3, "cap": "每月上限 200 T Points", "conditions": "需設定永豐/京城帳戶自動扣繳（合計最高 4%）", "valid_until": "2026-12-31" },
+      { "label": "新戶 55688 App 綁卡交易加碼", "rate": "+10%", "rate_value": 10, "cap": "每卡戶每月上限 100 T Points，連續 6 個月", "conditions": "2026/7/1～12/31 進件、2027/1/15 前核卡之新戶", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "T Points 可即時折抵 55688 App 車資，或次月折抵本卡帳單",
+      "核卡後可先綁定 Apple Pay／Google Pay／Samsung Pay／Garmin Pay／Fitbit Pay 或 55688 App，不必等實體卡",
+      "首辦加碼送（Mastercard 限定）：新戶 NT$300、新卡 NT$100 7-ELEVEN 購物金（需登錄、限量）",
+      "新申辦抽黏黏怪盲盒（2026/9/7～12/31）"
+    ],
+    "requirements": "正卡須為成年人；獨資或合夥事業負責人事業須成立滿一年",
+    "status": "active",
+    "apply_url": "https://app-api.taiwantaxi.com.tw/SinoPacCard/Apply",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/taxicard.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/17ce889324200000b04b.png",
+    "last_verified": "2026-11-01",
+    "notes": "Tier/network from radio selector markup. Apply link goes to Taiwan Taxi (55688) domain, as linked from the official page. Page annual-fee section only mentions 正卡 NT$3,000 and a NT$150,000 waiver (御璽-level); 鈦金 threshold not stated."
+  },
+  {
+    "id": "sinopac-miramar",
+    "bank": "sinopac",
+    "name": "永豐美麗華卡",
+    "name_en": "SinoPac Miramar Co-branded Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["白金卡", "御璽卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 1500,
+      "max_amount": 3000,
+      "waiver": "首年免年費；申請電子帳單並取消實體帳單期間正附卡免年費；第 2 年起白金卡前 12 個月消費滿 NT$12,000、鈦金卡 NT$36,000、御璽卡 NT$150,000，或不限金額消費 12 次免次年年費。",
+      "effectively_free": true
+    },
+    "reward_type": "points",
+    "tags": ["no-annual-fee", "co-branded", "department-store", "dining", "installment", "new-cardholder"],
+    "headline": "美麗華館內紅利 2 倍、免費停車最多 4 小時",
+    "rewards": [
+      { "label": "一般消費紅利", "rate": "每 NT$30 累積 1 點", "conditions": "紅利有效期 2 年（不含累積當年）", "valid_until": "2026-12-31" },
+      { "label": "美麗華館內消費紅利", "rate": "2 倍", "conditions": "含基本 1 倍；館內分期不適用", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "館內單筆 NT$1,000 以上紅利折抵：1,000 點折 NT$60，最高 100%",
+      "館內 3/6 期 0 利率 0 手續費；館外單筆 NT$1,000 以上可分 3 期 0 利率",
+      "館內停車：白金卡 3 小時、鈦金／御璽卡 4 小時",
+      "館外月消費滿 NT$10,000，次月於美麗華大直影城看電影最高回饋 NT$350",
+      "館內購物最低 85 折；餐飲、超市單筆 NT$1,000 送 NT$100 抵用券（限量）",
+      "新戶首刷禮三選一（折疊購物車／料理鍋／NT$500 刷卡金）"
+    ],
+    "requirements": "正卡須為成年人；附卡 15 歲以上直系親屬",
+    "status": "active",
+    "apply_url": "https://mma.sinopac.com/SinoCard/Application/ApplyCard?IsHouseLoanCard=false&CardFace=482178",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/miramar-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/16059517988000004c67.png",
+    "last_verified": "2026-11-01",
+    "notes": "Tier/network from radio selector markup (白金=Visa, 御璽=Visa, 鈦金=Mastercard). Image is the 白金卡 (lowest tier) face per markup. Points value not stated as a percent."
+  },
+  {
+    "id": "sinopac-vogue",
+    "bank": "sinopac",
+    "name": "VOGUE卡",
+    "name_en": "SinoPac VOGUE Card",
+    "networks": ["visa", "mastercard"],
+    "levels": ["御璽卡", "鈦金卡"],
+    "annual_fee": {
+      "amount": 3000,
+      "max_amount": 3000,
+      "waiver": "首年免年費；申請電子帳單並取消實體帳單期間正附卡免年費；第 2 年起鈦金卡前 12 個月消費滿 NT$36,000（御璽卡 NT$150,000）或不限金額消費 12 次免次年年費。附卡 NT$1,500，6 張以內免年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded", "insurance"],
+    "headline": "一般消費最高 1.2% 現金回饋，保費 1% 回饋",
+    "rewards": [
+      { "label": "一般消費", "rate": "最高 1.2%", "rate_value": 1.2, "cap": "鈦金／御璽卡每月上限 NT$2,000；普卡／白金卡 NT$1,000", "conditions": "分期交易取消或提前清償不列入", "valid_until": "2026-12-31" },
+      { "label": "保費代繳（鈦金／御璽卡）", "rate": "1%", "rate_value": 1, "cap": "正附卡合計每月上限 NT$10,000（含一般消費回饋）", "conditions": "不含富邦人壽（含原 ING 安泰）及三商美邦人壽；分期保費不適用", "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "旅行綜合平安險及不便險",
+      "鈦金等級以上機場接送機服務；桃園／小港機場外圍免費停車",
+      "尊榮秘書服務、DACARD App 國內外交易自由選、海外緊急支援",
+      "Visa Signature／Mastercard 鈦金國際組織優惠"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/online-apply/gift.html",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/vogue-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/19b45bd126e00000283d.png",
+    "last_verified": "2026-11-01",
+    "notes": "No VOGUE-specific online apply link on page (generic 我要辦卡 page + PDF). Tier/network from radio selector markup. Page mentions legacy 普卡/白金卡 caps but those tiers are not in the selector."
+  },
+  {
+    "id": "sinopac-melaleuca",
+    "bank": "sinopac",
+    "name": "美樂家生活卡",
+    "name_en": "SinoPac Melaleuca Card",
+    "networks": ["mastercard", "jcb"],
+    "levels": ["普卡", "白金卡"],
+    "annual_fee": {
+      "amount": 300,
+      "max_amount": 1500,
+      "waiver": "首年免年費；申請電子對帳單並取消實體帳單期間正附卡免年費；第 2 年起普卡前 12 個月消費滿 NT$3,000 或消費 3 次、白金卡消費滿 NT$12,000 或消費 12 次免次年年費。",
+      "effectively_free": true
+    },
+    "reward_type": "cashback",
+    "tags": ["no-annual-fee", "co-branded"],
+    "headline": "美樂家館內消費 0.6%、一般消費 0.4% 現金回饋",
+    "rewards": [
+      { "label": "美樂家館內消費", "rate": "0.6%", "rate_value": 0.6, "conditions": "分期交易取消或提前清償不列入", "valid_until": "2026-12-31" },
+      { "label": "非美樂家一般消費", "rate": "0.4%", "rate_value": 0.4, "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "回饋於次期帳單折抵消費款",
+      "旅行綜合平安險、桃園／小港機場外圍停車",
+      "尊榮秘書服務、海外緊急支援服務"
+    ],
+    "requirements": "正卡須為成年人；附卡 15～70 歲直系親屬",
+    "status": "active",
+    "apply_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/online-apply/gift.html",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/melaleuca-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/19b45bce7db0000013e0.png",
+    "last_verified": "2026-11-01",
+    "notes": "Tier/network from radio selector markup (普卡=Mastercard, 白金卡=Mastercard or JCB). Image is the 普卡 face. No cap stated for cash back. No card-specific apply link."
+  },
+  {
+    "id": "sinopac-world",
+    "bank": "sinopac",
+    "name": "永豐世界卡",
+    "name_en": "SinoPac World Card",
+    "networks": ["mastercard"],
+    "levels": ["世界卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "首年免年費；第 2 年起前 12 個月正附卡累計消費滿 NT$360,000 或指定保費滿 NT$100,000 免次年年費；附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "insurance"],
+    "headline": "國內紅利 3 倍、國外紅利 5 倍無上限（已停止新卡申辦）",
+    "rewards": [
+      { "label": "國內一般消費紅利", "rate": "3 倍", "conditions": "含基本 1 倍；分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費紅利", "rate": "5 倍", "conditions": "含基本 1 倍；國外保費不適用", "valid_until": "2026-12-31" },
+      { "label": "保費代繳", "rate": "1.2%", "rate_value": 1.2, "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "機場接送每年最多 4 次（依前一年度合格消費）；U.First 機場貴賓室最多 4 次",
+      "機場停車每年最多 3 次每次 7 天；道路救援每年 3 次",
+      "市區停車每月 10 次每次 2 小時（前月一般消費滿 NT$10,000）",
+      "旅行平安險最高 NT$3,500 萬；24 小時尊榮秘書"
+    ],
+    "requirements": "年收入 NT$100 萬以上或近 3 個月平均存款 NT$250 萬以上；既有卡友信用額度 NT$20 萬以上；學生不核發",
+    "status": "discontinued",
+    "status_note": "官網申請說明標示「新卡停止受理申辦」",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/word-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/176a7e2692c0000089f2.jpg",
+    "last_verified": "2026-11-01",
+    "notes": "Still listed on index with existing-cardholder benefits; marked 新卡停止受理申辦 on product page (no date given). Network inferred from master-world perks links."
+  },
+  {
+    "id": "sinopac-wealth-infinite",
+    "bank": "sinopac",
+    "name": "永豐財富無限卡",
+    "name_en": "SinoPac Wealth Infinite Card",
+    "networks": ["visa"],
+    "levels": ["無限卡"],
+    "annual_fee": {
+      "amount": 20000,
+      "waiver": "首年免年費；第 2 年起前 12 個月正附卡累計消費滿 NT$360,000 免年費；或近 3 個月往來資產平均達 NT$300 萬（含永豐金證券資產）免年費；附卡免年費。",
+      "effectively_free": false
+    },
+    "reward_type": "cashback",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "insurance"],
+    "headline": "財富管理貴賓專屬，國外 1.68%、國內 0.68% 現金回饋無上限",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "0.68%", "rate_value": 0.68, "cap": "無上限", "conditions": "分期交易不適用", "valid_until": "2026-12-31" },
+      { "label": "國外一般消費", "rate": "1.68%", "rate_value": 1.68, "cap": "無上限", "valid_until": "2026-12-31" },
+      { "label": "保費代繳", "rate": "1.2%", "rate_value": 1.2, "valid_until": "2026-12-31" }
+    ],
+    "highlights": [
+      "U.First 機場貴賓室最多 12 次；機場接送最多 6 次（永傳會員）；機場停車不限次數每次 10 天",
+      "道路救援不限次數（每次 50 公里）",
+      "市區停車每月 10 次（永傳會員 30 次、永富會員 20 次）",
+      "旅行平安險最高 NT$5,000 萬；24 小時尊榮秘書",
+      "高鐵商務車廂升等每月 2 次（2026/12/31 止）"
+    ],
+    "requirements": "邀請制：永豐尊榮理財會員或永豐金證券 VIP（資產 NT$300 萬以上）；學生不核發",
+    "status": "suspended",
+    "status_note": "官網標示「新卡停止受理申辦」，僅限受邀之財富管理貴賓透過理專申辦",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/wealth-unlimite-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/172e503344c00000152e.png",
+    "last_verified": "2026-11-01",
+    "notes": "Invitation-only; page says not open for application but still on public index with 2026 benefits. Network inferred from visa-infinite perks links. Maintainer may prefer status=active with requirements note."
+  },
+  {
+    "id": "sinopac-cashback-visa",
+    "bank": "sinopac",
+    "name": "永豐現金回饋卡",
+    "name_en": "SinoPac Cash Back Card (Visa)",
+    "networks": ["visa"],
+    "levels": [],
+    "annual_fee": { "amount": 0 },
+    "reward_type": "cashback",
+    "tags": ["overseas"],
+    "headline": "國外 2%、國內 1% 現金回饋無上限（已停止申辦）",
+    "rewards": [
+      { "label": "國內一般消費", "rate": "1%", "rate_value": 1, "cap": "無上限" },
+      { "label": "國外一般消費", "rate": "2%", "rate_value": 2, "cap": "無上限" }
+    ],
+    "highlights": ["2026/7/1 起停止受理申辦新卡；既有卡友權益見官網「其他信用卡」分頁"],
+    "status": "discontinued",
+    "status_note": "官網公告：「永豐現金回饋卡(Visa卡)」於2026年7月1日起，停止受理申辦新卡。",
+    "status_changed_at": "2026-07-01",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcardvisa.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/18cf62884aa00000b909.png",
+    "last_verified": "2026-11-01",
+    "notes": "Annual fee not stated on page; amount 0 is a placeholder — do not display fee for this card."
+  },
+  {
+    "id": "sinopac-me-card",
+    "bank": "sinopac",
+    "name": "Me Card",
+    "name_en": "SinoPac Me Card",
+    "networks": ["visa", "mastercard", "jcb"],
+    "levels": ["商務御璽卡", "鈦金卡", "晶緻卡"],
+    "annual_fee": { "amount": 0 },
+    "reward_type": "cashback",
+    "tags": [],
+    "headline": "金融卡＋信用卡二合一，0.666% 現金回饋無上限（已停止申辦）",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.666%", "rate_value": 0.666, "cap": "無上限" }
+    ],
+    "highlights": ["簽帳金融卡與信用卡二合一", "可於製卡時加印「永豐」點字", "2026/7/1 起停止受理申辦新卡"],
+    "status": "discontinued",
+    "status_note": "官網公告：「永豐Me card」於2026年7月1日起，停止受理申辦新卡。",
+    "status_changed_at": "2026-07-01",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/me-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031c01a290000009ce.png",
+    "last_verified": "2026-11-01",
+    "notes": "Networks inferred from tier names (商務御璽=Visa, 鈦金=Mastercard, 晶緻=JCB); annual fee not stated (placeholder 0). Image from index page."
+  },
+  {
+    "id": "sinopac-taifeng",
+    "bank": "sinopac",
+    "name": "鈦豐卡",
+    "name_en": "SinoPac Taifeng Combo Card",
+    "networks": ["mastercard", "jcb"],
+    "levels": ["鈦金卡", "晶緻卡"],
+    "annual_fee": { "amount": 0 },
+    "reward_type": "cashback",
+    "tags": ["transit"],
+    "headline": "金融卡＋信用卡＋悠遊卡三合一，0.666% 回饋無上限（已停止申辦）",
+    "rewards": [
+      { "label": "一般消費", "rate": "0.666%", "rate_value": 0.666, "cap": "無上限", "conditions": "不限商家、不限金額" }
+    ],
+    "highlights": ["簽帳金融卡、信用卡與悠遊卡三合一", "可選擇於卡面加印點字", "2026/7/1 起停止受理申辦新卡"],
+    "status": "discontinued",
+    "status_note": "官網公告：「永豐鈦豐卡」於2026年7月1日起，停止受理申辦新卡。",
+    "status_changed_at": "2026-07-01",
+    "source_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/discount-unlimite-card.html",
+    "image_url": "https://bank.sinopac.com/upload/sinopac/picture/1a031bfcdb1000007992.png",
+    "last_verified": "2026-11-01",
+    "notes": "Networks inferred from tier names (鈦金=Mastercard, 晶緻=JCB); annual fee not stated (placeholder 0)."
+  }
+]

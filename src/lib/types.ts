@@ -58,6 +58,8 @@ export interface Card {
   promo_until?: string;
   last_verified: string;
   notes?: string;
+  /** Hidden from the site until a maintainer verifies the data. */
+  needs_review?: boolean;
 }
 
 export interface Bank {
