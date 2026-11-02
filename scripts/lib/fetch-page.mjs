@@ -117,7 +117,7 @@ function needsRendering(status, text) {
 
 async function plainFetch(url) {
   const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), 30000);
+  const t = setTimeout(() => ctrl.abort(), 20000);
   try {
     const res = await fetch(url, {
       headers: { 'user-agent': UA, accept: 'text/html,application/xhtml+xml', 'accept-language': 'zh-TW,zh;q=0.9,en;q=0.5' },
@@ -139,8 +139,11 @@ async function browserFetch(url) {
   const ctx = await browser.newContext({ locale: 'zh-TW', viewport: { width: 1280, height: 900 } });
   const page = await ctx.newPage();
   try {
-    const res = await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 }).catch(() => null);
-    await page.waitForTimeout(1500);
+    // domcontentloaded + a short settle beats networkidle here: bank sites keep
+    // analytics connections open and would otherwise hit the timeout every time.
+    const res = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25000 }).catch(() => null);
+    await page.waitForLoadState('networkidle', { timeout: 6000 }).catch(() => {});
+    await page.waitForTimeout(800);
     const html = await page.content();
     return { status: res ? res.status() : 0, html, finalUrl: page.url(), viaBrowser: true };
   } finally {

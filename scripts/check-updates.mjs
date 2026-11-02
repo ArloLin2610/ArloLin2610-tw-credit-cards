@@ -136,7 +136,7 @@ async function checkBank(bank) {
   }
 
   /* 2. each card's product page */
-  const queue = cards.filter((c) => c.status !== 'discontinued' && c.source_url);
+  const queue = cards.filter((c) => c.status !== 'discontinued' && !c.needs_review && c.source_url);
   for (const card of queue) {
     summary.cards_checked++;
     const page = await fetchPage(card.source_url);

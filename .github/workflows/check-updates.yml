@@ -45,6 +45,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          CHECK_CONCURRENCY: '5'
         run: |
           ARGS=""
           if [ -n "${{ inputs.bank }}" ]; then ARGS="$ARGS --bank ${{ inputs.bank }}"; fi
