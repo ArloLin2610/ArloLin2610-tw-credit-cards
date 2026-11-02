@@ -30,6 +30,9 @@ const SNAPSHOT_ONLY = args.has('--snapshot-only');
 const DRY = args.has('--dry-run');
 const USE_LLM = llm.hasLLM && !args.has('--no-llm') && !SNAPSHOT_ONLY;
 const CONCURRENCY = Number(process.env.CHECK_CONCURRENCY || 3);
+// Per-bank wall-clock budget; remaining pages are reported as errors once it is spent,
+// so one unresponsive bank cannot stall the whole run.
+const BANK_TIME_BUDGET_MS = Number(process.env.BANK_TIME_BUDGET_SEC || 420) * 1000;
 const TODAY = new Date().toISOString().slice(0, 10);
 
 const readJson = (p) => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
@@ -137,7 +140,13 @@ async function checkBank(bank) {
 
   /* 2. each card's product page */
   const queue = cards.filter((c) => c.status !== 'discontinued' && !c.needs_review && c.source_url);
+  const started = Date.now();
   for (const card of queue) {
+    if (Date.now() - started > BANK_TIME_BUDGET_MS) {
+      summary.errors++;
+      report.errors.push({ bank: bank.id, url: card.source_url, card_id: card.id, error: `skipped: bank time budget (${BANK_TIME_BUDGET_MS / 1000}s) exceeded` });
+      continue;
+    }
     summary.cards_checked++;
     const page = await fetchPage(card.source_url);
     const key = `card-${card.id}`;

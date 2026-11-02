@@ -203,6 +203,10 @@ export async function fetchPage(url, { allowBrowser = true } = {}) {
       r = b;
       parsed = htmlToText(b.html, b.finalUrl);
       viaBrowser = true;
+      hostFailures.set(host, 0);
+    } else {
+      // rendering did not help either → counts toward giving up on this host
+      hostFailures.set(host, (hostFailures.get(host) || 0) + 1);
     }
   }
   const ok = r.status >= 200 && r.status < 400 && parsed.text.length >= MIN_TEXT / 4;
