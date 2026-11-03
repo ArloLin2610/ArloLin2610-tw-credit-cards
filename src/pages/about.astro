@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { banks, siteStats } from '../lib/data';
+import BankLogo from '../components/BankLogo.astro';
 ---
 
 <Base title="關於與資料來源" description="卡比的資料怎麼來、怎麼更新，以及使用前該知道的事。">
@@ -25,7 +26,7 @@ import { banks, siteStats } from '../lib/data';
     <h2 class="mt-8 text-xl font-bold">收錄的銀行</h2>
     <ul class="mt-3 grid gap-x-6 gap-y-1 sm:grid-cols-2">
       {banks.map((b) => (
-        <li><a href={`/banks/${b.id}`} class="underline">{b.name}</a></li>
+        <li><a href={`/banks/${b.id}`} class="inline-flex items-center gap-2 underline"><BankLogo bank={b} size={24} />{b.name}</a></li>
       ))}
     </ul>
 

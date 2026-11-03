@@ -123,6 +123,7 @@ export function toSummary(card: Card): CardSummary {
     bank: card.bank,
     bankName: bank?.short_name ?? card.bank,
     bankColor: bank?.color ?? '#5b6663',
+    bankLogo: bank?.logo,
     name: card.name,
     networks: card.networks,
     rewardType: card.reward_type,

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import CardTile from '../../components/CardTile.astro';
+import BankLogo from '../../components/BankLogo.astro';
 import { cards, bankById, cardImage, bestReward, formatFee, cardsOfBank, cardsOfType } from '../../lib/data';
 import { NETWORK_LABEL, REWARD_TYPE_LABEL, STATUS_LABEL, TAG_LABEL } from '../../lib/types';
 
@@ -68,7 +69,7 @@ const jsonLd = {
       </div>
 
       <div>
-        <div class="text-sm text-ink-soft"><a href={`/banks/${bank.id}`} class="hover:underline">{bank.name}</a></div>
+        <a href={`/banks/${bank.id}`} class="inline-flex items-center gap-3 text-sm text-ink-soft hover:underline"><BankLogo bank={bank} size={32} />{bank.name}</a>
         <h1 class="mt-1 text-3xl font-black leading-tight tracking-tight md:text-4xl">{card.name}</h1>
         {card.name_en && <div class="mt-1 text-ink-soft">{card.name_en}</div>}
         <p class="mt-4 text-lg">{card.headline}</p>

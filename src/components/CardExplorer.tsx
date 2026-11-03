@@ -217,7 +217,10 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
                   </div>
                   <div className="mt-3 flex items-start justify-between gap-2">
                     <div className="min-w-0">
-                      <div className="text-xs text-ink-soft">{c.bankName}</div>
+                      <div className="flex items-center gap-1.5 text-xs text-ink-soft">
+                        {c.bankLogo && <img src={c.bankLogo} alt="" width={40} height={16} className="h-4 w-10 rounded-sm bg-white object-contain px-0.5" />}
+                        {c.bankName}
+                      </div>
                       <h3 className="truncate text-base font-bold leading-snug">{c.name}</h3>
                     </div>
                     <span className={`shrink-0 rounded-md px-2 py-0.5 text-xs font-semibold ${rewardClass}`}>{REWARD_TYPE_LABEL[c.rewardType]}</span>

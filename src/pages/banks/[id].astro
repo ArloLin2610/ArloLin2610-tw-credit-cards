@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import CardExplorer from '../../components/CardExplorer.tsx';
 import { banks, summaries } from '../../lib/data';
+import BankLogo from '../../components/BankLogo.astro';
 
 export function getStaticPaths() {
   return banks.map((bank) => ({ params: { id: bank.id }, props: { bank } }));
@@ -15,7 +16,7 @@ const active = list.filter((c) => c.status === 'active').length;
 <Base title={`${bank.short_name}信用卡總覽`} description={`${bank.name}目前 ${active} 張可申請的信用卡，回饋率、年費與卡圖一次比較。`}>
   <section class="mx-auto max-w-6xl px-4 pb-6 pt-10">
     <div class="flex items-center gap-4">
-      <span class="inline-block h-12 w-12 shrink-0 rounded-xl" style={`background:${bank.color}`} aria-hidden="true"></span>
+      <BankLogo bank={bank} size={56} />
       <div>
         <h1 class="text-3xl font-black tracking-tight md:text-4xl">{bank.short_name}信用卡</h1>
         <p class="text-sm text-ink-soft">{bank.name}{bank.name_en ? `・${bank.name_en}` : ''}</p>

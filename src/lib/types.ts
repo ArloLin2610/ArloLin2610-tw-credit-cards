@@ -91,6 +91,7 @@ export interface CardSummary {
   bank: string;
   bankName: string;
   bankColor: string;
+  bankLogo?: string;
   name: string;
   networks: Network[];
   rewardType: RewardType;

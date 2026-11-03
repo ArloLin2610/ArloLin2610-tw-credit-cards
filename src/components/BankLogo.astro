@@ -1,0 +1,29 @@
+---
+import type { Bank } from '../lib/types';
+
+interface Props {
+  bank: Bank;
+  /** Height of the logo box in px. */
+  size?: number;
+  class?: string;
+}
+const { bank, size = 40, class: cls = '' } = Astro.props;
+// Logos are always shown on a light chip so dark text/colour marks read in dark mode too.
+---
+
+{bank.logo ? (
+  <span
+    class:list={['inline-flex shrink-0 items-center justify-center overflow-hidden rounded-lg border border-line bg-white', cls]}
+    style={`height:${size}px;width:${Math.round(size * 2.4)}px;padding:${Math.round(size * 0.12)}px`}
+  >
+    <img src={bank.logo} alt={`${bank.short_name} 標誌`} loading="lazy" decoding="async" style="max-height:100%;max-width:100%;object-fit:contain" />
+  </span>
+) : (
+  <span
+    class:list={['inline-flex shrink-0 items-center justify-center rounded-lg font-bold text-white', cls]}
+    style={`height:${size}px;width:${Math.round(size * 2.4)}px;background:${bank.color};font-size:${Math.round(size * 0.34)}px`}
+    aria-label={bank.short_name}
+  >
+    {bank.short_name}
+  </span>
+)}
