@@ -13,8 +13,8 @@ const { bank, size = 40, class: cls = '' } = Astro.props;
 
 {bank.logo ? (
   <span
-    class:list={['inline-flex shrink-0 items-center justify-center overflow-hidden rounded-lg border border-line bg-white', cls]}
-    style={`height:${size}px;width:${Math.round(size * 2.4)}px;padding:${Math.round(size * 0.12)}px`}
+    class:list={['inline-flex shrink-0 items-center justify-center overflow-hidden rounded-lg border border-line', cls]}
+    style={`height:${size}px;width:${Math.round(size * 2.4)}px;padding:${Math.round(size * 0.12)}px;background:${bank.logo_bg ?? '#fff'}`}
   >
     <img src={bank.logo} alt={`${bank.short_name} 標誌`} loading="lazy" decoding="async" style="max-height:100%;max-width:100%;object-fit:contain" />
   </span>

@@ -20,7 +20,21 @@ const ONLY = bi >= 0 ? process.argv[bi + 1] : null;
 const UA = 'tw-credit-cards-updater/1.0 (+https://github.com/ArloLin2610/ArloLin2610-tw-credit-cards; downloads official issuer logos for a comparison site)';
 
 /** Explicit official logo URLs (used before heuristics). */
-const LOGO_OVERRIDES = {};
+const LOGO_OVERRIDES = {
+  cathay: 'https://www.cathay-cube.com.tw/content/dam/cub-aem-cs/Image/Common/cub-icons/logo.svg',
+  ctbc: 'https://www.ctbcbank.com/content/dam/twrbo/ctbc-web_mix/images/components/header/logo-lg-3x.png',
+  esun: 'https://www.esunbank.com/bank/rwd/images/header/logo.svg',
+  taishin: 'https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts_FB.png',
+  fubon: 'https://www.fubon.com/banking/common_content/images/logo.png',
+  union: 'https://activity.ubot.com.tw/eCardWeb/images/img/UBOT_logo_180x26.png',
+  sinopac: 'https://bank.sinopac.com/sinopacBT/resources/images/m_logo.png',
+  tcb: 'https://www.tcb-bank.com.tw/-/media/images/bank/layout/logo/logo-gn.svg',
+  chb: 'https://www.bankchb.com/frontend/img/CHB-pic(35).png',
+  hsbc: 'https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/13608-hsbc-masterbrand-tc-logo.png',
+  scsb: 'https://www.scsb.com.tw/content/images/logo_sb.svg',
+  rakuten: 'https://image.card.tw.r10s.com/images/common/logo/ttl_rc_c.gif',
+  amex: 'https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-bluebox-solid.svg',
+};
 
 let sharp = null;
 try {

@@ -6,22 +6,62 @@
   "items": {
     "type": "object",
     "additionalProperties": false,
-    "required": ["id", "name", "short_name", "website", "cards_index_url", "color"],
+    "required": [
+      "id",
+      "name",
+      "short_name",
+      "website",
+      "cards_index_url",
+      "color"
+    ],
     "properties": {
-      "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
-      "name": { "type": "string", "description": "Full name, e.g. 國泰世華商業銀行" },
-      "short_name": { "type": "string", "description": "Short display name, e.g. 國泰世華" },
-      "name_en": { "type": "string" },
-      "website": { "type": "string", "format": "uri" },
-      "cards_index_url": { "type": "string", "format": "uri", "description": "Official page listing all credit cards; watched by the updater" },
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "description": "Full name, e.g. 國泰世華商業銀行"
+      },
+      "short_name": {
+        "type": "string",
+        "description": "Short display name, e.g. 國泰世華"
+      },
+      "name_en": {
+        "type": "string"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri"
+      },
+      "cards_index_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official page listing all credit cards; watched by the updater"
+      },
       "watch_urls": {
         "type": "array",
-        "items": { "type": "string", "format": "uri" },
+        "items": {
+          "type": "string",
+          "format": "uri"
+        },
         "description": "Additional pages to watch (e.g. 停發/停止申請公告, 權益變更公告)"
       },
-      "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
-      "logo": { "type": "string" },
-      "notes": { "type": "string" }
+      "color": {
+        "type": "string",
+        "pattern": "^#[0-9a-fA-F]{6}$"
+      },
+      "logo": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      },
+      "logo_bg": {
+        "type": "string",
+        "pattern": "^#[0-9a-fA-F]{6}$",
+        "description": "Background colour for the logo chip when the official logo is white-on-transparent"
+      }
     }
   }
 }

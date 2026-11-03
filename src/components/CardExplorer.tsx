@@ -218,7 +218,7 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
                   <div className="mt-3 flex items-start justify-between gap-2">
                     <div className="min-w-0">
                       <div className="flex items-center gap-1.5 text-xs text-ink-soft">
-                        {c.bankLogo && <img src={c.bankLogo} alt="" width={40} height={16} className="h-4 w-10 rounded-sm bg-white object-contain px-0.5" />}
+                        {c.bankLogo && <img src={c.bankLogo} alt="" width={40} height={16} className="h-4 w-10 rounded-sm object-contain px-0.5" style={{ background: c.bankLogoBg ?? '#fff' }} />}
                         {c.bankName}
                       </div>
                       <h3 className="truncate text-base font-bold leading-snug">{c.name}</h3>

@@ -72,6 +72,7 @@ export interface Bank {
   watch_urls?: string[];
   color: string;
   logo?: string;
+  logo_bg?: string;
   notes?: string;
 }
 
@@ -92,6 +93,7 @@ export interface CardSummary {
   bankName: string;
   bankColor: string;
   bankLogo?: string;
+  bankLogoBg?: string;
   name: string;
   networks: Network[];
   rewardType: RewardType;

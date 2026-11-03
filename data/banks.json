@@ -6,7 +6,8 @@
     "name_en": "Cathay United Bank",
     "website": "https://www.cathaybk.com.tw/",
     "cards_index_url": "https://www.cathay-cube.com.tw/cathaybk/personal/product/credit-card/cards",
-    "color": "#0A7D4B"
+    "color": "#0A7D4B",
+    "logo": "/logos/cathay.svg"
   },
   {
     "id": "ctbc",
@@ -15,7 +16,8 @@
     "name_en": "CTBC Bank",
     "website": "https://www.ctbcbank.com/",
     "cards_index_url": "https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_cards.html",
-    "color": "#007A4D"
+    "color": "#007A4D",
+    "logo": "/logos/ctbc.png"
   },
   {
     "id": "esun",
@@ -49,7 +51,8 @@
     "name_en": "Taipei Fubon Bank",
     "website": "https://www.fubon.com/banking/",
     "cards_index_url": "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
-    "color": "#0066B3"
+    "color": "#0066B3",
+    "logo": "/logos/fubon.png"
   },
   {
     "id": "union",
@@ -58,7 +61,8 @@
     "name_en": "Union Bank of Taiwan",
     "website": "https://www.ubot.com.tw/",
     "cards_index_url": "https://card.ubot.com.tw/Card",
-    "color": "#0057A8"
+    "color": "#0057A8",
+    "logo": "/logos/union.png"
   },
   {
     "id": "dbs",
@@ -77,7 +81,8 @@
     "name_en": "Bank SinoPac",
     "website": "https://bank.sinopac.com/",
     "cards_index_url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
-    "color": "#1C6A3C"
+    "color": "#1C6A3C",
+    "logo": "/logos/sinopac.png"
   },
   {
     "id": "mega",
@@ -130,7 +135,8 @@
     "name_en": "Chang Hwa Bank",
     "website": "https://www.bankchb.com/",
     "cards_index_url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=f0f6e5d215",
-    "color": "#0D5CAB"
+    "color": "#0D5CAB",
+    "logo": "/logos/chb.png"
   },
   {
     "id": "feib",
@@ -143,7 +149,8 @@
     "watch_urls": [
       "https://www.feib.com.tw/introduce/cardInfo?type=2"
     ],
-    "logo": "/logos/feib.svg"
+    "logo": "/logos/feib.svg",
+    "logo_bg": "#B5121B"
   },
   {
     "id": "hsbc",
@@ -172,7 +179,8 @@
     "name_en": "Shanghai Commercial & Savings Bank",
     "website": "https://www.scsb.com.tw/",
     "cards_index_url": "https://www.scsb.com.tw/content/card/card03.html",
-    "color": "#1B3F8F"
+    "color": "#1B3F8F",
+    "logo": "/logos/scsb.svg"
   },
   {
     "id": "skbank",
@@ -205,6 +213,7 @@
     "watch_urls": [
       "https://www.americanexpress.com/taiwan/aboutamex.shtml"
     ],
-    "color": "#006FCF"
+    "color": "#006FCF",
+    "logo": "/logos/amex.svg"
   }
 ]
