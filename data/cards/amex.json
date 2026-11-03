@@ -1,0 +1,343 @@
+[
+  {
+    "id": "amex-platinum-charge",
+    "bank": "amex",
+    "name": "美國運通簽帳白金卡",
+    "name_en": "The Platinum Card (American Express Taiwan)",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 36800,
+      "waiver": "年費 NT$36,800（含一張主卡及兩張附屬卡；第三張以上附屬卡每張年費 NT$3,000，每帳戶至多四張附屬卡），官網未列免年費條件",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "dining", "insurance", "new-cardholder"],
+    "headline": "無限次 Centurion Lounge 與全球 1,500 間貴賓室，每 NT$30 累積 1 積分",
+    "rewards": [
+      {
+        "label": "一般消費（會員酬賓積分）",
+        "rate": "NT$30 = 1 積分",
+        "cap": "無上限",
+        "conditions": "積分持卡期間皆可使用；可兌換商品、折抵刷卡金，或 1:1 轉換五大航空公司哩程"
+      },
+      {
+        "label": "白金美饌刷卡金（指定餐廳）",
+        "rate": "年度最高 NT$10,000 刷卡金",
+        "cap": "全台指定餐廳與海外指定餐廳各最高 NT$5,000，分上下半年各 NT$2,500",
+        "conditions": "需先於活動網站登錄，登錄後之消費始計算",
+        "valid_until": "2026-12-31"
+      }
+    ],
+    "highlights": [
+      "簽帳卡（Charge Card），無預設信用額度；年費 NT$36,800 含兩張附屬卡",
+      "免費無限次使用 The Centurion Lounge、環亞及 Priority Pass 等全球超過 1,500 間機場貴賓室，主附卡皆可攜兩位同行",
+      "全年最多四次限定區域免費國際機場接或送機；全年不限次數、天數國際機場免費停車",
+      "全球 1,800 家精選酒店住房優惠：每日雙人早餐、下午 4 點延遲退房、免費客房升等；萬豪等國際酒店集團金卡會籍",
+      "國內約 30 家五星飯店餐廳二人以上同行一人免費、精選米其林餐廳 85 折；五星酒店住宿一晚 NT$3,300 起",
+      "新申辦首刷禮 2 選 1：最高 NT$25,000 刷卡金（首刷 15,000 + 滿額 10,000）或最高 60,000 會員酬賓積分，至 2027-03-31",
+      "365 天 24 小時旅遊生活顧問、全球緊急事務及法律醫療支援、國內道路救援"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/chargeplat?ats_sourcecode=A0000HVFRR",
+    "source_url": "https://www.americanexpress.com/zh-tw/charge-cards/plat/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/plat.png",
+    "promo_until": "2027-03-31",
+    "last_verified": "2026-11-01",
+    "notes": "簽帳卡（非循環信用）。積分為美國運通「會員酬賓」積分，官網僅載 NT$30 = 1 積分與 1:1 轉哩，未載折抵刷卡金之百分比，故未填 rate_value。首刷禮：核卡後三個月內任刷一筆並繳年費得 NT$15,000 刷卡金或 50,000 積分；首三個月消費滿 NT$15 萬另得 NT$10,000 刷卡金或 10,000 積分（兩年內曾持有簽帳白金卡者不適用）。白金美饌刷卡金活動至 2026-12-31。權益總引：https://www.americanexpress.com/taiwan/ewp_platinumcharge/ ；白金卡專屬網站 https://www.americanexpress.com/tw/platinum/"
+  },
+  {
+    "id": "amex-eva-platinum-charge",
+    "bank": "amex",
+    "name": "美國運通長榮航空簽帳白金卡",
+    "name_en": "American Express EVA Air Platinum Card (charge card)",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 36800,
+      "waiver": "年費 NT$36,800（含 1 張主卡、2 張免費附屬卡），官網未列免年費條件",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["premium", "travel", "airport-lounge", "overseas", "co-branded", "insurance", "new-cardholder"],
+    "headline": "每 NT$25 累積 1 哩，海外與長榮機票加碼 50%，新戶首刷 60,000 哩",
+    "rewards": [
+      {
+        "label": "一般消費（長榮航空哩程）",
+        "rate": "NT$25 = 1 哩",
+        "rate_value": 25,
+        "cap": "官網未載上限",
+        "conditions": "哩程直接累積至長榮航空「無限萬哩遊」帳戶"
+      },
+      {
+        "label": "海外消費、長榮航空機票、長榮假期",
+        "rate": "NT$25 = 1 哩再加碼 50%（約 NT$16.7 = 1 哩）",
+        "rate_value": 16.67,
+        "cap": "官網未載上限",
+        "conditions": "官網載明「再享哩程加碼 50% 回饋」；16.7 為換算值"
+      }
+    ],
+    "highlights": [
+      "簽帳卡（Charge Card），無預設信用額度；年費 NT$36,800 含 2 張免費附屬卡",
+      "新申辦不限金額首刷享 60,000 長榮航空哩程（至 2027-03-31，需繳年費；兩年內曾持有簽帳白金卡者不適用）",
+      "前一年度一般消費滿 NT$120 萬，續卡獲贈兩次長榮航空不限艙等單段升等（2027 起新戶改以年度轉哩 55,000 哩為門檻）",
+      "免費使用 The Centurion Lounge、長榮航空貴賓室、環亞及 Priority Pass 等全球超過 1,500 間機場貴賓室",
+      "全年不限次數國際機場停車，最多四次限定區域免費機場接或送機；生日當月搭長榮單段最高航段加贈 1 倍哩程",
+      "全球 1,800 間精選酒店住房優惠（雙人早餐、下午 4 點退房、客房升等）、萬豪等國際酒店集團貴賓會籍",
+      "365 天 24 小時旅遊生活顧問、高額全程旅遊保障、國內道路救援"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/evachargeplat?ats_sourcecode=A0000HYRTX",
+    "source_url": "https://www.americanexpress.com/zh-tw/charge-cards/eva-plat/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/eva-plat.png",
+    "promo_until": "2027-03-31",
+    "last_verified": "2026-11-01",
+    "notes": "簽帳卡。產品頁僅載「消費每滿 NT$25 可得 1 哩，海外消費、長榮機票及長榮假期再享哩程加碼 50%」，未載每月上限；16.67 為 25 ÷ 1.5 換算，非官網原文。官網注意事項提到自 2027/1/1 新申辦者續卡升等禮改以「由主卡帳戶轉哩至無限萬哩遊累計 55,000 哩」計算，暗示 2027 年起累積方式可能改為積分轉哩，請於 2027 年初重新查核。權益總引 PDF：https://www.americanexpress.com/content/dam/amex/tw/TaiwanWP/rcp_eva_platinum_wp.pdf"
+  },
+  {
+    "id": "amex-gold-charge",
+    "bank": "amex",
+    "name": "美國運通耀金卡",
+    "name_en": "American Express Gold Card (charge card)",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 8500,
+      "waiver": "年費 NT$8,500，官網未列免年費條件",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["dining", "travel", "insurance", "new-cardholder"],
+    "headline": "五星飯店用餐 5 折起，星巴克／Uber Eats 等指定通路年度最高 NT$4,400 刷卡金",
+    "rewards": [
+      {
+        "label": "一般消費（會員酬賓積分）",
+        "rate": "NT$30 = 1 積分",
+        "cap": "無上限",
+        "conditions": "積分持卡期間皆可使用；可兌換商品、折抵刷卡金或轉換航空公司哩程"
+      },
+      {
+        "label": "指定通路刷卡金（星巴克、Uber Eats、Expedia、KLOOK）",
+        "rate": "年度最高 NT$4,400 刷卡金",
+        "cap": "年度最高 NT$4,400",
+        "conditions": "指定通路消費滿額回饋刷卡金，Uber Eats 與星巴克為月月回饋；各通路門檻依官網活動頁"
+      }
+    ],
+    "highlights": [
+      "簽帳卡（Charge Card），無預設信用額度；年費 NT$8,500",
+      "精選五星飯店餐廳不限平假日 2 人以上同行 1 人免費（用餐 5 折起）；精選餐廳用餐 85 折",
+      "國內優質飯店住宿一晚 NT$3,300、度假旅館連續住宿買一晚送一晚",
+      "全年不限次數、總計最高 20 天國際機場外圍免費停車",
+      "新申辦好禮 2 選 1：最高 NT$7,000 刷卡金（首刷 5,000 + 三個月內消費滿 6 萬再 2,000）或 20,000 會員酬賓積分，至 2027-03-31",
+      "最高 NT$1,500 萬公共運輸工具旅遊意外險、最高 NT$1,000 萬海外旅遊全程意外險（90 天）",
+      "24 小時全球支援服務、全球失卡零風險"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/goldcharge-refresh?ats_sourcecode=A0000HWNW4",
+    "source_url": "https://www.americanexpress.com/zh-tw/charge-cards/gold/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/chg_gold_dod_480x304.png",
+    "promo_until": "2027-03-31",
+    "last_verified": "2026-11-01",
+    "notes": "簽帳卡；官網頁面 meta 仍稱「美國運通簽帳金卡」，現行商品名為「美國運通耀金卡」。新申辦好禮僅適用未持有任何台灣美國運通主卡者。指定通路 NT$4,400 刷卡金之各通路門檻與期間在官網「看詳情」活動頁，本次未逐一查核。積分未載折抵百分比，故未填 rate_value。權益總引 PDF：https://www.americanexpress.com/content/dam/amex/tw/TaiwanWP/gold_wp.pdf"
+  },
+  {
+    "id": "amex-eva-gold-charge",
+    "bank": "amex",
+    "name": "美國運通長榮航空簽帳金卡",
+    "name_en": "American Express EVA Air Gold Card (charge card)",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 2500,
+      "waiver": "年費 NT$2,500（含 1 張主卡及 4 張免費附屬卡），官網未列免年費條件",
+      "effectively_free": false
+    },
+    "reward_type": "miles",
+    "tags": ["travel", "overseas", "co-branded", "insurance", "new-cardholder"],
+    "headline": "免登錄月月加碼：海外與長榮機票最優 NT$15 = 1 哩，國內 NT$20 = 1 哩",
+    "rewards": [
+      {
+        "label": "國內消費（每月首 2,000 哩）",
+        "rate": "NT$20 = 1 哩",
+        "rate_value": 20,
+        "cap": "每月首 2,000 哩享加碼，超過後以 NT$25 = 1 哩計",
+        "conditions": "免登錄；基本 NT$25 = 1 哩加碼 25%，加碼哩數最晚 14 週內回饋"
+      },
+      {
+        "label": "海外消費、長榮航空機票、長榮假期（每月首 2,000 哩）",
+        "rate": "NT$15 = 1 哩",
+        "rate_value": 15,
+        "cap": "每月首 2,000 哩享加碼，超過後以 NT$25 = 1 哩計",
+        "conditions": "免登錄；基本 NT$25 = 1 哩加碼 67%，海外消費以特約商店設立國家認定"
+      },
+      {
+        "label": "一般消費（基本哩數）",
+        "rate": "NT$25 = 1 哩",
+        "rate_value": 25,
+        "cap": "無上限",
+        "conditions": "單筆每滿 NT$25 得 1 哩，直接累積至長榮航空「無限萬哩遊」帳戶"
+      }
+    ],
+    "highlights": [
+      "簽帳卡（Charge Card），無預設信用額度；年費 NT$2,500 含 4 張免費附屬卡",
+      "新申辦核卡後三個月內不限金額首刷享 3,000 長榮航空哩程（至 2027-03-31，需繳年費）",
+      "前一年度簽帳消費達 NT$50 萬，繳交續卡年費即獲續卡禮 10,000 哩；生日當月搭長榮單段最高航段加贈 75% 哩程",
+      "以卡支付 80% 以上團費或全額國際機票，享每年最高 20 天免費機場停車；第二年起前一年消費達 30 萬享一年兩次限定區域免費機場接送",
+      "搭乘長榮航空可以每次 NT$300 優惠價不限次數使用長榮指定機場貴賓室",
+      "長榮航空官網／APP 購買長榮、立榮國際線機票指定艙等最優 9 折；機上免稅品 95 折",
+      "精選飯店住宿一晚 NT$3,300（含 2 客早餐）、度假飯店住一晚送一晚；全程旅遊保險、全球失卡零風險"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/evachargegold?ats_sourcecode=A0000HVFWA",
+    "source_url": "https://www.americanexpress.com/zh-tw/charge-cards/eva-gold/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/EVAGold_480x304.png",
+    "promo_until": "2027-03-31",
+    "last_verified": "2026-11-01",
+    "notes": "簽帳卡。NT$20／NT$15 = 1 哩為每月首 2,000 哩之加碼後最優值（官網：單筆每滿 NT$25 享 1 哩，國內加碼 25%、海外加碼 67%），超過 2,000 哩後回到 NT$25 = 1 哩。機場貴賓室為付費 NT$300／次，非免費，故未加 airport-lounge 標籤。權益總引 PDF：https://www.americanexpress.com/content/dam/amex/tw/TaiwanWP/eva_gold_wp.pdf"
+  },
+  {
+    "id": "amex-platinum-credit",
+    "bank": "amex",
+    "name": "美國運通信用白金卡",
+    "name_en": "American Express Platinum Credit Card",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 8500,
+      "waiver": "年費 NT$8,500，官網未列免年費條件；續卡繳全額年費且前 12 個月消費達 30 萬／50 萬可獲 6,000／10,000 積分續卡禮",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["dining", "travel", "insurance"],
+    "headline": "五星飯店餐廳買一送一，NT$30 = 1 積分，續卡禮最優 NT$18.75 = 1 積分",
+    "rewards": [
+      {
+        "label": "一般消費（會員酬賓積分）",
+        "rate": "NT$30 = 1 積分",
+        "cap": "無上限",
+        "conditions": "積分持卡期間皆可使用；可兌換商品、折抵刷卡金或 1:1 轉換六大航空哩程、酒店獎勵計畫"
+      },
+      {
+        "label": "特選商店積分加倍",
+        "rate": "最高額外 7 積分",
+        "cap": "官網未載上限",
+        "conditions": "特選商店消費，詳官網當年度會員酬賓計劃"
+      },
+      {
+        "label": "續卡禮（年度消費 30 萬／50 萬）",
+        "rate": "額外 6,000／10,000 積分（最優 NT$18.75 = 1 積分）",
+        "cap": "每年一次",
+        "conditions": "年費產生月份前 12 個月累計消費達 NT$30 萬得 6,000 積分、達 NT$50 萬得 10,000 積分，並繳交次年全額續卡年費"
+      }
+    ],
+    "highlights": [
+      "信用卡（循環利率 9.99%～14.99%），非簽帳卡；年費 NT$8,500",
+      "約 20 間五星級飯店餐廳不分平假日 2 人以上同行 1 人免費（5 折起）；米其林及熱門餐廳 85 折",
+      "約 35 間精選星級飯店住宿一晚 NT$3,300 起（含 2 客早餐及服務費）；約 20 間度假酒店住一晚送一晚",
+      "支付當次出國團費或機票，享全年最高 20 天國際機場免費停車",
+      "積分 1:1 兌換六大航空哩程或全球知名酒店獎勵計畫",
+      "全球失卡零風險、24 小時全球支援服務、海外旅遊保障、免費道路救援"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/creditplat?ats_sourcecode=A0000HUUEY",
+    "source_url": "https://www.americanexpress.com/zh-tw/credit-cards/grcc-plat/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/grcc-plat.png",
+    "last_verified": "2026-11-01",
+    "notes": "信用卡（非簽帳卡）。卡片總覽頁未標示此卡有新申辦刷卡禮；產品頁注意事項仍留有 2023/7/1–9/30 之舊首刷禮條文（最高 NT$7,000 刷卡金或 20,000 積分），應視為過期，未列入。積分未載折抵百分比，故未填 rate_value。權益總引 PDF：https://www.americanexpress.com/content/dam/amex/tw/TaiwanWP/grcc_wp.pdf"
+  },
+  {
+    "id": "amex-regent-platinum-credit",
+    "bank": "amex",
+    "name": "美國運通晶華珍饌信用白金卡",
+    "name_en": "American Express Regent Taipei Platinum Credit Card",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 19800,
+      "waiver": "年費 NT$19,800，官網未列免年費條件；續卡繳全額年費且前 12 個月消費達 30 萬／50 萬可獲 6,000／10,000 積分續卡禮",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["co-branded", "dining", "travel", "insurance", "new-cardholder"],
+    "headline": "台北晶華 7 家餐廳不分平假日最優 5 折，晶華住宿一晚 NT$3,300 含雙人早餐",
+    "rewards": [
+      {
+        "label": "一般消費（會員酬賓積分）",
+        "rate": "NT$30 = 1 積分",
+        "cap": "無上限",
+        "conditions": "積分持卡期間皆可使用；可兌換商品、折抵刷卡金或 1:1 轉換六大航空哩程、酒店獎勵計畫"
+      },
+      {
+        "label": "特選商店積分加倍",
+        "rate": "最高額外 7 積分",
+        "cap": "官網未載上限",
+        "conditions": "特選商店消費，詳官網當年度會員酬賓計劃"
+      },
+      {
+        "label": "續卡禮（年度消費 30 萬／50 萬）",
+        "rate": "額外 6,000／10,000 積分（最優 NT$18.75 = 1 積分）",
+        "cap": "每年一次",
+        "conditions": "年費產生月份前 12 個月累計消費達 NT$30 萬得 6,000 積分、達 NT$50 萬得 10,000 積分，並繳交次年全額續卡年費"
+      }
+    ],
+    "highlights": [
+      "信用卡（循環利率 9.99%～14.99%），非簽帳卡；與台北晶華酒店聯名，年費 NT$19,800",
+      "全年不限平假日、不限次數，台北晶華旗下 7 家餐廳（三燔本家、栢麗廳、azie、Robin's 牛排屋等）用餐最優 5 折",
+      "台北晶華精緻客房每晚 NT$3,300（含兩客早餐與服務費，一年 10 次）；全台數十間五星飯店住宿 NT$3,300 起",
+      "多家五星飯店餐廳兩人用餐一人免費、米其林精選餐廳 85 折；頂級度假酒店住一晚送一晚",
+      "新申辦首刷禮「新會員優惠禮券」總價值 NT$8,000（核卡後三個月內任刷一筆並繳年費，至 2026-12-31）",
+      "免費道路救援、國際機場免費停車、全球失卡零風險、海外旅遊保障"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/regentplat?ats_sourcecode=A0000HTKT4",
+    "source_url": "https://www.americanexpress.com/zh-tw/credit-cards/regent-plat/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/regent-plat.png",
+    "promo_until": "2026-12-31",
+    "last_verified": "2026-11-01",
+    "notes": "信用卡（非簽帳卡），晶華酒店聯名。產品頁部分晶華住宿細則仍為 2022 年文字（雲天露台客房 NT$7,200／7,800、優惠至 2022-12-31），僅採用現行首刷禮條文（至 2026-12-31）與年費。首刷禮僅適用未持有任何台灣美國運通主卡者。積分未載折抵百分比，故未填 rate_value。權益總引 PDF：https://www.americanexpress.com/content/dam/amex/tw/TaiwanWP/regent_grcc_wp.pdf"
+  },
+  {
+    "id": "amex-green-charge",
+    "bank": "amex",
+    "name": "美國運通簽帳卡",
+    "name_en": "American Express Card (Green, charge card)",
+    "networks": ["amex"],
+    "levels": [],
+    "annual_fee": {
+      "amount": 1800,
+      "waiver": "年費 NT$1,800，官網未列免年費條件",
+      "effectively_free": false
+    },
+    "reward_type": "points",
+    "tags": ["dining", "travel", "insurance"],
+    "headline": "年費 NT$1,800 入門簽帳卡，NT$30 = 1 積分終身有效，精選餐廳 85 折",
+    "rewards": [
+      {
+        "label": "一般消費（會員酬賓積分）",
+        "rate": "NT$30 = 1 積分",
+        "cap": "無上限",
+        "conditions": "積分終身有效；可兌換各式好禮或折抵刷卡金"
+      }
+    ],
+    "highlights": [
+      "簽帳卡（Charge Card），無預設信用額度；美國運通台灣年費最低的個人卡（NT$1,800）",
+      "國內精選飯店餐廳與熱門餐廳用餐 85 折；國內優質飯店住宿優惠價",
+      "超市、網路購物滿額享紅利金／現金抵用券優惠",
+      "以卡簽付全額公共運輸工具費用或 80% 以上團費，享完善旅遊保障",
+      "24 小時免費全球支援服務國際熱線、全球失卡零風險、免費補發新卡"
+    ],
+    "requirements": "年滿 18 歲，中華民國國民或具外僑居留證，須提供財力證明",
+    "status": "active",
+    "apply_url": "https://www.americanexpress.com/zh-tw/credit-cards/apply/chargegreen?ats_sourcecode=A0000HTKT0",
+    "source_url": "https://www.americanexpress.com/zh-tw/charge-cards/green/",
+    "image_url": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/green.png",
+    "last_verified": "2026-11-01",
+    "notes": "簽帳卡。卡片總覽頁未標示新申辦刷卡禮。旅遊保障額度未載於產品頁（僅「完善的海外旅遊保障」），請查權益總引 PDF：https://www.americanexpress.com/content/dam/amex/tw/TaiwanWP/green_wp.pdf。積分未載折抵百分比，故未填 rate_value。"
+  }
+]

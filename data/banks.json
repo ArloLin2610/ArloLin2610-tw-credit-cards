@@ -182,5 +182,17 @@
     "website": "https://www.card.rakuten.com.tw/",
     "cards_index_url": "https://www.card.rakuten.com.tw/corp/product/",
     "color": "#BF0000"
+  },
+  {
+    "id": "amex",
+    "name": "台灣美國運通國際股份有限公司",
+    "short_name": "美國運通",
+    "name_en": "American Express Taiwan",
+    "website": "https://www.americanexpress.com/zh-tw/",
+    "cards_index_url": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+    "watch_urls": [
+      "https://www.americanexpress.com/taiwan/aboutamex.shtml"
+    ],
+    "color": "#006FCF"
   }
 ]
