@@ -150,12 +150,12 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
             onChange={(e) => setQ(e.target.value)}
             placeholder="搜尋卡名或銀行"
             aria-label="搜尋卡名或銀行"
-            className="ml-auto w-full rounded-full border border-line bg-white px-4 py-2 text-sm sm:w-56"
+            className="ml-auto w-full rounded-full border border-line bg-surface px-4 py-2 text-sm sm:w-56"
           />
         </div>
 
         {moreFilters && !fixedBank && (
-          <div className="flex flex-wrap gap-2 rounded-xl border border-line bg-white p-3" role="group" aria-label="銀行">
+          <div className="flex flex-wrap gap-2 rounded-xl border border-line bg-surface p-3" role="group" aria-label="銀行">
             {banks.map((b) => (
               <button key={b.id} type="button" className="chip" aria-pressed={bankSel.includes(b.id)} onClick={() => toggleBank(b.id)}>
                 {b.short_name}
@@ -186,7 +186,7 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
         </span>
         <label className="ml-auto flex items-center gap-2">
           排序
-          <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="rounded-md border border-line bg-white px-2 py-1">
+          <select value={sort} onChange={(e) => setSort(e.target.value as Sort)} className="rounded-md border border-line bg-surface px-2 py-1">
             <option value="featured">推薦</option>
             <option value="rate">最高回饋</option>
             <option value="fee">年費低到高</option>
@@ -197,7 +197,7 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
 
       {/* ---- grid ---- */}
       {filtered.length === 0 ? (
-        <div className="mt-8 rounded-xl border border-dashed border-line bg-white p-10 text-center text-ink-soft">
+        <div className="mt-8 rounded-xl border border-dashed border-line bg-surface p-10 text-center text-ink-soft">
           沒有符合所有條件的卡片。試著少選一個場景，或取消「免年費」。
         </div>
       ) : (
@@ -255,7 +255,7 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
 
       {/* ---- compare bar ---- */}
       {compareCards.length > 0 && (
-        <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-white/95 backdrop-blur" role="region" aria-label="比較清單">
+        <div className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-surface/95 backdrop-blur" role="region" aria-label="比較清單">
           <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
             <ul className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
               {compareCards.map((c) => (

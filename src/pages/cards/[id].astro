@@ -74,17 +74,17 @@ const jsonLd = {
         <p class="mt-4 text-lg">{card.headline}</p>
 
         <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          <div class="rounded-xl border border-line bg-white p-4">
+          <div class="rounded-xl border border-line bg-surface p-4">
             <div class="text-xs text-ink-soft">主要回饋</div>
             <div class="mt-1 text-2xl font-black tracking-tight">{best?.rate}</div>
             <div class="text-xs text-ink-soft">{best?.label}</div>
           </div>
-          <div class="rounded-xl border border-line bg-white p-4">
+          <div class="rounded-xl border border-line bg-surface p-4">
             <div class="text-xs text-ink-soft">年費</div>
             <div class="mt-1 text-2xl font-black tracking-tight">{card.annual_fee.amount === 0 ? '免' : `NT$${card.annual_fee.amount.toLocaleString()}`}</div>
             <div class="text-xs text-ink-soft">{card.annual_fee.max_amount && card.annual_fee.max_amount !== card.annual_fee.amount ? `最高 NT$${card.annual_fee.max_amount.toLocaleString()}` : card.annual_fee.effectively_free && card.annual_fee.amount > 0 ? '達條件可免' : ''}</div>
           </div>
-          <div class="rounded-xl border border-line bg-white p-4">
+          <div class="rounded-xl border border-line bg-surface p-4">
             <div class="text-xs text-ink-soft">回饋類型</div>
             <div class:list={['mt-2 inline-block rounded-md px-2 py-1 text-sm font-semibold', rewardClass]}>{REWARD_TYPE_LABEL[card.reward_type]}</div>
           </div>

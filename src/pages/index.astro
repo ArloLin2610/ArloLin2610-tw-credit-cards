@@ -45,7 +45,7 @@ const recent = changelog.slice(0, 4);
         <h2 class="text-xl font-bold">最近更新</h2>
         <a href="/changelog" class="text-sm text-ink-soft underline">全部</a>
       </div>
-      <ul class="mt-3 divide-y divide-line rounded-xl border border-line bg-white">
+      <ul class="mt-3 divide-y divide-line rounded-xl border border-line bg-surface">
         {recent.map((e) => (
           <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-3 text-sm">
             <time class="text-ink-soft tabular-nums" datetime={e.date}>{e.date}</time>

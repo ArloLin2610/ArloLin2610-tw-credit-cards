@@ -17,12 +17,12 @@ for (const e of changelog) {
   </section>
   <section class="mx-auto max-w-3xl px-4 pb-24">
     {grouped.size === 0 ? (
-      <div class="rounded-xl border border-dashed border-line bg-white p-10 text-center text-ink-soft">還沒有更新紀錄。第一次自動核對完成後會出現在這裡。</div>
+      <div class="rounded-xl border border-dashed border-line bg-surface p-10 text-center text-ink-soft">還沒有更新紀錄。第一次自動核對完成後會出現在這裡。</div>
     ) : (
       [...grouped.entries()].map(([date, entries]) => (
         <div class="mb-8">
           <h2 class="text-sm font-semibold text-ink-soft tabular-nums">{date}</h2>
-          <ul class="mt-2 divide-y divide-line rounded-xl border border-line bg-white">
+          <ul class="mt-2 divide-y divide-line rounded-xl border border-line bg-surface">
             {entries.map((e) => (
               <li class="flex flex-wrap items-baseline gap-x-3 gap-y-1 px-4 py-3 text-sm">
                 <span class="rounded bg-paper-2 px-1.5 py-0.5 text-xs">{TYPE_LABEL[e.type]}</span>

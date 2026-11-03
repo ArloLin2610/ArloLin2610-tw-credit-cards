@@ -164,10 +164,10 @@ export default function CompareTable({ cards }: Props) {
           placeholder={chosen.length >= MAX ? `最多比較 ${MAX} 張，先移除一張` : '輸入卡名或銀行加入比較…'}
           disabled={chosen.length >= MAX}
           aria-label="加入卡片到比較"
-          className="w-full rounded-full border border-line bg-white px-4 py-2.5 text-sm"
+          className="w-full rounded-full border border-line bg-surface px-4 py-2.5 text-sm"
         />
         {candidates.length > 0 && (
-          <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-xl border border-line bg-white shadow-lift">
+          <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-xl border border-line bg-surface shadow-lift">
             {candidates.map((c) => (
               <li key={c.id}>
                 <button type="button" onClick={() => add(c.id)} className="flex w-full items-center gap-3 px-3 py-2 text-left text-sm hover:bg-paper-2">
@@ -182,7 +182,7 @@ export default function CompareTable({ cards }: Props) {
       </div>
 
       {chosen.length === 0 ? (
-        <div className="rounded-xl border border-dashed border-line bg-white p-12 text-center text-ink-soft">
+        <div className="rounded-xl border border-dashed border-line bg-surface p-12 text-center text-ink-soft">
           比較清單是空的。從<a href="/" className="mx-1 underline">首頁</a>把卡片加進來，或在上方搜尋。
         </div>
       ) : (
