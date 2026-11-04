@@ -15,9 +15,12 @@
     "short_name": "中國信託",
     "name_en": "CTBC Bank",
     "website": "https://www.ctbcbank.com/",
-    "cards_index_url": "https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_cards.html",
+    "cards_index_url": "https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html",
     "color": "#007A4D",
-    "logo": "/logos/ctbc.png"
+    "logo": "/logos/ctbc.png",
+    "watch_urls": [
+      "https://www.ctbcbank.com/web/content/twrbo/setting/creditcards.cardlist.json"
+    ]
   },
   {
     "id": "esun",
