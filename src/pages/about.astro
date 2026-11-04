@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { banks, siteStats } from '../lib/data';
+import { banks, siteStats, MILE_VALUE_TWD } from '../lib/data';
 import BankLogo from '../components/BankLogo.astro';
 ---
 
@@ -19,7 +19,8 @@ import BankLogo from '../components/BankLogo.astro';
     <ul class="mt-3 list-disc space-y-2 pl-5">
       <li>回饋活動通常有期限、登錄與上限條件，本站盡量標註，但仍以銀行官網當下公告為準。</li>
       <li>年費多半有免年費條件，頁面上的「可免」表示官網列有常見即可達成的免年費方式。</li>
-      <li>哩程卡的回饋以「每累積一哩需要多少元」表示，數字越小越好；不同航空哩程價值不同，請自行衡量。</li>
+      <li>哩程卡的回饋以「每累積一哩需要多少元」表示，數字越小越好。為了讓哩程卡能和現金回饋卡排在一起比較，本站以「1 哩約 NT${MILE_VALUE_TWD}」估算成約略的回饋百分比（標示為「≈」）；實際價值依兌換方式差異很大，請自行衡量。</li>
+      <li>標示「活動至」的回饋是限時活動，到期後銀行通常會公告新方案；到期前 45 天本站會以紅字提醒。</li>
       <li>本站不是銀行、不代辦申請、不收取任何銀行佣金；申請連結都直接導向銀行官網。</li>
     </ul>
 

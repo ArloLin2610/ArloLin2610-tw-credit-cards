@@ -21,6 +21,12 @@ interface Props {
 
 type Sort = 'featured' | 'rate' | 'fee' | 'bank';
 const COMPARE_KEY = 'twcards.compare';
+
+/** True when a YYYY-MM-DD date is within 45 days (or already past). */
+function isSoon(d: string): boolean {
+  const t = Date.parse(d);
+  return !Number.isNaN(t) && t - Date.now() < 45 * 86400000;
+}
 const MAX_COMPARE = 3;
 
 function readCompare(): string[] {
@@ -51,9 +57,46 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
   const [compare, setCompare] = useState<string[]>([]);
   const [moreFilters, setMoreFilters] = useState(false);
 
+  const [ready, setReady] = useState(false);
+
+  // Read filter presets from the URL (?type=cashback&tags=online-shopping,overseas&free=1&q=...)
   useEffect(() => {
     setCompare(readCompare());
+    try {
+      const sp = new URLSearchParams(window.location.search);
+      const t = sp.get('type');
+      if (!fixedType && (t === 'cashback' || t === 'miles' || t === 'points' || t === 'other')) setType(t);
+      const tg = sp.get('tags');
+      if (!fixedTag && tg) setTags(tg.split(',').filter((x): x is Tag => x in TAG_LABEL));
+      const bk = sp.get('banks');
+      if (!fixedBank && bk) setBankSel(bk.split(',').filter(Boolean));
+      if (sp.get('free') === '1') setFreeOnly(true);
+      if (sp.get('q')) setQ(sp.get('q') || '');
+      const so = sp.get('sort');
+      if (so === 'rate' || so === 'fee' || so === 'bank') setSort(so);
+    } catch {
+      /* ignore */
+    }
+    setReady(true);
   }, []);
+
+  // Keep the URL in sync so a filtered view can be shared.
+  useEffect(() => {
+    if (!ready) return;
+    try {
+      const url = new URL(window.location.href);
+      const set = (k: string, v: string | null) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
+      set('type', !fixedType && type !== 'all' ? type : null);
+      set('tags', !fixedTag && tags.length ? tags.join(',') : null);
+      set('banks', !fixedBank && bankSel.length ? bankSel.join(',') : null);
+      set('free', freeOnly ? '1' : null);
+      set('q', q.trim() || null);
+      set('sort', sort !== 'featured' ? sort : null);
+      window.history.replaceState(null, '', url);
+    } catch {
+      /* ignore */
+    }
+  }, [ready, type, tags, bankSel, freeOnly, q, sort]);
 
   const toggleTag = (t: Tag) => setTags((cur) => (cur.includes(t) ? cur.filter((x) => x !== t) : [...cur, t]));
   const toggleBank = (b: string) => setBankSel((cur) => (cur.includes(b) ? cur.filter((x) => x !== b) : [...cur, b]));
@@ -78,8 +121,8 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
     const typeOrder: Record<RewardType, number> = { cashback: 0, points: 1, miles: 2, other: 3 };
     switch (sort) {
       case 'rate':
-        // rates are only comparable within a reward type, so group by type first
-        list = list.slice().sort((a, b) => typeOrder[a.rewardType] - typeOrder[b.rewardType] || b.bestRateValue - a.bestRateValue);
+        // bestRateValue is % cash back, with miles converted by an assumed mile value (see /about)
+        list = list.slice().sort((a, b) => b.bestRateValue - a.bestRateValue || typeOrder[a.rewardType] - typeOrder[b.rewardType]);
         break;
       case 'fee':
         list = list.slice().sort((a, b) => a.annualFee - b.annualFee || b.bestRateValue - a.bestRateValue);
@@ -226,10 +269,16 @@ export default function CardExplorer({ cards, banks, fixedType, fixedTag, fixedB
                     <span className={`shrink-0 rounded-md px-2 py-0.5 text-xs font-semibold ${rewardClass}`}>{REWARD_TYPE_LABEL[c.rewardType]}</span>
                   </div>
                   <p className="mt-1 line-clamp-2 text-sm text-ink-soft">{c.headline}</p>
-                  <div className="mt-3 flex items-baseline justify-between">
-                    <span className="text-2xl font-black tracking-tight">{c.bestRate}</span>
+                  <div className="mt-3 flex items-baseline justify-between gap-2">
+                    <span className="text-2xl font-black tracking-tight">
+                      {c.bestRate}
+                      {c.bestRateEquiv && <span className="ml-1.5 text-xs font-medium text-ink-soft" title="以 1 哩約 NT$0.3 估算">≈{c.bestRateEquiv}</span>}
+                    </span>
                     <span className="text-xs text-ink-soft">{c.effectivelyFree ? '免年費' : `年費 NT$${c.annualFee.toLocaleString()}`}</span>
                   </div>
+                  {c.promoEnds && (
+                    <div className={`mt-1 text-xs ${isSoon(c.promoEnds) ? 'font-semibold text-danger' : 'text-ink-soft'}`}>活動至 {c.promoEnds}</div>
+                  )}
                 </a>
                 <div className="mt-3 flex items-center justify-between gap-2">
                   <div className="flex flex-wrap gap-1">

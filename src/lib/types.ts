@@ -101,6 +101,10 @@ export interface CardSummary {
   headline: string;
   bestRate: string;
   bestRateValue: number;
+  /** miles cards only: approximate cash-back equivalent text, e.g. 約 2% */
+  bestRateEquiv?: string;
+  /** featured reward's end date if time-limited */
+  promoEnds?: string;
   annualFee: number;
   effectivelyFree: boolean;
   status: CardStatus;

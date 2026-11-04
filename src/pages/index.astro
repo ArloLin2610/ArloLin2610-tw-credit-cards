@@ -11,6 +11,15 @@ const counts = {
   points: summaries.filter((c) => c.rewardType === 'points' && c.status === 'active').length,
 };
 const recent = changelog.slice(0, 4);
+
+// Scenario entry points: each is a preset of the explorer below (query string) or a category page.
+const scenes = [
+  { href: '/?tags=online-shopping&sort=rate#cards', title: '我常網購', desc: 'momo、蝦皮、PChome 刷哪張最划算', count: summaries.filter((c) => c.status === 'active' && c.tags.includes('online-shopping')).length },
+  { href: '/?tags=overseas&sort=rate#cards', title: '我要出國玩', desc: '海外消費回饋高、免手續費陷阱', count: summaries.filter((c) => c.status === 'active' && c.tags.includes('overseas')).length },
+  { href: '/category/miles', title: '我想換機票', desc: '哩程卡，看每哩要花多少錢', count: counts.miles },
+  { href: '/?tags=mobile-payment&sort=rate#cards', title: '我都用手機付款', desc: 'LINE Pay、街口、Apple Pay 加碼', count: summaries.filter((c) => c.status === 'active' && c.tags.includes('mobile-payment')).length },
+  { href: '/?free=1&tags=new-cardholder&sort=rate#cards', title: '第一張卡', desc: '免年費、有新戶禮、門檻低', count: summaries.filter((c) => c.status === 'active' && c.effectivelyFree && c.tags.includes('new-cardholder')).length },
+];
 ---
 
 <Base title="卡比">
@@ -35,7 +44,21 @@ const recent = changelog.slice(0, 4);
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-4 pb-24">
+  <section class="mx-auto max-w-6xl px-4 pb-10" aria-label="依情境挑卡">
+    <ul class="grid grid-cols-2 gap-3 md:grid-cols-5">
+      {scenes.map((s) => (
+        <li>
+          <a href={s.href} class="tile flex h-full flex-col p-4">
+            <span class="text-base font-bold">{s.title}</span>
+            <span class="mt-1 text-xs text-ink-soft">{s.desc}</span>
+            <span class="mt-auto pt-3 text-xs text-ink-soft tabular-nums">{s.count} 張</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="cards" class="mx-auto max-w-6xl scroll-mt-20 px-4 pb-24">
     <CardExplorer client:load cards={summaries} banks={bankOpts} showHero />
   </section>
 

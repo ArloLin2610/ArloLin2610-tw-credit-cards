@@ -107,12 +107,40 @@ export function bestReward(card: Card) {
   return withValue.reduce((a, b) => (b.rate_value! > a.rate_value! ? b : a));
 }
 
-/** Comparable "goodness" score: higher is better regardless of reward type. */
+/**
+ * Assumed cash value of one airline mile, in TWD, used only to give miles cards an
+ * approximate "% cash-back equivalent" so they can sit next to cash-back cards.
+ * Typical redemptions of 亞洲萬里通／長榮／華航 miles land around NT$0.25–0.40 per mile;
+ * 0.3 is a middle-of-the-road assumption and is always labelled as an estimate on the site.
+ */
+export const MILE_VALUE_TWD = 0.3;
+
+/** Approximate cash-back % for a miles rate given as TWD-per-mile. */
+export function milesToPercent(twdPerMile: number): number {
+  return twdPerMile > 0 ? (MILE_VALUE_TWD / twdPerMile) * 100 : 0;
+}
+
+/** Comparable "goodness" score (≈ % cash back) regardless of reward type. */
 export function rateScore(card: Card): number {
   const r = bestReward(card);
   if (!r || typeof r.rate_value !== 'number') return 0;
-  if (card.reward_type === 'miles') return r.rate_value > 0 ? 100 / r.rate_value : 0; // 100 / TWD-per-mile
+  if (card.reward_type === 'miles') return milesToPercent(r.rate_value);
   return r.rate_value;
+}
+
+/** For miles cards: "約 2% 回饋" text for the featured reward, else undefined. */
+export function milesEquivalent(card: Card): string | undefined {
+  if (card.reward_type !== 'miles') return undefined;
+  const r = bestReward(card);
+  if (!r || typeof r.rate_value !== 'number' || r.rate_value <= 0) return undefined;
+  const pct = milesToPercent(r.rate_value);
+  return `約 ${pct >= 10 ? pct.toFixed(0) : pct.toFixed(1)}%`;
+}
+
+/** The featured reward's promo end date (YYYY-MM-DD), if it is time-limited. */
+export function promoEnds(card: Card): string | undefined {
+  const r = bestReward(card);
+  return r?.valid_until ?? card.promo_until;
 }
 
 export function toSummary(card: Card): CardSummary {
@@ -132,6 +160,8 @@ export function toSummary(card: Card): CardSummary {
     headline: card.headline,
     bestRate: best?.rate ?? '',
     bestRateValue: rateScore(card),
+    bestRateEquiv: milesEquivalent(card),
+    promoEnds: promoEnds(card),
     annualFee: card.annual_fee.amount,
     effectivelyFree: Boolean(card.annual_fee.effectively_free || card.annual_fee.amount === 0),
     status: card.status,

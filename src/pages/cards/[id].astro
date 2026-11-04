@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import CardTile from '../../components/CardTile.astro';
 import BankLogo from '../../components/BankLogo.astro';
-import { cards, bankById, cardImage, bestReward, formatFee, cardsOfBank, cardsOfType } from '../../lib/data';
+import { cards, bankById, cardImage, bestReward, formatFee, cardsOfBank, cardsOfType, milesEquivalent, promoEnds, MILE_VALUE_TWD } from '../../lib/data';
 import { NETWORK_LABEL, REWARD_TYPE_LABEL, STATUS_LABEL, TAG_LABEL } from '../../lib/types';
 
 export function getStaticPaths() {
@@ -15,6 +15,10 @@ const img = cardImage(card);
 const best = bestReward(card);
 const rewardClass = `reward-${card.reward_type === 'cashback' ? 'cash' : card.reward_type}`;
 const inactive = card.status !== 'active';
+const equiv = milesEquivalent(card);
+const ends = promoEnds(card);
+const endsSoon = ends ? Date.parse(ends) - Date.now() < 45 * 86400000 : false;
+const anyPromo = card.rewards.some((r) => r.valid_until) || card.promo_until;
 const related = [
   ...cardsOfType(card.reward_type).filter((c) => c.id !== card.id && c.bank !== card.bank && c.status === 'active'),
 ].slice(0, 3);
@@ -50,6 +54,12 @@ const jsonLd = {
       </div>
     )}
 
+    {anyPromo && (
+      <div class:list={['mb-6 rounded-xl border px-4 py-3 text-sm', endsSoon ? 'border-danger/30 bg-danger-soft text-danger' : 'border-line bg-surface text-ink-soft']}>
+        {endsSoon ? <strong>主要回饋活動即將到期（{ends}）。</strong> : <strong>這張卡的回饋含限時活動。</strong>}
+        活動結束後回饋可能調整，申請前請以{bank.short_name}官網當下公告為準。
+      </div>
+    )}
     <div class="grid gap-8 md:grid-cols-[minmax(0,420px)_1fr] md:gap-12">
       <div>
         <div class="card-face">
@@ -79,6 +89,8 @@ const jsonLd = {
             <div class="text-xs text-ink-soft">主要回饋</div>
             <div class="mt-1 text-2xl font-black tracking-tight">{best?.rate}</div>
             <div class="text-xs text-ink-soft">{best?.label}</div>
+            {equiv && <div class="mt-1 text-xs text-ink-soft">≈ {equiv} 回饋（以 1 哩約 NT${MILE_VALUE_TWD} 估算）</div>}
+            {ends && <div class:list={['mt-1 text-xs', endsSoon ? 'font-semibold text-danger' : 'text-ink-soft']}>活動至 {ends}</div>}
           </div>
           <div class="rounded-xl border border-line bg-surface p-4">
             <div class="text-xs text-ink-soft">年費</div>
@@ -103,7 +115,7 @@ const jsonLd = {
                     {r.cap && <span class="text-sm text-ink-soft">{r.cap}</span>}
                   </div>
                   {r.conditions && <div class="mt-1 text-sm text-ink-soft">{r.conditions}</div>}
-                  {r.valid_until && <div class="mt-1 text-xs text-ink-soft">活動至 {r.valid_until}</div>}
+                  {r.valid_until && <div class:list={['mt-1 text-xs', Date.parse(r.valid_until) - Date.now() < 45 * 86400000 ? 'font-semibold text-danger' : 'text-ink-soft']}>活動至 {r.valid_until}</div>}
                 </td>
               </tr>
             ))}
