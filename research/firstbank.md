@@ -1,44 +1,38 @@
-# 第一銀行 (firstbank) — research notes (verified 2026-11-02)
+# 第一銀行 (firstbank) — research notes (rewritten from the live site 2026-11-03)
 
 ## Official card list
-- `https://card.firstbank.com.tw/` (banks.json value) is the card site home; the list page is
-  `https://card.firstbank.com.tw/sites/card/CreditCardList` with category pages 熱門卡片 `/sites/card/1565690685614`
-  and 頂級卡 `/sites/card/1565690685480`.
-- **Blocker**: every page on card.firstbank.com.tw (Oracle WebCenter Sites; detail URLs look like
-  `/sites/card/zh_TW/<cid>` or `/sites/Satellite?c=CreditCard&cid=...&pagename=FirstBankCard/CreditCard/zh/CreditCardDetailView`)
-  returns only the ~42–46K-character navigation shell; product content is XHR-loaded and never appears in the fetched
-  HTML. curl gets the bank's WAF block page (403 / "操作行為疑似不符網站要求"). The Chrome extension was not connected.
-- Sources actually used (all official):
-  1. 信用卡循環信用利率及各項費用收費標準 PDF `https://www.firstbank.com.tw/sites/fcb/files/1565684562677` — complete
-     annual-fee table and the current product list (GLORY+世界卡, 義享天地聯名世界卡/鈦金卡, 鈦金/御璽/白金商旅卡, 雙幣卡,
-     媚儷鈦金卡, 菁英御璽卡, 綠活卡, 里仁御璽聯名卡, 星璨卡, 宜蘭認同卡, iLEO信用卡, 晶緻/御璽/鈦金/白金/金/普卡,
-     一卡通聯名卡, 桃園市市民卡聯名卡/桃園市認同卡 (free for life), 公司卡).
-  2. 2026 信用卡權益手冊 PDF `https://www.firstbank.com.tw/sites/fcb/files/1565683022506` — per-tier insurance,
-     road rescue, airport parking, purchase protection.
-  3. English card intro page `https://www.firstbank.com.tw/sites/fcb/1565688843684` (server-rendered) — Wonderful
-     2%/0.5%, iPass 1%, card images for 綠活/宜蘭/一卡通/icash/悠遊/里仁.
-  4. Official iLEO campaign site `https://webar.firstbank.com.tw/c000000671/index.html` (2026.7.1–12.31); its content
-     was read from the site's own publish JSON (`/api/weba/v3/site/publish/c000000671`).
-- Captured 13 cards. Not captured (no reward data obtainable beyond fees): 媚儷鈦金卡, 菁英御璽卡, 晶緻卡/御璽卡/鈦金卡/
-  白金卡/金卡/普卡 generic tiers. The "LEO 卡" named by the coordinator was not found; the product is iLEO信用卡.
-- No 停止申請/停發 notice found on any reachable official page; all captured cards are `active` because they appear in
-  the 2026 fee schedule. Note: the fee schedule does not list icash聯名卡 / 悠遊聯名卡 separately — they may have been
-  folded into a tier or retired; verify before publishing.
+- Index page confirmed: `https://card.firstbank.com.tw/sites/card/CreditCardList` (「信用卡一覽/支付」). Read in the Claude
+  desktop app's built-in browser; each tile is `.card-item` with a background-image card face, a 詳細內容 link
+  (`/sites/card/zh_TW/<cid>`) and usually a 立即申辦 link.
+- The list shows 36 tiles. Captured all **26 consumer credit cards**; skipped 公司鈦金商旅卡, 公司御璽商旅卡 (corporate),
+  iLEO VISA 金融卡 / VISA金融卡 / 悠遊Debit卡 (debit) and the 台灣Pay / Apple Pay / Google Pay / Samsung Pay / HCE tiles.
+- Every detail page has tabs 卡片優惠 (`#hot_activity_content`), 權益服務, 申辦及年費 (`#card_fee_content`), 推薦活動,
+  更多優惠 (`#card_landing_content`, which links the card network's promo page — used to confirm networks). Content is
+  XHR-rendered, so WebFetch/curl still only see the shell; the browser is required.
+- Annual fees, waiver text and 申辦條件 are taken from each page's 申辦及年費 tab. The only page without a fee table is
+  JCB晶緻卡; its 1,200 fee comes from the official 收費標準 PDF
+  `https://www.firstbank.com.tw/sites/fcb/files/1565684562677` (which now downloads fine from the cloud: HTTP 200, PDF).
+  The PDF agrees with every page-stated fee (世界卡 10,000; 商旅/雙幣 2,000; 1,200 tier; 金卡 600; 普卡/一卡通 300; 桃園 free).
+- No 停止申請／停發 notice on any card page or on the index; all 26 cards are `active`. 白金商旅卡 and i-FIRST生活卡 have
+  no 立即申辦 button on the index (no `apply_url`), so confirm they still accept applications.
+- `needs_review` flags were removed from all cards; every card now has `image_url` (0 missing).
+
+## Images
+- All card faces are `https://card.firstbank.com.tw/sites/card/image/<id>` (PNG). A plain `curl` from the cloud returned
+  HTTP 200 image/png for `1565690677193`, so the image fetch script should work without the browser.
+- Extra card faces (not in JSON `image_url`) are listed in each card's `notes`.
 
 ## Could not verify / double-check
-1. **Base reward rates** are missing for most cards (reward entries say 累點比率未載明). iLEO's general rate and the
-   "指定通路最高 2%" channel list are also unverified; only the 2026 H2 promo tables were readable.
-2. **Networks** are mostly inferred (iLEO = Mastercard confirmed from the official card-face image; 星璨/綠活/一卡通/icash/
-   悠遊/宜蘭/雙幣/桃園 = placeholder mastercard; 商旅卡 御璽→Visa). Fix once the product pages can be rendered.
-3. **Images**: www.firstbank.com.tw `/sites/fcb/image/<id>` URLs come from the English intro page; the bank's WAF may
-   block scripted downloads (curl got the block page for /files/ URLs). 星璨卡 image omitted because the page's alt text
-   ("icash Card") did not match. 7 cards lack `image_url`.
-4. iLEO "最高 13%" is the sum of stacked new-cardholder promos; the 消費懶人包 table on the campaign page shows 4% for an
-   existing cardholder paying with 街口 and 13% for 台灣Pay at 寶雅 (new + digital-account autopay). Components are not
-   itemised in text.
-5. icash聯名卡 / 悠遊聯名卡 annual fee 1,200 is an assumption (same tier); not in the fee PDF.
+1. **Networks**: confirmed from the page for GLORY+世界卡, iLEO, 義享天地, 鈦金商旅, 雙幣鈦金商旅, 御璽商旅, 桃園, 宜蘭,
+   綠活, 星璨, icash (JCB 晶緻), 悠遊聯名 (MC/Visa/JCB), 菁英御璽, 環貫綠佳利 (JCB), 媚儷鈦金 (MC), i-Fun (MC + JCB), 長庚
+   (Visa), 一卡通 (Visa by 御璽 tier). **Inferred** (page gives no network): 由你分期卡, 里仁, 曼黛瑪璉, 白金商旅卡, 尊榮白金卡,
+   i-FIRST生活卡, 臺科大 — filled `["visa","mastercard"]` and flagged in `notes`; check the card faces.
+2. **Rates are activity titles**: the 卡片優惠 tab lists promo titles/subtitles (e.g. 鈦金商旅卡 「國內一般消費回饋 現金回饋無上限」
+   with no number). Caps, 登錄 requirements and end dates are inside the linked activity pages and were not opened.
+   Most 2026 promos run 2026-07-01 to 2026-12-31.
+3. 悠遊聯名卡 `image_url` is the 普卡 face (lowest tier); 義享天地 uses the 鈦金卡 face; 里仁 uses 里仁版.
+4. 環貫綠佳利聯名卡 general-spend 紅利 rate is not stated on the page.
+5. 長庚紀念醫院悠遊認同卡 is employee-only (長庚體系正職員工) but is on the public list, so it is included as `active`.
 
 ## banks.json corrections
-- `cards_index_url` `https://card.firstbank.com.tw/` is fine as a landing page; the list is
-  `https://card.firstbank.com.tw/sites/card/CreditCardList` (JS-rendered). For automated checks prefer the fee PDF
-  `https://www.firstbank.com.tw/sites/fcb/files/1565684562677`.
+- `cards_index_url` `https://card.firstbank.com.tw/sites/card/CreditCardList` is correct (JS-rendered; needs a browser).
