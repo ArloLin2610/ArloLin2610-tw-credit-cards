@@ -4,6 +4,8 @@ on:
   schedule:
     # 每月 1 日與 15 日 02:00 UTC（台北 10:00）
     - cron: '0 2 1,15 * *'
+    # 每年 1 月 5 日與 7 日加跑：多數銀行的下半年活動在 12/31 到期，1 月初權益變動最多
+    - cron: '0 2 5,7 1 *'
   workflow_dispatch:
     inputs:
       bank:
