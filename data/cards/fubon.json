@@ -4,7 +4,9 @@
     "bank": "fubon",
     "name": "富邦J卡",
     "name_en": "Taipei Fubon J Card",
-    "networks": ["jcb"],
+    "networks": [
+      "jcb"
+    ],
     "levels": [],
     "annual_fee": {
       "amount": 1800,
@@ -12,7 +14,15 @@
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["no-annual-fee", "overseas", "travel", "mobile-payment", "transit", "insurance", "new-cardholder"],
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "travel",
+      "mobile-payment",
+      "transit",
+      "insurance",
+      "new-cardholder"
+    ],
     "headline": "日韓泰實體消費最高 6%，日本交通卡儲值最高 10%",
     "rewards": [
       {
@@ -78,7 +88,9 @@
     "bank": "fubon",
     "name": "富邦momo聯名卡",
     "name_en": "Fubon momo Co-branded Card",
-    "networks": ["mastercard"],
+    "networks": [
+      "mastercard"
+    ],
     "levels": [],
     "annual_fee": {
       "amount": 1800,
@@ -86,7 +98,15 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "online-shopping", "co-branded", "new-cardholder", "insurance", "installment", "overseas"],
+    "tags": [
+      "no-annual-fee",
+      "online-shopping",
+      "co-branded",
+      "new-cardholder",
+      "insurance",
+      "installment",
+      "overseas"
+    ],
     "headline": "momo 通路消費 3% mo 幣，店外一般消費 1% 現金回饋無上限",
     "rewards": [
       {
@@ -148,8 +168,14 @@
     "bank": "fubon",
     "name": "富邦Costco聯名卡",
     "name_en": "Fubon Costco Co-branded Card",
-    "networks": ["mastercard"],
-    "levels": ["鈦金卡", "鈦商卡", "世界卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡",
+      "鈦商卡",
+      "世界卡"
+    ],
     "annual_fee": {
       "amount": 1800,
       "max_amount": 5000,
@@ -157,7 +183,19 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "supermarket", "co-branded", "fuel", "overseas", "travel", "insurance", "installment", "new-cardholder", "premium", "airport-lounge"],
+    "tags": [
+      "no-annual-fee",
+      "supermarket",
+      "co-branded",
+      "fuel",
+      "overseas",
+      "travel",
+      "insurance",
+      "installment",
+      "new-cardholder",
+      "premium",
+      "airport-lounge"
+    ],
     "headline": "Costco 店內 2%、線上購物 3% 好多金回饋無上限",
     "rewards": [
       {
@@ -222,7 +260,7 @@
     "apply_url": "https://apply.taipeifubon.com.tw/ActivityMgmt/new/service?redirect=cocoaply",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "基本回饋率（店內 2%／線上 3%／店外 1%）取自產品專頁 https://www.fubon.com/banking/event/credit_card/costcoweb/index.html；卡片總覽頁僅寫「Costco 消費最高 3% 無上限，即日起～2027/12/31」。年費：鈦金 1,800／鈦商 3,000／世界 5,000。"
   },
   {
@@ -230,7 +268,9 @@
     "bank": "fubon",
     "name": "台灣大哥大Open Possible聯名卡",
     "name_en": "Taiwan Mobile Open Possible Co-branded Card",
-    "networks": ["visa"],
+    "networks": [
+      "visa"
+    ],
     "levels": [],
     "annual_fee": {
       "amount": 1800,
@@ -238,7 +278,17 @@
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["no-annual-fee", "co-branded", "overseas", "fuel", "ev-charging", "mobile-payment", "streaming", "new-cardholder", "insurance"],
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "overseas",
+      "fuel",
+      "ev-charging",
+      "mobile-payment",
+      "streaming",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "台灣大電信費最高 3.5%，指定 AI 訂閱／海外／超商／加油最高 2%",
     "rewards": [
       {
@@ -302,8 +352,13 @@
     "bank": "fubon",
     "name": "富邦鑽保卡",
     "name_en": "Fubon Insurance Card",
-    "networks": ["visa"],
-    "levels": ["白金卡", "御璽卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "白金卡",
+      "御璽卡"
+    ],
     "annual_fee": {
       "amount": 1500,
       "max_amount": 1800,
@@ -311,7 +366,12 @@
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["no-annual-fee", "insurance", "installment", "new-cardholder"],
+    "tags": [
+      "no-annual-fee",
+      "insurance",
+      "installment",
+      "new-cardholder"
+    ],
     "headline": "保費最高 12 期 0 利率或 0.5% 回饋，一般消費 0.7% 無上限",
     "rewards": [
       {
@@ -341,7 +401,7 @@
     "apply_url": "https://ebank.taipeifubon.com.tw/EXT/curl/DJtpXWDm",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/insurance/insurance.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/insurance.jpg",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "卡別依頁面權益表「VISA御璽卡、VISA白金卡」判定。"
   },
   {
@@ -349,7 +409,9 @@
     "bank": "fubon",
     "name": "富邦富利生活系列卡",
     "name_en": "Fubon Lifestyle Card",
-    "networks": ["mastercard"],
+    "networks": [
+      "mastercard"
+    ],
     "levels": [],
     "annual_fee": {
       "amount": 1800,
@@ -357,7 +419,16 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "department-store", "supermarket", "dining", "fuel", "travel", "transit", "installment"],
+    "tags": [
+      "no-annual-fee",
+      "department-store",
+      "supermarket",
+      "dining",
+      "fuel",
+      "travel",
+      "transit",
+      "installment"
+    ],
     "headline": "百貨、量販、超市、餐廳等 8 大通路紅利 5 倍（NT$20＝5 點）",
     "rewards": [
       {
@@ -385,7 +456,7 @@
     "apply_url": "https://ebank.taipeifubon.com.tw/EXT/curl/KSp0uUpQ",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/lifestyle/lifestyle.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/Lifestyle.jpg",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別依卡片總覽圖檔名「富利_MT」及頁面 Mastercard 活動判定為 Mastercard 鈦金卡。rate_value 以倍數記錄（5 倍）而非百分比。"
   },
   {
@@ -393,7 +464,9 @@
     "bank": "fubon",
     "name": "悍將勇士聯名卡",
     "name_en": "Fubon Guardians & Braves Co-branded Card",
-    "networks": ["mastercard"],
+    "networks": [
+      "mastercard"
+    ],
     "levels": [],
     "annual_fee": {
       "amount": 1800,
@@ -401,7 +474,13 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "co-branded", "dining", "travel", "new-cardholder"],
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "dining",
+      "travel",
+      "new-cardholder"
+    ],
     "headline": "悍將／勇士主場門票 5 折起，外送與精選運動通路 5% 刷卡金",
     "rewards": [
       {
@@ -439,7 +518,7 @@
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
     "promo_until": "2026-12-31",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別依圖檔名「_MT」及頁面 Mastercard 活動判定為 Mastercard 鈦金卡。"
   },
   {
@@ -447,15 +526,26 @@
     "bank": "fubon",
     "name": "富邦IMPERIAL尊御世界卡",
     "name_en": "Fubon IMPERIAL World Card",
-    "networks": ["mastercard"],
-    "levels": ["世界卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "世界卡"
+    ],
     "annual_fee": {
       "amount": 10000,
       "waiver": "2026/7/1 起正卡年費 1 萬元；穩富／智富／恆富理財會員首次申辦首年免年費；年度一般消費達 50 萬免次年年費、達 25 萬享 5 折；年費出帳日為智富／恆富理財會員免次年年費",
       "effectively_free": false
     },
     "reward_type": "cashback",
-    "tags": ["premium", "overseas", "travel", "airport-lounge", "insurance", "installment"],
+    "tags": [
+      "premium",
+      "overseas",
+      "travel",
+      "airport-lounge",
+      "insurance",
+      "installment"
+    ],
     "headline": "日本消費 3%、海外 1.5%、國內 1% 現金回饋無上限",
     "rewards": [
       {
@@ -510,8 +600,14 @@
     "bank": "fubon",
     "name": "Angel天使公益認同卡",
     "name_en": "Fubon Angel Charity Affinity Card",
-    "networks": ["mastercard"],
-    "levels": ["普卡", "金卡", "白金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1500,
@@ -519,7 +615,9 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee"],
+    "tags": [
+      "no-annual-fee"
+    ],
     "headline": "每筆消費 0.32% 捐國軍暨家屬扶助基金會，NT$20 累積 1 點紅利",
     "rewards": [
       {
@@ -539,7 +637,7 @@
     "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C023",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/angel/angel.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/angelcard_2021cardface.jpg",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別依頁面 Mastercard 活動連結判定，請再確認。"
   },
   {
@@ -547,8 +645,14 @@
     "bank": "fubon",
     "name": "法鼓山自在卡",
     "name_en": "Fubon Dharma Drum Mountain Card",
-    "networks": ["visa"],
-    "levels": ["普卡", "金卡", "白金卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1500,
@@ -556,7 +660,9 @@
       "effectively_free": true
     },
     "reward_type": "other",
-    "tags": ["no-annual-fee"],
+    "tags": [
+      "no-annual-fee"
+    ],
     "headline": "核卡回饋法鼓山 NT$300，每筆消費再捐 0.3%",
     "rewards": [
       {
@@ -576,7 +682,7 @@
     "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/Index.faces",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/ddm/ddm.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/ddmcard_2021cardface.png",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別依頁面 VISA 活動連結判定，請再確認。頁面未載明持卡人本身紅利回饋。"
   },
   {
@@ -584,8 +690,15 @@
     "bank": "fubon",
     "name": "台北市政府認同卡",
     "name_en": "Taipei City Government Affinity Card",
-    "networks": ["visa", "mastercard"],
-    "levels": ["普卡", "金卡", "白金卡"],
+    "networks": [
+      "visa",
+      "mastercard"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1500,
@@ -593,7 +706,10 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "transit"],
+    "tags": [
+      "no-annual-fee",
+      "transit"
+    ],
     "headline": "每筆消費 0.32% 回饋台北市政府教育局，NT$20 累積 1 點紅利",
     "rewards": [
       {
@@ -613,7 +729,7 @@
     "apply_url": "https://ebank.taipeifubon.com.tw/EXT/common/CAC/Index.faces",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/taipeicity/taipeicity.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/taipeicitycard_2021cardface.jpg",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別依頁面同時提供 VISA 與 Mastercard 優惠連結判定，請再確認。"
   },
   {
@@ -621,8 +737,15 @@
     "bank": "fubon",
     "name": "台茂聯名卡",
     "name_en": "Fubon Taimall Co-branded Card",
-    "networks": ["mastercard"],
-    "levels": ["普卡", "金卡", "白金卡", "鈦金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡",
+      "鈦金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1800,
@@ -630,7 +753,13 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "co-branded", "department-store", "dining", "new-cardholder"],
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "department-store",
+      "dining",
+      "new-cardholder"
+    ],
     "headline": "台茂購物中心消費滿額最高免費停車 6 小時，館內購物 9 折起",
     "rewards": [
       {
@@ -651,7 +780,7 @@
     "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C017&fromUrl=https://www.fubon.com/banking/personal/credit_card/all_card/taimall/taimall.htm&fromNo=001",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/taimall/taimall.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E8%8C%82.png",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別頁面未明示；依「台茂聯名鈦金卡」卡別推定為 Mastercard，請再確認。"
   },
   {
@@ -659,8 +788,13 @@
     "bank": "fubon",
     "name": "采盟聯名卡",
     "name_en": "Fubon Tasa Meng Duty Free Co-branded Card",
-    "networks": ["mastercard"],
-    "levels": ["白金卡", "鈦金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "白金卡",
+      "鈦金卡"
+    ],
     "annual_fee": {
       "amount": 1500,
       "max_amount": 1800,
@@ -668,7 +802,13 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "co-branded", "travel", "overseas", "new-cardholder"],
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "travel",
+      "overseas",
+      "new-cardholder"
+    ],
     "headline": "采盟免稅店免稅再 9 折，店內與海外消費紅利 2 倍",
     "rewards": [
       {
@@ -694,7 +834,7 @@
     "apply_url": "http://ebank.taipeifubon.com.tw/EXT/TxnDispatcherServlet?trxName=CAC_CACTX001&cardKind=B008&cardType=C019&fromUrl=https://www.fubon.com/banking/personal/credit_card/all_card/dutyfree/dutyfree.htm&fromNo=001",
     "source_url": "https://www.fubon.com/banking/personal/credit_card/all_card/dutyfree/dutyfree.htm",
     "image_url": "https://www.fubon.com/banking/images/personal/credit_card/TW/dutyfree2021.jpg",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路別依頁面 Mastercard 活動連結及鈦金卡卡別判定，請再確認。"
   },
   {
@@ -702,8 +842,15 @@
     "bank": "fubon",
     "name": "福華聯名卡",
     "name_en": "Fubon Howard Hotels Co-branded Card",
-    "networks": ["mastercard"],
-    "levels": ["普卡", "金卡", "白金卡", "鈦金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡",
+      "鈦金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1800,
@@ -711,7 +858,13 @@
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["no-annual-fee", "co-branded", "travel", "dining", "new-cardholder"],
+    "tags": [
+      "no-annual-fee",
+      "co-branded",
+      "travel",
+      "dining",
+      "new-cardholder"
+    ],
     "headline": "福華大飯店住宿 4 折起、餐飲 85 折起，NT$20 累積 1 點福華紅利",
     "rewards": [
       {
@@ -741,8 +894,13 @@
     "bank": "fubon",
     "name": "富邦數位生活卡",
     "name_en": "Fubon Digital Life Card",
-    "networks": ["mastercard"],
-    "levels": ["白金卡", "鈦金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "白金卡",
+      "鈦金卡"
+    ],
     "annual_fee": {
       "amount": 1500,
       "max_amount": 1800,
@@ -750,7 +908,11 @@
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["online-shopping", "overseas", "mobile-payment"],
+    "tags": [
+      "online-shopping",
+      "overseas",
+      "mobile-payment"
+    ],
     "headline": "數位通路、海外消費最高 2% 現金回饋",
     "rewards": [
       {
@@ -777,8 +939,15 @@
     "bank": "fubon",
     "name": "富邦財神系列卡",
     "name_en": "Fubon Fortune Card",
-    "networks": ["mastercard"],
-    "levels": ["普卡", "金卡", "白金卡", "鈦金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡",
+      "鈦金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1800,
@@ -812,15 +981,23 @@
     "bank": "fubon",
     "name": "富邦世界卡",
     "name_en": "Fubon World Card",
-    "networks": ["mastercard"],
-    "levels": ["世界卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "世界卡"
+    ],
     "annual_fee": {
       "amount": 5000,
       "waiver": "首年免年費，次年消費正附卡合併達 36 萬免年費",
       "effectively_free": false
     },
     "reward_type": "points",
-    "tags": ["premium", "travel", "airport-lounge"],
+    "tags": [
+      "premium",
+      "travel",
+      "airport-lounge"
+    ],
     "headline": "每消費 NT$20 享 1 點紅利，尊榮機場禮遇",
     "rewards": [
       {
@@ -845,15 +1022,23 @@
     "bank": "fubon",
     "name": "富邦無限卡",
     "name_en": "Fubon Infinite Card",
-    "networks": ["visa"],
-    "levels": ["無限卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "無限卡"
+    ],
     "annual_fee": {
       "amount": 5000,
       "waiver": "首年免年費，次年消費正附卡共 36 萬免年費",
       "effectively_free": false
     },
     "reward_type": "points",
-    "tags": ["premium", "travel", "airport-lounge"],
+    "tags": [
+      "premium",
+      "travel",
+      "airport-lounge"
+    ],
     "headline": "每消費 NT$20 享 1 點紅利，尊榮機場禮遇",
     "rewards": [
       {
@@ -878,8 +1063,14 @@
     "bank": "fubon",
     "name": "富邦a miles航空卡",
     "name_en": "Fubon a miles Card",
-    "networks": ["mastercard"],
-    "levels": ["普卡", "金卡", "白金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "普卡",
+      "金卡",
+      "白金卡"
+    ],
     "annual_fee": {
       "amount": 800,
       "max_amount": 1500,
@@ -887,7 +1078,9 @@
       "effectively_free": true
     },
     "reward_type": "miles",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "headline": "一般消費 NT$50 累積 1 哩富邦哩程，可兌換亞洲萬里通等",
     "rewards": [
       {

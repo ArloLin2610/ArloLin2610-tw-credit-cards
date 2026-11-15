@@ -167,7 +167,7 @@
     "status": "active",
     "apply_url": "https://www.ctbcbank.com/content/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_card_index/cc_service_card_apply.html?CrdTp=A04&Crd=C_ANA&CrdF=8530",
     "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/ANA/p2.html",
-    "last_verified": "2026-11-03",
+    "last_verified": "2026-11-15",
     "notes": "Product page (https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index/C_ANA.html) verified in browser 2026-11-03: 發行卡片 JCB = 極緻卡／晶緻卡／白金卡, VISA = 無限卡／商務御璽卡／御璽卡 (confirms the earlier inference); fee table 適用期間 115/1/1–12/31. Miles rates from the official ANA minisite (p2.html). image_url = JCB 白金卡 face (JPH 8530, lowest tier).",
     "image_url": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/card/C_ANA_JPH_8530.jpg"
   },
@@ -254,7 +254,7 @@
     "apply_url": "https://www.ctbcbank.com/content/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_card_index/cc_service_card_apply.html?CrdTp=A02&Crd=C_AllMe&CrdF=8788",
     "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/ALLME/index.html",
     "image_url": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/card/C_AllMe_MEH_8788.png",
-    "last_verified": "2026-11-03",
+    "last_verified": "2026-11-15",
     "notes": "Product page (https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index/C_AllMe.html) verified in browser 2026-11-03: Mastercard 商務鈦金卡 confirmed; 首年免年費, 綁定 Hami Pay 或 Pi 拍錢包 免年費 (2026/1/1–12/31); 國內外一般消費 1% 無上限、國外實體最高 2.2% 無上限 confirmed on the page. Channel 3% rates from the ALLME minisite. image_url = official card-list face.",
     "requirements": "正卡須年滿 18 歲，固定年收入 NT$20 萬以上（學生年收入 NT$10 萬以上）；每人限申辦 1 卡"
   },
@@ -319,7 +319,7 @@
     "apply_url": "https://www.ctbcbank.com/content/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_card_index/cc_service_card_apply.html?CrdTp=A04&Crd=C_CPC&CrdF=8515",
     "source_url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/CPC/index.html",
     "image_url": "https://www.ctbcbank.com/content/dam/twrbo/images/creditcard/card/C_CPC_VEH_8515.png",
-    "last_verified": "2026-11-03",
+    "last_verified": "2026-11-15",
     "notes": "Product page (https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index/C_CPC.html) verified in browser 2026-11-03: network VISA confirmed; only 御璽卡 issued from 2026/1/1 (白金卡 paused). 紅利 3 倍 and fee-waiver conditions from the page; 中油 Pay 儲值 4% is from the CPC minisite (not restated on the product page). Fee NT$1,800/900 from the bank fee FAQ (御璽 tier) — product page says 首年免 only. General non-CPC spend follows the bank 刷卡得利計劃 (not stated). rate_value for points rows is the approximate cash value at 100 pts = NT$8."
   },
   {
