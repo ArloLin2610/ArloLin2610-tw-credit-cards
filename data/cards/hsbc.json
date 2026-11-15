@@ -4,15 +4,25 @@
     "bank": "hsbc",
     "name": "現金回饋御璽卡",
     "name_en": "HSBC Cash Back Visa Signature Card",
-    "networks": ["visa"],
-    "levels": ["御璽卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
     "annual_fee": {
       "amount": 2000,
       "waiver": "不分新舊戶首年免年費；第二年起使用非紙本帳單（電子帳單或行動帳單）終身免年費，或前一年消費滿 8 萬元或 12 次免次年年費。附卡免年費。",
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["no-annual-fee", "overseas", "new-cardholder", "insurance", "installment"],
+    "tags": [
+      "no-annual-fee",
+      "overseas",
+      "new-cardholder",
+      "insurance",
+      "installment"
+    ],
     "headline": "海外 2.22%、國內 1.22% 現金回饋無上限，無消費門檻",
     "rewards": [
       {
@@ -46,7 +56,7 @@
     "source_url": "https://www.hsbc.com.tw/credit-cards/products/cashback-signature/",
     "image_url": "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/7745/7745-hsbc-cashback-signature-card-1600x900.jpg",
     "promo_until": "2026-12-31",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "現金積點活動辦法 2026-10-01 至 2026-12-31；官網已公告 2027-01-01 至 2027-03-31 辦法維持不變。年費 NT$2,000 取自官網信用卡收費標準 PDF（tariffs-credit-card.pdf）。"
   },
   {
@@ -54,15 +64,27 @@
     "bank": "hsbc",
     "name": "滙豐匯鑽卡",
     "name_en": "HSBC Cash Back Mastercard Titanium Card",
-    "networks": ["mastercard"],
-    "levels": ["鈦金卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "鈦金卡"
+    ],
     "annual_fee": {
       "amount": 2000,
       "waiver": "不分新舊戶首年免年費；第二年起使用非紙本帳單（電子帳單或行動帳單）終身免年費，或前一年消費滿 8 萬元或 12 次免次年年費。附卡免年費。",
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["no-annual-fee", "online-shopping", "mobile-payment", "streaming", "travel", "new-cardholder", "insurance"],
+    "tags": [
+      "no-annual-fee",
+      "online-shopping",
+      "mobile-payment",
+      "streaming",
+      "travel",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "20 家以上指定通路筆筆 3%，達檻＋帳戶滿額最高 6% 回饋",
     "rewards": [
       {
@@ -104,7 +126,7 @@
     "source_url": "https://www.hsbc.com.tw/credit-cards/products/cashback-titanium/",
     "image_url": "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/7745/7745-hsbc-cashback-business-titanium-credit-card-1600x900.jpg",
     "promo_until": "2027-06-30",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "現金積點活動辦法期間 2026-07-01 至 2027-06-30。6% 為兌換放大後之等效回饋，需開立滙豐帳戶且餘額達 30 萬。官網卡面圖片檔名仍為 cashback-business-titanium（匯鑽卡前身為現金回饋鈦金商務卡）。年費 NT$2,000 取自官網收費標準 PDF。"
   },
   {
@@ -112,15 +134,27 @@
     "bank": "hsbc",
     "name": "滙豐 Live+ 現金回饋卡",
     "name_en": "HSBC Live+ Credit Card",
-    "networks": ["visa"],
-    "levels": ["御璽卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
     "annual_fee": {
       "amount": 2000,
       "waiver": "不分新舊戶首年免年費；第二年起使用非紙本帳單（電子帳單或行動帳單）終身免年費，或前一年消費滿 8 萬元或 12 次免次年年費。附卡免年費。",
       "effectively_free": true
     },
     "reward_type": "cashback",
-    "tags": ["no-annual-fee", "dining", "department-store", "online-shopping", "overseas", "new-cardholder", "insurance"],
+    "tags": [
+      "no-annual-fee",
+      "dining",
+      "department-store",
+      "online-shopping",
+      "overseas",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "餐飲、購物、娛樂三大通路 3.88%，精選國家餐飲最高 5.88% 回饋",
     "rewards": [
       {
@@ -185,7 +219,7 @@
     "source_url": "https://www.hsbc.com.tw/credit-cards/products/liveplus/",
     "image_url": "https://www.hsbc.com.tw/content/dam/hsbc/en/images/16-9/14248-hsbc-live-plus-visa-signature-vertical-card-face-800x450.jpg",
     "promo_until": "2026-12-31",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "現金積點活動辦法至 2026-12-31；官網公告 2027-01-01 至 2027-03-31 維持不變。三大通路加碼上限 888 點為合計上限。年費 NT$2,000 取自官網收費標準 PDF。"
   },
   {
@@ -193,15 +227,26 @@
     "bank": "hsbc",
     "name": "滙豐旅人無限卡",
     "name_en": "HSBC TravelOne Visa Infinite Card",
-    "networks": ["visa"],
-    "levels": ["無限卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "無限卡"
+    ],
     "annual_fee": {
       "amount": 8000,
       "waiver": "正卡年費 NT$8,000，附卡免年費；不適用一般年費優惠辦法（續卡繳年費可享續卡禮 8,000 旅遊積分）",
       "effectively_free": false
     },
     "reward_type": "miles",
-    "tags": ["premium", "travel", "overseas", "airport-lounge", "new-cardholder", "insurance"],
+    "tags": [
+      "premium",
+      "travel",
+      "overseas",
+      "airport-lounge",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "海外消費 10 元＝1 旅遊積分，1:1 起兌換 15 家以上航空哩程",
     "rewards": [
       {
@@ -233,7 +278,7 @@
     "source_url": "https://www.hsbc.com.tw/credit-cards/products/travel/visa-infinite/",
     "image_url": "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/7745/7745-infinite-black-front-cmyk-1600x900.jpg",
     "promo_until": "2026-12-31",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "自 2026-04-01 起兌換中華航空哩程比例為 1 旅遊積分 = 1 哩。首刷禮活動 2026-10-01 至 2026-12-31；續卡禮 2026-07-01 至 2027-06-30。年費 8,000 見官網卡片總覽及收費標準 PDF。"
   },
   {
@@ -241,15 +286,25 @@
     "bank": "hsbc",
     "name": "滙豐旅人御璽卡",
     "name_en": "HSBC TravelOne Visa Signature Card",
-    "networks": ["visa"],
-    "levels": ["御璽卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "御璽卡"
+    ],
     "annual_fee": {
       "amount": 2500,
       "waiver": "正卡年費 NT$2,500，附卡免年費；不適用一般年費優惠辦法（續卡繳年費可享續卡禮 3,000 旅遊積分）",
       "effectively_free": false
     },
     "reward_type": "miles",
-    "tags": ["travel", "overseas", "airport-lounge", "new-cardholder", "insurance"],
+    "tags": [
+      "travel",
+      "overseas",
+      "airport-lounge",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "海外消費 15 元＝1 旅遊積分，年享 2 次機場接送與貴賓室",
     "rewards": [
       {
@@ -280,7 +335,7 @@
     "source_url": "https://www.hsbc.com.tw/credit-cards/products/travelone-signature/",
     "image_url": "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/16-9/16557-travel-one-signature-1600x900.jpg",
     "promo_until": "2026-12-31",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "網路組織依「御璽」（Visa Signature）等級名稱推定，官網產品頁未明示 Visa 字樣。"
   },
   {
@@ -288,15 +343,25 @@
     "bank": "hsbc",
     "name": "滙豐旅人輕旅卡",
     "name_en": "HSBC TravelOne Lite Card",
-    "networks": ["visa"],
-    "levels": ["白金卡"],
+    "networks": [
+      "visa"
+    ],
+    "levels": [
+      "白金卡"
+    ],
     "annual_fee": {
       "amount": 2000,
       "waiver": "新戶首年免年費；次年起使用非紙本帳單（電子帳單或行動帳單）或前一年消費滿 8 萬元或 12 次，續卡免年費；未達標者續卡年費 NT$2,000。附卡免年費。",
       "effectively_free": true
     },
     "reward_type": "miles",
-    "tags": ["no-annual-fee", "travel", "overseas", "new-cardholder", "insurance"],
+    "tags": [
+      "no-annual-fee",
+      "travel",
+      "overseas",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "國內外消費 20 元＝1 旅遊積分，首年免年費入門哩程卡",
     "rewards": [
       {
@@ -321,7 +386,7 @@
     "source_url": "https://www.hsbc.com.tw/credit-cards/products/travelone/",
     "image_url": "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/16-9/16557-travel-one-1600x900.jpg",
     "promo_until": "2026-12-31",
-    "last_verified": "2026-11-01",
+    "last_verified": "2026-11-15",
     "notes": "等級「白金卡」依官網收費標準 PDF（旅人輕旅卡／白金卡同列 NT$2,000）推定；網路組織依英文版頁面之 Visa SmartDelay 權益推定為 Visa。"
   },
   {
@@ -329,15 +394,27 @@
     "bank": "hsbc",
     "name": "滙豐卓越理財信用卡",
     "name_en": "HSBC Premier Mastercard World Card",
-    "networks": ["mastercard"],
-    "levels": ["世界卡"],
+    "networks": [
+      "mastercard"
+    ],
+    "levels": [
+      "世界卡"
+    ],
     "annual_fee": {
       "amount": 2000,
       "waiver": "正卡年費 NT$2,000，附卡免年費；持卡人符合卓越理財帳戶每月平均餘額標準，可享主卡及 9 張附卡免年費。",
       "effectively_free": true
     },
     "reward_type": "points",
-    "tags": ["premium", "travel", "overseas", "airport-lounge", "dining", "new-cardholder", "insurance"],
+    "tags": [
+      "premium",
+      "travel",
+      "overseas",
+      "airport-lounge",
+      "dining",
+      "new-cardholder",
+      "insurance"
+    ],
     "headline": "指定通路最優 10 元＝1 點紅利，尊尚客戶最多 36 次免費機場接送",
     "rewards": [
       {
